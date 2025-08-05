@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual é o Filme?</title>
+    <link rel="stylesheet" href="Generos-PC.css">
+</head>
+
+<body>
+    <br>
+    <div class="topo">
+        <img src="setaEsquerda.png" class="seta" id="voltar">
+        <h1 class="h1">Qual é o Filme?</h1>
+    </div>
+    <div class="h1" id="tentativas">Tentativas restantes: 12/12</div>
+    <h3>Guerra</h3>
+    <div class="input-container">
+        <div style="position: relative; width: 100%;">
+            <input type="text" id="guessInput" placeholder="Digite o título da obra" autocomplete="off" /><button id="enviarButton" class="enviarButton">Enviar</button>
+            <ul id="suggestions" class="suggestions"></ul>
+        </div>
+        <div class="botoes">
+            <button id="hintButton" class="hintButton">Dica</button>
+            <button id="newGameButton" class="newGameButton">Novo jogo</button>
+            <button id="giveUpButton" class="giveUpButton">Desistir</button>
+        </div>
+    </div>
+
+    <div id="hints">
+        <h2>Filme certo:</h2>
+        <div class="hint" id="hint2">- Diretor: ???</div>
+        <div class="hint" id="hint3">- Ano de lançamento: ???</div>
+        <div class="hint" id="hint4">- Ator principal: ???</div>
+        <div class="hint" id="hint5">- Sinopse: ???</div>
+    </div>
+
+    <div id="feedback" class="feedback"></div>
+
+    <ul>
+        <h1><img src="logoDPNA.png" width="10%" alt="logo"></h1>
+        <p class="copyright">&copy; Copyright DPNA CRIAS</p><br>
+    </ul>
+
+    <script src="Guerra.js"></script>
+</body>
+
+</html>

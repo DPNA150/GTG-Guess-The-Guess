@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTG</title>
+    <link id="css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <ul class="mensagem">
+        <p>
+            SELECIONE O DISPOSITIVO QUE VOCÊ ESTÁ ULTILIZANDO PARA MELHORAR A SUA EXPERIÊNCIA DE USUÁRIO.
+        </p>
+        <input class="botao" type="button" value="CELULAR" onclick="dispositivoSelecionado('CELULAR')">
+        <input class="botao" type="button" value="PC/NOTBOOK" onclick="dispositivoSelecionado('PC/NOTBOOK')"><br><br>
+    </ul>
+
+    <main style="display: none;">
+        <h1>Selecione o tema para começar</h1><br>
+        <ul class="Generos">
+            <a href="filmesInicio-PC.html">
+                <img src="filmes.png" width="100%">
+            </a>
+            <a href="esportes-PC.html">
+                <img src="esportes.png" width="100%">
+            </a>
+            <a href="animaçãoInicio-PC.html">
+                <img src="animações.png" width="100%">
+            </a>
+        </ul>
+        <ul>
+            <h1><img src="logoDPNA.png" width="10%" alt="logo"></h1>
+            <p class="copyright">&copy; Copyright DPNA CRIAS</p><br>
+        </ul>
+    </main>
+
+</body>
+
+<script>
+    function dispositivoSelecionado(dispositivo) {
+        var main = document.querySelector("main");
+        var mensagem = document.querySelector(".mensagem");
+        var css = document.getElementById("css");
+
+        if (dispositivo === 'CELULAR') {
+            main.style.display = "block";
+            mensagem.style.display = "none";
+            css.setAttribute("href", "style-MB.css");
+        } else if (dispositivo === 'PC/NOTBOOK') {
+            main.style.display = "block";
+            mensagem.style.display = "none";
+            css.setAttribute("href", "style-PC.css");
+        }
+    }
+</script>
+
+</html>
