@@ -1,0 +1,242 @@
+[
+  {
+    "nome": "Futebol",
+    "ambientePraticado": "Campo de grama",
+    "criador": "Inglaterra",
+    "year": "1863",
+    "maiorJogador": "Pelé",
+    "objetivo": "Fazer gols no time adversário"
+  },
+  {
+    "nome": "Futsal",
+    "ambientePraticado": "Quadra coberta",
+    "criador": "Uruguai",
+    "year": "1930",
+    "maiorJogador": "Falcão",
+    "objetivo": "Fazer gols no time adversário"
+  },
+  {
+    "nome": "Handebol",
+    "ambientePraticado": "Quadra coberta",
+    "criador": "Alemanha",
+    "year": "1919",
+    "maiorJogador": "Nikola Karabatic",
+    "objetivo": "Fazer gols no gol adversário usando as mãos"
+  },
+  {
+    "nome": "Basquete",
+    "ambientePraticado": "Quadra coberta",
+    "criador": "James Naismith",
+    "year": "1891",
+    "maiorJogador": "Michael Jordan",
+    "objetivo": "Fazer pontos arremessando a bola na cesta adversária"
+  },
+  {
+    "nome": "Vôlei",
+    "ambientePraticado": "Quadra ou areia",
+    "criador": "William G. Morgan",
+    "year": "1895",
+    "maiorJogador": "Giba",
+    "objetivo": "Fazer pontos ao lançar a bola no chão da quadra adversária"
+  },
+  {
+    "nome": "Beisebol",
+    "ambientePraticado": "Campo de grama",
+    "criador": "Estados Unidos",
+    "year": "1839",
+    "maiorJogador": "Babe Ruth",
+    "objetivo": "Marcar corridas completando voltas nas bases"
+  },
+  {
+    "nome": "Golfe",
+    "ambientePraticado": "Campo aberto",
+    "criador": "Escócia",
+    "year": "Século XV",
+    "maiorJogador": "Tiger Woods",
+    "objetivo": "Acertar a bola nos buracos com o menor número de tacadas possível"
+  },
+  {
+    "nome": "Atletismo",
+    "ambientePraticado": "Pista e campo",
+    "criador": "Grécia Antiga",
+    "year": "Antiguidade",
+    "maiorJogador": "Usain Bolt",
+    "objetivo": "Completar provas de corrida, saltos ou arremessos no menor tempo ou maior distância"
+  },
+  {
+    "nome": "Polo Aquático",
+    "ambientePraticado": "Piscina",
+    "criador": "Grã-Bretanha",
+    "year": "1877",
+    "maiorJogador": "Dezso Gyarmati",
+    "objetivo": "Fazer gols no gol adversário dentro da piscina"
+  },
+  {
+    "nome": "Natação",
+    "ambientePraticado": "Piscina",
+    "criador": "Diversos povos antigos",
+    "year": "Antiguidade",
+    "maiorJogador": "Michael Phelps",
+    "objetivo": "Completar a prova de nado no menor tempo possível"
+  },
+  {
+    "nome": "Rugby",
+    "ambientePraticado": "Campo de grama",
+    "criador": "Inglaterra",
+    "year": "1823",
+    "maiorJogador": "Jonah Lomu",
+    "objetivo": "Levar a bola até a área de gol adversária"
+  },
+  {
+    "nome": "Patinação no Gelo",
+    "ambientePraticado": "Rink de gelo",
+    "criador": "Países Baixos",
+    "year": "Século XIII",
+    "maiorJogador": "Yuzuru Hanyu",
+    "objetivo": "Executar manobras ou completar percursos com velocidade"
+  },
+  {
+    "nome": "Esqui",
+    "ambientePraticado": "Montanhas com neve",
+    "criador": "Países Nórdicos",
+    "year": "Pré-história",
+    "maiorJogador": "Marit Bjørgen",
+    "objetivo": "Descer montanhas ou completar percursos no menor tempo possível"
+  },
+  {
+    "nome": "Luta",
+    "ambientePraticado": "Ringue ou tatame",
+    "criador": "Diversas civilizações",
+    "year": "Antiguidade",
+    "maiorJogador": "Muhammad Ali",
+    "objetivo": "Derrotar o oponente usando golpes permitidos"
+  },
+  {
+    "nome": "Fórmula 1",
+    "ambientePraticado": "Circuito de corrida",
+    "criador": "França",
+    "year": "1950",
+    "maiorJogador": "Ayrton Senna",
+    "objetivo": "Completar a corrida em menor tempo"
+  },
+  {
+    "nome": "Canoagem",
+    "ambientePraticado": "Rios, lagos ou mar",
+    "criador": "Indígenas",
+    "year": "Pré-história",
+    "maiorJogador": "Isaquias Queiroz",
+    "objetivo": "Completar o percurso aquático no menor tempo possível"
+  },
+  {
+    "nome": "Corrida",
+    "ambientePraticado": "Pistas e ruas",
+    "criador": "Grécia Antiga",
+    "year": "Antiguidade",
+    "maiorJogador": "Usain Bolt",
+    "objetivo": "Correr a distância estabelecida no menor tempo possível"
+  },
+  {
+    "nome": "Esgrima",
+    "ambientePraticado": "Pista de duelo",
+    "criador": "Europa Medieval",
+    "year": "Século XV",
+    "maiorJogador": "Gerevich Aladár",
+    "objetivo": "Tocar o oponente com a espada dentro das regras"
+  },
+  {
+    "nome": "Fisiculturismo",
+    "ambientePraticado": "Academias e palcos de competição",
+    "criador": "Eugene Sandow",
+    "year": "Final do século XIX",
+    "maiorJogador": "Arnold Schwarzenegger",
+    "objetivo": "Desenvolver e exibir músculos bem definidos"
+  },
+  {
+    "nome": "Futebol Americano",
+    "ambientePraticado": "Campo de grama",
+    "criador": "Estados Unidos",
+    "year": "1869",
+    "maiorJogador": "Tom Brady",
+    "objetivo": "Avançar com a bola até a end zone adversária para marcar pontos"
+  },
+  {
+    "nome": "Futevôlei",
+    "ambientePraticado": "Praia",
+    "criador": "Brasil",
+    "year": "1960",
+    "maiorJogador": "Anderson Águia",
+    "objetivo": "Fazer pontos tocando a bola no campo adversário sem usar as mãos"
+  },
+  {
+    "nome": "Hóquei no gelo",
+    "ambientePraticado": "Gelo",
+    "criador": "James Creighton",
+    "year": "1875",
+    "maiorJogador": "Wayne Gretzky",
+    "objetivo": "Marcar gols no time adversário utilizando um taco para conduzir o disco"
+  },
+  {
+    "nome": "Natação",
+    "ambientePraticado": "Piscina ou mar",
+    "criador": "Antiga civilizações",
+    "year": "Antiguidade",
+    "maiorJogador": "Michael Phelps",
+    "objetivo": "Nadar uma determinada distância no menor tempo possível"
+  },
+  {
+    "nome": "Salto com vara",
+    "ambientePraticado": "Pista de atletismo",
+    "criador": "Antiga Grécia",
+    "year": "Antiguidade",
+    "maiorJogador": "Sergey Bubka",
+    "objetivo": "Ultrapassar a maior altura possível utilizando uma vara"
+  },
+  {
+    "nome": "Salto a distância",
+    "ambientePraticado": "Pista de atletismo",
+    "criador": "Antiga Grécia",
+    "year": "Antiguidade",
+    "maiorJogador": "Bob Beamon",
+    "objetivo": "Alcançar a maior distância possível ao saltar de uma marca determinada"
+  },
+  {
+    "nome": "Skate",
+    "ambientePraticado": "Rua, pistas especializadas",
+    "criador": "Surfistas californianos",
+    "year": "Década de 1950",
+    "maiorJogador": "Tony Hawk",
+    "objetivo": "Realizar manobras utilizando um skate"
+  },
+  {
+    "nome": "Tênis",
+    "ambientePraticado": "Quadra",
+    "criador": "Walter Clopton Wingfield",
+    "year": "1873",
+    "maiorJogador": "Roger Federer",
+    "objetivo": "Marcar pontos rebatendo a bola dentro dos limites da quadra adversária"
+  },
+  {
+    "nome": "Tiro ao alvo",
+    "ambientePraticado": "Campo de tiro",
+    "criador": "Militares e caçadores",
+    "year": "Antiguidade",
+    "maiorJogador": "Jin Jong-oh",
+    "objetivo": "Acertar o alvo com a maior precisão possível"
+  },
+  {
+    "nome": "Xadrez",
+    "ambientePraticado": "Tabuleiro",
+    "criador": "Povos da Índia e Pérsia",
+    "year": "Século VI",
+    "maiorJogador": "Magnus Carlsen",
+    "objetivo": "Dar xeque-mate no rei adversário"
+  },
+  {
+    "nome": "Ping pong",
+    "ambientePraticado": "Mesa",
+    "criador": "Ingleses",
+    "year": "Século XIX",
+    "maiorJogador": "Ma Long",
+    "objetivo": "Marcar pontos rebatendo a bola dentro da mesa adversária"
+  }
+]

@@ -1,0 +1,223 @@
+/* Fundo e reset ---------------------------------------------------------- */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #1603a4, #000000);
+    padding: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Títulos ---------------------------------------------------------- */
+.h1 {
+    font-size: 1.8rem;
+    /* Menor para celular */
+    margin: 15px 0;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Input e botões ---------------------------------------------------------- */
+input[type="text"] {
+    width: 90%;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    /* Empilha botões no mobile */
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #e81f0d;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 80%;
+    /* Botão ocupa mais espaço no celular */
+}
+
+button:hover {
+    background-color: #ff3b3b;
+}
+
+.hintButton {
+    background-color: #007bff;
+}
+
+.hintButton:hover {
+    background-color: #0056b3;
+}
+
+.newGameButton {
+    background-color: #28a745;
+}
+
+.newGameButton:hover {
+    background-color: #218838;
+}
+
+.enviarButton {
+    background-color: #000000;
+    color: red;
+}
+
+.enviarButton:hover {
+    background-color: #ffffff;
+}
+
+/* Caixas de dicas e palpites ---------------------------------------------------------- */
+#hints,
+#palpite {
+    display: block;
+    width: 90%;
+    margin: 15px auto;
+    padding: 15px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.hint {
+    font-size: 1rem;
+    padding: 8px;
+    margin: 8px 0;
+    border-left: 6px solid #ddd;
+    background: #f9f9f9;
+    border-radius: 6px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.hint.revealed {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Feedback ---------------------------------------------------------- */
+.feedback {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.feedback.correct {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.feedback.incorrect {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+/* Sugestões ---------------------------------------------------------- */
+.suggestions {
+    position: relative;
+    width: 90%;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    padding: 0;
+    margin: 10px auto 0 auto;
+    z-index: 1000;
+    display: none;
+    text-align: left;
+}
+
+.suggestions li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestions li:hover {
+    background-color: #f0f0f0;
+}
+
+/* Container de input ---------------------------------------------------------- */
+.input-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Topo e seta ---------------------------------------------------------- */
+.seta {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    position: static;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Rodapé ---------------------------------------------------------- */
+.copyright {
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+/* Ajustes para telas maiores ---------------------------------------------- */
+@media (min-width: 768px) {
+    .h1 {
+        font-size: 2.5rem;
+    }
+
+    input[type="text"] {
+        width: 70%;
+    }
+
+    .botoes {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    button {
+        width: auto;
+    }
+
+    #hints,
+    #palpite {
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+        margin: 20px;
+    }
+
+    .suggestions {
+        position: absolute;
+        left: 15%;
+        width: 70%;
+        max-width: 600px;
+    }
+
+    .seta {
+        width: 50px;
+        height: 50px;
+    }
+}

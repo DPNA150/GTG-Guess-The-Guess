@@ -1,0 +1,66 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTG</title>
+    <link id="css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="menssagemInicio">
+        <h1>
+            Bem-Vindo ao GTG!
+        </h1>
+        <h3>
+            Aqui você pode gozar até falar chega!!
+        </h3><br>
+        <input type="button" value="VAMOS COMEÇAR!!">
+    </div>
+
+    <div id="temas" style="display: none;">
+        <ul>
+            <h1>Selecione o tema para começar</h1><br>
+            <ul class="Generos">
+                <a href="filmesInicio.html">
+                    <img src="filmes.png" width="100%">
+                </a>
+                <a href="seriesInicio.html">
+                    <img src="series.png" width="100%">
+                </a>
+                <a href="animaçãoInicio.html">
+                    <img src="animacoes.png" width="100%">
+                </a>
+                <a href="gamesInicio.html">
+                    <img src="games.png" width="100%">
+                </a>
+                <a href="historiaInicio.html">
+                    <img src="historia.png" width="100%">
+                </a>
+                <a href="esportesInicio.html">
+                    <img src="esportes.png" width="100%">
+                </a>
+            </ul>
+            <ul>
+                <h1><img src="logoDPNA.png" width="10%" alt="logo"></h1>
+                <p class="copyright">© Copyright DPNA CRIAS</p><br>
+            </ul>
+        </ul>
+    </div>
+
+</body>
+
+<script>
+    const temas = document.getElementById("temas");
+    const menssagemInicio = document.getElementById("menssagemInicio");
+
+    function iniciar() {
+        menssagemInicio.style.display = "none";
+        temas.style.display = "block";
+    }
+
+    document.querySelector("input[type=button]").addEventListener("click", iniciar);
+</script>
+
+</html>
