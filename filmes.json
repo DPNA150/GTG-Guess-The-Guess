@@ -1,0 +1,2099 @@
+[
+  {
+    "title": "John Wick",
+    "genre": "Ação",
+    "director": "Chad Stahelski",
+    "year": 2014,
+    "leadActor": "Keanu Reeves",
+    "synopsis": "Após a morte de sua esposa, John Wick, um ex-assassino, é forçado a voltar à ação para se vingar quando um gangster rouba seu carro e mata seu cachorro."
+  },
+  {
+    "title": "John Wick 2",
+    "genre": "Ação",
+    "director": "Chad Stahelski",
+    "year": 2017,
+    "leadActor": "Keanu Reeves",
+    "synopsis": "John Wick retorna ao submundo do crime para pagar uma dívida e descobre que há um contrato por sua cabeça."
+  },
+  {
+    "title": "John Wick 3",
+    "genre": "Ação",
+    "director": "Chad Stahelski",
+    "year": 2019,
+    "leadActor": "Keanu Reeves",
+    "synopsis": "Com um alto preço por sua cabeça, John Wick luta para sobreviver enquanto enfrenta os assassinos mais letais do mundo."
+  },
+  {
+    "title": "John Wick 4",
+    "genre": "Ação",
+    "director": "Chad Stahelski",
+    "year": 2023,
+    "leadActor": "Keanu Reeves",
+    "synopsis": "John Wick encara seu maior desafio enquanto luta contra organizações criminosas globais para conquistar sua liberdade definitiva."
+  },
+  {
+    "title": "Batman",
+    "genre": "Ação",
+    "director": "Matt Reeves",
+    "year": 2022,
+    "leadActor": "Robert Pattinson",
+    "synopsis": "Batman investiga uma série de crimes brutais em Gotham e enfrenta o Charada, um inimigo mortal com segredos sobre sua família."
+  },
+  {
+    "title": "Batman: O Cavaleiro das Trevas",
+    "genre": "Ação",
+    "director": "Christopher Nolan",
+    "year": 2008,
+    "leadActor": "Christian Bale",
+    "synopsis": "Com a ajuda do Tenente Gordon e do promotor Harvey Dent, Batman enfrenta o caos instaurado pelo enigmático Coringa."
+  },
+  {
+    "title": "Batman vs Superman: A Origem da Justiça",
+    "genre": "Ação",
+    "director": "Zack Snyder",
+    "year": 2016,
+    "leadActor": "Ben Affleck",
+    "synopsis": "Batman e Superman entram em conflito devido a diferenças ideológicas enquanto uma nova ameaça surge para destruir a humanidade."
+  },
+  {
+    "title": "Missão Impossível - Protocolo Fantasma",
+    "genre": "Ação",
+    "director": "Brad Bird",
+    "year": 2011,
+    "leadActor": "Tom Cruise",
+    "synopsis": "Ethan Hunt e sua equipe devem agir sem apoio oficial para limpar o nome da IMF após serem acusados de um ataque terrorista."
+  },
+  {
+    "title": "Missão Impossível - Nação Secreta",
+    "genre": "Ação",
+    "director": "Christopher McQuarrie",
+    "year": 2015,
+    "leadActor": "Tom Cruise",
+    "synopsis": "Ethan Hunt enfrenta uma organização secreta chamada Sindicato enquanto tenta proteger sua equipe e desmantelar a ameaça global."
+  },
+  {
+    "title": "Missão Impossível - Efeito Fallout",
+    "genre": "Ação",
+    "director": "Christopher McQuarrie",
+    "year": 2018,
+    "leadActor": "Tom Cruise",
+    "synopsis": "Ethan Hunt e sua equipe correm contra o tempo após uma missão fracassada envolvendo armas nucleares."
+  },
+  {
+    "title": "Missão Impossível – Acerto de Contas",
+    "genre": "Ação",
+    "director": "Christopher McQuarrie",
+    "year": 2023,
+    "leadActor": "Tom Cruise",
+    "synopsis": "Ethan Hunt enfrenta uma nova e devastadora ameaça global, forçando escolhas impossíveis para salvar o mundo."
+  },
+  {
+    "title": "Deadpool vs Wolverine",
+    "genre": "Ação",
+    "director": "Shawn Levy",
+    "year": 2024,
+    "leadActor": "Ryan Reynolds",
+    "synopsis": "Deadpool e Wolverine enfrentam desafios épicos enquanto lidam com uma série de eventos caóticos em um crossover explosivo."
+  },
+  {
+    "title": "Velozes e Furiosos",
+    "genre": "Ação",
+    "director": "Rob Cohen",
+    "year": 2001,
+    "leadActor": "Vin Diesel",
+    "synopsis": "Brian O'Conner, um policial disfarçado, infiltra-se no mundo das corridas de rua para investigar uma série de roubos liderados por Dominic Toretto."
+  },
+  {
+    "title": "Velozes e Furiosos 2",
+    "genre": "Ação",
+    "director": "John Singleton",
+    "year": 2003,
+    "leadActor": "Paul Walker",
+    "synopsis": "Brian O'Conner une forças com seu amigo Roman Pearce para derrubar um traficante de drogas em troca de sua liberdade."
+  },
+  {
+    "title": "Velozes e Furiosos 3: Desafio em Tóquio",
+    "genre": "Ação",
+    "director": "Justin Lin",
+    "year": 2006,
+    "leadActor": "Lucas Black",
+    "synopsis": "Sean Boswell, um jovem problemático, entra no mundo das corridas de drift no Japão e desafia um membro da Yakuza local."
+  },
+  {
+    "title": "Velozes e Furiosos 4",
+    "genre": "Ação",
+    "director": "Justin Lin",
+    "year": 2009,
+    "leadActor": "Vin Diesel",
+    "synopsis": "Dominic Toretto e Brian O'Conner unem forças para enfrentar um traficante de drogas enquanto tentam resolver suas diferenças."
+  },
+  {
+    "title": "Velozes e Furiosos 5: Operação Rio",
+    "genre": "Ação",
+    "director": "Justin Lin",
+    "year": 2011,
+    "leadActor": "Vin Diesel",
+    "synopsis": "Dominic, Brian e sua equipe planejam um assalto milionário no Rio de Janeiro enquanto são perseguidos por um agente federal."
+  },
+  {
+    "title": "Velozes e Furiosos 6",
+    "genre": "Ação",
+    "director": "Justin Lin",
+    "year": 2013,
+    "leadActor": "Vin Diesel",
+    "synopsis": "A equipe é recrutada para derrubar uma organização criminosa liderada por Owen Shaw, enquanto lidam com o retorno inesperado de Letty."
+  },
+  {
+    "title": "Velozes e Furiosos 7",
+    "genre": "Ação",
+    "director": "James Wan",
+    "year": 2015,
+    "leadActor": "Vin Diesel",
+    "synopsis": "Deckard Shaw busca vingança contra Dominic e sua equipe pela queda de seu irmão, enquanto enfrentam uma nova ameaça global."
+  },
+  {
+    "title": "Velozes e Furiosos 8",
+    "genre": "Ação",
+    "director": "F. Gary Gray",
+    "year": 2017,
+    "leadActor": "Vin Diesel",
+    "synopsis": "Dominic é manipulado por uma hacker chamada Cipher para trair sua equipe, enquanto eles tentam impedir um plano devastador."
+  },
+  {
+    "title": "Velozes e Furiosos 9",
+    "genre": "Ação",
+    "director": "Justin Lin",
+    "year": 2021,
+    "leadActor": "Vin Diesel",
+    "synopsis": "Dominic enfrenta seu irmão Jakob, que trabalha para uma figura perigosa com planos de dominação global."
+  },
+  {
+    "title": "Velozes e Furiosos 10",
+    "genre": "Ação",
+    "director": "Louis Leterrier",
+    "year": 2023,
+    "leadActor": "Vin Diesel",
+    "synopsis": "Dominic e sua equipe enfrentam um novo inimigo poderoso que busca vingança por ações do passado."
+  },
+  {
+    "title": "Bad Boys",
+    "genre": "Ação",
+    "director": "Michael Bay",
+    "year": 1995,
+    "leadActor": "Will Smith",
+    "synopsis": "Dois policiais de Miami, Mike Lowrey e Marcus Burnett, tentam recuperar drogas roubadas enquanto protegem uma testemunha crucial."
+  },
+  {
+    "title": "Bad Boys 2",
+    "genre": "Ação",
+    "director": "Michael Bay",
+    "year": 2003,
+    "leadActor": "Will Smith",
+    "synopsis": "Mike e Marcus investigam uma operação de tráfico de drogas em Miami que ameaça sua cidade e suas vidas pessoais."
+  },
+  {
+    "title": "Bad Boys para Sempre",
+    "genre": "Ação",
+    "director": "Adil El Arbi e Bilall Fallah",
+    "year": 2020,
+    "leadActor": "Will Smith",
+    "synopsis": "Mike e Marcus se reúnem para enfrentar uma ameaça do passado enquanto refletem sobre suas vidas como parceiros veteranos."
+  },
+  {
+    "title": "Bad Boys até o Fim",
+    "genre": "Ação",
+    "director": "Adil El Arbi e Bilall Fallah",
+    "year": 2024,
+    "leadActor": "Will Smith",
+    "synopsis": "Mike e Marcus encaram sua missão final, lutando contra um inimigo que ameaça destruir tudo pelo que eles lutaram."
+  },
+  {
+    "title": "Homem-Aranha: De Volta ao Lar",
+    "genre": "Ação",
+    "director": "Jon Watts",
+    "year": 2017,
+    "leadActor": "Tom Holland",
+    "synopsis": "Peter Parker tenta equilibrar sua vida escolar e sua identidade como Homem-Aranha enquanto enfrenta o vilão Abutre."
+  },
+  {
+    "title": "Homem-Aranha: Longe de Casa",
+    "genre": "Ação",
+    "director": "Jon Watts",
+    "year": 2019,
+    "leadActor": "Tom Holland",
+    "synopsis": "Durante uma viagem escolar à Europa, Peter Parker enfrenta o vilão Mystério enquanto lida com a perda de Tony Stark."
+  },
+  {
+    "title": "Homem-Aranha: Sem Volta Para Casa",
+    "genre": "Ação",
+    "director": "Jon Watts",
+    "year": 2021,
+    "leadActor": "Tom Holland",
+    "synopsis": "Peter Parker enfrenta as consequências de sua identidade revelada enquanto lida com vilões de universos alternativos."
+  },
+  {
+    "title": "Homem-Aranha no Aranhaverso",
+    "genre": "Animação",
+    "director": "Bob Persichetti, Peter Ramsey e Rodney Rothman",
+    "year": 2018,
+    "leadActor": "Shameik Moore (voz)",
+    "synopsis": "Miles Morales se torna o Homem-Aranha de seu universo e se junta a outras versões do herói para salvar o multiverso."
+  },
+  {
+    "title": "Vingadores",
+    "genre": "Ação",
+    "director": "Joss Whedon",
+    "year": 2012,
+    "leadActor": "Robert Downey Jr.",
+    "synopsis": "Os maiores heróis da Terra se unem para enfrentar Loki e impedir a invasão de um exército alienígena."
+  },
+  {
+    "title": "Vingadores: A Era de Ultron",
+    "genre": "Ação",
+    "director": "Joss Whedon",
+    "year": 2015,
+    "leadActor": "Robert Downey Jr.",
+    "synopsis": "Os Vingadores enfrentam Ultron, uma inteligência artificial criada para proteger a Terra, mas que decide exterminar a humanidade."
+  },
+  {
+    "title": "Vingadores: Guerra Infinita",
+    "genre": "Ação",
+    "director": "Anthony e Joe Russo",
+    "year": 2018,
+    "leadActor": "Robert Downey Jr.",
+    "synopsis": "Os Vingadores e seus aliados lutam para impedir que Thanos reúna as Joias do Infinito e destrua metade do universo."
+  },
+  {
+    "title": "Vingadores: Ultimato",
+    "genre": "Ação",
+    "director": "Anthony e Joe Russo",
+    "year": 2019,
+    "leadActor": "Robert Downey Jr.",
+    "synopsis": "Após a devastação causada por Thanos, os Vingadores se reúnem para desfazer o caos e restaurar o universo."
+  },
+  {
+    "title": "Rambo: Programado para Matar",
+    "genre": "Ação",
+    "director": "Ted Kotcheff",
+    "year": 1982,
+    "leadActor": "Sylvester Stallone",
+    "synopsis": "John Rambo, um veterano do Vietnã, enfrenta perseguição policial enquanto tenta sobreviver nas florestas de uma pequena cidade."
+  },
+  {
+    "title": "Rambo: Até o Fim",
+    "genre": "Ação",
+    "director": "Adrian Grunberg",
+    "year": 2019,
+    "leadActor": "Sylvester Stallone",
+    "synopsis": "John Rambo enfrenta um cartel mexicano em uma violenta missão de resgate e vingança."
+  },
+  {
+    "title": "O Homem de Aço",
+    "genre": "Ação",
+    "director": "Zack Snyder",
+    "year": 2013,
+    "leadActor": "Henry Cavill",
+    "synopsis": "Clark Kent descobre sua origem alienígena e se torna o Superman, protegendo a Terra contra Zod, um general kryptoniano."
+  },
+  {
+    "title": "007: Cassino Royale",
+    "genre": "Ação",
+    "director": "Martin Campbell",
+    "year": 2006,
+    "leadActor": "Daniel Craig",
+    "synopsis": "James Bond enfrenta Le Chiffre em um jogo de pôquer mortal enquanto impede que ele financie terroristas globais."
+  },
+  {
+    "title": "007: Sem Tempo para Morrer",
+    "genre": "Ação",
+    "director": "Cary Joji Fukunaga",
+    "year": 2021,
+    "leadActor": "Daniel Craig",
+    "synopsis": "James Bond sai da aposentadoria para enfrentar um vilão que possui uma tecnologia letal que ameaça a humanidade."
+  },
+  {
+    "title": "MIB: Homens de Preto",
+    "genre": "Ação",
+    "director": "Barry Sonnenfeld",
+    "year": 1997,
+    "leadActor": "Will Smith",
+    "synopsis": "Agentes de uma organização secreta monitoram atividades alienígenas na Terra enquanto lidam com uma nova ameaça intergaláctica."
+  },
+  {
+    "title": "MIB: Homens de Preto Internacional",
+    "genre": "Ação",
+    "director": "F. Gary Gray",
+    "year": 2019,
+    "leadActor": "Chris Hemsworth",
+    "synopsis": "Os agentes H e M enfrentam uma traição dentro da MIB enquanto lidam com uma ameaça alienígena global."
+  },
+  {
+    "comentario": "APARTIR DAQUI É TERROR"
+  },
+  {
+    "title": "A Hora do Pesadelo",
+    "genre": "Terror",
+    "director": "Wes Craven",
+    "year": 1984,
+    "leadActor": "Heather Langenkamp",
+    "synopsis": "Um grupo de adolescentes é perseguido por Freddy Krueger, um assassino que pode matá-los enquanto eles dormem, no mundo dos pesadelos."
+  },
+  {
+    "title": "Halloween",
+    "genre": "Terror",
+    "director": "John Carpenter",
+    "year": 1978,
+    "leadActor": "Jamie Lee Curtis",
+    "synopsis": "Michael Myers escapa do sanatório e volta à sua cidade natal, Haddonfield, para matar novamente, com Laurie Strode sendo seu alvo."
+  },
+  {
+    "title": "Halloween (2018)",
+    "genre": "Terror",
+    "director": "David Gordon Green",
+    "year": 2018,
+    "leadActor": "Jamie Lee Curtis",
+    "synopsis": "Laurie Strode, após 40 anos, se prepara para um confronto final com Michael Myers, que retorna para se vingar de sua família."
+  },
+  {
+    "title": "Halloween Kills",
+    "genre": "Terror",
+    "director": "David Gordon Green",
+    "year": 2021,
+    "leadActor": "Jamie Lee Curtis",
+    "synopsis": "Após sobreviver ao ataque de Michael Myers, Laurie Strode e sua família se unem à cidade de Haddonfield para caçar e destruir Michael de uma vez por todas."
+  },
+  {
+    "title": "Halloween Ends",
+    "genre": "Terror",
+    "director": "David Gordon Green",
+    "year": 2022,
+    "leadActor": "Jamie Lee Curtis",
+    "synopsis": "Laurie Strode finalmente confronta Michael Myers em um duelo épico para acabar com a ameaça que ele representa para a cidade e para ela mesma."
+  },
+  {
+    "title": "Sexta-Feira 13",
+    "genre": "Terror",
+    "director": "Sean S. Cunningham",
+    "year": 1980,
+    "leadActor": "Betsy Palmer",
+    "synopsis": "Um grupo de adolescentes vai para um acampamento isolado onde um assassino começa a matar um a um, revelando o mistério por trás das mortes no local."
+  },
+  {
+    "title": "Evil Dead",
+    "genre": "Terror",
+    "director": "Sam Raimi",
+    "year": 1981,
+    "leadActor": "Bruce Campbell",
+    "synopsis": "Cinco amigos viajam para uma cabana isolada na floresta, onde acabam liberando uma força demoníaca que os transforma em assassinos possuídos."
+  },
+  {
+    "title": "A Entidade",
+    "genre": "Terror",
+    "director": "Scott Derrickson",
+    "year": 2012,
+    "leadActor": "Ethan Hawke",
+    "synopsis": "Um escritor de crimes investiga um assassinato em sua nova casa e descobre uma conexão com uma entidade demoníaca responsável pelas mortes."
+  },
+  {
+    "title": "O Exorcista",
+    "genre": "Terror",
+    "director": "William Friedkin",
+    "year": 1973,
+    "leadActor": "Ellen Burstyn",
+    "synopsis": "Uma jovem garota é possuída por um demônio, e sua mãe busca ajuda de um padre para tentar realizar o exorcismo e salvar a filha."
+  },
+  {
+    "title": "Corra!",
+    "genre": "Terror",
+    "director": "Jordan Peele",
+    "year": 2017,
+    "leadActor": "Daniel Kaluuya",
+    "synopsis": "Um jovem visita a família de sua namorada em uma zona rural, onde descobre segredos perturbadores sobre os moradores e seu próprio destino."
+  },
+  {
+    "title": "O Iluminado",
+    "genre": "Terror",
+    "director": "Stanley Kubrick",
+    "year": 1980,
+    "leadActor": "Jack Nicholson",
+    "synopsis": "Um escritor começa a perder a sanidade enquanto cuida de um hotel isolado no inverno, e é possuído por forças sobrenaturais que ameaçam sua família."
+  },
+  {
+    "title": "Invocação do Mal",
+    "genre": "Terror",
+    "director": "James Wan",
+    "year": 2013,
+    "leadActor": "Vera Farmiga",
+    "synopsis": "Baseado em fatos reais, os investigadores paranormais Ed e Lorraine Warren tentam ajudar uma família que está sendo aterrorizada por uma entidade demoníaca em sua casa."
+  },
+  {
+    "title": "Psicose",
+    "genre": "Terror",
+    "director": "Alfred Hitchcock",
+    "year": 1960,
+    "leadActor": "Anthony Perkins",
+    "synopsis": "A jovem Marion Crane se refugia em um motel isolado, onde encontra o misterioso proprietário Norman Bates, dando início a uma série de eventos macabros."
+  },
+  {
+    "title": "Jogos Mortais",
+    "genre": "Terror",
+    "director": "James Wan",
+    "year": 2004,
+    "leadActor": "Cary Elwes",
+    "synopsis": "Dois homens se encontram presos em um lugar escuro, onde são forçados a participar de um jogo mortal orquestrado por um assassino conhecido como Jigsaw."
+  },
+  {
+    "title": "IT: A Coisa",
+    "genre": "Terror",
+    "director": "Andy Muschietti",
+    "year": 2017,
+    "leadActor": "Bill Skarsgård",
+    "synopsis": "Um grupo de crianças enfrenta uma entidade maligna que assume a forma de um palhaço, conhecida como Pennywise, em uma cidade assombrada por mistérios."
+  },
+  {
+    "title": "O Massacre da Serra Elétrica",
+    "genre": "Terror",
+    "director": "Tobe Hooper",
+    "year": 1974,
+    "leadActor": "Marilyn Burns",
+    "synopsis": "Um grupo de jovens viaja para o interior do Texas, onde encontram uma família de canibais, incluindo o infame Leatherface, que usa uma máscara feita de pele humana."
+  },
+  {
+    "title": "Carrie: A Estranha",
+    "genre": "Terror",
+    "director": "Brian De Palma",
+    "year": 1976,
+    "leadActor": "Sissy Spacek",
+    "synopsis": "Carrie, uma adolescente tímida com poderes telecinéticos, enfrenta bullying na escola até que um evento trágico a leva a usar seus poderes de forma aterrorizante."
+  },
+  {
+    "title": "A Bruxa de Blair",
+    "genre": "Terror",
+    "director": "Daniel Myrick e Eduardo Sánchez",
+    "year": 1999,
+    "leadActor": "Heather Donahue",
+    "synopsis": "Três cineastas se perdem na floresta de Black Hills enquanto investigam a lenda da Bruxa de Blair, filmando suas experiências aterrorizantes em estilo documentário."
+  },
+  {
+    "title": "Sorria",
+    "genre": "Terror",
+    "director": "Parker Finn",
+    "year": 2022,
+    "leadActor": "Sosie Bacon",
+    "synopsis": "Após testemunhar um evento traumático, uma psicóloga começa a perceber manifestações sobrenaturais que ameaçam sua sanidade e sua vida."
+  },
+  {
+    "title": "REC",
+    "genre": "Terror",
+    "director": "Jaume Balagueró e Paco Plaza",
+    "year": 2007,
+    "leadActor": "Manuela Velasco",
+    "synopsis": "Uma repórter e sua equipe são trancados em um prédio em quarentena, onde descobrem que uma epidemia viral está transformando as pessoas em monstros sedentos por sangue."
+  },
+  {
+    "title": "Tubarão",
+    "genre": "Terror",
+    "director": "Steven Spielberg",
+    "year": 1975,
+    "leadActor": "Roy Scheider",
+    "synopsis": "Quando um enorme tubarão começa a atacar turistas em uma pequena cidade à beira-mar, o chefe de polícia, um biólogo marinho e um caçador de tubarões tentam capturá-lo."
+  },
+  {
+    "title": "Terror em Silent Hill",
+    "genre": "Terror",
+    "director": "Christophe Gans",
+    "year": 2006,
+    "leadActor": "Radha Mitchell",
+    "synopsis": "Uma mãe segue sua filha adotiva até a cidade abandonada de Silent Hill, onde descobrem um mundo sombrio e um culto sinistro, enquanto enfrentam criaturas monstruosas."
+  },
+  {
+    "title": "O Chamado",
+    "genre": "Terror",
+    "director": "Gore Verbinski",
+    "year": 2002,
+    "leadActor": "Naomi Watts",
+    "synopsis": "Uma jornalista investiga uma fita de vídeo amaldiçoada que, segundo lendas, mata quem a assiste após sete dias. Ela tenta salvar sua vida e de seu filho."
+  },
+  {
+    "title": "A Bruxa",
+    "genre": "Terror",
+    "director": "Robert Eggers",
+    "year": 2015,
+    "leadActor": "Anya Taylor-Joy",
+    "synopsis": "No século XVII, uma família puritana enfrenta forças sobrenaturais em uma floresta sombria, enquanto uma jovem começa a questionar a sua fé e seu destino."
+  },
+  {
+    "title": "Annabelle",
+    "genre": "Terror",
+    "director": "John R. Leonetti",
+    "year": 2014,
+    "leadActor": "Annabelle Wallis",
+    "synopsis": "A história da boneca Annabelle, que é possuída por uma força demoníaca e causa terror na vida de um jovem casal."
+  },
+  {
+    "title": "X: A Marca da Morte",
+    "genre": "Terror",
+    "director": "Ti West",
+    "year": 2022,
+    "leadActor": "Mia Goth",
+    "synopsis": "Um grupo de jovens cineastas viaja para uma fazenda remota para filmar um filme adulto, mas acabam enfrentando uma situação mortal com um casal de idosos perturbados."
+  },
+  {
+    "title": "Pearl",
+    "genre": "Terror",
+    "director": "Ti West",
+    "year": 2022,
+    "leadActor": "Mia Goth",
+    "synopsis": "A jovem Pearl, que sonha em se tornar uma estrela de cinema, é tomada por uma crescente obsessão e violência enquanto tenta alcançar seus objetivos."
+  },
+  {
+    "title": "A Freira",
+    "genre": "Terror",
+    "director": "Corin Hardy",
+    "year": 2018,
+    "leadActor": "Taissa Farmiga",
+    "synopsis": "Uma freira é encontrada morta em um convento na Romênia, e um padre e uma noviça são enviados para investigar, enfrentando uma entidade demoníaca."
+  },
+  {
+    "title": "Contos do Dia das Bruxas",
+    "genre": "Terror",
+    "director": "Michael Dougherty",
+    "year": 2007,
+    "leadActor": "Anna Paquin",
+    "synopsis": "Em uma pequena cidade, várias histórias de terror se entrelaçam no Halloween, incluindo uma misteriosa criatura que caça aqueles que desrespeitam a tradição da data."
+  },
+  {
+    "title": "O Albergue",
+    "genre": "Terror",
+    "director": "Eli Roth",
+    "year": 2005,
+    "leadActor": "Jay Hernandez",
+    "synopsis": "Três amigos viajam para a Europa e acabam em um albergue, onde são capturados por uma organização que oferece tortura e morte como atração para turistas ricos."
+  },
+  {
+    "title": "CREEP",
+    "genre": "Terror",
+    "director": "Patrick Brice",
+    "year": 2014,
+    "leadActor": "Mark Duplass",
+    "synopsis": "Um cineasta aceita um trabalho de filmar um homem estranho que deseja registrar sua vida para um suposto 'documentário', mas logo descobre que ele esconde segredos aterrorizantes."
+  },
+  {
+    "title": "NÓS",
+    "genre": "Terror",
+    "director": "Jordan Peele",
+    "year": 2019,
+    "leadActor": "Lupita Nyong'o",
+    "synopsis": "Uma família é aterrorizada por versões distorcidas e violentas de si mesmas, que surgem de uma trama de mistérios envolvendo uma conspiração sinistra."
+  },
+  {
+    "title": "Suspiria",
+    "genre": "Terror",
+    "director": "Luca Guadagnino",
+    "year": 2018,
+    "leadActor": "Dakota Johnson",
+    "synopsis": "Uma jovem dançarina se matricula em uma renomada escola de balé em Berlim, onde descobre que a escola esconde segredos demoníacos e macabros."
+  },
+  {
+    "title": "Arraste-me para o Inferno",
+    "genre": "Terror",
+    "director": "Sam Raimi",
+    "year": 2009,
+    "leadActor": "Alison Lohman",
+    "synopsis": "Uma jovem mulher é amaldiçoada por uma velha vidente depois de negar um empréstimo para ela, sendo forçada a lutar contra forças demoníacas que tentam arrastá-la para o inferno."
+  },
+  {
+    "title": "Hereditário",
+    "genre": "Terror",
+    "director": "Ari Aster",
+    "year": 2018,
+    "leadActor": "Toni Collette",
+    "synopsis": "Após a morte de sua mãe, uma família começa a desvendar segredos aterradores sobre sua linhagem, enfrentando forças sobrenaturais que ameaçam sua sanidade e suas vidas."
+  },
+  {
+    "title": "Babadook",
+    "genre": "Terror",
+    "director": "Jennifer Kent",
+    "year": 2014,
+    "leadActor": "Essie Davis",
+    "synopsis": "Uma mãe solteira e seu filho lidam com uma presença maligna que se materializa através de um livro infantil, e logo descobrem que o Babadook não é apenas uma criatura da ficção."
+  },
+  {
+    "title": "O Brinquedo Assassino",
+    "genre": "Terror",
+    "director": "Tom Holland",
+    "year": 1988,
+    "leadActor": "Catherine Hicks",
+    "synopsis": "Uma mãe compra um boneco de brinquedo para seu filho, mas descobre que ele é possuído por um espírito maligno e começa a cometer assassinatos."
+  },
+  {
+    "title": "O Despertar dos Mortos-Vivos",
+    "genre": "Terror",
+    "director": "George A. Romero",
+    "year": 1978,
+    "leadActor": "Ken Foree",
+    "synopsis": "Um grupo de sobreviventes se refugia em um shopping center durante um apocalipse zumbi, onde precisam lutar pela sobrevivência enquanto lidam com os mortos-vivos."
+  },
+  {
+    "title": "O Bebê de Rosemary",
+    "genre": "Terror",
+    "director": "Roman Polanski",
+    "year": 1968,
+    "leadActor": "Mia Farrow",
+    "synopsis": "Uma jovem grávida começa a suspeitar que um culto satânico tenha planos para seu filho, após perceber comportamentos estranhos em seus vizinhos e seu marido."
+  },
+  {
+    "title": "A Mosca",
+    "genre": "Terror",
+    "director": "David Cronenberg",
+    "year": 1986,
+    "leadActor": "Jeff Goldblum",
+    "synopsis": "Um cientista que experimenta com teletransporte acidentalmente mistura seu DNA com o de uma mosca, resultando em uma transformação monstruosa."
+  },
+  {
+    "title": "Alien: O Oitavo Passageiro",
+    "genre": "Terror",
+    "director": "Ridley Scott",
+    "year": 1979,
+    "leadActor": "Sigourney Weaver",
+    "synopsis": "A tripulação de uma nave espacial encontra um misterioso sinal de resgate em um planeta remoto, mas logo são atacados por uma criatura alienígena mortal que começa a caçá-los."
+  },
+  {
+    "title": "Enigma de Outro Mundo",
+    "genre": "Terror",
+    "director": "John Carpenter",
+    "year": 1982,
+    "leadActor": "Kurt Russell",
+    "synopsis": "Uma equipe de cientistas na Antártida encontra uma criatura alienígena que pode assumir a forma de qualquer ser vivo, colocando todos em risco enquanto tentam descobrir quem é humano e quem é a criatura."
+  },
+  {
+    "comentario": "APARTIR DAQUI É FICÇÃO CIENTÍFICA"
+  },
+  {
+    "title": "Star Wars Episódio I – A Ameaça Fantasma",
+    "genre": "Ficção científica",
+    "director": "George Lucas",
+    "year": 1999,
+    "leadActor": "Liam Neeson",
+    "synopsis": "O jovem Anakin Skywalker é descoberto em um planeta distante por Jedi que buscam resolver um conflito intergaláctico, enquanto uma ameaça sombria começa a se revelar."
+  },
+  {
+    "title": "Star Wars Episódio II - Ataque dos Clones",
+    "genre": "Ficção científica",
+    "director": "George Lucas",
+    "year": 2002,
+    "leadActor": "Hayden Christensen",
+    "synopsis": "Anakin Skywalker, agora um aprendiz Jedi, se envolve em uma intriga política enquanto começa a questionar seus próprios sentimentos, enquanto a galáxia se prepara para uma guerra iminente."
+  },
+  {
+    "title": "Star Wars Episódio III – A Vingança dos Sith",
+    "genre": "Ficção científica",
+    "director": "George Lucas",
+    "year": 2005,
+    "leadActor": "Hayden Christensen",
+    "synopsis": "Anakin Skywalker se alia ao lado sombrio da Força, tornando-se Darth Vader, enquanto a República é destruída e o Império Galáctico é formado sob o comando do Imperador."
+  },
+  {
+    "title": "Star Wars Episódio IV – Uma Nova Esperança",
+    "genre": "Ficção científica",
+    "director": "George Lucas",
+    "year": 1977,
+    "leadActor": "Mark Hamill",
+    "synopsis": "Luke Skywalker se une a um grupo de rebeldes para lutar contra o Império Galáctico e destruir a Estrela da Morte, uma estação espacial capaz de aniquilar planetas inteiros."
+  },
+  {
+    "title": "Star Wars Episódio V – O Império Contra-Ataca",
+    "genre": "Ficção científica",
+    "director": "Irvin Kershner",
+    "year": 1980,
+    "leadActor": "Mark Hamill",
+    "synopsis": "Após uma batalha devastadora contra o Império, a Aliança Rebelde se refugia em um planeta gelado, enquanto Darth Vader tenta seduzir Luke Skywalker para o lado sombrio da Força."
+  },
+  {
+    "title": "Star Wars Episódio VI – O Retorno de Jedi",
+    "genre": "Ficção científica",
+    "director": "Richard Marquand",
+    "year": 1983,
+    "leadActor": "Mark Hamill",
+    "synopsis": "Luke Skywalker, agora um Jedi, resgata Han Solo da captura de Jabba the Hutt e se prepara para enfrentar Darth Vader e o Imperador em um confronto final pela liberdade da galáxia."
+  },
+  {
+    "title": "Star Wars Episódio VII – O Despertar da Força",
+    "genre": "Ficção científica",
+    "director": "J.J. Abrams",
+    "year": 2015,
+    "leadActor": "Daisy Ridley",
+    "synopsis": "Rey, uma jovem scavenger, descobre seu vínculo com a Força e se junta a Finn, Han Solo e a Resistência para enfrentar a ameaça do Primeiro Império e a busca de Kylo Ren por poder."
+  },
+  {
+    "title": "Star Wars Episódio VIII – Os Últimos Jedi",
+    "genre": "Ficção científica",
+    "director": "Rian Johnson",
+    "year": 2017,
+    "leadActor": "Daisy Ridley",
+    "synopsis": "Rey treina com Luke Skywalker para dominar a Força enquanto a Resistência luta contra o império e Kylo Ren continua sua jornada de escuridão e poder."
+  },
+  {
+    "title": "A Chegada",
+    "genre": "Ficção científica",
+    "director": "Denis Villeneuve",
+    "year": 2016,
+    "leadActor": "Amy Adams",
+    "synopsis": "Após o pouso de naves alienígenas na Terra, uma linguista é recrutada para estabelecer comunicação com os extraterrestres e descobrir suas intenções antes que o mundo entre em guerra."
+  },
+  {
+    "title": "Interestelar",
+    "genre": "Ficção científica",
+    "director": "Christopher Nolan",
+    "year": 2014,
+    "leadActor": "Matthew McConaughey",
+    "synopsis": "Em um futuro em que a Terra está à beira da extinção, um piloto e uma equipe de cientistas viajam através de um buraco negro em busca de um novo planeta habitável para a humanidade."
+  },
+  {
+    "title": "Blade Runner - O Caçador de Andróides",
+    "genre": "Ficção científica",
+    "director": "Ridley Scott",
+    "year": 1982,
+    "leadActor": "Harrison Ford",
+    "synopsis": "Em um futuro distópico, um ex-policial, conhecido como caçador de andróides, é contratado para 'aposentar' replicantes, seres biológicos artificiais que se revoltam contra os humanos."
+  },
+  {
+    "title": "E. T.: O Extraterrestre",
+    "genre": "Ficção científica",
+    "director": "Steven Spielberg",
+    "year": 1982,
+    "leadActor": "Henry Thomas",
+    "synopsis": "Um garoto faz amizade com um alienígena que ficou preso na Terra, e juntos eles tentam escapar de agentes governamentais para que E.T. possa voltar para casa."
+  },
+  {
+    "title": "2001: Uma Odisseia no Espaço",
+    "genre": "Ficção científica",
+    "director": "Stanley Kubrick",
+    "year": 1968,
+    "leadActor": "Keir Dullea",
+    "synopsis": "Uma missão para Júpiter, comandada por uma inteligência artificial chamada HAL 9000, se complica quando o sistema começa a falhar, levando a tripulação a questionar a própria existência."
+  },
+  {
+    "title": "A.I.: Inteligência Artificial",
+    "genre": "Ficção científica",
+    "director": "Steven Spielberg",
+    "year": 2001,
+    "leadActor": "Haley Joel Osment",
+    "synopsis": "Em um futuro onde os androides têm aparência humana, um garoto robô com a capacidade de amar é rejeitado por sua 'mãe' e parte em uma jornada para se tornar real."
+  },
+  {
+    "title": "O Exterminador do Futuro",
+    "genre": "Ficção científica",
+    "director": "James Cameron",
+    "year": 1984,
+    "leadActor": "Arnold Schwarzenegger",
+    "synopsis": "Um ciborgue assassino é enviado do futuro para matar Sarah Connor, cuja morte é crucial para impedir o nascimento do líder da resistência humana contra máquinas."
+  },
+  {
+    "title": "O Exterminador do Futuro 2: O Julgamento Final",
+    "genre": "Ficção científica",
+    "director": "James Cameron",
+    "year": 1991,
+    "leadActor": "Arnold Schwarzenegger",
+    "synopsis": "O Exterminador, agora um aliado, protege o jovem John Connor de um novo modelo de androide assassino enviado para garantir o apocalipse nuclear e a ascensão das máquinas."
+  },
+  {
+    "title": "Matrix",
+    "genre": "Ficção científica",
+    "director": "Lana e Lilly Wachowski",
+    "year": 1999,
+    "leadActor": "Keanu Reeves",
+    "synopsis": "Um hacker chamado Neo descobre que a realidade em que vive é uma simulação controlada por máquinas, e se junta a um grupo de rebeldes para libertar a humanidade."
+  },
+  {
+    "title": "Matrix Reloaded",
+    "genre": "Ficção científica",
+    "director": "Lana e Lilly Wachowski",
+    "year": 2003,
+    "leadActor": "Keanu Reeves",
+    "synopsis": "Neo continua sua jornada para combater as máquinas e descobrir mais sobre seu papel como 'O Escolhido', enfrentando novos desafios enquanto busca a chave para a liberdade."
+  },
+  {
+    "title": "Matrix Revolutions",
+    "genre": "Ficção científica",
+    "director": "Lana e Lilly Wachowski",
+    "year": 2003,
+    "leadActor": "Keanu Reeves",
+    "synopsis": "Na batalha final contra as máquinas, Neo se envolve em uma luta épica para salvar a humanidade e alcançar a paz entre os humanos e as máquinas."
+  },
+  {
+    "title": "Matrix Resurrections",
+    "genre": "Ficção científica",
+    "director": "Lana Wachowski",
+    "year": 2021,
+    "leadActor": "Keanu Reeves",
+    "synopsis": "Neo, agora vivendo uma vida comum, começa a questionar a realidade e a redescobrir seu papel como 'O Escolhido', enfrentando novamente as forças que controlam a Matrix."
+  },
+  {
+    "title": "Perdido em Marte",
+    "genre": "Ficção científica",
+    "director": "Ridley Scott",
+    "year": 2015,
+    "leadActor": "Matt Damon",
+    "synopsis": "Um astronauta é deixado para trás em Marte após uma missão fracassada e precisa usar sua inteligência e recursos limitados para sobreviver enquanto aguarda resgate."
+  },
+  {
+    "title": "De Volta para o Futuro",
+    "genre": "Ficção científica",
+    "director": "Robert Zemeckis",
+    "year": 1985,
+    "leadActor": "Michael J. Fox",
+    "synopsis": "Marty McFly é acidentalmente enviado de volta no tempo, onde precisa garantir que seus pais se apaixonem para garantir sua própria existência."
+  },
+  {
+    "title": "De Volta para o Futuro 2",
+    "genre": "Ficção científica",
+    "director": "Robert Zemeckis",
+    "year": 1989,
+    "leadActor": "Michael J. Fox",
+    "synopsis": "Marty McFly e o Dr. Emmett Brown viajam para o futuro e, ao tentar corrigir o curso da história, acabam alterando eventos no passado que podem ter consequências catastróficas."
+  },
+  {
+    "title": "De Volta para o Futuro 3",
+    "genre": "Ficção científica",
+    "director": "Robert Zemeckis",
+    "year": 1990,
+    "leadActor": "Michael J. Fox",
+    "synopsis": "Marty viaja até o Velho Oeste para resgatar o Dr. Brown, que ficou preso no passado, enfrentando novos desafios e tentando evitar mudanças no tempo."
+  },
+  {
+    "title": "AD Astra: Rumo às Estrelas",
+    "genre": "Ficção científica",
+    "director": "James Gray",
+    "year": 2019,
+    "leadActor": "Brad Pitt",
+    "synopsis": "Um astronauta viaja aos confins do sistema solar para encontrar seu pai perdido e resolver um mistério que ameaça a sobrevivência da Terra."
+  },
+  {
+    "title": "Avatar",
+    "genre": "Ficção científica",
+    "director": "James Cameron",
+    "year": 2009,
+    "leadActor": "Sam Worthington",
+    "synopsis": "Em um planeta distante chamado Pandora, um ex-militar é enviado para se infiltrar em uma tribo alienígena e explorar seus recursos, mas acaba se apaixonando pela cultura e pelo povo que está tentando explorar."
+  },
+  {
+    "title": "Avatar 2",
+    "genre": "Ficção científica",
+    "director": "James Cameron",
+    "year": 2022,
+    "leadActor": "Sam Worthington",
+    "synopsis": "Jake Sully e Neytiri, agora pais, enfrentam novos desafios e descobrem mistérios do planeta Pandora enquanto protegem sua família e seu lar contra uma nova ameaça."
+  },
+  {
+    "title": "Distrito 9",
+    "genre": "Ficção científica",
+    "director": "Neill Blomkamp",
+    "year": 2009,
+    "leadActor": "Sharlto Copley",
+    "synopsis": "Após uma nave alienígena pousar na Terra, os extraterrestres são confinados em um distrito de favelas, onde um funcionário do governo é contaminado por um vírus alienígena e começa a questionar sua lealdade."
+  },
+  {
+    "title": "O Dia que a Terra Parou",
+    "genre": "Ficção científica",
+    "director": "Scott Derrickson",
+    "year": 2008,
+    "leadActor": "Keanu Reeves",
+    "synopsis": "Um alienígena e seu robô gigante chegam à Terra com uma mensagem de destruição, forçando os seres humanos a reconsiderar seus comportamentos antes de enfrentar a aniquilação."
+  },
+  {
+    "title": "Lucy",
+    "genre": "Ficção científica",
+    "director": "Luc Besson",
+    "year": 2014,
+    "leadActor": "Scarlett Johansson",
+    "synopsis": "Após ser forçada a transportar drogas, uma mulher ganha habilidades cognitivas e físicas extraordinárias, desafiando os limites da mente humana e enfrentando consequências inesperadas."
+  },
+  {
+    "title": "Círculo de Fogo",
+    "genre": "Ficção científica",
+    "director": "Guillermo del Toro",
+    "year": 2013,
+    "leadActor": "Charlie Hunnam",
+    "synopsis": "Em um futuro onde monstros gigantes atacam a Terra, uma equipe de pilotos de robôs de combate deve se unir para enfrentar a ameaça, numa luta pela sobrevivência da humanidade."
+  },
+  {
+    "title": "Sinais",
+    "genre": "Ficção científica",
+    "director": "M. Night Shyamalan",
+    "year": 2002,
+    "leadActor": "Mel Gibson",
+    "synopsis": "Uma família vive em uma fazenda onde começam a aparecer sinais misteriosos que sugerem que a Terra está sendo invadida por alienígenas. Eles lutam para entender o que está acontecendo."
+  },
+  {
+    "title": "Eu Sou a Lenda",
+    "genre": "Ficção científica",
+    "director": "Francis Lawrence",
+    "year": 2007,
+    "leadActor": "Will Smith",
+    "synopsis": "Após um vírus dizimar a população mundial, um cientista solitário luta para encontrar uma cura e salvar a humanidade enquanto enfrenta criaturas mutantes."
+  },
+  {
+    "title": "Robocop",
+    "genre": "Ficção científica",
+    "director": "Paul Verhoeven",
+    "year": 1987,
+    "leadActor": "Peter Weller",
+    "synopsis": "Após ser gravemente ferido em uma missão, um policial é transformado em um ciborgue, RoboCop, para combater o crime em uma Detroit futurista."
+  },
+  {
+    "title": "Independence Day",
+    "genre": "Ficção científica",
+    "director": "Roland Emmerich",
+    "year": 1996,
+    "leadActor": "Will Smith",
+    "synopsis": "A Terra é invadida por alienígenas que planejam exterminar a humanidade. Um grupo de civis e militares se une para salvar o planeta em uma luta épica pela sobrevivência."
+  },
+  {
+    "title": "Zathura: Uma Aventura Espacial",
+    "genre": "Ficção científica",
+    "director": "Jon Favreau",
+    "year": 2005,
+    "leadActor": "Josh Hutcherson",
+    "synopsis": "Dois irmãos jogam um misterioso jogo de tabuleiro que os transporta para o espaço, onde enfrentam perigos e aventuras enquanto tentam voltar para casa."
+  },
+  {
+    "title": "Seres Rastejantes",
+    "genre": "Ficção científica",
+    "director": "David Paul Cronenberg",
+    "year": 1975,
+    "leadActor": "Paul Hampton",
+    "synopsis": "Após um experimento científico fracassado, um homem se transforma em uma criatura mutante e começa a se espalhar, criando uma onda de destruição e caos."
+  },
+  {
+    "comentario": "APARTIR DAQUI É COMÉDIA"
+  },
+  {
+    "title": "Todo Mundo Quase Morto",
+    "genre": "Comédia",
+    "director": "Edgar Wright",
+    "year": 2004,
+    "leadActor": "Simon Pegg",
+    "synopsis": "Shaun tenta retomar o controle de sua vida, mas se vê no meio de um apocalipse zumbi, com a missão de salvar sua mãe e amigos, enquanto tenta sobreviver ao caos."
+  },
+  {
+    "title": "Click",
+    "genre": "Comédia",
+    "director": "Frank Coraci",
+    "year": 2006,
+    "leadActor": "Adam Sandler",
+    "synopsis": "Michael Newman, um arquétipo de pai moderno, recebe um controle remoto mágico que lhe permite controlar sua vida, mas logo descobre as consequências de acelerar o tempo."
+  },
+  {
+    "title": "Juntos e Misturados",
+    "genre": "Comédia",
+    "director": "Dennis Dugan",
+    "year": 2014,
+    "leadActor": "Adam Sandler",
+    "synopsis": "Após um encontro desastroso, dois pais viúvos se veem forçados a passar férias juntos com seus filhos em um resort, e acabam criando laços inesperados."
+  },
+  {
+    "title": "É o Fim",
+    "genre": "Comédia",
+    "director": "Seth Rogen e Evan Goldberg",
+    "year": 2013,
+    "leadActor": "Seth Rogen",
+    "synopsis": "Vários astros de Hollywood se encontram em uma festa quando o apocalipse começa, forçando-os a lidar com a destruição do mundo de maneira cômica e caótica."
+  },
+  {
+    "title": "Todo Mundo em Pânico",
+    "genre": "Comédia",
+    "director": "Keenen Ivory Wayans",
+    "year": 2000,
+    "leadActor": "Anna Faris",
+    "synopsis": "Uma paródia dos filmes de terror, especialmente 'Pânico', acompanhando um grupo de jovens enquanto enfrentam uma série de situações absurdas e engraçadas relacionadas a um assassino mascarado."
+  },
+  {
+    "title": "Todo Mundo em Pânico 2",
+    "genre": "Comédia",
+    "director": "Keenen Ivory Wayans",
+    "year": 2001,
+    "leadActor": "Anna Faris",
+    "synopsis": "A continuação das aventuras cômicas de um grupo de jovens, desta vez enfrentando situações de terror e mistério em uma mansão assombrada."
+  },
+  {
+    "title": "Todo Mundo em Pânico 3",
+    "genre": "Comédia",
+    "director": "David Zucker",
+    "year": 2003,
+    "leadActor": "Anna Faris",
+    "synopsis": "O grupo de amigos agora enfrenta uma série de paródias de filmes de ficção científica, incluindo uma ameaça alienígena enquanto tentam salvar o mundo."
+  },
+  {
+    "title": "Todo Mundo em Pânico 4",
+    "genre": "Comédia",
+    "director": "David Zucker",
+    "year": 2006,
+    "leadActor": "Anna Faris",
+    "synopsis": "Nesta sequência, os personagens são arrastados para uma paródia de filmes de terror, ficção científica e outros gêneros, incluindo a famosa série 'O Grito' e 'Guerra dos Mundos'."
+  },
+  {
+    "title": "Aperte os Cintos, o Piloto Sumiu",
+    "genre": "Comédia",
+    "director": "Jim Abrahams",
+    "year": 1980,
+    "leadActor": "Robert Hays",
+    "synopsis": "Uma sátira dos filmes de desastre, onde o piloto de um avião precisa salvar os passageiros quando a tripulação fica incapaz de continuar devido a um envenenamento alimentar."
+  },
+  {
+    "title": "Corra, que a Polícia Vem Aí!",
+    "genre": "Comédia",
+    "director": "David Zucker",
+    "year": 1988,
+    "leadActor": "Leslie Nielsen",
+    "synopsis": "Em um cenário de paródia policial, um policial desastrado tenta resolver um caso envolvendo crimes misteriosos, com muitas situações absurdas e hilárias."
+  },
+  {
+    "title": "Super Herói: O Filme",
+    "genre": "Comédia",
+    "director": "Craig Mazin",
+    "year": 2008,
+    "leadActor": "Drake Bell",
+    "synopsis": "Um jovem ganha superpoderes e se torna um super-herói, mas com seus novos poderes, ele precisa lidar com situações cômicas enquanto tenta salvar o mundo."
+  },
+  {
+    "title": "Ace Ventura: Um Detetive Diferente",
+    "genre": "Comédia",
+    "director": "Tom Shadyac",
+    "year": 1994,
+    "leadActor": "Jim Carrey",
+    "synopsis": "Ace Ventura é um detetive excêntrico especializado em animais que é contratado para encontrar um golfinho desaparecido de uma equipe de futebol americano, com muitos desastres e piadas físicas pelo caminho."
+  },
+  {
+    "title": "O Máskara",
+    "genre": "Comédia",
+    "director": "Chuck Russell",
+    "year": 1994,
+    "leadActor": "Jim Carrey",
+    "synopsis": "Stanley Ipkiss é um homem tímido que encontra uma máscara mágica que transforma sua personalidade e aparência, dando-lhe poderes extraordinários e o transformando em uma versão excêntrica de si mesmo."
+  },
+  {
+    "title": "O Todo Poderoso",
+    "genre": "Comédia",
+    "director": "Tom Shadyac",
+    "year": 2003,
+    "leadActor": "Jim Carrey",
+    "synopsis": "Após reclamar de Deus por sua vida insatisfeita, um homem comum é temporariamente investido com os poderes divinos, levando-o a lidar com as consequências de controlar o universo."
+  },
+  {
+    "title": "Gente Grande",
+    "genre": "Comédia",
+    "director": "Dennis Dugan",
+    "year": 2010,
+    "leadActor": "Adam Sandler",
+    "synopsis": "Quando um treinador de basquete e seus amigos se reencontram após a morte do antigo técnico, eles redescobrem as lições e divertem-se ao reviver os melhores momentos de suas infâncias."
+  },
+  {
+    "title": "Um Jantar para Idiotas",
+    "genre": "Comédia",
+    "director": "Jay Roach",
+    "year": 2010,
+    "leadActor": "Steve Carell",
+    "synopsis": "Um executivo de uma grande empresa é convidado para um jantar onde ele e seus amigos têm que trazer um 'idiota' para entreter o grupo. Ele acaba encontrando um homem peculiar e desastrado, o que cria situações cômicas."
+  },
+  {
+    "title": "Johnny English",
+    "genre": "Comédia",
+    "director": "Peter Howitt",
+    "year": 2003,
+    "leadActor": "Rowan Atkinson",
+    "synopsis": "Johnny English, um agente secreto desastrado, é chamado para uma missão importante, mas suas habilidades nada convencionais o levam a situações hilárias enquanto tenta salvar o dia."
+  },
+  {
+    "title": "O Paizão",
+    "genre": "Comédia",
+    "director": "Dennis Dugan",
+    "year": 1999,
+    "leadActor": "Adam Sandler",
+    "synopsis": "Sonny, um homem infantil e imaturo, se vê com a responsabilidade de cuidar de um garoto pequeno, e acaba criando uma ligação afetiva enquanto tenta equilibrar sua vida e responsabilidades."
+  },
+  {
+    "title": "Doze é Demais",
+    "genre": "Comédia",
+    "director": "Shawn Levy",
+    "year": 2003,
+    "leadActor": "Steve Martin",
+    "synopsis": "Um casal com 12 filhos precisa lidar com os desafios de manter a ordem em casa quando o marido recebe uma oferta de emprego que exige a mudança da família para outra cidade."
+  },
+  {
+    "title": "A Pantera Cor-de-Rosa",
+    "genre": "Comédia",
+    "director": "Shawn Levy",
+    "year": 2006,
+    "leadActor": "Steve Martin",
+    "synopsis": "O famoso detetive francês Jacques Clouseau deve resolver o caso do roubo do diamante conhecido como a Pantera Cor-de-Rosa, enquanto sua incompetência cria confusões e situações hilárias."
+  },
+  {
+    "title": "Até Que a Sorte Nos Separe",
+    "genre": "Comédia",
+    "director": "Roberto Santucci",
+    "year": 2012,
+    "leadActor": "Leandro Hassum",
+    "synopsis": "Após ganhar na loteria, um homem muda sua vida completamente, mas logo percebe que sua sorte está prestes a mudar e ele precisa aprender a lidar com a nova realidade."
+  },
+  {
+    "title": "Meu Cunhado é um Vampiro",
+    "genre": "Comédia",
+    "director": "Sam Irvin",
+    "year": 2009,
+    "leadActor": "Adam Shulman",
+    "synopsis": "Quando um homem descobre que seu cunhado é um vampiro, ele precisa lidar com a situação sem que a família perceba, criando confusões hilárias e inesperadas."
+  },
+  {
+    "title": "Se Eu Fosse Você",
+    "genre": "Comédia",
+    "director": "Daniel Filho",
+    "year": 2006,
+    "leadActor": "Tony Ramos",
+    "synopsis": "Após uma briga, um homem e sua esposa trocam de corpo e precisam viver na pele um do outro, gerando situações engraçadas enquanto tentam recuperar suas vidas normais."
+  },
+  {
+    "title": "O Auto da Compadecida",
+    "genre": "Comédia",
+    "director": "Guel Arraes",
+    "year": 2000,
+    "leadActor": "Matheus Nachtergaele",
+    "synopsis": "Baseado na obra de Ariano Suassuna, a história se passa no sertão nordestino e acompanha as aventuras de dois homens, Chicó e João Grilo, que tentam enganar a morte e a sorte em uma comédia repleta de crítica social."
+  },
+  {
+    "title": "Os Vampiros que se Mordam",
+    "genre": "Comédia",
+    "director": "Jason Friedberg",
+    "year": 2010,
+    "leadActor": "Matt Lanter",
+    "synopsis": "Uma paródia dos filmes de vampiros, principalmente da saga 'Crepúsculo', onde a protagonista é uma jovem que precisa lidar com um mundo de vampiros e uma história de amor."
+  },
+  {
+    "title": "Entrando numa Fria",
+    "genre": "Comédia",
+    "director": "Jay Roach",
+    "year": 2000,
+    "leadActor": "Ben Stiller",
+    "synopsis": "Greg Focker, um homem prestes a se casar, visita a casa dos pais de sua noiva e tenta ganhar a aprovação de seu sogro, mas acaba se metendo em uma série de situações constrangedoras."
+  },
+  {
+    "title": "Mr. Bean - O Filme",
+    "genre": "Comédia",
+    "director": "Mel Smith",
+    "year": 1997,
+    "leadActor": "Rowan Atkinson",
+    "synopsis": "Mr. Bean, um homem excêntrico e atrapalhado, viaja para Los Angeles para cuidar de uma obra de arte valiosa, mas seus métodos pouco convencionais resultam em confusões hilárias."
+  },
+  {
+    "title": "Superbad - É Hoje",
+    "genre": "Comédia",
+    "director": "Greg Mottola",
+    "year": 2007,
+    "leadActor": "Jonah Hill",
+    "synopsis": "Dois adolescentes, prestes a se formar no ensino médio, tentam aproveitar ao máximo suas últimas semanas na escola, enfrentando situações engraçadas e tentando perder a virgindade antes da formatura."
+  },
+  {
+    "title": "Anjos da Lei",
+    "genre": "Comédia",
+    "director": "Phil Lord",
+    "year": 2012,
+    "leadActor": "Jonah Hill",
+    "synopsis": "Dois policiais disfarçados de estudantes do ensino médio tentam derrubar um esquema de drogas, mas acabam se tornando populares entre os jovens, o que gera situações hilárias e inesperadas."
+  },
+  {
+    "title": "O Mentiroso",
+    "genre": "Comédia",
+    "director": "Tom Shadyac",
+    "year": 1997,
+    "leadActor": "Jim Carrey",
+    "synopsis": "Um advogado extremamente bem-sucedido e conhecido por suas mentiras é obrigado a dizer a verdade por 24 horas após seu filho fazer um pedido em seu aniversário, criando situações hilárias e inesperadas."
+  },
+  {
+    "title": "A Família Addams",
+    "genre": "Comédia",
+    "director": "Barry Sonnenfeld",
+    "year": 1991,
+    "leadActor": "Anjelica Huston",
+    "synopsis": "A excêntrica Família Addams enfrenta uma série de desafios quando um impostor se disfarça de tio Fester para roubar a fortuna da família, resultando em situações cômicas e peculiares."
+  },
+  {
+    "title": "Zumbilândia",
+    "genre": "Comédia",
+    "director": "Ruben Fleischer",
+    "year": 2009,
+    "leadActor": "Jesse Eisenberg",
+    "synopsis": "Em um mundo pós-apocalíptico dominado por zumbis, um grupo de sobreviventes forma uma improvável amizade enquanto tentam sobreviver e encontrar um lugar seguro, repleto de humor e ação."
+  },
+  {
+    "title": "Uma Noite no Museu",
+    "genre": "Comédia",
+    "director": "Shawn Levy",
+    "year": 2006,
+    "leadActor": "Ben Stiller",
+    "synopsis": "Larry Daley, um vigia noturno em um museu de história natural, descobre que as exposições ganham vida durante a noite, o que o coloca em situações hilárias e mágicas enquanto tenta manter o segredo."
+  },
+  {
+    "title": "O Pequeno",
+    "genre": "Comédia",
+    "director": "Malcolm D. Lee",
+    "year": 2019,
+    "leadActor": "Marsai Martin",
+    "synopsis": "Uma executiva bem-sucedida e arrogante, após um desejo mágico, reverte para sua versão de 13 anos e se vê vivendo como uma criança novamente, aprendendo lições de vida e enfrentando desafios engraçados."
+  },
+  {
+    "title": "As Mil Palavras",
+    "genre": "Comédia",
+    "director": "Brian Robbins",
+    "year": 2012,
+    "leadActor": "Eddie Murphy",
+    "synopsis": "Um empresário egocêntrico perde a habilidade de falar após um encontro com um místico, tendo apenas mil palavras restantes para usar. Ele precisa aprender a viver de forma mais consciente e verdadeira."
+  },
+  {
+    "title": "Debi e Lóide - Dois Idiotas em Apuros",
+    "genre": "Comédia",
+    "director": "Peter Farrelly",
+    "year": 1994,
+    "leadActor": "Jim Carrey",
+    "synopsis": "Dois amigos extremamente ingênuos e desastrados, Debi e Lóide, embarcam em uma viagem pelo país para devolver uma maleta perdida, causando um monte de confusão ao longo do caminho."
+  },
+  {
+    "title": "Os Pinguins do Papai",
+    "genre": "Comédia",
+    "director": "Mark Waters",
+    "year": 2005,
+    "leadActor": "Robin Williams",
+    "synopsis": "Um homem que se torna pai de um pinguim de estimação precisa aprender a lidar com as complicações que surgem com a chegada de um animal peculiar, ao mesmo tempo em que tenta manter a vida equilibrada."
+  },
+  {
+    "comentario": "APARTIR DAQUI É DRAMA"
+  },
+  {
+    "title": "O Impossível",
+    "genre": "Drama",
+    "director": "Juan Antonio Bayona",
+    "year": 2012,
+    "leadActor": "Naomi Watts",
+    "synopsis": "Baseado em uma história real, o filme segue uma família que sobrevive ao devastador tsunami de 2004, enfrentando enormes dificuldades enquanto tentam se reunir em meio ao caos e à destruição."
+  },
+  {
+    "title": "Réquiem para o Inferno",
+    "genre": "Drama",
+    "director": "Renny Harlin",
+    "year": 2004,
+    "leadActor": "Bruce Willis",
+    "synopsis": "Durante a guerra civil na Libéria, um jornalista americano se vê em uma luta pela sobrevivência ao ser sequestrado por rebeldes. A situação se agrava conforme ele tenta escapar da violência e da devastação ao seu redor."
+  },
+  {
+    "title": "O Pianista",
+    "genre": "Drama",
+    "director": "Roman Polanski",
+    "year": 2002,
+    "leadActor": "Adrien Brody",
+    "synopsis": "Baseado na autobiografia do pianista Władysław Szpilman, o filme narra a luta de um músico judeu para sobreviver durante a ocupação nazista em Varsóvia, enfrentando a perda e a desumanidade."
+  },
+  {
+    "title": "O Fabricante de Lágrimas",
+    "genre": "Drama",
+    "director": "José Eduardo Belmonte",
+    "year": 2000,
+    "leadActor": "Fábio Assunção",
+    "synopsis": "Um homem, após sofrer uma grande perda, decide viajar em busca de respostas e de um significado maior para sua vida, refletindo sobre a dor e a superação de eventos trágicos."
+  },
+  {
+    "title": "O Jogo da Imitação",
+    "genre": "Drama",
+    "director": "Morten Tyldum",
+    "year": 2014,
+    "leadActor": "Benedict Cumberbatch",
+    "synopsis": "A história de Alan Turing, um brilhante matemático britânico que quebrou o código de comunicação nazista durante a Segunda Guerra Mundial, enfrentando discriminação e lutas pessoais ao longo de sua vida."
+  },
+  {
+    "title": "Ponte para Terabítia",
+    "genre": "Drama",
+    "director": "Gabor Csupo",
+    "year": 2007,
+    "leadActor": "Josh Hutcherson",
+    "synopsis": "Dois jovens criam um mundo imaginário, Terabítia, onde podem escapar dos problemas do mundo real. Quando uma tragédia acontece, a amizade deles é testada de maneira emocionalmente profunda."
+  },
+  {
+    "title": "Um Sonho de Liberdade",
+    "genre": "Drama",
+    "director": "Frank Darabont",
+    "year": 1994,
+    "leadActor": "Tim Robbins",
+    "synopsis": "Andy Dufresne, um banqueiro injustamente condenado à prisão, desenvolve uma amizade com um prisioneiro e encontra uma forma de sobreviver aos abusos do sistema penitenciário, sempre alimentando a esperança de liberdade."
+  },
+  {
+    "title": "Até o Fim",
+    "genre": "Drama",
+    "director": "J.C. Chandor",
+    "year": 2013,
+    "leadActor": "Robert Redford",
+    "synopsis": "Após um acidente no mar, um homem luta pela sobrevivência sozinho em um pequeno bote no Oceano Atlântico, enfrentando as adversidades do clima e o isolamento em busca de ajuda."
+  },
+  {
+    "title": "O Silêncio dos Inocentes",
+    "genre": "Drama",
+    "director": "Jonathan Demme",
+    "year": 1991,
+    "leadActor": "Jodie Foster",
+    "synopsis": "A agente do FBI, Clarice Starling, busca a ajuda do assassino e psiquiatra Dr. Hannibal Lecter para capturar outro serial killer. A tensão psicológica entre os dois personagens cria uma história tensa e envolvente."
+  },
+  {
+    "title": "A Caçada",
+    "genre": "Drama",
+    "director": "Craig Zobel",
+    "year": 2020,
+    "leadActor": "Betty Gilpin",
+    "synopsis": "Um grupo de elites da classe alta caça pessoas comuns em uma ilha remota, até que uma mulher, que está entre as vítimas, luta pela sobrevivência e revela o verdadeiro jogo por trás da caçada."
+  },
+  {
+    "title": "A Rede Social",
+    "genre": "Drama",
+    "director": "David Fincher",
+    "year": 2010,
+    "leadActor": "Jesse Eisenberg",
+    "synopsis": "O filme conta a história da criação do Facebook, desde a sua fundação por Mark Zuckerberg até as controvérsias legais e pessoais que surgiram, revelando as complexidades do sucesso na era digital."
+  },
+  {
+    "title": "Logan",
+    "genre": "Drama",
+    "director": "James Mangold",
+    "year": 2017,
+    "leadActor": "Hugh Jackman",
+    "synopsis": "Em um futuro distópico, Wolverine, já envelhecido e perdendo seus poderes, tenta viver em paz, mas se vê forçado a proteger uma jovem mutante que é perseguida por forças sombrias."
+  },
+  {
+    "title": "Nomadland",
+    "genre": "Drama",
+    "director": "Chloé Zhao",
+    "year": 2020,
+    "leadActor": "Frances McDormand",
+    "synopsis": "Após perder seu emprego e sua casa durante a crise econômica, Fern se torna uma nômade moderna, vivendo em sua van enquanto percorre os Estados Unidos em busca de trabalho e de um novo significado para sua vida."
+  },
+  {
+    "title": "Um Sonho Possível",
+    "genre": "Drama",
+    "director": "John Lee Hancock",
+    "year": 2009,
+    "leadActor": "Sandra Bullock",
+    "synopsis": "Baseado em uma história real, o filme conta a trajetória de Michael Oher, um jovem sem-teto que é acolhido por uma família rica, que o ajuda a superar as dificuldades e alcançar o sucesso no futebol americano."
+  },
+  {
+    "title": "Parasita",
+    "genre": "Drama",
+    "director": "Bong Joon-ho",
+    "year": 2019,
+    "leadActor": "Song Kang-ho",
+    "synopsis": "Uma família de classe baixa se infiltra na vida de uma família rica, assumindo diversos empregos dentro da casa, mas a situação toma um rumo inesperado e tenso, revelando as desigualdades sociais profundas."
+  },
+  {
+    "title": "127 Horas",
+    "genre": "Drama",
+    "director": "Danny Boyle",
+    "year": 2010,
+    "leadActor": "James Franco",
+    "synopsis": "Baseado em uma história real, o filme segue Aron Ralston, um alpinista que fica preso em um desfiladeiro isolado por cinco dias, forçado a tomar uma decisão extrema para sobreviver."
+  },
+  {
+    "title": "A Baleia",
+    "genre": "Drama",
+    "director": "Darren Aronofsky",
+    "year": 2022,
+    "leadActor": "Brendan Fraser",
+    "synopsis": "A história de Charlie, um homem obeso e recluso, que tenta se reconectar com sua filha distante enquanto enfrenta seus próprios demônios internos e problemas de saúde."
+  },
+  {
+    "title": "Edward Mãos de Tesoura",
+    "genre": "Drama",
+    "director": "Tim Burton",
+    "year": 1990,
+    "leadActor": "Johnny Depp",
+    "synopsis": "Edward, um homem artificial criado por um inventor, tem lâminas no lugar das mãos. Quando ele é levado para uma comunidade suburbana, ele cria laços com os moradores, mas enfrenta desafios devido à sua aparência peculiar."
+  },
+  {
+    "title": "A Culpa é das Estrelas",
+    "genre": "Drama",
+    "director": "Josh Boone",
+    "year": 2014,
+    "leadActor": "Shailene Woodley",
+    "synopsis": "Hazel Grace, uma jovem com câncer, conhece Augustus Waters, um rapaz que também luta contra a doença. Juntos, eles vivem uma história de amor intensa e emocionante, lidando com a dor e as incertezas da vida."
+  },
+  {
+    "title": "A Espera de um Milagre",
+    "genre": "Drama",
+    "director": "Frank Darabont",
+    "year": 1999,
+    "leadActor": "Tom Hanks",
+    "synopsis": "Em uma prisão, um guarda e um prisioneiro formam uma amizade improvável após o prisioneiro, com habilidades especiais, realizar milagres que ajudam a curar e transformar os outros ao seu redor."
+  },
+  {
+    "title": "A Forma da Água",
+    "genre": "Drama",
+    "director": "Guillermo del Toro",
+    "year": 2017,
+    "leadActor": "Sally Hawkins",
+    "synopsis": "Durante a Guerra Fria, uma funcionária muda de um laboratório governamental se apaixona por uma criatura aquática capturada e mantida em cativeiro, criando um vínculo profundo em uma história de amor incomum."
+  },
+  {
+    "title": "Coringa",
+    "genre": "Drama",
+    "director": "Todd Phillips",
+    "year": 2019,
+    "leadActor": "Joaquin Phoenix",
+    "synopsis": "Arthur Fleck, um homem com transtornos mentais, luta para encontrar seu lugar na sociedade enquanto enfrenta rejeição e abuso. Sua transformação em Coringa, o infame vilão, se torna uma espiral de caos e violência."
+  },
+  {
+    "title": "Além da Vida",
+    "genre": "Drama",
+    "director": "Clint Eastwood",
+    "year": 2010,
+    "leadActor": "Matt Damon",
+    "synopsis": "Três histórias interligadas sobre o além-vida, envolvendo um jornalista que busca respostas para fenômenos paranormais, uma mulher que tem uma experiência com a morte e um garoto que pode se comunicar com os mortos."
+  },
+  {
+    "title": "Central do Brasil",
+    "genre": "Drama",
+    "director": "Walter Salles",
+    "year": 1998,
+    "leadActor": "Fernanda Montenegro",
+    "synopsis": "Dora, uma mulher que trabalha escrevendo cartas para pessoas analfabetas na estação Central do Brasil, ajuda um garoto a encontrar o pai que nunca conheceu, levando-os em uma jornada de autoconhecimento e redenção."
+  },
+  {
+    "title": "12 Anos de Escravidão",
+    "genre": "Drama",
+    "director": "Steve McQueen",
+    "year": 2013,
+    "leadActor": "Chiwetel Ejiofor",
+    "synopsis": "Baseado em uma história real, o filme narra a vida de Solomon Northup, um homem negro livre que é sequestrado e vendido como escravo, passando 12 anos tentando reencontrar sua liberdade."
+  },
+  {
+    "title": "Taxi Driver - Motorista de Táxi",
+    "genre": "Drama",
+    "director": "Martin Scorsese",
+    "year": 1976,
+    "leadActor": "Robert De Niro",
+    "synopsis": "Travis Bickle, um veterano de guerra perturbado, trabalha como taxista em Nova York. Sua crescente alienação da sociedade e obsessão por limpar a cidade da criminalidade o levam a ações violentas."
+  },
+  {
+    "title": "A Lista de Schindler",
+    "genre": "Drama",
+    "director": "Steven Spielberg",
+    "year": 1993,
+    "leadActor": "Liam Neeson",
+    "synopsis": "O filme conta a história real de Oskar Schindler, um empresário alemão que salvou mais de mil judeus durante o Holocausto, empregando-os em sua fábrica e protegendo-os das atrocidades nazistas."
+  },
+  {
+    "title": "A Vida é Bela",
+    "genre": "Drama",
+    "director": "Roberto Benigni",
+    "year": 1997,
+    "leadActor": "Roberto Benigni",
+    "synopsis": "Durante a Segunda Guerra Mundial, Guido, um judeu italiano, usa sua imaginação e bom humor para proteger seu filho dos horrores do campo de concentração, criando um mundo lúdico e cheio de amor ao seu redor."
+  },
+  {
+    "title": "Forrest Gump - O Contador de Histórias",
+    "genre": "Drama",
+    "director": "Robert Zemeckis",
+    "year": 1994,
+    "leadActor": "Tom Hanks",
+    "synopsis": "Forrest Gump, um homem com um QI abaixo da média, tem uma vida extraordinária, influenciando grandes eventos históricos e culturais nos Estados Unidos, enquanto compartilha sua história de amor com Jenny."
+  },
+  {
+    "title": "Marley e Eu",
+    "genre": "Drama",
+    "director": "David Frankel",
+    "year": 2008,
+    "leadActor": "Owen Wilson",
+    "synopsis": "Baseado no livro best-seller, o filme segue a vida de John e Jennifer, que adotam Marley, um cachorro travesso e bagunceiro, e como ele transforma suas vidas com momentos de humor, amor e aprendizado."
+  },
+  {
+    "title": "O Impossível",
+    "genre": "Drama",
+    "director": "J.A. Bayona",
+    "year": 2012,
+    "leadActor": "Naomi Watts",
+    "synopsis": "Baseado em uma história real, o filme segue uma família que se encontra separada após o devastador tsunami de 2004 no sudeste asiático. Eles lutam pela sobrevivência e buscam se reunir em meio à destruição e caos."
+  },
+  {
+    "comentario": "APARTIR DAQUI É SUSPENSE"
+  },
+  {
+    "title": "O Amigo Oculto",
+    "genre": "Suspense",
+    "director": "John Polson",
+    "year": 2004,
+    "leadActor": "Elijah Wood",
+    "synopsis": "Após se mudar para uma nova cidade, um jovem começa a ser assombrado por um amigo imaginário do passado. Enquanto tenta descobrir o que está acontecendo, ele se vê preso em um mistério que desafia a sua sanidade."
+  },
+  {
+    "title": "Os Outros",
+    "genre": "Suspense",
+    "director": "Alejandro Amenábar",
+    "year": 2001,
+    "leadActor": "Nicole Kidman",
+    "synopsis": "Grace, uma mulher que vive com seus dois filhos em uma mansão isolada, começa a acreditar que a casa é assombrada, mas ao investigar, ela descobre segredos perturbadores sobre sua própria realidade."
+  },
+  {
+    "title": "Ilha do Medo",
+    "genre": "Suspense",
+    "director": "Martin Scorsese",
+    "year": 2010,
+    "leadActor": "Leonardo DiCaprio",
+    "synopsis": "Um detetive investiga o desaparecimento de uma prisioneira em um hospital psiquiátrico localizado em uma ilha remota, mas à medida que descobre mais sobre o caso, ele começa a duvidar da sua própria sanidade."
+  },
+  {
+    "title": "Pânico",
+    "genre": "Suspense",
+    "director": "Wes Craven",
+    "year": 1996,
+    "leadActor": "Neve Campbell",
+    "synopsis": "Um assassino mascarado começa a caçar um grupo de jovens em uma pequena cidade. A vítima de um ataque anterior se torna o foco principal da investigação, enquanto o mistério sobre a identidade do assassino se intensifica."
+  },
+  {
+    "title": "Perseguição - A Estrada da Morte",
+    "genre": "Suspense",
+    "director": "William Friedkin",
+    "year": 2011,
+    "leadActor": "Roy Scheider",
+    "synopsis": "Um motorista de caminhão se vê perseguido por uma série de perigos enquanto atravessa uma estrada isolada em um local remoto, onde ele terá que usar todas as suas habilidades para sobreviver aos perigos da perseguição."
+  },
+  {
+    "title": "Não Solte",
+    "genre": "Suspense",
+    "director": "Michael Spierig, Peter Spierig",
+    "year": 2015,
+    "leadActor": "Dustin Milligan",
+    "synopsis": "Depois de perder sua esposa e filha em um acidente, um homem começa a investigar uma série de desaparecimentos misteriosos e logo descobre que sua vida está ligada a uma força sobrenatural que está ligada a um antigo segredo."
+  },
+  {
+    "title": "Janela Secreta",
+    "genre": "Suspense",
+    "director": "David Koepp",
+    "year": 2004,
+    "leadActor": "Johnny Depp",
+    "synopsis": "Um escritor recluso se vê envolvido em um mistério após ser acusado de plágio por um estranho. À medida que investiga, ele começa a perder o controle sobre sua própria vida, com consequências perigosas."
+  },
+  {
+    "title": "O Abutre",
+    "genre": "Suspense",
+    "director": "Dan Gilroy",
+    "year": 2014,
+    "leadActor": "Jake Gyllenhaal",
+    "synopsis": "Lou Bloom, um jovem ambicioso e inescrupuloso, começa a trabalhar como freelance no jornalismo sensacionalista, gravando cenas de crimes e acidentes em Los Angeles para obter fama e sucesso."
+  },
+  {
+    "title": "Amnésia",
+    "genre": "Suspense",
+    "director": "Christopher Nolan",
+    "year": 2000,
+    "leadActor": "Guy Pearce",
+    "synopsis": "Leonard Shelby sofre de amnésia retrógrada e está em uma busca desesperada para encontrar o assassino de sua esposa, utilizando anotações, fotografias e tatuagens em seu corpo para se lembrar de detalhes importantes."
+  },
+  {
+    "title": "A Origem",
+    "genre": "Suspense",
+    "director": "Christopher Nolan",
+    "year": 2010,
+    "leadActor": "Leonardo DiCaprio",
+    "synopsis": "Dom Cobb é um ladrão especializado em roubar segredos das profundezas do subconsciente. Ele recebe uma missão quase impossível: implantar uma ideia na mente de um alvo através do sonho compartilhado."
+  },
+  {
+    "title": "O Homem Duplicado",
+    "genre": "Suspense",
+    "director": "Denis Villeneuve",
+    "year": 2013,
+    "leadActor": "Jake Gyllenhaal",
+    "synopsis": "Adam, um professor universitário, descobre que tem um doppelgänger exato, um ator de cinema. Ele começa a investigar obsessivamente a vida do homem, o que leva a uma jornada de descobertas perturbadoras."
+  },
+  {
+    "title": "A Casa dos Sonhos",
+    "genre": "Suspense",
+    "director": "Geoffrey Sax",
+    "year": 2004,
+    "leadActor": "Kate Beckinsale",
+    "synopsis": "Uma jovem mulher e sua família se mudam para uma casa antiga e isolada. Com o tempo, ela começa a ter visões perturbadoras e descobrir segredos sombrios sobre a casa e seus antigos moradores."
+  },
+  {
+    "title": "Escape Room",
+    "genre": "Suspense",
+    "director": "Adam Robitel",
+    "year": 2019,
+    "leadActor": "Taylor Russell",
+    "synopsis": "Seis estranhos são convidados a participar de um escape room, onde precisam resolver enigmas e sobreviver aos desafios mortais de salas temáticas. No entanto, logo descobrem que suas vidas estão em jogo."
+  },
+  {
+    "title": "O Lobo Atrás da Porta",
+    "genre": "Suspense",
+    "director": "Fernando Coimbra",
+    "year": 2013,
+    "leadActor": "Milhem Cortaz",
+    "synopsis": "Em uma investigação policial, uma mulher revela os detalhes do seu relacionamento conturbado com seu marido. A história se desenrola em torno de segredos, manipulações e mistérios que levam a um final inesperado."
+  },
+  {
+    "title": "Ilhados",
+    "genre": "Suspense",
+    "director": "M. Night Shyamalan",
+    "year": 2010,
+    "leadActor": "Mark Wahlberg",
+    "synopsis": "Um grupo de pessoas é forçado a enfrentar uma série de eventos misteriosos e apocalípticos enquanto tentam sobreviver a uma ameaça mortal em uma pequena cidade. Eles buscam entender o que está causando o caos."
+  },
+  {
+    "title": "Turista",
+    "genre": "Suspense",
+    "director": "Florian Henckel von Donnersmarck",
+    "year": 2010,
+    "leadActor": "Johnny Depp",
+    "synopsis": "Elise, uma mulher misteriosa, atrai Frank, um turista americano, para uma trama perigosa enquanto ele se vê envolvido em uma conspiração internacional. O que começa como um romance se transforma em uma série de eventos traiçoeiros."
+  },
+  {
+    "title": "Garota Exemplar",
+    "genre": "Suspense",
+    "director": "David Fincher",
+    "year": 2014,
+    "leadActor": "Ben Affleck",
+    "synopsis": "Nick Dunne se torna o principal suspeito do desaparecimento de sua esposa, Amy, que misteriosamente some no dia do seu quinto aniversário de casamento. O caso se torna uma mídia imensa e se desenrola em um suspense psicológico."
+  },
+  {
+    "title": "Um Estranho no Bosque",
+    "genre": "Suspense",
+    "director": "M. Night Shyamalan",
+    "year": 2004,
+    "leadActor": "Joaquin Phoenix",
+    "synopsis": "Em uma comunidade isolada que vive com medo de criaturas misteriosas que habitam os bosques ao redor, um jovem começa a questionar as verdades sobre o mundo ao seu redor e o que realmente ameaça sua segurança."
+  },
+  {
+    "title": "O Sexto Sentido",
+    "genre": "Suspense",
+    "director": "M. Night Shyamalan",
+    "year": 1999,
+    "leadActor": "Bruce Willis",
+    "synopsis": "Um psicólogo infantil tenta ajudar um garoto que afirma ver pessoas mortas. À medida que ele se aprofunda no caso, descobre segredos perturbadores sobre o próprio garoto e começa a questionar suas próprias percepções da realidade."
+  },
+  {
+    "title": "Armadilha",
+    "genre": "Suspense",
+    "director": "Adam Green",
+    "year": 2007,
+    "leadActor": "Kevin Zegers",
+    "synopsis": "Após um acidente durante uma viagem de esqui, um jovem e sua irmã ficam presos no teleférico de uma estação deserta. A tensão aumenta quando eles começam a perceber que podem não estar sozinhos na montanha."
+  },
+  {
+    "title": "Efeito Borboleta",
+    "genre": "Suspense",
+    "director": "Eric Bress, J. Mackye Gruber",
+    "year": 2004,
+    "leadActor": "Ashton Kutcher",
+    "synopsis": "Evan Treborn possui a habilidade de viajar no tempo e mudar eventos de seu passado. No entanto, ele logo descobre que suas tentativas de corrigir erros têm efeitos inesperados e cada alteração traz consequências perigosas."
+  },
+  {
+    "comentario": "APARTIR DAQUI É GUERRA"
+  },
+  {
+    "title": "Dunkirk",
+    "genre": "Guerra",
+    "director": "Christopher Nolan",
+    "year": 2017,
+    "leadActor": "Fionn Whitehead",
+    "synopsis": "Durante a Segunda Guerra Mundial, centenas de milhares de soldados aliados são cercados pelas forças alemãs na praia de Dunkirk. A operação de evacuação é realizada por mar, terra e ar para salvar essas vidas antes que sejam capturadas ou destruídas."
+  },
+  {
+    "title": "Até o Último Homem",
+    "genre": "Guerra",
+    "director": "Mel Gibson",
+    "year": 2016,
+    "leadActor": "Andrew Garfield",
+    "synopsis": "Baseado em uma história real, o filme segue Desmond Doss, um médico militar que serve durante a Segunda Guerra Mundial, recusando-se a carregar uma arma, mas salvando 75 homens em uma batalha brutal, sem disparar um único tiro."
+  },
+  {
+    "title": "Coração de Ferro",
+    "genre": "Guerra",
+    "director": "David Ayer",
+    "year": 2014,
+    "leadActor": "Brad Pitt",
+    "synopsis": "Durante os últimos dias da Segunda Guerra Mundial, um sargento e sua equipe de soldados operam um tanque de guerra em uma missão atrás das linhas inimigas. Eles enfrentam desafios imensos enquanto tentam sobreviver em um território hostil e devastado."
+  },
+  {
+    "title": "1917",
+    "genre": "Guerra",
+    "director": "Sam Mendes",
+    "year": 2019,
+    "leadActor": "George MacKay",
+    "synopsis": "No auge da Primeira Guerra Mundial, dois jovens soldados britânicos são encarregados de uma missão quase impossível: entregar uma mensagem que evitará um ataque fatal a um batalhão aliado. O filme segue essa jornada angustiante e cheia de perigos."
+  },
+  {
+    "title": "Greyhound",
+    "genre": "Guerra",
+    "director": "Aaron Schneider",
+    "year": 2020,
+    "leadActor": "Tom Hanks",
+    "synopsis": "Durante a Segunda Guerra Mundial, um capitão da Marinha dos EUA lidera um grupo de destróieres em um perigoso combate no Atlântico Norte, enquanto enfrenta submarinos nazistas e tenta proteger um comboio de suprimentos vital."
+  },
+  {
+    "title": "Nascido para Matar",
+    "genre": "Guerra",
+    "director": "Stanley Kubrick",
+    "year": 1987,
+    "leadActor": "Matthew Modine",
+    "synopsis": "Durante a Guerra do Vietnã, um grupo de recrutas do Exército dos EUA passa por um treinamento brutal, enquanto lidam com a realidade do campo de batalha e as consequências de suas ações. O filme explora os efeitos da guerra na mente humana."
+  },
+  {
+    "title": "O Destino de uma Nação",
+    "genre": "Guerra",
+    "director": "Joe Wright",
+    "year": 2017,
+    "leadActor": "Gary Oldman",
+    "synopsis": "No momento mais sombrio da Segunda Guerra Mundial, o primeiro-ministro britânico Winston Churchill enfrenta o desafio de liderar o Reino Unido contra a ameaça nazista. Ele luta para convencer o governo e o povo a resistir à invasão iminente da Alemanha."
+  },
+  {
+    "title": "Bastardos Inglórios",
+    "genre": "Guerra",
+    "director": "Quentin Tarantino",
+    "year": 2009,
+    "leadActor": "Brad Pitt",
+    "synopsis": "Em plena Segunda Guerra Mundial, um grupo de soldados judeus americanos conhecidos como os Bastardos Inglórios é formado para assassinar oficiais nazistas de alto escalão. A trama se desenrola com intensas reviravoltas e um confronto final histórico."
+  },
+  {
+    "title": "Jojo Rabbit",
+    "genre": "Guerra",
+    "director": "Taika Waititi",
+    "year": 2019,
+    "leadActor": "Roman Griffin Davis",
+    "synopsis": "Um jovem garoto que vive na Alemanha nazista descobre que sua mãe está escondendo uma jovem judia em sua casa. Ele precisa confrontar suas crenças quando seu mundo vira de cabeça para baixo, com a ajuda de seu 'amigo imaginário', uma versão caricata de Adolf Hitler."
+  },
+  {
+    "title": "Além da Linha Vermelha",
+    "genre": "Guerra",
+    "director": "Terrence Malick",
+    "year": 1998,
+    "leadActor": "Sean Penn",
+    "synopsis": "Durante a batalha de Guadalcanal na Segunda Guerra Mundial, um grupo de soldados americanos luta para sobreviver à brutalidade da guerra, enfrentando questões filosóficas sobre a vida, a morte e a natureza humana."
+  },
+  {
+    "title": "Nada de Novo no Front",
+    "genre": "Guerra",
+    "director": "Lewis Milestone",
+    "year": 1930,
+    "leadActor": "Lew Ayres",
+    "synopsis": "Baseado no livro de Erich Maria Remarque, o filme segue um grupo de jovens soldados alemães durante a Primeira Guerra Mundial. Eles enfrentam os horrores da guerra e começam a questionar a propaganda patriótica que os levou à batalha."
+  },
+  {
+    "title": "O Resgate do Soldado Ryan",
+    "genre": "Guerra",
+    "director": "Steven Spielberg",
+    "year": 1998,
+    "leadActor": "Tom Hanks",
+    "synopsis": "Durante a Segunda Guerra Mundial, um grupo de soldados é enviado para resgatar o soldado James Francis Ryan, que perdeu seus três irmãos na guerra. A missão se torna um épico confronto contra os horrores da batalha, com sacrifícios feitos em nome da fraternidade."
+  },
+  {
+    "title": "Troia",
+    "genre": "Guerra",
+    "director": "Wolfgang Petersen",
+    "year": 2004,
+    "leadActor": "Brad Pitt",
+    "synopsis": "Durante a Guerra de Troia, o príncipe parisiense se apaixona pela rainha helênica, o que resulta em um confronto épico entre os exércitos gregos e troianos. O filme explora as complexas relações entre os personagens e os sacrifícios feitos por honra, vingança e amor."
+  },
+  {
+    "comentario": "APARTIR DAQUI É GUERRA"
+  },
+  {
+    "title": "300",
+    "genre": "Guerra",
+    "director": "Zack Snyder",
+    "year": 2006,
+    "leadActor": "Gerard Butler",
+    "synopsis": "Baseado na famosa batalha das Termópilas, o filme segue o rei espartano Leônidas e seus 300 guerreiros que enfrentam o exército persa de Xerxes em uma luta épica por liberdade e honra."
+  },
+  {
+    "title": "O Grande Herói",
+    "genre": "Guerra",
+    "director": "Peter Berg",
+    "year": 2013,
+    "leadActor": "Mark Wahlberg",
+    "synopsis": "Baseado em uma história real, o filme segue a missão de uma equipe de Navy SEALs no Afeganistão, onde eles são atacados por talibãs em uma emboscada, e um dos soldados luta para sobreviver e resgatar seus companheiros."
+  },
+  {
+    "title": "O Menino de Pijama Listrado",
+    "genre": "Guerra",
+    "director": "Mark Herman",
+    "year": 2008,
+    "leadActor": "Asa Butterfield",
+    "synopsis": "Durante a Segunda Guerra Mundial, Bruno, um garoto de 8 anos, faz amizade com Shmuel, um menino judeu preso em um campo de concentração, sem compreender a gravidade da situação ao seu redor."
+  },
+  {
+    "title": "Cruzada",
+    "genre": "Guerra",
+    "director": "Ridley Scott",
+    "year": 2005,
+    "leadActor": "Orlando Bloom",
+    "synopsis": "Durante as Cruzadas, Balian, um jovem ferreiro, se junta a uma luta pela defesa de Jerusalém. Ele busca redenção e honra enquanto enfrenta questões morais e bélicas em meio a conflitos religiosos."
+  },
+  {
+    "title": "Midway - Batalha em Alto Mar",
+    "genre": "Guerra",
+    "director": "Roland Emmerich",
+    "year": 2019,
+    "leadActor": "Ed Skrein",
+    "synopsis": "Baseado na famosa batalha de Midway, o filme segue a história de aviadores e marinheiros que participaram de uma batalha decisiva durante a Segunda Guerra Mundial, mudando o curso do conflito no Pacífico."
+  },
+  {
+    "title": "Fantasmas de Guerra",
+    "genre": "Guerra",
+    "director": "Simon West",
+    "year": 2020,
+    "leadActor": "Brenton Thwaites",
+    "synopsis": "Durante a Segunda Guerra Mundial, um grupo de soldados americanos é enviado para uma missão secreta em um castelo na Europa ocupada pelos nazistas. Lá, eles descobrem que o local está assombrado por espíritos vingativos."
+  },
+  {
+    "title": "Caçadores de Obras-Primas",
+    "genre": "Guerra",
+    "director": "George Clooney",
+    "year": 2014,
+    "leadActor": "George Clooney",
+    "synopsis": "Durante a Segunda Guerra Mundial, um grupo de especialistas em arte é designado para localizar e salvar obras-primas roubadas pelos nazistas antes que elas sejam destruídas. O filme mistura ação com comédia em um cenário histórico."
+  },
+  {
+    "title": "Invencível",
+    "genre": "Guerra",
+    "director": "Angelina Jolie",
+    "year": 2014,
+    "leadActor": "Jack O'Connell",
+    "synopsis": "A história verdadeira de Louis Zamperini, um corredor olímpico e prisioneiro de guerra durante a Segunda Guerra Mundial, que sobreviveu a um naufrágio, passou semanas à deriva no oceano e foi capturado pelos japoneses."
+  },
+  {
+    "title": "Platoon",
+    "genre": "Guerra",
+    "director": "Oliver Stone",
+    "year": 1986,
+    "leadActor": "Charlie Sheen",
+    "synopsis": "Um jovem soldado americano é enviado para o Vietnã e se vê no meio da brutalidade e dos dilemas morais da guerra. O filme explora as experiências traumáticas e a luta interna dos soldados em um ambiente de combate."
+  },
+  {
+    "title": "Oppenheimer",
+    "genre": "Guerra",
+    "director": "Christopher Nolan",
+    "year": 2023,
+    "leadActor": "Cillian Murphy",
+    "synopsis": "O filme conta a história de J. Robert Oppenheimer, o físico que liderou o projeto Manhattan, desenvolvendo a primeira bomba atômica durante a Segunda Guerra Mundial, e os dilemas morais e pessoais que ele enfrentou durante e após o conflito."
+  },
+  {
+    "title": "Sniper Americano",
+    "genre": "Guerra",
+    "director": "Clint Eastwood",
+    "year": 2014,
+    "leadActor": "Bradley Cooper",
+    "synopsis": "Baseado na história real de Chris Kyle, o atirador de elite mais letal da história militar dos Estados Unidos, o filme segue sua vida no campo de batalha no Iraque e o impacto emocional que suas ações tiveram em sua vida pessoal."
+  },
+  {
+    "title": "Sisu - Uma História de Determinação",
+    "genre": "Guerra",
+    "director": "Jalmari Helander",
+    "year": 2022,
+    "leadActor": "Jorma Tommaila",
+    "synopsis": "Durante a Segunda Guerra Mundial, um homem solitário e com grande determinação, armado apenas com sua força e resistência, enfrenta um grupo de soldados nazistas em uma luta pela sobrevivência."
+  },
+  {
+    "title": "Stalingrad",
+    "genre": "Guerra",
+    "director": "Joseph Vilsmaier",
+    "year": 1993,
+    "leadActor": "Thomas Kretschmann",
+    "synopsis": "O filme segue um grupo de soldados alemães durante a batalha de Stalingrado na Segunda Guerra Mundial, um dos maiores e mais sangrentos confrontos da história, enquanto eles lutam para sobreviver no cerco soviético."
+  },
+  {
+    "title": "Coração Valente",
+    "genre": "Guerra",
+    "director": "Mel Gibson",
+    "year": 1995,
+    "leadActor": "Mel Gibson",
+    "synopsis": "William Wallace, um camponês escocês, lidera uma revolta contra o domínio inglês após a morte de sua esposa. Ele busca liberdade para seu povo, tornando-se um símbolo de coragem e resistência na luta pela independência da Escócia."
+  },
+  {
+    "comentario": "APARTIR DAQUI É FAROESTE"
+  },
+  {
+    "title": "Por um Punhado de Dólares",
+    "genre": "Faroeste",
+    "director": "Sergio Leone",
+    "year": 1964,
+    "leadActor": "Clint Eastwood",
+    "synopsis": "Um pistoleiro solitário chega a uma cidade dominada por duas famílias rivais e decide usar seu talento para o conflito, manipulando as duas facções para seu próprio benefício."
+  },
+  {
+    "title": "Três Homens e um Conflito",
+    "genre": "Faroeste",
+    "director": "Sergio Leone",
+    "year": 1966,
+    "leadActor": "Clint Eastwood",
+    "synopsis": "Um homem misterioso se une a dois outros caçadores de recompensas para enfrentar um vilão em busca de um tesouro escondido, enquanto os três são forçados a lidar com suas próprias motivações."
+  },
+  {
+    "title": "Os Imperdoáveis",
+    "genre": "Faroeste",
+    "director": "Clint Eastwood",
+    "year": 1992,
+    "leadActor": "Clint Eastwood",
+    "synopsis": "Um ex-pistoleiro é atraído de volta para a violência quando aceita uma missão de caçar dois homens que atacaram uma prostituta, enfrentando sua própria moralidade e passado sombrio."
+  },
+  {
+    "title": "Django Livre",
+    "genre": "Faroeste",
+    "director": "Quentin Tarantino",
+    "year": 2012,
+    "leadActor": "Jamie Foxx",
+    "synopsis": "Django, um escravo libertado, une-se a um caçador de recompensas para resgatar sua esposa sequestrada, enfrentando preconceito e violência em sua busca por justiça."
+  },
+  {
+    "title": "Sete Homens e um Destino",
+    "genre": "Faroeste",
+    "director": "Antoine Fuqua",
+    "year": 2016,
+    "leadActor": "Denzel Washington",
+    "synopsis": "Sete pistoleiros são contratados para proteger uma cidade pequena de um empresário corrupto, enfrentando um exército de capangas em um confronto épico."
+  },
+  {
+    "title": "Bater ou Correr",
+    "genre": "Faroeste",
+    "director": "Peter Yates",
+    "year": 1969,
+    "leadActor": "Steve McQueen",
+    "synopsis": "Um criminoso é forçado a correr contra o tempo para escapar de uma armadilha enquanto tenta escapar de um policial implacável."
+  },
+  {
+    "title": "Inferno no Faroeste",
+    "genre": "Faroeste",
+    "director": "Sam Peckinpah",
+    "year": 1971,
+    "leadActor": "William Holden",
+    "synopsis": "Um grupo de pistoleiros é contratado para levar uma carga de ouro por territórios inexplorados, mas logo se vê em uma batalha desesperada contra uma tribo indígena hostil."
+  },
+  {
+    "title": "A Balada de Buster Scruggs",
+    "genre": "Faroeste",
+    "director": "Joel e Ethan Coen",
+    "year": 2018,
+    "leadActor": "Tim Blake Nelson",
+    "synopsis": "Uma antologia de seis histórias ambientadas no Velho Oeste, cada uma explorando diferentes aspectos da vida e da morte no campo."
+  },
+  {
+    "title": "Os Oito Odiados",
+    "genre": "Faroeste",
+    "director": "Quentin Tarantino",
+    "year": 2015,
+    "leadActor": "Samuel L. Jackson",
+    "synopsis": "Em uma tempestade de neve, oito estranhos se encontram em uma cabana isolada, onde segredos sombrios surgem e as tensões explodem em uma série de traições e mortes."
+  },
+  {
+    "title": "O Cavaleiro Solitário",
+    "genre": "Faroeste",
+    "director": "Gore Verbinski",
+    "year": 2013,
+    "leadActor": "Johnny Depp",
+    "synopsis": "Um advogado é transformado no lendário justiceiro mascarado, o Cavaleiro Solitário, após fazer parceria com um índio, Tonto, para lutar contra a injustiça no Velho Oeste."
+  },
+  {
+    "title": "Os Seis Ridículos",
+    "genre": "Faroeste",
+    "director": "Mel Brooks",
+    "year": 1974,
+    "leadActor": "Cleavon Little",
+    "synopsis": "Um xerife negro assume o controle de uma cidade do Velho Oeste enquanto enfrenta um vilão racista e tenta salvar o lugar de um plano maligno."
+  },
+  {
+    "title": "As Loucas Aventuras de James West",
+    "genre": "Faroeste",
+    "director": "Barry Sonnenfeld",
+    "year": 1999,
+    "leadActor": "Will Smith",
+    "synopsis": "James West, um agente secreto do governo dos EUA, e seu parceiro Artemus Gordon devem impedir um vilão de usar uma arma destrutiva que ameaça o país."
+  },
+  {
+    "title": "Onde os Fracos Não Têm Vez",
+    "genre": "Faroeste",
+    "director": "Joel e Ethan Coen",
+    "year": 2007,
+    "leadActor": "Tommy Lee Jones",
+    "synopsis": "Um assassino implacável caça um homem que encontrou uma mala cheia de dinheiro, enquanto um xerife tenta desvendar os mistérios do crime e da violência."
+  },
+  {
+    "title": "Rápido e Mortal",
+    "genre": "Faroeste",
+    "director": "Sam Raimi",
+    "year": 1995,
+    "leadActor": "Sharon Stone",
+    "synopsis": "Uma mulher misteriosa chega a uma cidade do Velho Oeste e se inscreve em um torneio de tiro, desafiando os homens locais e revelando um passado sombrio."
+  },
+  {
+    "title": "Um Milhão de Maneiras de Pegar na Pistola",
+    "genre": "Faroeste",
+    "director": "Seth MacFarlane",
+    "year": 2014,
+    "leadActor": "Seth MacFarlane",
+    "synopsis": "Um homem tímido do Velho Oeste muda sua vida quando aprende a usar uma pistola, mas agora precisa enfrentar um pistoleiro experiente e sua esposa perigosa."
+  },
+  {
+    "title": "Cowboys vs Aliens",
+    "genre": "Faroeste",
+    "director": "Jon Favreau",
+    "year": 2011,
+    "leadActor": "Daniel Craig",
+    "synopsis": "No Velho Oeste, um pistoleiro amnésico une forças com caubóis e índios para lutar contra uma invasão alienígena que ameaça destruir a Terra."
+  },
+  {
+    "title": "Bacurau",
+    "genre": "Faroeste",
+    "director": "Kleber Mendonça Filho, Juliano Dornelles",
+    "year": 2019,
+    "leadActor": "Sônia Braga",
+    "synopsis": "Em uma pequena cidade do nordeste brasileiro, os habitantes enfrentam forças externas em uma luta pela sobrevivência e pela identidade de sua comunidade."
+  },
+  {
+    "title": "Jonah Hex - Caçador de Recompensas",
+    "genre": "Faroeste",
+    "director": "Jimmy Hayward",
+    "year": 2010,
+    "leadActor": "Josh Brolin",
+    "synopsis": "Jonah Hex, um caçador de recompensas com uma cicatriz marcante, é forçado a enfrentar seu passado e lutar contra um vilão que ameaça destruir o país com uma arma de destruição em massa."
+  },
+  {
+    "title": "El Mariachi",
+    "genre": "Faroeste",
+    "director": "Robert Rodriguez",
+    "year": 1992,
+    "leadActor": "Carlos Gallardo",
+    "synopsis": "Um mariachi errante é confundido com um assassino procurado e se vê em meio a uma violenta luta entre criminosos, enquanto tenta limpar seu nome e sobreviver a várias ameaças."
+  },
+  {
+    "title": "O Assassinato de Jesse James",
+    "genre": "Faroeste",
+    "director": "Andrew Dominik",
+    "year": 2007,
+    "leadActor": "Brad Pitt",
+    "synopsis": "O filme narra os últimos dias de Jesse James, um famoso fora-da-lei do século XIX, e seu assassinato por Robert Ford, um membro de sua própria gangue, que busca fama e redenção."
+  },
+  {
+    "title": "Lendas da Paixão",
+    "genre": "Faroeste",
+    "director": "Edward Zwick",
+    "year": 1994,
+    "leadActor": "Brad Pitt",
+    "synopsis": "Ambientado no início do século XX, o filme segue a vida de três irmãos e seu pai em uma fazenda montanhosa no Montana, enfrentando amores, conflitos e a tragédia que marcará suas vidas."
+  },
+  {
+    "title": "Retorno da Lenda",
+    "genre": "Faroeste",
+    "director": "Rod Hardy",
+    "year": 1987,
+    "leadActor": "James Garner",
+    "synopsis": "Um ex-pistoleiro retorna à sua cidade natal para se vingar de um antigo inimigo, enquanto tenta redimir seu passado e lidar com os fantasmas da violência que ele deixou para trás."
+  },
+  {
+    "comentario": "APARTIR DAQUI É ESPORTE"
+  },
+  {
+    "comentario": "APARTIR DAQUI É "
+  },
+  {
+    "comentario": "APARTIR DAQUI É "
+  }
+]
