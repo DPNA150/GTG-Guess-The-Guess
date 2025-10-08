@@ -177,7 +177,7 @@ function revealAllHints() {
     updateHint('hint1', `- Diretor: ${serie.diretor}`); // Revela a dica de gênero.
     updateHint('hint2', `- Genero: ${serie.genero}`); // Revela a dica de diretor.
     updateHint('hint3', `- Protagonista: ${serie.protagonista}`); // Revela a dica de ano.
-    updateHint('hint4', `- Sinopse: ${serie.synopsis}`); // Revela a dica de sinopse.
+    updateHint('hint4', `- Sinopse: ${serie.sinopse}`); // Revela a dica de sinopse.
     allHintsRevealed = true; // Define a flag para indicar que todas as dicas foram reveladas.
     tentativas = 0; // Define as tentativas para zero.
     document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/13'; // Atualiza o texto das tentativas.
@@ -252,7 +252,7 @@ function revealHint() {
         updateHint(randomHint.id, randomHint.text); // Chama a função para atualizar a dica na interface.
     } else {
         // Se todas as dicas principais já foram reveladas, revela a sinopse.
-        updateHint('hint4', `- Sinopse: ${serie.synopsis}`); // Revela a dica de sinopse.
+        updateHint('hint4', `- Sinopse: ${serie.sinopse}`); // Revela a dica de sinopse.
         allHintsRevealed = true; // Define a flag de dicas reveladas.
     }
 
