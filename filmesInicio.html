@@ -10,18 +10,6 @@
 </head>
 
 <body>
-    <center>
-        <div id="menssagemInicio">
-            <h1>
-                Bem-Vindo ao GTG!
-            </h1>
-<br>
-            <input onclick="revealHint()" type="button" value="VAMOS COMEÇAR!!">
-        </div>
-    </center>
-
-    <div id="temas" style="display: none;">
-        <br>
         <div class="topo">
             <img src="setaEsquerda.png" class="seta" id="voltar">
             <h1>Qual é o Filme?</h1>
@@ -57,20 +45,9 @@
     </div>
 </body>
 
-<script>
-    const temas = document.getElementById("temas");
-    const menssagemInicio = document.getElementById("menssagemInicio");
-
-    function iniciar() {
-        menssagemInicio.style.display = "none";
-        temas.style.display = "block";
-    }
-
-    document.querySelector("input[type=button]").addEventListener("click", iniciar);
-</script>
-
 <script src="filmes.js"></script>
 
 
 </html>
+
 
