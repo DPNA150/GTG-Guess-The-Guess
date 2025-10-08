@@ -10,18 +10,6 @@
 </head>
 
 <body>
-    <center>
-        <div id="menssagemInicio">
-            <h1>
-                Bem-Vindo ao GTG!
-            </h1>
-<br>
-            <input onclick="revealHint()" type="button" value="VAMOS COMEÇAR!!">
-        </div>
-    </center>
-
-    <div id="temas" style="display: none;">
-        <br>
         <div class="topo">
             <img src="setaEsquerda.png" class="seta" id="voltar">
             <h1>Qual é a Animação?</h1>
@@ -54,22 +42,10 @@
             <img src="logoDPNA.png" width="10%" alt="logo">
             <p class="copyright">&copy; Copyright DPNA CRIAS</p><br>
         </ul>
-    </div>
 </body>
-
-<script>
-    const temas = document.getElementById("temas");
-    const menssagemInicio = document.getElementById("menssagemInicio");
-
-    function iniciar() {
-        menssagemInicio.style.display = "none";
-        temas.style.display = "block";
-    }
-
-    document.querySelector("input[type=button]").addEventListener("click", iniciar);
-</script>
 
 <script src="animacoes.js"></script>
 
 </html>
+
 
