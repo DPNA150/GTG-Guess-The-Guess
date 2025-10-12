@@ -339,3 +339,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     loadesporteData(); // Inicia o processo de carregamento dos dados dos esportes quando o script é executado.
 });
+
