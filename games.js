@@ -307,10 +307,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 } else {
                     // Se o jogo não for encontrado...
                     if (feedback) {
-                        feedback.textContent = 'jogo não encontrado. Tente novamente!'; // Exibe uma mensagem de erro.
-                        feedback.className = 'feedback incorrect'; // Altera a classe CSS para indicar erro.
-                        const giveUpBtn = document.getElementById('giveUpButton'); // Obtém o botão de desistir.
-                        if (giveUpBtn) giveUpBtn.style.display = 'inline-block'; // Garante que o botão de desistir está visível.
+                        alert("Objeto não encontrado no nosso banco de dados. Tente novamente!")
                     }
                 }
                 guessInput.value = ''; // Limpa o campo de entrada após o palpite.
@@ -332,12 +329,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 checkGuess(guessedgame); // Chama a função para verificar o palpite.
             } else {
                 // Se o jogo não for encontrado...
-                if (feedback) {
-                    feedback.textContent = 'jogo não encontrado. Tente novamente!'; // Exibe uma mensagem de erro.
-                    feedback.className = 'feedback incorrect'; // Altera a classe CSS para indicar erro.
-                    const giveUpBtn = document.getElementById('giveUpButton'); // Obtém o botão de desistir.
-                    if (giveUpBtn) giveUpBtn.style.display = 'inline-block'; // Garante que o botão de desistir está visível.
-                }
+                    if (feedback) {
+                        alert("Objeto não encontrado no nosso banco de dados. Tente novamente!")
+                    }
             }
             guessInput.value = ''; // Limpa o campo de entrada após o palpite.
         });
@@ -345,4 +339,5 @@ document.addEventListener('DOMContentLoaded', () => {
     // >>>>>>> FIM DA ADIÇÃO <<<<<<
 
     loadgameData(); // Inicia o processo de carregamento dos dados dos games quando o script é executado.
+
 });
