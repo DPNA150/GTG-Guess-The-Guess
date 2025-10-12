@@ -1,0 +1,702 @@
+[
+    {
+        "title": "Stranger Things",
+        "genero": "Ficção científica",
+        "diretor": "The Duffer Brothers",
+        "protagonista": "Millie Bobby Brown",
+        "sinopse": "Em uma pequena cidade dos anos 80, um garoto desaparece misteriosamente, levando seus amigos e familiares a descobrirem experimentos secretos e uma criatura de outro mundo."
+    },
+    {
+        "title": "Game of Thrones",
+        "genero": "Fantasia",
+        "diretor": "David Benioff, D. B. Weiss",
+        "protagonista": "Emilia Clarke",
+        "sinopse": "Nobreza e traição se misturam na luta pelo Trono de Ferro, enquanto ameaças sobrenaturais surgem ao norte do reino de Westeros."
+    },
+    {
+        "title": "The Office",
+        "genero": "Comédia",
+        "diretor": "Greg Daniels",
+        "protagonista": "Steve Carell",
+        "sinopse": "Um falso documentário sobre o cotidiano dos funcionários de um escritório de papelaria e seu chefe desajeitado e carismático, Michael Scott."
+    },
+    {
+        "title": "Breaking Bad",
+        "genero": "Crime",
+        "diretor": "Vince Gilligan",
+        "protagonista": "Bryan Cranston",
+        "sinopse": "Um professor de química do ensino médio decide fabricar metanfetamina para garantir o futuro de sua família após ser diagnosticado com câncer."
+    },
+    {
+        "title": "The Walking Dead",
+        "genero": "Terror",
+        "diretor": "Frank Darabont",
+        "protagonista": "Andrew Lincoln",
+        "sinopse": "Após um apocalipse zumbi, um grupo de sobreviventes luta pela vida e pela esperança em um mundo devastado."
+    },
+    {
+        "title": "Friends",
+        "genero": "Comédia",
+        "diretor": "David Crane, Marta Kauffman",
+        "protagonista": "Jennifer Aniston",
+        "sinopse": "Seis amigos enfrentam juntos os altos e baixos da vida adulta em Nova York, entre risadas, romances e muito café."
+    },
+    {
+        "title": "The Big Bang Theory",
+        "genero": "Comédia",
+        "diretor": "Chuck Lorre, Bill Prady",
+        "protagonista": "Jim Parsons",
+        "sinopse": "Dois físicos brilhantes, porém socialmente desajustados, têm suas vidas transformadas quando conhecem uma nova vizinha extrovertida."
+    },
+    {
+        "title": "Narcos",
+        "genero": "Crime",
+        "diretor": "José Padilha",
+        "protagonista": "Wagner Moura",
+        "sinopse": "A ascensão e queda de Pablo Escobar e do cartel de Medellín, narradas pelos agentes que tentaram capturá-lo."
+    },
+    {
+        "title": "Riverdale",
+        "genero": "Drama",
+        "diretor": "Roberto Aguirre-Sacasa",
+        "protagonista": "K.J. Apa",
+        "sinopse": "Após a morte de um estudante, os jovens de Riverdale tentam desvendar os segredos sombrios que assolam a cidade."
+    },
+    {
+        "title": "The 100",
+        "genero": "Ficção científica",
+        "diretor": "Jason Rothenberg",
+        "protagonista": "Eliza Taylor",
+        "sinopse": "Cem jovens são enviados de volta à Terra, quase cem anos após um apocalipse nuclear, para descobrir se o planeta é novamente habitável."
+    },
+    {
+        "title": "Orange is the New Black",
+        "genero": "Drama",
+        "diretor": "Jenji Kohan",
+        "protagonista": "Taylor Schilling",
+        "sinopse": "Uma mulher de classe média é presa por um crime cometido anos antes e precisa se adaptar à dura realidade da vida em uma prisão feminina."
+    },
+    {
+        "title": "Black Mirror",
+        "genero": "Ficção científica",
+        "diretor": "Charlie Brooker",
+        "protagonista": "Vários",
+        "sinopse": "Cada episódio explora o lado obscuro da tecnologia e sua influência perturbadora na sociedade moderna."
+    },
+    {
+        "title": "The Flash",
+        "genero": "Super-herói",
+        "diretor": "Greg Berlanti, Andrew Kreisberg",
+        "protagonista": "Grant Gustin",
+        "sinopse": "Após ser atingido por um raio, Barry Allen ganha supervelocidade e passa a combater o crime como o herói conhecido como Flash."
+    },
+    {
+        "title": "Arrow",
+        "genero": "Super-herói",
+        "diretor": "Greg Berlanti, Marc Guggenheim",
+        "protagonista": "Stephen Amell",
+        "sinopse": "Após cinco anos desaparecido, um bilionário retorna à sua cidade decidido a combater o crime como o vigilante arqueiro verde."
+    },
+    {
+        "title": "Supernatural",
+        "genero": "Fantasia",
+        "diretor": "Eric Kripke",
+        "protagonista": "Jared Padalecki, Jensen Ackles",
+        "sinopse": "Dois irmãos caçam demônios, fantasmas e outras criaturas sobrenaturais enquanto enfrentam seu próprio destino."
+    },
+    {
+        "title": "The Vampire Diaries",
+        "genero": "Fantasia",
+        "diretor": "Julie Plec, Kevin Williamson",
+        "protagonista": "Nina Dobrev",
+        "sinopse": "Uma jovem se vê dividida entre dois irmãos vampiros, enquanto sua cidade esconde segredos sombrios e perigosos."
+    },
+    {
+        "title": "Pretty Little Liars",
+        "genero": "Mistério",
+        "diretor": "I. Marlene King",
+        "protagonista": "Troian Bellisario, Lucy Hale, Ashley Benson, Shay Mitchell",
+        "sinopse": "Após o desaparecimento de sua amiga, um grupo de adolescentes começa a receber mensagens ameaçadoras de alguém que sabe de todos os seus segredos."
+    },
+    {
+        "title": "Gossip Girl",
+        "genero": "Drama",
+        "diretor": "Josh Schwartz, Stephanie Savage",
+        "protagonista": "Blake Lively, Leighton Meester",
+        "sinopse": "Jovens da elite de Manhattan vivem entre escândalos e fofocas reveladas por um misterioso blogueiro anônimo."
+    },
+    {
+        "title": "The Simpsons",
+        "genero": "Animação",
+        "diretor": "Matt Groening",
+        "protagonista": "Dan Castellaneta (voz de Homer Simpson)",
+        "sinopse": "A família Simpson vive situações hilárias e críticas ao cotidiano americano na cidade fictícia de Springfield."
+    },
+    {
+        "title": "The Good Place",
+        "genero": "Comédia",
+        "diretor": "Michael Schur",
+        "protagonista": "Kristen Bell",
+        "sinopse": "Após morrer, uma mulher é enviada por engano para o 'Bom Lugar' e tenta esconder seus defeitos enquanto aprende a se tornar uma pessoa melhor."
+    },
+    {
+        "title": "Brooklyn Nine-Nine",
+        "genero": "Comédia",
+        "diretor": "Michael Schur, Dan Goor",
+        "protagonista": "Andy Samberg",
+        "sinopse": "Um grupo de detetives engraçados e excêntricos do 99º distrito de polícia do Brooklyn enfrenta casos e situações absurdas sob o comando de um capitão rígido."
+    },
+    {
+        "title": "Parks and Recreation",
+        "genero": "Comédia",
+        "diretor": "Greg Daniels, Michael Schur",
+        "protagonista": "Amy Poehler",
+        "sinopse": "Leslie Knope, funcionária pública otimista, tenta melhorar sua cidade com entusiasmo e bom humor, enfrentando a burocracia e colegas peculiares."
+    },
+    {
+        "title": "The Good Doctor",
+        "genero": "Drama",
+        "diretor": "David Shore",
+        "protagonista": "Freddie Highmore",
+        "sinopse": "Um jovem cirurgião com autismo e síndrome de Savant enfrenta o ceticismo de colegas enquanto prova seu talento em um hospital renomado."
+    },
+    {
+        "title": "Grey's Anatomy",
+        "genero": "Drama",
+        "diretor": "Shonda Rhimes",
+        "protagonista": "Ellen Pompeo",
+        "sinopse": "Cirurgiões e residentes enfrentam desafios profissionais e pessoais dentro e fora do hospital Grey Sloan Memorial."
+    },
+    {
+        "title": "How I Met Your Mother",
+        "genero": "Comédia",
+        "diretor": "Carter Bays, Craig Thomas",
+        "protagonista": "Josh Radnor",
+        "sinopse": "Ted Mosby conta aos filhos a longa e engraçada história de como conheceu sua mãe, relembrando aventuras com seus amigos em Nova York."
+    },
+    {
+        "title": "The Marvelous Mrs. Maisel",
+        "genero": "Comédia",
+        "diretor": "Amy Sherman-Palladino",
+        "protagonista": "Rachel Brosnahan",
+        "sinopse": "Na Nova York dos anos 1950, uma dona de casa descobre talento para o stand-up comedy após ver sua vida virar de cabeça para baixo."
+    },
+    {
+        "title": "Killing Eve",
+        "genero": "Suspense",
+        "diretor": "Phoebe Waller-Bridge",
+        "protagonista": "Sandra Oh, Jodie Comer",
+        "sinopse": "Uma agente do MI6 e uma assassina psicopata desenvolvem uma perigosa e intrigante obsessão mútua."
+    },
+    {
+        "title": "Fleabag",
+        "genero": "Comédia",
+        "diretor": "Phoebe Waller-Bridge",
+        "protagonista": "Phoebe Waller-Bridge",
+        "sinopse": "Uma mulher espirituosa e autodestrutiva tenta lidar com o luto, o amor e a vida em Londres, quebrando constantemente a quarta parede."
+    },
+    {
+        "title": "The Crown",
+        "genero": "Drama",
+        "diretor": "Peter Morgan",
+        "protagonista": "Claire Foy, Olivia Colman, Imelda Staunton",
+        "sinopse": "A história da Rainha Elizabeth II e dos eventos políticos e pessoais que moldaram o Reino Unido durante seu longo reinado."
+    },
+    {
+        "title": "Westworld",
+        "genero": "Ficção científica",
+        "diretor": "Jonathan Nolan, Lisa Joy",
+        "protagonista": "Evan Rachel Wood",
+        "sinopse": "Em um parque temático futurista habitado por robôs, os visitantes vivem fantasias — até que as máquinas começam a despertar consciência."
+    },
+    {
+        "title": "The Handmaid's Tale",
+        "genero": "Distopia",
+        "diretor": "Bruce Miller",
+        "protagonista": "Elisabeth Moss",
+        "sinopse": "Em um regime totalitário, mulheres férteis são escravizadas como criadoras de filhos para a elite dominante."
+    },
+    {
+        "title": "This Is Us",
+        "genero": "Drama",
+        "diretor": "Dan Fogelman",
+        "protagonista": "Milo Ventimiglia, Mandy Moore, Sterling K. Brown",
+        "sinopse": "A história emocional e entrelaçada de uma família ao longo de diferentes fases da vida, explorando amor, perda e conexões humanas."
+    },
+    {
+        "title": "The Witcher",
+        "genero": "Fantasia",
+        "diretor": "Lauren Schmidt Hissrich",
+        "protagonista": "Henry Cavill",
+        "sinopse": "Geralt de Rívia, um caçador de monstros solitário, luta para encontrar seu lugar em um mundo onde humanos podem ser mais cruéis que as bestas."
+    },
+    {
+        "title": "Lucifer",
+        "genero": "Fantasia",
+        "diretor": "Tom Kapinos",
+        "protagonista": "Tom Ellis",
+        "sinopse": "Cansado do inferno, Lúcifer Morningstar se muda para Los Angeles, onde ajuda a polícia a resolver crimes enquanto enfrenta dilemas existenciais."
+    },
+    {
+        "title": "The Umbrella Academy",
+        "genero": "Super-herói",
+        "diretor": "Steve Blackman",
+        "protagonista": "Elliot Page",
+        "sinopse": "Uma família disfuncional de irmãos adotivos com poderes extraordinários se reúne para impedir o apocalipse e resolver mistérios do passado."
+    },
+    {
+        "title": "Daredevil",
+        "genero": "Super-herói",
+        "diretor": "Drew Goddard",
+        "protagonista": "Charlie Cox",
+        "sinopse": "Cego desde a infância, Matt Murdock usa seus sentidos aprimorados para combater o crime como o vigilante mascarado Demolidor."
+    },
+    {
+        "title": "Jessica Jones",
+        "genero": "Super-herói",
+        "diretor": "Melissa Rosenberg",
+        "protagonista": "Krysten Ritter",
+        "sinopse": "Uma ex-heroína com poderes tenta reconstruir sua vida como detetive particular, enquanto enfrenta traumas do passado e inimigos poderosos."
+    },
+    {
+        "title": "The Punisher",
+        "genero": "Ação",
+        "diretor": "Steve Lightfoot",
+        "protagonista": "Jon Bernthal",
+        "sinopse": "Após a morte de sua família, Frank Castle se torna o vigilante Punisher, em busca de vingança e justiça contra o crime organizado."
+    },
+    {
+        "title": "The Mandalorian",
+        "genero": "Ficção científica",
+        "diretor": "Jon Favreau",
+        "protagonista": "Pedro Pascal",
+        "sinopse": "Um caçador de recompensas solitário navega pelos confins da galáxia, protegendo uma misteriosa criança sensível à Força."
+    },
+    {
+        "title": "The Expanse",
+        "genero": "Ficção científica",
+        "diretor": "Mark Fergus, Hawk Ostby",
+        "protagonista": "Steven Strait",
+        "sinopse": "Em um futuro onde a humanidade colonizou o sistema solar, tensões políticas entre Terra, Marte e o Cinturão ameaçam a paz e a sobrevivência humana."
+    },
+    {
+        "title": "Altered Carbon",
+        "genero": "Ficção científica",
+        "diretor": "Laeta Kalogridis",
+        "protagonista": "Joel Kinnaman",
+        "sinopse": "Em um futuro onde a consciência pode ser transferida entre corpos, um ex-soldado é contratado para resolver o assassinato de um homem rico e misterioso."
+    },
+    {
+        "title": "Sense8",
+        "genero": "Ficção científica",
+        "diretor": "Lana Wachowski, Lilly Wachowski, J. Michael Straczynski",
+        "protagonista": "Doona Bae, Miguel Ángel Silvestre, Jamie Clayton",
+        "sinopse": "Oito pessoas ao redor do mundo descobrem estar mental e emocionalmente conectadas, compartilhando habilidades e emoções enquanto fogem de uma organização perigosa."
+    },
+    {
+        "title": "The Haunting of Hill House",
+        "genero": "Terror",
+        "diretor": "Mike Flanagan",
+        "protagonista": "Michiel Huisman, Carla Gugino, Victoria Pedretti",
+        "sinopse": "Uma família marcada por traumas volta a enfrentar os fantasmas reais e psicológicos de sua antiga casa assombrada."
+    },
+    {
+        "title": "American Horror Story",
+        "genero": "Terror",
+        "diretor": "Ryan Murphy, Brad Falchuk",
+        "protagonista": "Sarah Paulson, Evan Peters",
+        "sinopse": "Série antológica em que cada temporada apresenta uma nova história de terror, explorando temas como casas assombradas, cultos e bruxas."
+    },
+    {
+        "title": "The X-Files",
+        "genero": "Ficção científica",
+        "diretor": "Chris Carter",
+        "protagonista": "David Duchovny, Gillian Anderson",
+        "sinopse": "Dois agentes do FBI investigam casos misteriosos e inexplicáveis que envolvem fenômenos paranormais e conspirações governamentais."
+    },
+    {
+        "title": "Lost",
+        "genero": "Mistério",
+        "diretor": "J.J. Abrams, Damon Lindelof",
+        "protagonista": "Matthew Fox, Evangeline Lilly",
+        "sinopse": "Após um acidente de avião, sobreviventes ficam presos em uma ilha cheia de segredos, forças misteriosas e desafios inesperados."
+    },
+    {
+        "title": "The Sopranos",
+        "genero": "Crime",
+        "diretor": "David Chase",
+        "protagonista": "James Gandolfini",
+        "sinopse": "O mafioso Tony Soprano busca equilibrar os desafios de liderar uma família criminosa e lidar com sua saúde mental através da terapia."
+    },
+    {
+        "title": "Mad Men",
+        "genero": "Drama",
+        "diretor": "Matthew Weiner",
+        "protagonista": "Jon Hamm",
+        "sinopse": "Nos anos 1960, um publicitário carismático e enigmático enfrenta conflitos pessoais e profissionais no competitivo mundo da publicidade em Nova York."
+    },
+    {
+        "title": "The Wire",
+        "genero": "Crime",
+        "diretor": "David Simon",
+        "protagonista": "Dominic West, Idris Elba",
+        "sinopse": "A vida em Baltimore é retratada através das perspectivas de policiais, traficantes e moradores, expondo os problemas sociais e institucionais da cidade."
+    },
+    {
+        "title": "Dexter",
+        "genero": "Crime",
+        "diretor": "James Manos Jr.",
+        "protagonista": "Michael C. Hall",
+        "sinopse": "Um analista forense da polícia de Miami vive uma vida dupla como serial killer que mata criminosos que escaparam da justiça."
+    },
+    {
+        "title": "True Blood",
+        "genero": "Fantasia",
+        "diretor": "Alan Ball",
+        "protagonista": "Anna Paquin",
+        "sinopse": "Em uma cidade da Louisiana, humanos e vampiros tentam coexistir após a criação de um sangue sintético, enquanto paixões e conflitos emergem."
+    },
+    {
+        "title": "The Originals",
+        "genero": "Fantasia",
+        "diretor": "Julie Plec",
+        "protagonista": "Joseph Morgan",
+        "sinopse": "A família original de vampiros retorna a Nova Orleans para retomar o poder e enfrentar inimigos antigos e novos."
+    },
+    {
+        "title": "The Magicians",
+        "genero": "Fantasia",
+        "diretor": "Sera Gamble, John McNamara",
+        "protagonista": "Jason Ralph",
+        "sinopse": "Um jovem descobre que o mundo mágico dos livros que lia na infância é real e mais perigoso do que imaginava."
+    },
+    {
+        "title": "Grimm",
+        "genero": "Fantasia",
+        "diretor": "Stephen Carpenter, David Greenwalt, Jim Kouf",
+        "protagonista": "David Giuntoli",
+        "sinopse": "Um detetive descobre ser descendente de caçadores lendários e precisa proteger o mundo humano de criaturas sobrenaturais conhecidas como Wesen."
+    },
+    {
+        "title": "Supergirl",
+        "genero": "Super-herói",
+        "diretor": "Greg Berlanti, Ali Adler",
+        "protagonista": "Melissa Benoist",
+        "sinopse": "Kara Zor-El, prima do Superman, decide abraçar seus poderes e proteger a Terra como a heroína Supergirl."
+    },
+    {
+        "title": "Legends of Tomorrow",
+        "genero": "Super-herói",
+        "diretor": "Greg Berlanti, Marc Guggenheim, Phil Klemmer",
+        "protagonista": "Caity Lotz",
+        "sinopse": "Heróis e vilões de diferentes épocas unem forças para viajar no tempo e impedir ameaças que colocam o futuro da humanidade em risco."
+    },
+    {
+        "title": "Batwoman",
+        "genero": "Super-herói",
+        "diretor": "Caroline Dries",
+        "protagonista": "Ruby Rose, Javicia Leslie",
+        "sinopse": "Em uma Gotham sem Batman, uma nova vigilante assume o manto de Batwoman para proteger a cidade e enfrentar seus próprios demônios."
+    },
+    {
+        "title": "Titans",
+        "genero": "Super-herói",
+        "diretor": "Akiva Goldsman, Geoff Johns, Greg Berlanti",
+        "protagonista": "Brenton Thwaites",
+        "sinopse": "Jovens heróis liderados por Robin enfrentam seus passados sombrios enquanto formam uma equipe para lutar contra o mal."
+    },
+    {
+        "title": "Doom Patrol",
+        "genero": "Super-herói",
+        "diretor": "Jeremy Carver",
+        "protagonista": "Diane Guerrero, Matt Bomer, Brendan Fraser",
+        "sinopse": "Um grupo de heróis com habilidades incomuns e traumas profundos luta para proteger o mundo, mesmo sendo considerados aberrações."
+    },
+    {
+        "title": "The Sandman",
+        "genero": "Fantasia",
+        "diretor": "Neil Gaiman, Allan Heinberg, David S. Goyer",
+        "protagonista": "Tom Sturridge",
+        "sinopse": "Após décadas de cativeiro, o Mestre dos Sonhos busca restaurar seu reino e equilibrar o mundo dos sonhos e da realidade."
+    },
+    {
+        "title": "Locke & Key",
+        "genero": "Fantasia",
+        "diretor": "Carlton Cuse, Meredith Averill",
+        "protagonista": "Connor Jessup, Emilia Jones",
+        "sinopse": "Após a morte do pai, três irmãos descobrem chaves mágicas que concedem poderes e abrem portas misteriosas em sua casa ancestral."
+    },
+    {
+        "title": "The Chilling Adventures of Sabrina",
+        "genero": "Terror",
+        "diretor": "Roberto Aguirre-Sacasa",
+        "protagonista": "Kiernan Shipka",
+        "sinopse": "A jovem bruxa Sabrina precisa equilibrar sua vida mortal e sua herança sombria enquanto enfrenta forças malignas que ameaçam o mundo."
+    },
+    {
+        "title": "The Order",
+        "genero": "Fantasia",
+        "diretor": "Dennis Heaton, Shelley Eriksen",
+        "protagonista": "Jake Manley, Sarah Grey",
+        "sinopse": "Um universitário entra para uma sociedade secreta de magia e descobre uma guerra entre magos e lobisomens."
+    },
+    {
+        "title": "Krypton",
+        "genero": "Ficção científica",
+        "diretor": "David S. Goyer, Damian Kindler",
+        "protagonista": "Cameron Cuffe",
+        "sinopse": "Anos antes do nascimento de Superman, seu avô luta para restaurar a honra da Casa de El e salvar Krypton do caos político."
+    },
+    {
+        "title": "Roswell, New Mexico",
+        "genero": "Ficção científica",
+        "diretor": "Carina Adly MacKenzie",
+        "protagonista": "Jeanine Mason, Nathan Parsons",
+        "sinopse": "Uma jovem retorna à sua cidade natal e descobre que seu amor de infância é, na verdade, um alienígena com segredos perigosos."
+    },
+    {
+        "title": "Charmed",
+        "genero": "Fantasia",
+        "diretor": "Jennie Snyder Urman, Jessica O'Toole, Amy Rardin",
+        "protagonista": "Melonie Diaz, Madeleine Mantock, Sarah Jeffery",
+        "sinopse": "Três irmãs descobrem ser bruxas poderosas destinadas a proteger o mundo de demônios e forças do mal."
+    },
+    {
+        "title": "The Resident",
+        "genero": "Drama médico",
+        "diretor": "Amy Holden Jones, Hayley Schore, Roshan Sethi",
+        "protagonista": "Matt Czuchry, Emily VanCamp",
+        "sinopse": "Um residente idealista e um médico experiente enfrentam dilemas éticos e políticos no sistema de saúde americano."
+    },
+    {
+        "title": "New Amsterdam",
+        "genero": "Drama médico",
+        "diretor": "David Schulner",
+        "protagonista": "Ryan Eggold",
+        "sinopse": "Um novo diretor de hospital tenta reformar uma das instituições médicas mais antigas dos EUA, colocando os pacientes em primeiro lugar."
+    },
+    {
+        "title": "The Good Fight",
+        "genero": "Drama jurídico",
+        "diretor": "Robert King, Michelle King",
+        "protagonista": "Christine Baranski",
+        "sinopse": "Após perder suas economias em um escândalo financeiro, uma advogada poderosa se reinventa em um novo escritório de advocacia."
+    },
+    {
+        "title": "All American",
+        "genero": "Drama esportivo",
+        "diretor": "April Blair",
+        "protagonista": "Daniel Ezra",
+        "sinopse": "Um jovem jogador de futebol americano de South Central é recrutado para um colégio de elite, enfrentando conflitos de identidade e classe."
+    },
+    {
+        "title": "The Rookie",
+        "genero": "Policial",
+        "diretor": "Alexi Hawley",
+        "protagonista": "Nathan Fillion",
+        "sinopse": "O novato mais velho do Departamento de Polícia de Los Angeles precisa provar seu valor enquanto enfrenta os desafios da nova carreira."
+    },
+    {
+        "title": "9-1-1",
+        "genero": "Drama",
+        "diretor": "Ryan Murphy, Brad Falchuk, Tim Minear",
+        "protagonista": "Angela Bassett, Peter Krause",
+        "sinopse": "Bombeiros, policiais e atendentes do 9-1-1 enfrentam situações de emergência extremas em Los Angeles enquanto lidam com seus dramas pessoais."
+    },
+    {
+        "title": "Station 19",
+        "genero": "Drama",
+        "diretor": "Stacy McKee",
+        "protagonista": "Jaina Lee Ortiz, Jason George",
+        "sinopse": "Spin-off de Grey’s Anatomy, acompanha a vida e os desafios dos bombeiros da Estação 19 de Seattle."
+    },
+    {
+        "title": "Chicago Fire",
+        "genero": "Drama",
+        "diretor": "Michael Brandt, Derek Haas",
+        "protagonista": "Jesse Spencer, Taylor Kinney",
+        "sinopse": "Os bombeiros e paramédicos de Chicago enfrentam perigos diários e dramas pessoais enquanto salvam vidas."
+    },
+    {
+        "title": "Chicago P.D.",
+        "genero": "Policial",
+        "diretor": "Dick Wolf, Matt Olmstead",
+        "protagonista": "Jason Beghe",
+        "sinopse": "O Departamento de Polícia de Chicago combate o crime com uma equipe de detetives determinada e métodos intensos."
+    },
+    {
+        "title": "Law & Order: SVU",
+        "genero": "Policial",
+        "diretor": "Dick Wolf",
+        "protagonista": "Mariska Hargitay",
+        "sinopse": "A Unidade de Vítimas Especiais de Nova York investiga crimes sexuais e luta por justiça para as vítimas."
+    },
+    {
+        "title": "NCIS",
+        "genero": "Policial",
+        "diretor": "Donald P. Bellisario, Don McGill",
+        "protagonista": "Mark Harmon",
+        "sinopse": "Agentes especiais investigam crimes envolvendo a Marinha e os Fuzileiros Navais dos Estados Unidos."
+    },
+    {
+        "title": "Hawaii Five-0",
+        "genero": "Policial",
+        "diretor": "Peter M. Lenkov, Alex Kurtzman, Roberto Orci",
+        "protagonista": "Alex O'Loughlin, Scott Caan",
+        "sinopse": "Uma força-tarefa especial combate o crime e o terrorismo no paradisíaco arquipélago do Havaí."
+    },
+    {
+        "title": "Magnum P.I.",
+        "genero": "Ação",
+        "diretor": "Peter M. Lenkov, Eric Guggenheim",
+        "protagonista": "Jay Hernandez",
+        "sinopse": "Um ex-fuzileiro naval se torna detetive particular no Havaí, resolvendo casos perigosos com estilo e humor."
+    },
+    {
+        "title": "MacGyver",
+        "genero": "Ação",
+        "diretor": "Peter M. Lenkov, Lee David Zlotoff",
+        "protagonista": "Lucas Till",
+        "sinopse": "Um agente secreto usa ciência e improviso para resolver missões perigosas sem recorrer à violência."
+    },
+    {
+        "title": "S.W.A.T.",
+        "genero": "Ação",
+        "diretor": "Shawn Ryan, Aaron Rahsaan Thomas",
+        "protagonista": "Shemar Moore",
+        "sinopse": "Um tenente da polícia lidera uma equipe de elite da SWAT em missões de alto risco em Los Angeles."
+    },
+    {
+        "title": "9-1-1: Lone Star",
+        "genero": "Drama",
+        "diretor": "Ryan Murphy, Brad Falchuk, Tim Minear",
+        "protagonista": "Rob Lowe, Liv Tyler",
+        "sinopse": "Um bombeiro de Nova York se muda para o Texas para comandar uma nova equipe de emergência enquanto enfrenta desafios pessoais."
+    },
+    {
+        "title": "FBI",
+        "genero": "Policial",
+        "diretor": "Dick Wolf, Craig Turk",
+        "protagonista": "Missy Peregrym, Zeeko Zaki",
+        "sinopse": "Agentes do FBI de Nova York investigam ameaças terroristas, crimes organizados e casos de alto perfil."
+    },
+    {
+        "title": "FBI: Most Wanted",
+        "genero": "Policial",
+        "diretor": "René Balcer",
+        "protagonista": "Julian McMahon",
+        "sinopse": "A unidade especial do FBI caça os criminosos mais procurados dos Estados Unidos."
+    },
+    {
+        "title": "The Equalizer",
+        "genero": "Ação",
+        "diretor": "Andrew W. Marlowe, Terri Edda Miller",
+        "protagonista": "Queen Latifah",
+        "sinopse": "Uma ex-agente da CIA usa suas habilidades para ajudar pessoas inocentes e fazer justiça nas ruas de Nova York."
+    },
+    {
+        "title": "Blue Bloods",
+        "genero": "Policial",
+        "diretor": "Mitchell Burgess, Robin Green",
+        "protagonista": "Tom Selleck",
+        "sinopse": "Uma família de policiais de Nova York enfrenta dilemas morais e desafios da lei enquanto mantém a tradição de servir à cidade."
+    },
+    {
+        "title": "Bones",
+        "genero": "Crime",
+        "diretor": "Hart Hanson",
+        "protagonista": "Emily Deschanel, David Boreanaz",
+        "sinopse": "Uma antropóloga forense e um agente do FBI trabalham juntos para resolver assassinatos analisando restos mortais."
+    },
+    {
+        "title": "The Mentalist",
+        "genero": "Crime",
+        "diretor": "Bruno Heller",
+        "protagonista": "Simon Baker",
+        "sinopse": "Um consultor com grande poder de observação ajuda a polícia a resolver crimes enquanto busca vingança por sua família."
+    },
+    {
+        "title": "Castle",
+        "genero": "Crime",
+        "diretor": "Andrew W. Marlowe",
+        "protagonista": "Nathan Fillion, Stana Katic",
+        "sinopse": "Um escritor de romances policiais se junta a uma detetive para solucionar assassinatos em Nova York."
+    },
+    {
+        "title": "Psych",
+        "genero": "Comédia",
+        "diretor": "Steve Franks",
+        "protagonista": "James Roday Rodriguez, Dulé Hill",
+        "sinopse": "Um jovem com grande capacidade de observação finge ser médium para ajudar a polícia a resolver crimes."
+    },
+    {
+        "title": "White Collar",
+        "genero": "Crime",
+        "diretor": "Jeff Eastin",
+        "protagonista": "Matt Bomer, Tim DeKay",
+        "sinopse": "Um golpista talentoso faz um acordo com o FBI para ajudar a capturar criminosos do colarinho branco."
+    },
+    {
+        "title": "Suits",
+        "genero": "Drama jurídico",
+        "diretor": "Aaron Korsh",
+        "protagonista": "Gabriel Macht, Patrick J. Adams",
+        "sinopse": "Um advogado contrata um jovem brilhante sem diploma de direito, e juntos enfrentam casos complexos em um escritório de elite."
+    },
+    {
+        "title": "The Blacklist",
+        "genero": "Suspense",
+        "diretor": "Jon Bokenkamp",
+        "protagonista": "James Spader, Megan Boone",
+        "sinopse": "Um criminoso notório se entrega ao FBI e oferece ajudar a capturar outros fugitivos em troca de imunidade."
+    },
+    {
+        "title": "Person of Interest",
+        "genero": "Ficção científica",
+        "diretor": "Jonathan Nolan",
+        "protagonista": "Jim Caviezel, Michael Emerson",
+        "sinopse": "Um ex-agente da CIA e um bilionário usam um sistema de vigilância avançado para prevenir crimes antes que aconteçam."
+    },
+    {
+        "title": "Elementary",
+        "genero": "Crime",
+        "diretor": "Robert Doherty",
+        "protagonista": "Jonny Lee Miller, Lucy Liu",
+        "sinopse": "Uma versão moderna de Sherlock Holmes que ajuda a polícia de Nova York a resolver crimes complexos com a Dra. Watson."
+    },
+    {
+        "title": "Hannibal",
+        "genero": "Terror psicológico",
+        "diretor": "Bryan Fuller",
+        "protagonista": "Mads Mikkelsen, Hugh Dancy",
+        "sinopse": "Um talentoso psiquiatra e um agente do FBI trabalham juntos em casos de assassinato, sem saber que o médico é um serial killer canibal."
+    },
+    {
+        "title": "The Following",
+        "genero": "Suspense",
+        "diretor": "Kevin Williamson",
+        "protagonista": "Kevin Bacon",
+        "sinopse": "Um ex-agente do FBI retorna à ativa para capturar um assassino em série que lidera uma seita de assassinos."
+    },
+    {
+        "title": "The Americans",
+        "genero": "Espionagem",
+        "diretor": "Joe Weisberg",
+        "protagonista": "Keri Russell, Matthew Rhys",
+        "sinopse": "Dois espiões soviéticos vivem disfarçados como um casal americano durante a Guerra Fria, enquanto equilibram lealdade e família."
+    },
+    {
+        "title": "Better Call Saul",
+        "genero": "Drama",
+        "diretor": "Vince Gilligan, Peter Gould",
+        "protagonista": "Bob Odenkirk",
+        "sinopse": "A origem de Saul Goodman, um advogado ambicioso que passa de defensor de pequenas causas a figura do submundo criminal."
+    },
+    {
+        "title": "Ozark",
+        "genero": "Crime",
+        "diretor": "Bill Dubuque, Mark Williams",
+        "protagonista": "Jason Bateman, Laura Linney",
+        "sinopse": "Um consultor financeiro é forçado a lavar dinheiro para um cartel de drogas, colocando sua família em perigo constante."
+    }
+]
