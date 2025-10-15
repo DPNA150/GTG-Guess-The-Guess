@@ -1,3 +1,10 @@
+// esportes_comentado.js — versão comentada com efeito de erro
+// Este script gerencia o jogo de adivinhação de esportes, incluindo:
+// - Carregamento do JSON com os esportes
+// - Sistema de tentativas e dicas
+// - Autocomplete para palpites
+// - Novo efeito visual: todas as dicas ficam vermelhas por 0,6s quando o jogador erra um palpite.
+
 // esportes.js — atualizado: autocomplete robusto e debug
 // Este arquivo JavaScript gerencia a lógica do jogo de adivinhação de esportes.
 // Ele inclui funcionalidades para carregar dados, gerenciar o jogo, dar dicas e usar autocomplete.
@@ -147,6 +154,16 @@ function checkGuess(guessedesporte) {
     } else {
         // Condição para palpite incorreto, mas ainda com tentativas.
         tentativas--; // Decrementa o número de tentativas restantes.
+
+        // >>> EFEITO DE ERRO NAS DICAS <<<
+        const hintsContainer = document.getElementById('hints'); // Obtém o contêiner de dicas.
+        if (hintsContainer) { // Verifica se o contêiner existe.
+            hintsContainer.classList.add('hints-error'); // Adiciona a classe que pinta todas as dicas de vermelho.
+            setTimeout(() => { // Define um timer para reverter o efeito.
+                hintsContainer.classList.remove('hints-error'); // Remove a classe de erro após o tempo definido.
+            }, 300); // Duração total do efeito (0,3 segundos).
+        }
+        // >>> FIM DO EFEITO DE ERRO <<<
         const guessednome = guessedesporte && guessedesporte.nome; // Obtém o título do filme adivinhado, se ele existir.
         if (guessednome) {
             // Verifica se o palpite tem alguma dica em comum com o filme correto.
@@ -155,7 +172,7 @@ function checkGuess(guessedesporte) {
             if (esporte.maiorJogador === guessedesporte.maiorJogador) updateHint('hint3', `- Maior Jogador: ${esporte.maiorJogador}`); // Revela a dica de ator se for o mesmo.
         }
     }
-    document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/12'; // Atualiza o texto que mostra as tentativas restantes.
+    document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/9'; // Atualiza o texto que mostra as tentativas restantes.
 
     if (tentativas == 6) {
         revealHint(); // Se o número de tentativas for 6, revela uma dica.
