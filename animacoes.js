@@ -1,230 +1,239 @@
-// animacoes.js — atualizado: autocomplete robusto e debug
-// Este arquivo JavaScript gerencia a lógica do jogo de adivinhação de filmes.
-// Ele inclui funcionalidades para carregar dados, gerenciar o jogo, dar dicas e usar autocomplete.
+// animacoes.js — totalmente comentado linha a linha
+// Gerencia o jogo de adivinhação de animações: carregamento, lógica, tentativas e dicas.
 
-// Configurações
-const SUGGESTION_LIMIT = 8; // Define o número máximo de sugestões exibidas no autocomplete.
-const DEBOUNCE_MS = 120; // Define o tempo de espera em milissegundos para o autocomplete ser ativado após a digitação.
+// ---------------- CONFIGURAÇÕES INICIAIS ----------------
 
-// Variáveis globais
-let animacao = {}; // Objeto que armazenará o filme a ser adivinhado no jogo atual.
-let animacaosList = []; // Array que armazenará a lista completa de filmes carregada do arquivo JSON.
-let allHintsRevealed = false; // Flag booleana que indica se todas as dicas já foram reveladas.
-let tentativas = 12; // Variável que armazena o número de tentativas restantes para o jogador.
+// Define o número máximo de sugestões exibidas no autocomplete
+const SUGGESTION_LIMIT = 8;
 
-// ------------ Funções principais ------------
-// Carrega o JSON de filmes e inicializa tudo
+// Define o tempo de espera (em milissegundos) entre a digitação e o carregamento das sugestões
+const DEBOUNCE_MS = 120;
+
+// ---------------- VARIÁVEIS GLOBAIS ----------------
+
+// Objeto que armazenará os dados da animação atual do jogo
+let animacao = {};
+
+// Lista completa de animações carregadas do arquivo animacoes.json
+let animacaosList = [];
+
+// Indica se todas as dicas já foram reveladas
+let allHintsRevealed = false;
+
+// Número de tentativas restantes do jogador
+let tentativas = 12;
+
+// ---------------- FUNÇÃO PRINCIPAL DE CARREGAMENTO ----------------
+
+// Função assíncrona que busca o arquivo animacoes.json e carrega os dados
 async function loadanimacaoData() {
-    // Função assíncrona para carregar os dados dos filmes de um arquivo JSON.
-    console.log('[animacoes.js] Carregando animacoes.json...'); // Exibe uma mensagem no console indicando o início do carregamento.
+    console.log('[animacoes.js] Carregando animacoes.json...'); // Exibe log no console
+
     try {
-        const response = await fetch('animacoes.json'); // Faz uma requisição assíncrona para buscar o arquivo 'animacoes.json'.
-        if (!response.ok) throw new Error(`HTTP ${response.status} — ${response.statusText}`); // Lança um erro se a resposta da requisição não for bem-sucedida.
+        const response = await fetch('animacoes.json'); // Faz a requisição do arquivo JSON
+        if (!response.ok) throw new Error(`HTTP ${response.status} — ${response.statusText}`); // Verifica erro HTTP
 
-        animacaosList = await response.json(); // Converte a resposta da requisição para um objeto JSON e armazena em animacaosList.
-        console.log(`[animacoes.js] animacoes.json carregado — total de itens: ${animacaosList.length}`); // Exibe uma mensagem no console com o número total de itens carregados.
+        animacaosList = await response.json(); // Converte resposta para JSON
+        console.log(`[animacoes.js] animacoes.json carregado — total de itens: ${animacaosList.length}`); // Loga quantidade total
 
-        // opcional: extrair apenas objetos que tenham title
-        animacaosList = animacaosList.filter(f => f && typeof f.title === 'string'); // Filtra a lista para incluir apenas objetos com uma propriedade 'title' que seja uma string.
-        console.log(`[animacoes.js] títulos válidos: ${animacaosList.length}`); // Exibe a contagem de filmes com títulos válidos.
+        animacaosList = animacaosList.filter(f => f && typeof f.title === 'string'); // Filtra apenas os objetos válidos
+        console.log(`[animacoes.js] títulos válidos: ${animacaosList.length}`); // Exibe quantidade de válidos
 
     } catch (err) {
-        console.error('[animacoes.js] Erro ao carregar animacoes.json:', err); // Captura e exibe qualquer erro ocorrido durante o carregamento do JSON.
-        animacaosList = []; // Em caso de erro, a lista de filmes é esvaziada.
+        console.error('[animacoes.js] Erro ao carregar animacoes.json:', err); // Exibe erro no console
+        animacaosList = []; // Define lista vazia em caso de falha
     } finally {
-        initSuggestions(); // Chama a função para inicializar o sistema de sugestões, independentemente do resultado do carregamento.
-        if (animacaosList.length > 0) animacao = selectRandomanimacao(animacaosList); // Se a lista de filmes não estiver vazia, seleciona um filme aleatório para o jogo.
+        initSuggestions(); // Inicializa o sistema de sugestões
+        if (animacaosList.length > 0) animacao = selectRandomanimacao(animacaosList); // Escolhe uma animação aleatória
     }
 }
 
-// Inicializa o sistema de sugestões (autocomplete)
+// ---------------- FUNÇÃO DE AUTOCOMPLETE ----------------
+
+// Configura o sistema de autocomplete baseado no input do usuário
 function initSuggestions() {
-    // Função para configurar a funcionalidade de autocomplete no campo de entrada do palpite.
-    const input = document.getElementById('guessInput'); // Obtém a referência para o elemento de input onde o usuário digita o palpite.
-    const suggestionsList = document.getElementById('suggestions'); // Obtém a referência para o elemento de lista onde as sugestões serão exibidas.
-    if (!input || !suggestionsList) {
-        console.warn('[animacoes.js] initSuggestions: elementos DOM não encontrados'); // Emite um aviso se os elementos DOM necessários não forem encontrados.
-        return; // Sai da função se os elementos não existirem.
+    const input = document.getElementById('guessInput'); // Obtém o campo de entrada
+    const suggestionsList = document.getElementById('suggestions'); // Obtém a lista de sugestões
+
+    if (!input || !suggestionsList) { // Verifica se os elementos existem
+        console.warn('[animacoes.js] initSuggestions: elementos DOM não encontrados');
+        return;
     }
 
-    let debounceTimer = null; // Variável para controlar o timer do 'debounce', que atrasa a execução da função de busca.
+    let debounceTimer = null; // Timer para evitar chamadas repetidas rápidas
 
+    // Evento de digitação no campo de entrada
     input.addEventListener('input', () => {
-        // Adiciona um listener de evento 'input' ao campo de entrada.
-        clearTimeout(debounceTimer); // Cancela o timer anterior para evitar múltiplas execuções.
-        debounceTimer = setTimeout(() => {
-            // Inicia um novo timer para atrasar a execução da lógica de sugestão.
-            const termo = input.value.trim().toLowerCase(); // Pega o valor do input, remove espaços e converte para minúsculas.
-            suggestionsList.innerHTML = ''; // Limpa a lista de sugestões.
-            suggestionsList.style.display = 'none'; // Esconde a lista de sugestões.
+        clearTimeout(debounceTimer); // Cancela o timer anterior
+        debounceTimer = setTimeout(() => { // Define novo timer
+            const termo = input.value.trim().toLowerCase(); // Obtém o texto digitado
+            suggestionsList.innerHTML = ''; // Limpa as sugestões anteriores
+            suggestionsList.style.display = 'none'; // Oculta lista inicialmente
 
-            if (termo.length === 0) return; // Se o termo de busca estiver vazio, sai da função.
+            if (termo.length === 0) return; // Não faz nada se campo estiver vazio
 
-            const titulos = animacaosList
-                .map(f => f.title && f.title.trim()) // Mapeia a lista de filmes para uma nova lista contendo apenas os títulos, removendo espaços em branco.
-                .filter(Boolean); // Remove quaisquer valores falsos (null, undefined, etc.).
+            const titulos = animacaosList // Mapeia todos os títulos válidos
+                .map(f => f.title && f.title.trim())
+                .filter(Boolean);
 
-            const filtrados = Array.from(new Set(titulos)) // Cria um array de títulos únicos.
-                .filter(title => title.toLowerCase().includes(termo)) // Filtra os títulos que incluem o termo de busca.
-                .slice(0, SUGGESTION_LIMIT); // Limita o número de sugestões ao valor definido em SUGGESTION_LIMIT.
+            const filtrados = Array.from(new Set(titulos)) // Remove duplicatas
+                .filter(title => title.toLowerCase().includes(termo)) // Filtra pelo termo digitado
+                .slice(0, SUGGESTION_LIMIT); // Limita quantidade exibida
 
-            if (filtrados.length === 0) return; // Se não houver filmes correspondentes, sai da função.
+            if (filtrados.length === 0) return; // Sai se não houver resultados
 
+            // Cria elementos <li> para cada sugestão
             filtrados.forEach(title => {
-                // Itera sobre cada título filtrado para criar os elementos da lista de sugestões.
-                const li = document.createElement('li'); // Cria um novo elemento de lista (<li>).
-                li.textContent = title; // Define o texto do elemento de lista para o título do filme.
-                li.classList.add('suggestion-item'); // Adiciona uma classe CSS para estilização.
-                li.setAttribute('role', 'option'); // Adiciona um atributo ARIA para acessibilidade.
-                li.setAttribute('tabindex', '0'); // Torna o item focável para navegação via teclado.
+                const li = document.createElement('li'); // Cria elemento
+                li.textContent = title; // Define o texto da sugestão
+                li.classList.add('suggestion-item'); // Aplica classe de estilo
+                li.setAttribute('role', 'option'); // Acessibilidade
+                li.setAttribute('tabindex', '0'); // Permite navegação com teclado
 
+                // Evento ao clicar em uma sugestão
                 li.addEventListener('mousedown', (ev) => {
-                    // Adiciona um evento 'mousedown' para preencher o input com o título do filme.
-                    ev.preventDefault(); // Previne o comportamento padrão do mouse (como perder o foco).
-                    input.value = title; // Define o valor do input como o título clicado.
-                    suggestionsList.innerHTML = ''; // Limpa a lista de sugestões.
-                    suggestionsList.style.display = 'none'; // Esconde a lista de sugestões.
-                    input.focus(); // Retorna o foco para o campo de entrada.
+                    ev.preventDefault();
+                    input.value = title; // Preenche o campo com o título
+                    suggestionsList.innerHTML = ''; // Limpa sugestões
+                    suggestionsList.style.display = 'none'; // Oculta lista
+                    input.focus(); // Retorna foco ao input
                 });
 
+                // Evento ao pressionar Enter ou Espaço sobre a sugestão
                 li.addEventListener('keydown', (ev) => {
-                    // Adiciona um evento 'keydown' para permitir a seleção com as teclas Enter ou Espaço.
                     if (ev.key === 'Enter' || ev.key === ' ') {
-                        ev.preventDefault(); // Previne o comportamento padrão.
-                        input.value = title; // Preenche o input.
-                        suggestionsList.innerHTML = ''; // Limpa as sugestões.
-                        suggestionsList.style.display = 'none'; // Esconde a lista.
-                        input.focus(); // Retorna o foco.
+                        ev.preventDefault();
+                        input.value = title;
+                        suggestionsList.innerHTML = '';
+                        suggestionsList.style.display = 'none';
+                        input.focus();
                     }
                 });
 
-                suggestionsList.appendChild(li); // Adiciona o elemento de lista (<li>) à lista de sugestões (<ul>).
+                suggestionsList.appendChild(li); // Adiciona a sugestão na lista
             });
 
-            suggestionsList.style.display = 'block'; // Torna a lista de sugestões visível.
-        }, DEBOUNCE_MS); // Define o tempo de atraso do debounce.
+            suggestionsList.style.display = 'block'; // Exibe as sugestões
+        }, DEBOUNCE_MS); // Aguarda o tempo definido
     });
 
+    // Esconde a lista quando o campo perde o foco
     input.addEventListener('blur', () => {
-        // Adiciona um evento 'blur' que é ativado quando o campo de entrada perde o foco.
         setTimeout(() => {
-            suggestionsList.innerHTML = ''; // Limpa a lista de sugestões.
-            suggestionsList.style.display = 'none'; // Esconde a lista.
-        }, 150); // Define um pequeno atraso para permitir cliques nas sugestões antes que a lista seja escondida.
+            suggestionsList.innerHTML = '';
+            suggestionsList.style.display = 'none';
+        }, 150);
     });
 }
 
-// Seleciona um filme aleatório
+// ---------------- FUNÇÕES DE JOGO ----------------
+
+// Escolhe uma animação aleatória da lista
 function selectRandomanimacao(animacao) {
-    // Função para selecionar um filme aleatório da lista.
-    const randomIndex = Math.floor(Math.random() * animacao.length); // Gera um índice aleatório.
-    return animacao[randomIndex]; // Retorna o filme no índice aleatório.
+    const randomIndex = Math.floor(Math.random() * animacao.length); // Gera número aleatório
+    return animacao[randomIndex]; // Retorna animação selecionada
 }
 
-// ------------ Funções do jogo ------------
+// Verifica se o palpite está correto
 function checkGuess(guessedanimacao) {
-    // Função principal para verificar se o palpite do jogador está correto.
+    if (guessedanimacao.title === animacao.title) { // Se o palpite for correto
+        revealAllHints(); // Revela todas as dicas
+        document.getElementById('giveUpButton').style.display = 'none'; // Oculta botão desistir
+        document.getElementById('enviarButton').style.display = 'none'; // Oculta botão enviar
+        tentativas = 0; // Zera tentativas
 
-    if (guessedanimacao.title === animacao.title) {
-        // Condição para palpite correto.
-        revealAllHints(); // Revela todas as dicas.
-        document.getElementById('giveUpButton').style.display = 'none'; // Esconde o botão de desistir.
-        document.getElementById('enviarButton').style.display = 'none'; // Esconde o botão de enviar.
-        tentativas = 0; // Define as tentativas restantes para zero.
-        const guessInput = document.getElementById('guessInput'); // Obtém a referência para o input.
-        guessInput.disabled = true; // Desabilita o campo de entrada.
-        guessInput.placeholder = 'O jogo terminou!'; // Altera o placeholder do input.
-        guessInput.style.backgroundColor = '#f0f0f0'; // Altera a cor de fundo do input.
-    } else if (tentativas === 1) {
-        // Condição para a última tentativa (derrota).
-        revealAllHints(); // Revela todas as dicas.
-        document.getElementById('enviarButton').style.display = 'none'; // Esconde o botão de enviar.
-        document.getElementById('giveUpButton').style.display = 'none'; // Esconde o botão de desistir.
-        const guessInput = document.getElementById('guessInput'); // Obtém a referência para o input.
-        guessInput.disabled = true; // Desabilita o campo de entrada.
-        guessInput.placeholder = 'O jogo terminou!'; // Altera o placeholder do input.
-        guessInput.style.backgroundColor = '#f0f0f0'; // Altera a cor de fundo do input.
+        const guessInput = document.getElementById('guessInput');
+        guessInput.disabled = true; // Desabilita input
+        guessInput.placeholder = 'O jogo terminou!'; // Mostra mensagem
+        guessInput.style.backgroundColor = '#f0f0f0'; // Muda cor de fundo
+    } else if (tentativas === 1) { // Se for a última tentativa
+        revealAllHints(); // Revela tudo
+        document.getElementById('enviarButton').style.display = 'none';
+        document.getElementById('giveUpButton').style.display = 'none';
+        const guessInput = document.getElementById('guessInput');
+        guessInput.disabled = true;
+        guessInput.placeholder = 'O jogo terminou!';
+        guessInput.style.backgroundColor = '#f0f0f0';
     } else {
-        // Condição para palpite incorreto, mas ainda com tentativas.
-        tentativas--; // Decrementa o número de tentativas restantes.
-        const guessedTitle = guessedanimacao && guessedanimacao.title; // Obtém o título do filme adivinhado, se ele existir.
+        tentativas--; // Reduz tentativas
+
+        // Adiciona efeito visual de erro
+        const hintsContainer = document.getElementById('hints');
+        if (hintsContainer) {
+            hintsContainer.classList.add('hints-error'); // Aplica classe CSS
+            setTimeout(() => {
+                hintsContainer.classList.remove('hints-error'); // Remove após 300ms
+            }, 300);
+        }
+
+        // Atualiza dicas específicas se o palpite acertar algum detalhe
+        const guessedTitle = guessedanimacao && guessedanimacao.title;
         if (guessedTitle) {
-            // Verifica se o palpite tem alguma dica em comum com o filme correto.
-            if (animacao.genre === guessedanimacao.genre) updateHint('hint1', `- Gênero: ${animacao.genre}`); // Revela a dica de gênero se for a mesma.
-            if (animacao.director === guessedanimacao.director) updateHint('hint2', `- Diretor: ${animacao.director}`); // Revela a dica de diretor se for o mesmo.
-            if (animacao.MainCharacter === guessedanimacao.MainCharacter) updateHint('hint3', `-Ator Principal : ${animacao.MainCharacter}`); // Revela a dica de ano se for o mesmo.
-            if (animacao.synopsis === guessedanimacao.synopsis) updateHint('hint4', `- Synopsis : ${animacao.synopsis}`); // Revela a dica de ator se for o mesmo.
+            if (animacao.genre === guessedanimacao.genre) updateHint('hint1', `- Gênero: ${animacao.genre}`);
+            if (animacao.director === guessedanimacao.director) updateHint('hint2', `- Diretor: ${animacao.director}`);
+            if (animacao.MainCharacter === guessedanimacao.MainCharacter) updateHint('hint3', `- Ator Principal: ${animacao.MainCharacter}`);
+            if (animacao.synopsis === guessedanimacao.synopsis) updateHint('hint4', `- Synopsis : ${animacao.synopsis}`);
         }
     }
-    document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/12'; // Atualiza o texto que mostra as tentativas restantes.
 
-    if (tentativas == 12) {
-        revealHint(); // Se o número de tentativas for 12, revela uma dica.
-    } else if (tentativas == 8) {
-        revealHint(); // Se o número de tentativas for 8, revela uma dica.
-    } else if (tentativas == 4) {
-        revealHint(); // Se o número de tentativas for 4, revela uma dica.
-    } else if (tentativas == 1) {
-        revealHint(); // Se o número de tentativas for 1, revela uma dica.
-    }
+    document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/12'; // Atualiza contador
+
+    if (tentativas == 12) revealHint();
+    else if (tentativas == 8) revealHint();
+    else if (tentativas == 4) revealHint();
+    else if (tentativas == 1) revealHint();
 }
 
+// Revela todas as dicas de uma vez
 function revealAllHints() {
-    // Função para revelar todas as dicas do filme.
-    updateHint('hint1', `- Gênero: ${animacao.genre}`); // Revela a dica de gênero.
-    updateHint('hint2', `- Diretor: ${animacao.director}`); // Revela a dica de diretor.
-    updateHint('hint3', `- Ator principal: ${animacao.MainCharacter}`); // Revela a dica de ano.
-    updateHint('hint4', `- Sinopse: ${animacao.synopsis}`); // Revela a dica de sinopse.
-    allHintsRevealed = true; // Define a flag para indicar que todas as dicas foram reveladas.
-    tentativas = 0; // Define as tentativas para zero.
-    document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/12'; // Atualiza o texto das tentativas.
+    updateHint('hint1', `- Gênero: ${animacao.genre}`);
+    updateHint('hint2', `- Diretor: ${animacao.director}`);
+    updateHint('hint3', `- Ator principal: ${animacao.MainCharacter}`);
+    updateHint('hint4', `- Sinopse: ${animacao.synopsis}`);
+    allHintsRevealed = true;
+    tentativas = 0;
+    document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/12';
 }
 
+// Inicia um novo jogo
 function startNewGame() {
-    // Função para iniciar um novo jogo.
-    // Resetar variáveis globais
-    animacao = selectRandomanimacao(animacaosList); // Seleciona um novo filme aleatório.
-    allHintsRevealed = false; // Reseta a flag de dicas reveladas.
-    tentativas = 12; // Reseta o número de tentativas.
+    animacao = selectRandomanimacao(animacaosList);
+    allHintsRevealed = false;
+    tentativas = 12;
 
-    const guessInput = document.getElementById('guessInput'); // Obtém o elemento de input.
+    const guessInput = document.getElementById('guessInput');
     if (guessInput) {
-        guessInput.disabled = false; // Habilita o campo de entrada.
-        guessInput.value = ''; // Limpa o valor do input.
-        guessInput.placeholder = 'Digite seu palpite...'; // Reseta o placeholder.
-        guessInput.style.backgroundColor = ''; // Reseta a cor de fundo.
+        guessInput.disabled = false;
+        guessInput.value = '';
+        guessInput.placeholder = 'Digite seu palpite...';
+        guessInput.style.backgroundColor = '';
     }
 
-    // Resetar dicas
-    updateHint('hint1', '- Gênero: ???'); // Reseta a dica de gênero.
-    updateHint('hint2', '- Diretor: ???'); // Reseta a dica de diretor.
-    updateHint('hint3', '- Ator principal: ???'); // Reseta a dica de ator.
-    updateHint('hint4', '- Sinopse: ???'); // Reseta a dica de sinopse.
+    updateHint('hint1', '- Gênero: ???');
+    updateHint('hint2', '- Diretor: ???');
+    updateHint('hint3', '- Ator principal: ???');
+    updateHint('hint4', '- Sinopse: ???');
 
-    // Reexibir botões
-    document.getElementById('giveUpButton').style.display = 'inline-block'; // Mostra o botão de desistir.
-    document.getElementById('enviarButton').style.display = 'inline-block'; // Mostra o botão de enviar.
-
-    // Atualizar tentativas
-    document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/12'; // Atualiza o texto das tentativas.
+    document.getElementById('giveUpButton').style.display = 'inline-block';
+    document.getElementById('enviarButton').style.display = 'inline-block';
+    document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/12';
 }
 
+// Desistir e revelar resposta
 function giveUp() {
-    // Função para o jogador desistir do jogo.
-    alert(`Você desistiu! A resposta era: ${animacao.title}`); // Mostra um alerta com a resposta correta.
-    revealAllHints(); // Revela todas as dicas.
-    document.getElementById('enviarButton').style.display = 'none'; // Esconde o botão de enviar.
-    document.getElementById('giveUpButton').style.display = 'none'; // Esconde o botão de desistir.
-    const guessInput = document.getElementById('guessInput'); // Obtém o input.
-    guessInput.disabled = true; // Desabilita o input.
-    guessInput.placeholder = 'O jogo terminou!'; // Altera o placeholder.
-    guessInput.style.backgroundColor = '#f0f0f0'; // Altera a cor de fundo.
+    alert(`Você desistiu! A resposta era: ${animacao.title}`);
+    revealAllHints();
+    document.getElementById('enviarButton').style.display = 'none';
+    document.getElementById('giveUpButton').style.display = 'none';
+    const guessInput = document.getElementById('guessInput');
+    guessInput.disabled = true;
+    guessInput.placeholder = 'O jogo terminou!';
+    guessInput.style.backgroundColor = '#f0f0f0';
 }
 
+// Revela uma dica aleatória
 function revealHint() {
-    // Função para revelar uma dica aleatória.
     const hints = [
-        // Array de objetos contendo as informações das dicas.
         { id: 'hint1', text: `- Gênero: ${animacao.genre}` },
         { id: 'hint2', text: `- Diretor: ${animacao.director}` },
         { id: 'hint3', text: `- Ator principal: ${animacao.MainCharacter}` },
@@ -232,90 +241,77 @@ function revealHint() {
     ];
 
     const unrevealedHints = hints.filter(hint => {
-        // Filtra as dicas que ainda não foram reveladas.
-        const hintElement = document.getElementById(hint.id); // Obtém o elemento da dica.
-        return hintElement && hintElement.textContent.includes('???'); // Verifica se o texto da dica ainda contém '???'.
+        const hintElement = document.getElementById(hint.id);
+        return hintElement && hintElement.textContent.includes('???');
     });
 
     if (unrevealedHints.length > 0) {
-        // Se houver dicas não reveladas, revela uma aleatoriamente.
-        const randomHint = unrevealedHints[Math.floor(Math.random() * unrevealedHints.length)]; // Seleciona uma dica aleatória.
-        updateHint(randomHint.id, randomHint.text); // Chama a função para atualizar a dica na interface.
+        const randomHint = unrevealedHints[Math.floor(Math.random() * unrevealedHints.length)];
+        updateHint(randomHint.id, randomHint.text);
     } else {
-        // Se todas as dicas principais já foram reveladas, revela a sinopse.
-        updateHint('hint4', `- Sinopse: ${animacao.synopsis}`); // Revela a dica de sinopse.
-        allHintsRevealed = true; // Define a flag de dicas reveladas.
+        updateHint('hint4', `- Sinopse: ${animacao.synopsis}`);
+        allHintsRevealed = true;
     }
 
-    document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/12'; // Atualiza o texto das tentativas.
+    document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/12';
 }
 
+// Atualiza o texto de uma dica específica
 function updateHint(id, text) {
-    // Função para atualizar o texto de um elemento de dica na interface.
-    const hint = document.getElementById(id); // Obtém o elemento da dica pelo ID.
-    if (!hint) return; // Se o elemento não for encontrado, sai da função.
-    hint.textContent = text; // Atualiza o texto do elemento.
-    hint.classList.toggle("revealed"); // Adiciona ou remove a classe "revealed" para o efeito de transição.
-
-    setTimeout(function () {
-        // Configura um timer para remover a classe "revealed" após um curto período.
-        hint.classList.remove("revealed"); // Remove a classe.
-    }, 200); // O tempo do timer é de 200 milissegundos.
+    const hint = document.getElementById(id);
+    if (!hint) return;
+    hint.textContent = text;
+    hint.classList.toggle("revealed");
+    setTimeout(() => {
+        hint.classList.remove("revealed");
+    }, 200);
 }
 
-// ------------ Inicialização ------------
+// ---------------- INICIALIZAÇÃO DO DOM ----------------
+
+// Executa quando o documento é carregado
 document.addEventListener('DOMContentLoaded', () => {
-    // Adiciona um listener que executa o código quando o DOM estiver completamente carregado.
-    const voltar = document.getElementById('voltar'); // Obtém o botão 'voltar'.
-    if (voltar) voltar.addEventListener('click', () => window.history.back()); // Adiciona um listener de clique para voltar à página anterior.
+    const voltar = document.getElementById('voltar');
+    if (voltar) voltar.addEventListener('click', () => window.history.back());
 
-    const newGameButton = document.getElementById('newGameButton'); // Obtém o botão de 'novo jogo'.
-    if (newGameButton) newGameButton.addEventListener('click', startNewGame); // Adiciona um listener de clique para iniciar um novo jogo.
+    const newGameButton = document.getElementById('newGameButton');
+    if (newGameButton) newGameButton.addEventListener('click', startNewGame);
 
-    const giveUpButton = document.getElementById('giveUpButton'); // Obtém o botão de 'desistir'.
-    if (giveUpButton) giveUpButton.addEventListener('click', giveUp); // Adiciona um listener de clique para desistir do jogo.
+    const giveUpButton = document.getElementById('giveUpButton');
+    if (giveUpButton) giveUpButton.addEventListener('click', giveUp);
 
-    const guessInput = document.getElementById('guessInput'); // Obtém o campo de entrada do palpite.
+    const guessInput = document.getElementById('guessInput');
     if (guessInput) {
         guessInput.addEventListener('keydown', (event) => {
-            // Adiciona um listener para a tecla 'Enter'.
             if (event.key === 'Enter') {
-                event.preventDefault(); // Previne o comportamento padrão (ex: submeter um formulário).
-                const guess = guessInput.value.trim(); // Pega o valor do input, removendo espaços.
-                const guessedanimacao = animacaosList.find(m => m.title === guess); // Procura o filme correspondente na lista de filmes.
+                event.preventDefault();
+                const guess = guessInput.value.trim();
+                const guessedanimacao = animacaosList.find(m => m.title === guess);
 
                 if (guessedanimacao) {
-                    // Se o filme for encontrado...
-                    checkGuess(guessedanimacao); // Chama a função para verificar o palpite.
+                    checkGuess(guessedanimacao);
                 } else {
-                    // Se o filme não for encontrado...
-                    alert("Objeto não encontrado no nosso banco de dados. Tente novamente!")
+                    alert("Objeto não encontrado no nosso banco de dados. Tente novamente!");
                 }
-                guessInput.value = ''; // Limpa o campo de entrada após o palpite.
+                guessInput.value = '';
             }
         });
     }
 
-    // >>>>>>> ADICIONADO: clique no botão Enviar <<<<<<
-    const enviarButton = document.getElementById('enviarButton'); // Obtém o botão 'Enviar'.
+    const enviarButton = document.getElementById('enviarButton');
     if (enviarButton && guessInput) {
-        // Adiciona um listener de clique para o botão 'Enviar'.
         enviarButton.addEventListener('click', () => {
-            const guess = guessInput.value.trim(); // Pega o valor do input, removendo espaços.
-            const guessedanimacao = animacaosList.find(m => m.title === guess); // Procura o filme na lista.
+            const guess = guessInput.value.trim();
+            const guessedanimacao = animacaosList.find(m => m.title === guess);
 
             if (guessedanimacao) {
-                // Se o filme for encontrado...
-                checkGuess(guessedanimacao); // Chama a função para verificar o palpite.
+                checkGuess(guessedanimacao);
             } else {
-                // Se o filme não for encontrado...
-                alert("Objeto não encontrado no nosso banco de dados. Tente novamente!")
+                alert("Objeto não encontrado no nosso banco de dados. Tente novamente!");
             }
-            guessInput.value = ''; // Limpa o campo de entrada após o palpite.
+            guessInput.value = '';
         });
     }
-    // >>>>>>> FIM DA ADIÇÃO <<<<<<
 
-    loadanimacaoData(); // Inicia o processo de carregamento dos dados dos filmes quando o script é executado.
-
+    loadanimacaoData(); // Carrega os dados JSON e inicia o jogo
 });
