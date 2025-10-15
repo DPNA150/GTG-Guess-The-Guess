@@ -1,316 +1,289 @@
-// series.js — atualizado: autocomplete robusto e debug
-// Este arquivo JavaScript gerencia a lógica do jogo de adivinhação de series.
-// Ele inclui funcionalidades para carregar dados, gerenciar o jogo, dar dicas e usar autocomplete.
+// series_comentado.js — versão completa e comentada com efeito de erro visual
+// Este arquivo gerencia o jogo de adivinhação de séries, incluindo:
+// - Carregamento do arquivo JSON com as séries
+// - Sistema de autocomplete para palpites
+// - Controle de tentativas e dicas
+// - Efeito visual: todas as dicas ficam vermelhas temporariamente quando o jogador erra.
 
-// Configurações
-const SUGGESTION_LIMIT = 8; // Define o número máximo de sugestões exibidas no autocomplete.
-const DEBOUNCE_MS = 120; // Define o tempo de espera em milissegundos para o autocomplete ser ativado após a digitação.
+// ---------------------- CONFIGURAÇÕES ----------------------
+const SUGGESTION_LIMIT = 8; // Número máximo de sugestões exibidas no autocomplete.
+const DEBOUNCE_MS = 120; // Tempo de espera (ms) para o autocomplete responder após digitação.
 
-// Variáveis globais
-let serie = {}; // Objeto que armazenará a série a ser adivinhada no jogo atual.
-let seriesList = []; // Array que armazenará a lista completa de séries carregada do arquivo JSON.
-let allHintsRevealed = false; // Flag booleana que indica se todas as dicas já foram reveladas.
-let tentativas = 13; // Variável que armazena o número de tentativas restantes para o jogador.
+// ---------------------- VARIÁVEIS GLOBAIS ----------------------
+let serie = {}; // Objeto que armazena a série sorteada.
+let seriesList = []; // Lista de todas as séries carregadas do arquivo JSON.
+let allHintsRevealed = false; // Indica se todas as dicas já foram reveladas.
+let tentativas = 13; // Total de tentativas disponíveis no início do jogo.
 
-// ------------ Funções principais ------------
-// Carrega o JSON de series e inicializa tudo
+// ---------------------- FUNÇÕES PRINCIPAIS ----------------------
+
+// Carrega o arquivo JSON com as séries
 async function loadserieData() {
-    // Função assíncrona para carregar os dados dos series de um arquivo JSON.
-    console.log('[series.js] Carregando series.json...'); // Exibe uma mensagem no console indicando o início do carregamento.
+    console.log('[series.js] Carregando series.json...');
     try {
-        const response = await fetch('series.json'); // Faz uma requisição assíncrona para buscar o arquivo 'series.json'.
-        if (!response.ok) throw new Error(`HTTP ${response.status} — ${response.statusText}`); // Lança um erro se a resposta da requisição não for bem-sucedida.
+        const response = await fetch('series.json'); // Faz o fetch do JSON.
+        if (!response.ok) throw new Error(`HTTP ${response.status} — ${response.statusText}`);
 
-        seriesList = await response.json(); // Converte a resposta da requisição para um objeto JSON e armazena em seriesList.
-        console.log(`[series.js] series.json carregado — total de itens: ${seriesList.length}`); // Exibe uma mensagem no console com o número total de itens carregados.
+        seriesList = await response.json(); // Converte a resposta para objeto JS.
+        console.log(`[series.js] series.json carregado — total de itens: ${seriesList.length}`);
 
-        // opcional: extrair apenas objetos que tenham title
-        seriesList = seriesList.filter(f => f && typeof f.title === 'string'); // Filtra a lista para incluir apenas objetos com uma propriedade 'title' que seja uma string.
-        console.log(`[series.js] títulos válidos: ${seriesList.length}`); // Exibe a contagem de series com títulos válidos.
-
+        // Garante que apenas séries com título válido sejam mantidas
+        seriesList = seriesList.filter(f => f && typeof f.title === 'string');
+        console.log(`[series.js] títulos válidos: ${seriesList.length}`);
     } catch (err) {
-        console.error('[series.js] Erro ao carregar series.json:', err); // Captura e exibe qualquer erro ocorrido durante o carregamento do JSON.
-        seriesList = []; // Em caso de erro, a lista de series é esvaziada.
+        console.error('[series.js] Erro ao carregar series.json:', err);
+        seriesList = []; // Se falhar, mantém a lista vazia.
     } finally {
-        initSuggestions(); // Chama a função para inicializar o sistema de sugestões, independentemente do resultado do carregamento.
-        if (seriesList.length > 0) serie = selectRandomserie(seriesList); // Se a lista de series não estiver vazia, seleciona um filme aleatório para o jogo.
+        initSuggestions(); // Inicializa o autocomplete.
+        if (seriesList.length > 0) serie = selectRandomserie(seriesList); // Sorteia uma série aleatória.
     }
 }
 
-// Inicializa o sistema de sugestões (autocomplete)
+// ---------------------- AUTOCOMPLETE ----------------------
 function initSuggestions() {
-    // Função para configurar a funcionalidade de autocomplete no campo de entrada do palpite.
-    const input = document.getElementById('guessInput'); // Obtém a referência para o elemento de input onde o usuário digita o palpite.
-    const suggestionsList = document.getElementById('suggestions'); // Obtém a referência para o elemento de lista onde as sugestões serão exibidas.
+    const input = document.getElementById('guessInput'); // Campo de entrada.
+    const suggestionsList = document.getElementById('suggestions'); // Lista de sugestões.
+
     if (!input || !suggestionsList) {
-        console.warn('[series.js] initSuggestions: elementos DOM não encontrados'); // Emite um aviso se os elementos DOM necessários não forem encontrados.
-        return; // Sai da função se os elementos não existirem.
+        console.warn('[series.js] initSuggestions: elementos DOM não encontrados');
+        return;
     }
 
-    let debounceTimer = null; // Variável para controlar o timer do 'debounce', que atrasa a execução da função de busca.
+    let debounceTimer = null;
 
     input.addEventListener('input', () => {
-        // Adiciona um listener de evento 'input' ao campo de entrada.
-        clearTimeout(debounceTimer); // Cancela o timer anterior para evitar múltiplas execuções.
+        clearTimeout(debounceTimer);
         debounceTimer = setTimeout(() => {
-            // Inicia um novo timer para atrasar a execução da lógica de sugestão.
-            const termo = input.value.trim().toLowerCase(); // Pega o valor do input, remove espaços e converte para minúsculas.
-            suggestionsList.innerHTML = ''; // Limpa a lista de sugestões.
-            suggestionsList.style.display = 'none'; // Esconde a lista de sugestões.
+            const termo = input.value.trim().toLowerCase();
+            suggestionsList.innerHTML = '';
+            suggestionsList.style.display = 'none';
+            if (termo.length === 0) return;
 
-            if (termo.length === 0) return; // Se o termo de busca estiver vazio, sai da função.
+            const titulos = seriesList.map(f => f.title && f.title.trim()).filter(Boolean);
+            const filtrados = Array.from(new Set(titulos))
+                .filter(title => title.toLowerCase().includes(termo))
+                .slice(0, SUGGESTION_LIMIT);
 
-            const titulos = seriesList
-                .map(f => f.title && f.title.trim()) // Mapeia a lista de series para uma nova lista contendo apenas os títulos, removendo espaços em branco.
-                .filter(Boolean); // Remove quaisquer valores falsos (null, undefined, etc.).
-
-            const filtrados = Array.from(new Set(titulos)) // Cria um array de títulos únicos.
-                .filter(title => title.toLowerCase().includes(termo)) // Filtra os títulos que incluem o termo de busca.
-                .slice(0, SUGGESTION_LIMIT); // Limita o número de sugestões ao valor definido em SUGGESTION_LIMIT.
-
-            if (filtrados.length === 0) return; // Se não houver series correspondentes, sai da função.
+            if (filtrados.length === 0) return;
 
             filtrados.forEach(title => {
-                // Itera sobre cada título filtrado para criar os elementos da lista de sugestões.
-                const li = document.createElement('li'); // Cria um novo elemento de lista (<li>).
-                li.textContent = title; // Define o texto do elemento de lista para o título dA série.
-                li.classList.add('suggestion-item'); // Adiciona uma classe CSS para estilização.
-                li.setAttribute('role', 'option'); // Adiciona um atributo ARIA para acessibilidade.
-                li.setAttribute('tabindex', '0'); // Torna o item focável para navegação via teclado.
+                const li = document.createElement('li');
+                li.textContent = title;
+                li.classList.add('suggestion-item');
+                li.setAttribute('role', 'option');
+                li.setAttribute('tabindex', '0');
 
                 li.addEventListener('mousedown', (ev) => {
-                    // Adiciona um evento 'mousedown' para preencher o input com o título dA série.
-                    ev.preventDefault(); // Previne o comportamento padrão do mouse (como perder o foco).
-                    input.value = title; // Define o valor do input como o título clicado.
-                    suggestionsList.innerHTML = ''; // Limpa a lista de sugestões.
-                    suggestionsList.style.display = 'none'; // Esconde a lista de sugestões.
-                    input.focus(); // Retorna o foco para o campo de entrada.
+                    ev.preventDefault();
+                    input.value = title;
+                    suggestionsList.innerHTML = '';
+                    suggestionsList.style.display = 'none';
+                    input.focus();
                 });
 
                 li.addEventListener('keydown', (ev) => {
-                    // Adiciona um evento 'keydown' para permitir a seleção com as teclas Enter ou Espaço.
                     if (ev.key === 'Enter' || ev.key === ' ') {
-                        ev.preventDefault(); // Previne o comportamento padrão.
-                        input.value = title; // Preenche o input.
-                        suggestionsList.innerHTML = ''; // Limpa as sugestões.
-                        suggestionsList.style.display = 'none'; // Esconde a lista.
-                        input.focus(); // Retorna o foco.
+                        ev.preventDefault();
+                        input.value = title;
+                        suggestionsList.innerHTML = '';
+                        suggestionsList.style.display = 'none';
+                        input.focus();
                     }
                 });
 
-                suggestionsList.appendChild(li); // Adiciona o elemento de lista (<li>) à lista de sugestões (<ul>).
+                suggestionsList.appendChild(li);
             });
 
-            suggestionsList.style.display = 'block'; // Torna a lista de sugestões visível.
-        }, DEBOUNCE_MS); // Define o tempo de atraso do debounce.
+            suggestionsList.style.display = 'block';
+        }, DEBOUNCE_MS);
     });
 
     input.addEventListener('blur', () => {
-        // Adiciona um evento 'blur' que é ativado quando o campo de entrada perde o foco.
         setTimeout(() => {
-            suggestionsList.innerHTML = ''; // Limpa a lista de sugestões.
-            suggestionsList.style.display = 'none'; // Esconde a lista.
-        }, 150); // Define um pequeno atraso para permitir cliques nas sugestões antes que a lista seja escondida.
+            suggestionsList.innerHTML = '';
+            suggestionsList.style.display = 'none';
+        }, 150);
     });
 }
 
-// Seleciona um filme aleatório
+// ---------------------- FUNÇÕES DO JOGO ----------------------
+
+// Sorteia uma série aleatória da lista
 function selectRandomserie(series) {
-    // Função para selecionar um filme aleatório da lista.
-    const randomIndex = Math.floor(Math.random() * series.length); // Gera um índice aleatório.
-    return series[randomIndex]; // Retorna A série no índice aleatório.
+    const randomIndex = Math.floor(Math.random() * series.length);
+    return series[randomIndex];
 }
 
-// ------------ Funções do jogo ------------
+// Verifica o palpite do jogador
 function checkGuess(guessedserie) {
-    // Função principal para verificar se o palpite do jogador está correto.
-
     if (guessedserie.title === serie.title) {
-        // Condição para palpite correto.
-        revealAllHints(); // Revela todas as dicas.
-        document.getElementById('giveUpButton').style.display = 'none'; // Esconde o botão de desistir.
-        document.getElementById('enviarButton').style.display = 'none'; // Esconde o botão de enviar.
-        tentativas = 0; // Define as tentativas restantes para zero.
-        const guessInput = document.getElementById('guessInput'); // Obtém a referência para o input.
-        guessInput.disabled = true; // Desabilita o campo de entrada.
-        guessInput.placeholder = 'O jogo terminou!'; // Altera o placeholder do input.
-        guessInput.style.backgroundColor = '#f0f0f0'; // Altera a cor de fundo do input.
+        // ✅ Palpite correto
+        revealAllHints();
+        document.getElementById('giveUpButton').style.display = 'none';
+        document.getElementById('enviarButton').style.display = 'none';
+        tentativas = 0;
+        const guessInput = document.getElementById('guessInput');
+        guessInput.disabled = true;
+        guessInput.placeholder = 'O jogo terminou!';
+        guessInput.style.backgroundColor = '#f0f0f0';
     } else if (tentativas === 1) {
-        // Condição para a última tentativa (derrota).
-        revealAllHints(); // Revela todas as dicas.
-        document.getElementById('enviarButton').style.display = 'none'; // Esconde o botão de enviar.
-        document.getElementById('giveUpButton').style.display = 'none'; // Esconde o botão de desistir.
-        const guessInput = document.getElementById('guessInput'); // Obtém a referência para o input.
-        guessInput.disabled = true; // Desabilita o campo de entrada.
-        guessInput.placeholder = 'O jogo terminou!'; // Altera o placeholder do input.
-        guessInput.style.backgroundColor = '#f0f0f0'; // Altera a cor de fundo do input.
+        // ❌ Última tentativa — derrota
+        revealAllHints();
+        document.getElementById('enviarButton').style.display = 'none';
+        document.getElementById('giveUpButton').style.display = 'none';
+        const guessInput = document.getElementById('guessInput');
+        guessInput.disabled = true;
+        guessInput.placeholder = 'O jogo terminou!';
+        guessInput.style.backgroundColor = '#f0f0f0';
     } else {
-        // Condição para palpite incorreto, mas ainda com tentativas.
-        tentativas--; // Decrementa o número de tentativas restantes.
-        const guessedTitle = guessedserie && guessedserie.title; // Obtém o título dA série adivinhado, se ele existir.
+        // ❌ Palpite incorreto (com tentativas restantes)
+        tentativas--; // Diminui o contador.
+
+        // >>> EFEITO DE ERRO NAS DICAS <<<
+        const hintsContainer = document.getElementById('hints'); // Obtém o contêiner das dicas.
+        if (hintsContainer) { // Verifica se existe o elemento.
+            hintsContainer.classList.add('hints-error'); // Aplica a classe CSS que deixa as dicas vermelhas.
+            setTimeout(() => {
+                hintsContainer.classList.remove('hints-error'); // Remove a classe após 0,3s.
+            }, 300);
+        }
+        // >>> FIM DO EFEITO DE ERRO <<<
+
+        const guessedTitle = guessedserie && guessedserie.title;
         if (guessedTitle) {
-            // Verifica se o palpite tem alguma dica em comum com A série correto.
-            if (serie.diretor === guessedserie.diretor) updateHint('hint1', `- Gênero: ${serie.diretor}`); // Revela a dica de gênero se for a mesma.
-            if (serie.genero === guessedserie.genero) updateHint('hint2', `- Diretor: ${serie.genero}`); // Revela a dica de diretor se for o mesmo.
-            if (serie.protagonista === guessedserie.protagonista) updateHint('hint3', `- Ano de lançamento: ${serie.protagonista}`); // Revela a dica de ano se for o mesmo.
+            // Verifica semelhanças e revela parcialmente as dicas
+            if (serie.diretor === guessedserie.diretor) updateHint('hint1', `- Diretor: ${serie.diretor}`);
+            if (serie.genero === guessedserie.genero) updateHint('hint2', `- Gênero: ${serie.genero}`);
+            if (serie.protagonista === guessedserie.protagonista) updateHint('hint3', `- Protagonista: ${serie.protagonista}`);
         }
     }
-    document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/12'; // Atualiza o texto que mostra as tentativas restantes.
 
-    if (tentativas == 8) {
-        revealHint(); // Se o número de tentativas for 8, revela uma dica.
-    } else if (tentativas == 4) {
-        revealHint(); // Se o número de tentativas for 4, revela uma dica.
-    } else if (tentativas == 1) {
-        revealHint(); // Se o número de tentativas for 1, revela uma dica.
-    }
+    document.getElementById('tentativas').innerHTML = 'Tentativas restantes: ' + tentativas + '/13';
+
+    if (tentativas === 8 || tentativas === 4 || tentativas === 1) revealHint(); // Mostra uma dica em pontos específicos.
 }
 
+// Revela todas as dicas de uma vez
 function revealAllHints() {
-    // Função para revelar todas as dicas dA série.
-    updateHint('hint1', `- Diretor: ${serie.diretor}`); // Revela a dica de gênero.
-    updateHint('hint2', `- Genero: ${serie.genero}`); // Revela a dica de diretor.
-    updateHint('hint3', `- Protagonista: ${serie.protagonista}`); // Revela a dica de ano.
-    updateHint('hint4', `- Sinopse: ${serie.sinopse}`); // Revela a dica de sinopse.
-    allHintsRevealed = true; // Define a flag para indicar que todas as dicas foram reveladas.
-    tentativas = 0; // Define as tentativas para zero.
-    document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/13'; // Atualiza o texto das tentativas.
+    updateHint('hint1', `- Diretor: ${serie.diretor}`);
+    updateHint('hint2', `- Gênero: ${serie.genero}`);
+    updateHint('hint3', `- Protagonista: ${serie.protagonista}`);
+    updateHint('hint4', `- Sinopse: ${serie.sinopse}`);
+    allHintsRevealed = true;
+    tentativas = 0;
+    document.getElementById('tentativas').innerHTML = 'Tentativas restantes: 0/13';
 }
 
+// Reinicia o jogo
 function startNewGame() {
-    // Função para iniciar um novo jogo.
-    // Resetar variáveis globais
-    serie = selectRandomserie(seriesList); // Seleciona um novA série aleatório.
-    allHintsRevealed = false; // Reseta a flag de dicas reveladas.
-    tentativas = 13; // Reseta o número de tentativas.
+    serie = selectRandomserie(seriesList);
+    allHintsRevealed = false;
+    tentativas = 13;
 
-    const guessInput = document.getElementById('guessInput'); // Obtém o elemento de input.
+    const guessInput = document.getElementById('guessInput');
     if (guessInput) {
-        guessInput.disabled = false; // Habilita o campo de entrada.
-        guessInput.value = ''; // Limpa o valor do input.
-        guessInput.placeholder = 'Digite seu palpite...'; // Reseta o placeholder.
-        guessInput.style.backgroundColor = ''; // Reseta a cor de fundo.
+        guessInput.disabled = false;
+        guessInput.value = '';
+        guessInput.placeholder = 'Digite seu palpite...';
+        guessInput.style.backgroundColor = '';
     }
 
-    // Resetar dicas
-    updateHint('hint1', '- Diretor: ???'); // Reseta a dica de diretor.
-    updateHint('hint2', '- Genero: ???'); // Reseta a dica de gênero.
-    updateHint('hint3', '- Protagonista: ???'); // Reseta a dica de protagonista.
-    updateHint('hint4', '- Sinopse: ???'); // Reseta a dica de sinopse.
+    updateHint('hint1', '- Diretor: ???');
+    updateHint('hint2', '- Gênero: ???');
+    updateHint('hint3', '- Protagonista: ???');
+    updateHint('hint4', '- Sinopse: ???');
 
-    // Reexibir botões
-    document.getElementById('giveUpButton').style.display = 'inline-block'; // Mostra o botão de desistir.
-    document.getElementById('enviarButton').style.display = 'inline-block'; // Mostra o botão de enviar.
-
-    // Atualizar tentativas
-    document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/13'; // Atualiza o texto das tentativas.
+    document.getElementById('giveUpButton').style.display = 'inline-block';
+    document.getElementById('enviarButton').style.display = 'inline-block';
+    document.getElementById('tentativas').innerHTML = 'Tentativas restantes: 13/13';
 }
 
+// Jogador desiste
 function giveUp() {
-    // Função para o jogador desistir do jogo.
-    alert(`Você desistiu! A resposta era: ${serie.title}`); // Mostra um alerta com a resposta correta.
-    revealAllHints(); // Revela todas as dicas.
-    document.getElementById('enviarButton').style.display = 'none'; // Esconde o botão de enviar.
-    document.getElementById('giveUpButton').style.display = 'none'; // Esconde o botão de desistir.
-    const guessInput = document.getElementById('guessInput'); // Obtém o input.
-    guessInput.disabled = true; // Desabilita o input.
-    guessInput.placeholder = 'O jogo terminou!'; // Altera o placeholder.
-    guessInput.style.backgroundColor = '#f0f0f0'; // Altera a cor de fundo.
+    alert(`Você desistiu! A resposta era: ${serie.title}`);
+    revealAllHints();
+    document.getElementById('enviarButton').style.display = 'none';
+    document.getElementById('giveUpButton').style.display = 'none';
+    const guessInput = document.getElementById('guessInput');
+    guessInput.disabled = true;
+    guessInput.placeholder = 'O jogo terminou!';
+    guessInput.style.backgroundColor = '#f0f0f0';
 }
 
+// Revela uma dica aleatória
 function revealHint() {
-    // Função para revelar uma dica aleatória.
     const hints = [
-        // Array de objetos contendo as informações das dicas.
         { id: 'hint1', text: `- Diretor: ${serie.diretor}` },
-        { id: 'hint2', text: `- Genero: ${serie.genero}` },
+        { id: 'hint2', text: `- Gênero: ${serie.genero}` },
         { id: 'hint3', text: `- Protagonista: ${serie.protagonista}` },
+        { id: 'hint4', text: `- Sinopse: ${serie.sinopse}` }
     ];
 
     const unrevealedHints = hints.filter(hint => {
-        // Filtra as dicas que ainda não foram reveladas.
-        const hintElement = document.getElementById(hint.id); // Obtém o elemento da dica.
-        return hintElement && hintElement.textContent.includes('???'); // Verifica se o texto da dica ainda contém '???'.
+        const el = document.getElementById(hint.id);
+        return el && el.textContent.includes('???');
     });
 
     if (unrevealedHints.length > 0) {
-        // Se houver dicas não reveladas, revela uma aleatoriamente.
-        const randomHint = unrevealedHints[Math.floor(Math.random() * unrevealedHints.length)]; // Seleciona uma dica aleatória.
-        updateHint(randomHint.id, randomHint.text); // Chama a função para atualizar a dica na interface.
+        const randomHint = unrevealedHints[Math.floor(Math.random() * unrevealedHints.length)];
+        updateHint(randomHint.id, randomHint.text);
     } else {
-        // Se todas as dicas principais já foram reveladas, revela a sinopse.
-        updateHint('hint4', `- Sinopse: ${serie.sinopse}`); // Revela a dica de sinopse.
-        allHintsRevealed = true; // Define a flag de dicas reveladas.
+        allHintsRevealed = true;
     }
 
-    document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/13'; // Atualiza o texto das tentativas.
+    document.getElementById('tentativas').innerHTML = 'Tentativas restantes: ' + tentativas + '/13';
 }
 
+// Atualiza o texto de uma dica específica
 function updateHint(id, text) {
-    // Função para atualizar o texto de um elemento de dica na interface.
-    const hint = document.getElementById(id); // Obtém o elemento da dica pelo ID.
-    if (!hint) return; // Se o elemento não for encontrado, sai da função.
-    hint.textContent = text; // Atualiza o texto do elemento.
-    hint.classList.toggle("revealed"); // Adiciona ou remove a classe "revealed" para o efeito de transição.
-
-    setTimeout(function () {
-        // Configura um timer para remover a classe "revealed" após um curto período.
-        hint.classList.remove("revealed"); // Remove a classe.
-    }, 200); // O tempo do timer é de 200 milissegundos.
+    const hint = document.getElementById(id);
+    if (!hint) return;
+    hint.textContent = text;
+    hint.classList.toggle("revealed");
+    setTimeout(() => hint.classList.remove("revealed"), 200);
 }
 
-// ------------ Inicialização ------------
+// ---------------------- INICIALIZAÇÃO ----------------------
 document.addEventListener('DOMContentLoaded', () => {
-    // Adiciona um listener que executa o código quando o DOM estiver completamente carregado.
-    const voltar = document.getElementById('voltar'); // Obtém o botão 'voltar'.
-    if (voltar) voltar.addEventListener('click', () => window.history.back()); // Adiciona um listener de clique para voltar à página anterior.
+    const voltar = document.getElementById('voltar');
+    if (voltar) voltar.addEventListener('click', () => window.history.back());
 
-    const newGameButton = document.getElementById('newGameButton'); // Obtém o botão de 'novo jogo'.
-    if (newGameButton) newGameButton.addEventListener('click', startNewGame); // Adiciona um listener de clique para iniciar um novo jogo.
+    const newGameButton = document.getElementById('newGameButton');
+    if (newGameButton) newGameButton.addEventListener('click', startNewGame);
 
-    const giveUpButton = document.getElementById('giveUpButton'); // Obtém o botão de 'desistir'.
-    if (giveUpButton) giveUpButton.addEventListener('click', giveUp); // Adiciona um listener de clique para desistir do jogo.
+    const giveUpButton = document.getElementById('giveUpButton');
+    if (giveUpButton) giveUpButton.addEventListener('click', giveUp);
 
-    const guessInput = document.getElementById('guessInput'); // Obtém o campo de entrada do palpite.
+    const guessInput = document.getElementById('guessInput');
     if (guessInput) {
         guessInput.addEventListener('keydown', (event) => {
-            // Adiciona um listener para a tecla 'Enter'.
             if (event.key === 'Enter') {
-                event.preventDefault(); // Previne o comportamento padrão (ex: submeter um formulário).
-                const guess = guessInput.value.trim(); // Pega o valor do input, removendo espaços.
-                const guessedserie = seriesList.find(m => m.title === guess); // Procura A série correspondente na lista de series.
-
+                event.preventDefault();
+                const guess = guessInput.value.trim();
+                const guessedserie = seriesList.find(m => m.title === guess);
                 if (guessedserie) {
-                    // Se A série for encontrado...
-                    checkGuess(guessedserie); // Chama a função para verificar o palpite.
+                    checkGuess(guessedserie);
                 } else {
-                    // Se A série não for encontrado...
-                    alert("Objeto não encontrado no nosso banco de dados. Tente novamente!")
+                    alert("Objeto não encontrado no banco de dados. Tente novamente!");
                 }
-                guessInput.value = ''; // Limpa o campo de entrada após o palpite.
+                guessInput.value = '';
             }
         });
     }
 
-    // >>>>>>> ADICIONADO: clique no botão Enviar <<<<<<
-    const enviarButton = document.getElementById('enviarButton'); // Obtém o botão 'Enviar'.
+    const enviarButton = document.getElementById('enviarButton');
     if (enviarButton && guessInput) {
-        // Adiciona um listener de clique para o botão 'Enviar'.
         enviarButton.addEventListener('click', () => {
-            const guess = guessInput.value.trim(); // Pega o valor do input, removendo espaços.
-            const guessedserie = seriesList.find(m => m.title === guess); // Procura A série na lista.
-
+            const guess = guessInput.value.trim();
+            const guessedserie = seriesList.find(m => m.title === guess);
             if (guessedserie) {
-                // Se A série for encontrado...
-                checkGuess(guessedserie); // Chama a função para verificar o palpite.
+                checkGuess(guessedserie);
             } else {
-                // Se A série não for encontrado...
-                alert("Objeto não encontrado no nosso banco de dados. Tente novamente!")
+                alert("Objeto não encontrado no banco de dados. Tente novamente!");
             }
-            guessInput.value = ''; // Limpa o campo de entrada após o palpite.
+            guessInput.value = '';
         });
     }
-    // >>>>>>> FIM DA ADIÇÃO <<<<<<
 
-    loadserieData(); // Inicia o processo de carregamento dos dados dos series quando o script é executado.
+    loadserieData();
 });
