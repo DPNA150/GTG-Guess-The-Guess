@@ -1,3 +1,11 @@
+// games_comentado.js — versão completa e comentada
+// Este arquivo controla o jogo de adivinhação de games, incluindo:
+// - Carregamento do JSON de dados
+// - Sistema de tentativas e dicas
+// - Função de autocomplete
+// - Botões de reinício e desistência
+// - Novo efeito de erro: todas as dicas ficam vermelhas por 0,6s quando o usuário erra o palpite.
+
 // games.js — atualizado: autocomplete robusto e debug
 // Este arquivo JavaScript gerencia a lógica do jogo de adivinhação de games.
 // Ele inclui funcionalidades para carregar dados, gerenciar o jogo, dar dicas e usar autocomplete.
@@ -147,6 +155,16 @@ function checkGuess(guessedgame) {
     } else {
         // Condição para palpite incorreto, mas ainda com tentativas.
         tentativas--; // Decrementa o número de tentativas restantes.
+
+        // >>> EFEITO DE ERRO NAS DICAS <<<
+        const hintsContainer = document.getElementById('hints'); // Obtém o contêiner principal que contém todas as dicas.
+        if (hintsContainer) { // Verifica se o elemento realmente existe antes de aplicar o efeito.
+            hintsContainer.classList.add('hints-error'); // Adiciona a classe CSS responsável por deixar todas as dicas vermelhas.
+            setTimeout(() => { // Define um temporizador para remover o efeito após um tempo.
+                hintsContainer.classList.remove('hints-error'); // Remove a classe para restaurar as cores originais das dicas.
+            }, 300); // Tempo do efeito (0,3 segundos).
+        }
+        // >>> FIM DO EFEITO DE ERRO <<<
         const guessedTitle = guessedgame && guessedgame.title; // Obtém o título do jogo adivinhado, se ele existir.
         if (guessedTitle) {
             // Verifica se o palpite tem alguma dica em comum com o jogo correto.
