@@ -1,320 +1,293 @@
-// historia.js — atualizado: autocomplete robusto e debug
-// Este arquivo JavaScript gerencia a lógica do jogo de adivinhação de historia.
-// Ele inclui funcionalidades para carregar dados, gerenciar o jogo, dar dicas e usar autocomplete.
+// historia_comentado.js — versão comentada com efeito de erro visual
+// Este arquivo controla o jogo de adivinhação de eventos históricos, incluindo:
+// - Carregamento de dados a partir de um arquivo JSON
+// - Sistema de dicas progressivas
+// - Autocomplete para palpites
+// - Verificação de respostas com tentativas limitadas
+// - Novo efeito visual: todas as dicas ficam vermelhas por 0,6 segundos quando o jogador erra um palpite.
 
-// Configurações
-const SUGGESTION_LIMIT = 8; // Define o número máximo de sugestões exibidas no autocomplete.
-const DEBOUNCE_MS = 120; // Define o tempo de espera em milissegundos para o autocomplete ser ativado após a digitação.
+// ------------------------------ CONFIGURAÇÕES -----------------------------------
+const SUGGESTION_LIMIT = 8; // Número máximo de sugestões exibidas no autocomplete.
+const DEBOUNCE_MS = 120; // Tempo (em ms) para ativar o autocomplete após digitação.
 
-// Variáveis globais
-let histoia = {}; // Objeto que armazenará o jogo a ser adivinhado no jogo atual.
-let historiaList = []; // Array que armazenará a lista completa de historia carregada do arquivo JSON.
-let allHintsRevealed = false; // Flag booleana que indica se todas as dicas já foram reveladas.
-let tentativas = 12; // Variável que armazena o número de tentativas restantes para o jogador.
+// ------------------------------ VARIÁVEIS GLOBAIS -------------------------------
+let historia = {}; // Objeto que guarda o evento histórico a ser adivinhado.
+let historiasList = []; // Lista completa dos eventos históricos do JSON.
+let allHintsRevealed = false; // Indica se todas as dicas já foram reveladas.
+let tentativas = 12; // Número de tentativas disponíveis.
 
-// ------------ Funções principais ------------
-// Carrega o JSON de historia e inicializa tudo
-async function loadhistoriaData() {
-    // Função assíncrona para carregar os dados dos historia de um arquivo JSON.
-    console.log('[historia.js] Carregando historia.json...'); // Exibe uma mensagem no console indicando o início do carrehistorianto.
+// ------------------------------ FUNÇÕES PRINCIPAIS -------------------------------
+
+// Carrega o JSON de eventos históricos
+async function loadHistoriaData() {
+    console.log('[historia.js] Carregando historia.json...');
     try {
-        const response = await fetch('historia.json'); // Faz uma requisição assíncrona para buscar o arquivo 'historia.json'.
-        if (!response.ok) throw new Error(`HTTP ${response.status} — ${response.statusText}`); // Lança um erro se a resposta da requisição não for bem-sucedida.
+        const response = await fetch('historia.json'); // Faz o fetch do arquivo JSON.
+        if (!response.ok) throw new Error(`HTTP ${response.status} — ${response.statusText}`);
 
-        historiaList = await response.json(); // Converte a resposta da requisição para um objeto JSON e armazena em historiaList.
-        console.log(`[historia.js] historia.json carregado — total de itens: ${historiaList.length}`); // Exibe uma mensagem no console com o número total de itens carregados.
+        historiasList = await response.json(); // Converte o JSON em objeto JS.
+        console.log(`[historia.js] historia.json carregado — total: ${historiasList.length}`);
 
-        // opcional: extrair apenas objetos que tenham title
-        historiaList = historiaList.filter(f => f && typeof f.title === 'string'); // Filtra a lista para incluir apenas objetos com uma propriedade 'title' que seja uma string.
-        console.log(`[historia.js] títulos válidos: ${historiaList.length}`); // Exibe a contagem de historia com títulos válidos.
-
+        // Filtra apenas objetos com título válido
+        historiasList = historiasList.filter(f => f && typeof f.title === 'string');
+        console.log(`[historia.js] Títulos válidos: ${historiasList.length}`);
     } catch (err) {
-        console.error('[historia.js] Erro ao carregar historia.json:', err); // Captura e exibe qualquer erro ocorrido durante o carrehistorianto do JSON.
-        historiaList = []; // Em caso de erro, a lista de historia é esvaziada.
+        console.error('[historia.js] Erro ao carregar historia.json:', err);
+        historiasList = []; // Se der erro, deixa a lista vazia.
     } finally {
-        initSuggestions(); // Chama a função para inicializar o sistema de sugestões, independentemente do resultado do carrehistorianto.
-        if (historiaList.length > 0) histoia = selectRandomhistoria(historiaList); // Se a lista de historia não estiver vazia, seleciona um jogo aleatório para o jogo.
+        initSuggestions(); // Inicializa o autocomplete de qualquer forma.
+        if (historiasList.length > 0) historia = selectRandomHistoria(historiasList);
     }
 }
 
-// Inicializa o sistema de sugestões (autocomplete)
+// Inicializa o sistema de autocomplete
 function initSuggestions() {
-    // Função para configurar a funcionalidade de autocomplete no campo de entrada do palpite.
-    const input = document.getElementById('guessInput'); // Obtém a referência para o elemento de input onde o usuário digita o palpite.
-    const suggestionsList = document.getElementById('suggestions'); // Obtém a referência para o elemento de lista onde as sugestões serão exibidas.
+    const input = document.getElementById('guessInput');
+    const suggestionsList = document.getElementById('suggestions');
     if (!input || !suggestionsList) {
-        console.warn('[historia.js] initSuggestions: elementos DOM não encontrados'); // Emite um aviso se os elementos DOM necessários não forem encontrados.
-        return; // Sai da função se os elementos não existirem.
+        console.warn('[historia.js] initSuggestions: elementos DOM não encontrados');
+        return;
     }
 
-    let debounceTimer = null; // Variável para controlar o timer do 'debounce', que atrasa a execução da função de busca.
+    let debounceTimer = null; // Temporizador para controlar o delay.
 
     input.addEventListener('input', () => {
-        // Adiciona um listener de evento 'input' ao campo de entrada.
-        clearTimeout(debounceTimer); // Cancela o timer anterior para evitar múltiplas execuções.
+        clearTimeout(debounceTimer);
         debounceTimer = setTimeout(() => {
-            // Inicia um novo timer para atrasar a execução da lógica de sugestão.
-            const termo = input.value.trim().toLowerCase(); // Pega o valor do input, remove espaços e converte para minúsculas.
-            suggestionsList.innerHTML = ''; // Limpa a lista de sugestões.
-            suggestionsList.style.display = 'none'; // Esconde a lista de sugestões.
+            const termo = input.value.trim().toLowerCase();
+            suggestionsList.innerHTML = '';
+            suggestionsList.style.display = 'none';
 
-            if (termo.length === 0) return; // Se o termo de busca estiver vazio, sai da função.
+            if (termo.length === 0) return;
 
-            const titulos = historiaList
-                .map(f => f.title && f.title.trim()) // Mapeia a lista de historia para uma nova lista contendo apenas os títulos, removendo espaços em branco.
-                .filter(Boolean); // Remove quaisquer valores falsos (null, undefined, etc.).
+            const titulos = historiasList
+                .map(f => f.title && f.title.trim())
+                .filter(Boolean);
 
-            const filtrados = Array.from(new Set(titulos)) // Cria um array de títulos únicos.
-                .filter(title => title.toLowerCase().includes(termo)) // Filtra os títulos que incluem o termo de busca.
-                .slice(0, SUGGESTION_LIMIT); // Limita o número de sugestões ao valor definido em SUGGESTION_LIMIT.
+            const filtrados = Array.from(new Set(titulos))
+                .filter(title => title.toLowerCase().includes(termo))
+                .slice(0, SUGGESTION_LIMIT);
 
-            if (filtrados.length === 0) return; // Se não houver historia correspondentes, sai da função.
+            if (filtrados.length === 0) return;
 
             filtrados.forEach(title => {
-                // Itera sobre cada título filtrado para criar os elementos da lista de sugestões.
-                const li = document.createElement('li'); // Cria um novo elemento de lista (<li>).
-                li.textContent = title; // Define o texto do elemento de lista para o título do jogo.
-                li.classList.add('suggestion-item'); // Adiciona uma classe CSS para estilização.
-                li.setAttribute('role', 'option'); // Adiciona um atributo ARIA para acessibilidade.
-                li.setAttribute('tabindex', '0'); // Torna o item focável para navegação via teclado.
+                const li = document.createElement('li');
+                li.textContent = title;
+                li.classList.add('suggestion-item');
+                li.setAttribute('role', 'option');
+                li.setAttribute('tabindex', '0');
 
                 li.addEventListener('mousedown', (ev) => {
-                    // Adiciona um evento 'mousedown' para preencher o input com o título do jogo.
-                    ev.preventDefault(); // Previne o comportamento padrão do mouse (como perder o foco).
-                    input.value = title; // Define o valor do input como o título clicado.
-                    suggestionsList.innerHTML = ''; // Limpa a lista de sugestões.
-                    suggestionsList.style.display = 'none'; // Esconde a lista de sugestões.
-                    input.focus(); // Retorna o foco para o campo de entrada.
+                    ev.preventDefault();
+                    input.value = title;
+                    suggestionsList.innerHTML = '';
+                    suggestionsList.style.display = 'none';
+                    input.focus();
                 });
 
                 li.addEventListener('keydown', (ev) => {
-                    // Adiciona um evento 'keydown' para permitir a seleção com as teclas Enter ou Espaço.
                     if (ev.key === 'Enter' || ev.key === ' ') {
-                        ev.preventDefault(); // Previne o comportamento padrão.
-                        input.value = title; // Preenche o input.
-                        suggestionsList.innerHTML = ''; // Limpa as sugestões.
-                        suggestionsList.style.display = 'none'; // Esconde a lista.
-                        input.focus(); // Retorna o foco.
+                        ev.preventDefault();
+                        input.value = title;
+                        suggestionsList.innerHTML = '';
+                        suggestionsList.style.display = 'none';
+                        input.focus();
                     }
                 });
 
-                suggestionsList.appendChild(li); // Adiciona o elemento de lista (<li>) à lista de sugestões (<ul>).
+                suggestionsList.appendChild(li);
             });
 
-            suggestionsList.style.display = 'block'; // Torna a lista de sugestões visível.
-        }, DEBOUNCE_MS); // Define o tempo de atraso do debounce.
+            suggestionsList.style.display = 'block';
+        }, DEBOUNCE_MS);
     });
 
     input.addEventListener('blur', () => {
-        // Adiciona um evento 'blur' que é ativado quando o campo de entrada perde o foco.
         setTimeout(() => {
-            suggestionsList.innerHTML = ''; // Limpa a lista de sugestões.
-            suggestionsList.style.display = 'none'; // Esconde a lista.
-        }, 150); // Define um pequeno atraso para permitir cliques nas sugestões antes que a lista seja escondida.
+            suggestionsList.innerHTML = '';
+            suggestionsList.style.display = 'none';
+        }, 150);
     });
 }
 
-// Seleciona um jogo aleatório
-function selectRandomhistoria(historia) {
-    // Função para selecionar um jogo aleatório da lista.
-    const randomIndex = Math.floor(Math.random() * historia.length); // Gera um índice aleatório.
-    return historia[randomIndex]; // Retorna o jogo no índice aleatório.
+// Seleciona um evento histórico aleatório
+function selectRandomHistoria(historiaList) {
+    const randomIndex = Math.floor(Math.random() * historiaList.length);
+    return historiaList[randomIndex];
 }
 
-// ------------ Funções do jogo ------------
-function checkGuess(guessedhistoria) {
-    // Função principal para verificar se o palpite do jogador está correto.
+// ------------------------------ FUNÇÕES DO JOGO -------------------------------
 
-    if (guessedhistoria.title === histoia.title) {
-        // Condição para palpite correto.
-        revealAllHints(); // Revela todas as dicas.
-        document.getElementById('giveUpButton').style.display = 'none'; // Esconde o botão de desistir.
-        document.getElementById('enviarButton').style.display = 'none'; // Esconde o botão de enviar.
-        tentativas = 0; // Define as tentativas restantes para zero.
-        const guessInput = document.getElementById('guessInput'); // Obtém a referência para o input.
-        guessInput.disabled = true; // Desabilita o campo de entrada.
-        guessInput.placeholder = 'O jogo terminou!'; // Altera o placeholder do input.
-        guessInput.style.backgroundColor = '#f0f0f0'; // Altera a cor de fundo do input.
+// Verifica se o palpite do jogador está correto
+function checkGuess(guessedHistoria) {
+    if (guessedHistoria.title === historia.title) {
+        // Caso o palpite esteja correto
+        revealAllHints();
+        document.getElementById('giveUpButton').style.display = 'none';
+        document.getElementById('enviarButton').style.display = 'none';
+        tentativas = 0;
+        const guessInput = document.getElementById('guessInput');
+        guessInput.disabled = true;
+        guessInput.placeholder = 'O jogo terminou!';
+        guessInput.style.backgroundColor = '#f0f0f0';
     } else if (tentativas === 1) {
-        // Condição para a última tentativa (derrota).
-        revealAllHints(); // Revela todas as dicas.
-        document.getElementById('enviarButton').style.display = 'none'; // Esconde o botão de enviar.
-        document.getElementById('giveUpButton').style.display = 'none'; // Esconde o botão de desistir.
-        const guessInput = document.getElementById('guessInput'); // Obtém a referência para o input.
-        guessInput.disabled = true; // Desabilita o campo de entrada.
-        guessInput.placeholder = 'O jogo terminou!'; // Altera o placeholder do input.
-        guessInput.style.backgroundColor = '#f0f0f0'; // Altera a cor de fundo do input.
+        // Última tentativa — derrota
+        revealAllHints();
+        document.getElementById('enviarButton').style.display = 'none';
+        document.getElementById('giveUpButton').style.display = 'none';
+        const guessInput = document.getElementById('guessInput');
+        guessInput.disabled = true;
+        guessInput.placeholder = 'O jogo terminou!';
+        guessInput.style.backgroundColor = '#f0f0f0';
     } else {
-        // Condição para palpite incorreto, mas ainda com tentativas.
+        // Palpite incorreto, mas ainda restam tentativas
         tentativas--; // Decrementa o número de tentativas restantes.
-        const guessedTitle = guessedhistoria && guessedhistoria.title; // Obtém o título do jogo adivinhado, se ele existir.
+
+        // >>> EFEITO DE ERRO NAS DICAS <<<
+        const hintsContainer = document.getElementById('hints'); // Obtém o contêiner principal das dicas.
+        if (hintsContainer) { // Verifica se o contêiner existe.
+            hintsContainer.classList.add('hints-error'); // Adiciona a classe CSS que deixa todas as dicas vermelhas.
+            setTimeout(() => { // Define um temporizador para reverter o efeito.
+                hintsContainer.classList.remove('hints-error'); // Remove a classe após o tempo definido.
+            }, 300); // O efeito dura 0,3 segundos.
+        }
+        // >>> FIM DO EFEITO DE ERRO <<<
+
+        const guessedTitle = guessedHistoria && guessedHistoria.title;
         if (guessedTitle) {
-            // Verifica se o palpite tem alguma dica em comum com o jogo correto.
-            if (histoia.periodo === guessedhistoria.periodo) updateHint('hint1', `- Período: ${histoia.periodo}`); // Revela a dica de Período se for a mesma.
-            if (histoia.local === guessedhistoria.local) updateHint('hint2', `- Local: ${histoia.local}`); // Revela a dica de Local se for o mesmo.
-            if (histoia.frase === guessedhistoria.frase) updateHint('hint3', `- Frase: ${histoia.frase}`); // Revela a dica de frase se for o mesmo.
-            if (histoia.feito === guessedhistoria.feito) updateHint('hint4', `- Feito: ${histoia.feito}`); // Revela a dica de feito se for o mesmo.
+            if (historia.periodo === guessedHistoria.periodo) updateHint('hint1', `- Periodo que Vivel: ${historia.periodo}`);
+            if (historia.local === guessedHistoria.local) updateHint('hint2', `- Local que Vivel: ${historia.local}`);
+            if (historia.frase === guessedHistoria.frase) updateHint('hint3', `- Frase Famosa: ${historia.frase}`);
+            if (historia.feito === guessedHistoria.feito) updateHint('hint4', `- Maior Feito: ${historia.feito}`);
         }
     }
-    document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/12'; // Atualiza o texto que mostra as tentativas restantes.
 
-    if (tentativas == 8) {
-        revealHint(); // Se o número de tentativas for 8, revela uma dica.
-    } else if (tentativas == 4) {
-        revealHint(); // Se o número de tentativas for 4, revela uma dica.
-    } else if (tentativas == 1) {
-        revealHint(); // Se o número de tentativas for 1, revela uma dica.
-    }
+    document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/12';
+
+    if ([12, 8, 4, 1].includes(tentativas)) revealHint();
 }
 
+// Revela todas as dicas de uma vez
 function revealAllHints() {
-    // Função para revelar todas as dicas do jogo.
-    updateHint('hint1', `- Período: ${histoia.periodo}`); // Revela a dica de Período.
-    updateHint('hint2', `- Local: ${histoia.local}`); // Revela a dica de Local.
-    updateHint('hint3', `- Frase: ${histoia.frase}`); // Revela a dica de ano.
-    updateHint('hint4', `- Feito: ${histoia.feito}`); // Revela a dica de feito.
-    allHintsRevealed = true; // Define a flag para indicar que todas as dicas foram reveladas.
-    tentativas = 0; // Define as tentativas para zero.
-    document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/12'; // Atualiza o texto das tentativas.
+    updateHint('hint1', `- Período que Vivel: ${historia.periodo}`);
+    updateHint('hint2', `- Local que Vivel: ${historia.local}`);
+    updateHint('hint3', `- Frase Famosa: ${historia.frase}`);
+    updateHint('hint4', `- Maior Feito: ${historia.feito}`);
+    allHintsRevealed = true;
+    tentativas = 0;
+    document.getElementById('tentativas').innerHTML = 'tentativas restantes: 0/12';
 }
 
-function startNewhistoria() {
-    // Função para iniciar um novo jogo.
-    // Resetar variáveis globais
-    histoia = selectRandomhistoria(historiaList); // Seleciona um novo jogo aleatório.
-    allHintsRevealed = false; // Reseta a flag de dicas reveladas.
-    tentativas = 12; // Reseta o número de tentativas.
+// Inicia um novo jogo
+function startNewGame() {
+    historia = selectRandomHistoria(historiasList);
+    allHintsRevealed = false;
+    tentativas = 12;
 
-    const guessInput = document.getElementById('guessInput'); // Obtém o elemento de input.
+    const guessInput = document.getElementById('guessInput');
     if (guessInput) {
-        guessInput.disabled = false; // Habilita o campo de entrada.
-        guessInput.value = ''; // Limpa o valor do input.
-        guessInput.placeholder = 'Digite seu palpite...'; // Reseta o placeholder.
-        guessInput.style.backgroundColor = ''; // Reseta a cor de fundo.
+        guessInput.disabled = false;
+        guessInput.value = '';
+        guessInput.placeholder = 'Digite seu palpite...';
+        guessInput.style.backgroundColor = '';
     }
 
-    // Resetar dicas
-    updateHint('hint1', '- Período: ???'); // Reseta a dica de Período.
-    updateHint('hint2', '- Local: ???'); // Reseta a dica de Local.
-    updateHint('hint3', '- Frase: ???'); // Reseta a dica de ano.
-    updateHint('hint4', '- feito: ???'); // Reseta a dica de feito.
-    updateHint('hint5', '- Sinopse: ???'); // Reseta a dica de sinopse.
+    updateHint('hint1', '- Período que Vivel: ???');
+    updateHint('hint2', '- Local que Vivel: ???');
+    updateHint('hint3', '- Frase Famosa: ???');
+    updateHint('hint4', '- Maior Feito: ???');
 
-    // Reexibir botões
-    document.getElementById('giveUpButton').style.display = 'inline-block'; // Mostra o botão de desistir.
-    document.getElementById('enviarButton').style.display = 'inline-block'; // Mostra o botão de enviar.
-
-    // Atualizar tentativas
-    document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/12'; // Atualiza o texto das tentativas.
+    document.getElementById('giveUpButton').style.display = 'inline-block';
+    document.getElementById('enviarButton').style.display = 'inline-block';
+    document.getElementById('tentativas').innerHTML = 'tentativas restantes: 12/12';
 }
 
+// Jogador desiste
 function giveUp() {
-    // Função para o jogador desistir do jogo.
-    alert(`Você desistiu! A resposta era: ${histoia.title}`); // Mostra um alerta com a resposta correta.
-    revealAllHints(); // Revela todas as dicas.
-    document.getElementById('enviarButton').style.display = 'none'; // Esconde o botão de enviar.
-    document.getElementById('giveUpButton').style.display = 'none'; // Esconde o botão de desistir.
-    const guessInput = document.getElementById('guessInput'); // Obtém o input.
-    guessInput.disabled = true; // Desabilita o input.
-    guessInput.placeholder = 'O jogo terminou!'; // Altera o placeholder.
-    guessInput.style.backgroundColor = '#f0f0f0'; // Altera a cor de fundo.
+    alert(`Você desistiu! A resposta era: ${historia.title}`);
+    revealAllHints();
+    document.getElementById('enviarButton').style.display = 'none';
+    document.getElementById('giveUpButton').style.display = 'none';
+    const guessInput = document.getElementById('guessInput');
+    guessInput.disabled = true;
+    guessInput.placeholder = 'O jogo terminou!';
+    guessInput.style.backgroundColor = '#f0f0f0';
 }
 
+// Revela uma dica aleatória
 function revealHint() {
-    // Função para revelar uma dica aleatória.
     const hints = [
-        // Array de objetos contendo as informações das dicas.
-        { id: 'hint1', text: `- Período: ${histoia.periodo}` },
-        { id: 'hint2', text: `- Local: ${histoia.local}` },
-        { id: 'hint3', text: `- Frase: ${histoia.frase}` },
-        { id: 'hint4', text: `- feito: ${histoia.feito}` }
+        { id: 'hint1', text: `- Período que Vivel: ${historia.periodo}` },
+        { id: 'hint2', text: `- Local que Vivel: ${historia.local}` },
+        { id: 'hint3', text: `- Frase Famosa: ${historia.frase}` },
+        { id: 'hint4', text: `- Maior Feito: ${historia.feito}` }
     ];
 
     const unrevealedHints = hints.filter(hint => {
-        // Filtra as dicas que ainda não foram reveladas.
-        const hintElement = document.getElementById(hint.id); // Obtém o elemento da dica.
-        return hintElement && hintElement.textContent.includes('???'); // Verifica se o texto da dica ainda contém '???'.
+        const el = document.getElementById(hint.id);
+        return el && el.textContent.includes('???');
     });
 
     if (unrevealedHints.length > 0) {
-        // Se houver dicas não reveladas, revela uma alefeitoiamente.
-        const randomHint = unrevealedHints[Math.floor(Math.random() * unrevealedHints.length)]; // Seleciona uma dica aleatória.
-        updateHint(randomHint.id, randomHint.text); // Chama a função para atualizar a dica na interface.
+        const randomHint = unrevealedHints[Math.floor(Math.random() * unrevealedHints.length)];
+        updateHint(randomHint.id, randomHint.text);
     } else {
-        // Se todas as dicas principais já foram reveladas, revela a sinopse.
-        updateHint('hint5', `- Sinopse: ${histoia.synopse}`); // Revela a dica de sinopse.
-        allHintsRevealed = true; // Define a flag de dicas reveladas.
+        allHintsRevealed = true;
     }
 
-    document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/12'; // Atualiza o texto das tentativas.
+    document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/12';
 }
 
+// Atualiza o texto de uma dica específica
 function updateHint(id, text) {
-    // Função para atualizar o texto de um elemento de dica na interface.
-    const hint = document.getElementById(id); // Obtém o elemento da dica pelo ID.
-    if (!hint) return; // Se o elemento não for encontrado, sai da função.
-    hint.textContent = text; // Atualiza o texto do elemento.
-    hint.classList.toggle("revealed"); // Adiciona ou remove a classe "revealed" para o efeito de transição.
-
-    setTimeout(function () {
-        // Configura um timer para remover a classe "revealed" após um curto período.
-        hint.classList.remove("revealed"); // Remove a classe.
-    }, 200); // O tempo do timer é de 200 milissegundos.
+    const hint = document.getElementById(id);
+    if (!hint) return;
+    hint.textContent = text;
+    hint.classList.toggle('revealed');
+    setTimeout(() => hint.classList.remove('revealed'), 200);
 }
 
-// ------------ Inicialização ------------
+// ------------------------------ INICIALIZAÇÃO -------------------------------
 document.addEventListener('DOMContentLoaded', () => {
-    // Adiciona um listener que executa o código quando o DOM estiver completamente carregado.
-    const voltar = document.getElementById('voltar'); // Obtém o botão 'voltar'.
-    if (voltar) voltar.addEventListener('click', () => window.history.back()); // Adiciona um listener de clique para voltar à página anterior.
+    const voltar = document.getElementById('voltar');
+    if (voltar) voltar.addEventListener('click', () => window.history.back());
 
-    const newGameButton = document.getElementById('newGameButton'); // Obtém o botão de 'novo jogo'.
-    if (newGameButton) newGameButton.addEventListener('click', startNewhistoria); // Adiciona um listener de clique para iniciar um novo jogo.
+    const newGameButton = document.getElementById('newGameButton');
+    if (newGameButton) newGameButton.addEventListener('click', startNewGame);
 
-    const giveUpButton = document.getElementById('giveUpButton'); // Obtém o botão de 'desistir'.
-    if (giveUpButton) giveUpButton.addEventListener('click', giveUp); // Adiciona um listener de clique para desistir do jogo.
+    const giveUpButton = document.getElementById('giveUpButton');
+    if (giveUpButton) giveUpButton.addEventListener('click', giveUp);
 
-    const guessInput = document.getElementById('guessInput'); // Obtém o campo de entrada do palpite.
+    const guessInput = document.getElementById('guessInput');
     if (guessInput) {
         guessInput.addEventListener('keydown', (event) => {
-            // Adiciona um listener para a tecla 'Enter'.
             if (event.key === 'Enter') {
-                event.preventDefault(); // Previne o comportamento padrão (ex: submeter um formulário).
-                const guess = guessInput.value.trim(); // Pega o valor do input, removendo espaços.
-                const guessedhistoria = historiaList.find(m => m.title === guess); // Procura o jogo correspondente na lista de historia.
-
-                if (guessedhistoria) {
-                    // Se o jogo for encontrado...
-                    checkGuess(guessedhistoria); // Chama a função para verificar o palpite.
+                event.preventDefault();
+                const guess = guessInput.value.trim();
+                const guessedHistoria = historiasList.find(m => m.title === guess);
+                if (guessedHistoria) {
+                    checkGuess(guessedHistoria);
                 } else {
-                    // Se o jogo não for encontrado...
-                    alert("Objeto não encontrado no nosso banco de dados. Tente novamente!")
+                    alert("Objeto não encontrado no banco de dados. Tente novamente!");
                 }
-                guessInput.value = ''; // Limpa o campo de entrada após o palpite.
+                guessInput.value = '';
             }
         });
     }
 
-    // >>>>>>> ADICIONADO: clique no botão Enviar <<<<<<
-    const enviarButton = document.getElementById('enviarButton'); // Obtém o botão 'Enviar'.
+    const enviarButton = document.getElementById('enviarButton');
     if (enviarButton && guessInput) {
-        // Adiciona um listener de clique para o botão 'Enviar'.
         enviarButton.addEventListener('click', () => {
-            const guess = guessInput.value.trim(); // Pega o valor do input, removendo espaços.
-            const guessedhistoria = historiaList.find(m => m.title === guess); // Procura o jogo na lista.
-
-            if (guessedhistoria) {
-                // Se o jogo for encontrado...
-                checkGuess(guessedhistoria); // Chama a função para verificar o palpite.
+            const guess = guessInput.value.trim();
+            const guessedHistoria = historiasList.find(m => m.title === guess);
+            if (guessedHistoria) {
+                checkGuess(guessedHistoria);
             } else {
-                // Se o jogo não for encontrado...
-                alert("Objeto não encontrado no nosso banco de dados. Tente novamente!")
+                alert("Objeto não encontrado no banco de dados. Tente novamente!");
             }
-            guessInput.value = ''; // Limpa o campo de entrada após o palpite.
+            guessInput.value = '';
         });
     }
-    // >>>>>>> FIM DA ADIÇÃO <<<<<<
 
-    loadhistoriaData(); // Inicia o processo de carregamento dos dados dos historia quando o script é executado.
-
+    loadHistoriaData();
 });
