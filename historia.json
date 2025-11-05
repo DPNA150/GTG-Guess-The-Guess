@@ -418,5 +418,110 @@
     "local": "França",
     "frase": "Penso, logo existo.",
     "feito": "Filósofo, matemático e cientista, fundador do racionalismo moderno e da geometria analítica."
+  },
+  {
+    "title": "Adolf Hitler",
+    "periodo": "1889 - 1945",
+    "local": "Alemanha",
+    "frase": "A vitória pertence ao mais perseverante.",
+    "feito": "Líder do Partido Nazista e chanceler da Alemanha, responsável por iniciar a Segunda Guerra Mundial e pelo Holocausto."
+  },
+  {
+    "title": "Maomé",
+    "periodo": "570 - 632",
+    "local": "Arábia Saudita (Meca e Medina)",
+    "frase": "Nenhum de vós é um verdadeiro crente até que deseje para seu irmão o que deseja para si mesmo.",
+    "feito": "Fundador do islamismo e considerado o último profeta por seus seguidores."
+  },
+  {
+    "title": "Euclides de Alexandria",
+    "periodo": "c. 300 a.C.",
+    "local": "Egito (Alexandria)",
+    "frase": "Não há caminho real para a geometria.",
+    "feito": "Matemático grego considerado o 'pai da geometria', autor da obra 'Os Elementos', base da matemática por séculos."
+  },
+  {
+    "title": "Nicolau Copérnico",
+    "periodo": "1473 - 1543",
+    "local": "Polônia",
+    "frase": "Saber que sabemos o que sabemos, e saber que não sabemos o que não sabemos, essa é a verdadeira sabedoria.",
+    "feito": "Formulou a teoria heliocêntrica, que colocou o Sol no centro do sistema solar, revolucionando a astronomia."
+  },
+  {
+    "title": "Martinho Lutero",
+    "periodo": "1483 - 1546",
+    "local": "Alemanha",
+    "frase": "Aqui estou, não posso agir de outra forma.",
+    "feito": "Iniciou a Reforma Protestante ao desafiar a autoridade da Igreja Católica e pregar as 95 teses."
+  },
+  {
+    "title": "Karl Marx",
+    "periodo": "1818 - 1883",
+    "local": "Alemanha",
+    "frase": "Os filósofos têm apenas interpretado o mundo de diferentes maneiras; o que importa é transformá-lo.",
+    "feito": "Filósofo e economista criador do socialismo científico e coautor do 'Manifesto Comunista'."
+  },
+  {
+    "title": "George Washington",
+    "periodo": "1732 - 1799",
+    "local": "Estados Unidos",
+    "frase": "A liberdade, quando começa a criar raízes, é uma planta de rápido crescimento.",
+    "feito": "Líder da independência dos Estados Unidos e primeiro presidente do país."
+  },
+  {
+    "title": "Gêngis Cã",
+    "periodo": "c. 1162 - 1227",
+    "local": "Mongólia e Ásia Central",
+    "frase": "A maior felicidade é dispersar o inimigo e ver diante de si os que ama chorando.",
+    "feito": "Fundador do Império Mongol, o maior império contíguo da história, unificando diversas tribos nômades."
+  },
+  {
+    "title": "Ludwig van Beethoven",
+    "periodo": "1770 - 1827",
+    "local": "Alemanha (Bonn e Viena)",
+    "frase": "A música é a revelação mais elevada do que toda a sabedoria e filosofia.",
+    "feito": "Compositor e pianista que revolucionou a música clássica, mesmo após perder a audição."
+  },
+  {
+    "title": "Vladimir Lenin",
+    "periodo": "1870 - 1924",
+    "local": "Rússia",
+    "frase": "O caminho do socialismo passa pela ditadura do proletariado.",
+    "feito": "Líder da Revolução Russa de 1917 e fundador do Estado Soviético."
+  },
+  {
+    "title": "Mao Tsé-tung",
+    "periodo": "1893 - 1976",
+    "local": "China",
+    "frase": "O poder político nasce do cano de uma arma.",
+    "feito": "Líder da Revolução Chinesa e fundador da República Popular da China em 1949."
+  },
+  {
+    "title": "Arquimedes",
+    "periodo": "c. 287 a.C. - 212 a.C.",
+    "local": "Siracusa, Sicília (Grécia Antiga)",
+    "frase": "Dê-me uma alavanca e um ponto de apoio e moverei o mundo.",
+    "feito": "Físico e matemático que formulou princípios fundamentais da mecânica e da hidrostática."
+  },
+  {
+    "title": "Dom Pedro I",
+    "periodo": "1798 - 1834",
+    "local": "Brasil e Portugal",
+    "frase": "Independência ou morte!",
+    "feito": "Proclamou a Independência do Brasil em 1822 e se tornou o primeiro imperador do país."
+  },
+  {
+    "title": "William Shakespeare",
+    "periodo": "1564 - 1616",
+    "local": "Inglaterra",
+    "frase": "Ser ou não ser, eis a questão.",
+    "feito": "Dramaturgo e poeta inglês considerado o maior escritor da língua inglesa e autor de obras como 'Hamlet' e 'Romeu e Julieta'."
+  },
+  {
+    "title": "Cristóvão Colombo",
+    "periodo": "1451 - 1506",
+    "local": "Itália e Espanha",
+    "frase": "Você nunca atravessará o oceano se não tiver coragem de perder de vista a costa.",
+    "feito": "Navegador que realizou a primeira viagem documentada da Europa à América em 1492, abrindo o caminho para a colonização europeia."
   }
 ]
