@@ -341,5 +341,208 @@
         "director": "Mark Osborne" ,
         "MainCharacter": "Po" ,
         "synopsis": "Um panda desajeitado é escolhido como o Guerreiro Dragão e precisa aprender kung fu para salvar seu vale." 
-    }
+    },
+    {
+    "title": "Naruto",
+    "genre": "Aventura",
+    "director": "Hayato Date",
+    "MainCharacter": "Naruto Uzumaki",
+    "synopsis": "Naruto Uzumaki é um jovem ninja que sonha em se tornar Hokage, o líder de sua vila, enquanto enfrenta o preconceito dos outros por carregar o espírito da Raposa de Nove Caudas dentro de si."
+  },
+  {
+    "title": "Dragon Ball Z",
+    "genre": "Ação",
+    "director": "Daisuke Nishio",
+    "MainCharacter": "Goku",
+    "synopsis": "Goku e seus amigos enfrentam poderosos inimigos intergalácticos em batalhas épicas para proteger a Terra e o universo."
+  },
+  {
+    "title": "Dragon Ball Super",
+    "genre": "Ação",
+    "director": "Kimitoshi Chioka",
+    "MainCharacter": "Goku",
+    "synopsis": "Após derrotar Majin Buu, Goku enfrenta novos deuses e guerreiros de universos paralelos, buscando sempre superar seus limites."
+  },
+  {
+    "title": "Bleach",
+    "genre": "Ação",
+    "director": "Noriyuki Abe",
+    "MainCharacter": "Ichigo Kurosaki",
+    "synopsis": "Ichigo Kurosaki ganha poderes de Ceifeiro de Almas e precisa proteger os vivos e os mortos de espíritos malignos conhecidos como Hollows."
+  },
+  {
+    "title": "One Piece",
+    "genre": "Aventura",
+    "director": "Konosuke Uda",
+    "MainCharacter": "Monkey D. Luffy",
+    "synopsis": "Luffy e sua tripulação partem em busca do lendário tesouro One Piece, enfrentando perigos e descobrindo novos mundos pelo caminho."
+  },
+  {
+    "title": "One Punch Man",
+    "genre": "Comédia",
+    "director": "Shingo Natsume",
+    "MainCharacter": "Saitama",
+    "synopsis": "Saitama é um herói tão poderoso que derrota qualquer inimigo com um único soco, mas isso o deixa entediado e em busca de um desafio real."
+  },
+  {
+    "title": "Fire Force",
+    "genre": "Ação",
+    "director": "Yuki Yase",
+    "MainCharacter": "Shinra Kusakabe",
+    "synopsis": "Em um mundo onde pessoas espontaneamente se transformam em criaturas de fogo, Shinra se junta à Fire Force para combater essas ameaças e descobrir a verdade por trás do fenômeno."
+  },
+  {
+    "title": "Solo Leveling",
+    "genre": "Ação",
+    "director": "Shunsuke Nakashige",
+    "MainCharacter": "Sung Jin-Woo",
+    "synopsis": "Um caçador fraco ganha a habilidade misteriosa de 'subir de nível' e se torna o mais poderoso de todos, enfrentando ameaças sobrenaturais e desafios mortais."
+  },
+  {
+    "title": "Horimiya",
+    "genre": "Romance",
+    "director": "Masashi Ishihama",
+    "MainCharacter": "Kyoko Hori e Izumi Miyamura",
+    "synopsis": "Dois colegas de classe com personalidades opostas descobrem o lado oculto um do outro e desenvolvem um relacionamento inesperado e sincero."
+  },
+  {
+    "title": "My Dress Up Darling",
+    "genre": "Romance",
+    "director": "Keisuke Shinohara",
+    "MainCharacter": "Wakana Gojo e Marin Kitagawa",
+    "synopsis": "Um tímido artesão de bonecas e uma extrovertida fã de cosplay formam uma improvável amizade que floresce em algo mais enquanto criam fantasias juntos."
+  },
+  {
+    "title": "Kaiju No. 8",
+    "genre": "Ficção Científica",
+    "director": "Shigeyuki Miya",
+    "MainCharacter": "Kafka Hibino",
+    "synopsis": "Kafka Hibino sonha em combater monstros gigantes, mas acaba se tornando um deles, lutando para proteger a humanidade e esconder sua nova identidade."
+  },
+  {
+    "title": "My Hero Academia",
+    "genre": "Ação",
+    "director": "Kenji Nagasaki",
+    "MainCharacter": "Izuku Midoriya",
+    "synopsis": "Em um mundo onde quase todos possuem superpoderes, o jovem Izuku sonha em ser um herói, mesmo nascendo sem poderes."
+  },
+  {
+    "title": "Spy x Family",
+    "genre": "Comédia",
+    "director": "Kazuhiro Furuhashi",
+    "MainCharacter": "Loid Forger",
+    "synopsis": "Um espião precisa formar uma família falsa para cumprir uma missão, mas descobre que sua esposa é uma assassina e sua filha tem poderes telepáticos."
+  },
+  {
+    "title": "Attack on Titan",
+    "genre": "Drama",
+    "director": "Tetsuro Araki",
+    "MainCharacter": "Eren Yeager",
+    "synopsis": "Humanos vivem cercados por muralhas para se proteger de titãs devoradores de pessoas, até que Eren Yeager decide lutar pela liberdade."
+  },
+  {
+    "title": "Jujutsu Kaisen",
+    "genre": "Ação",
+    "director": "Sunghoo Park",
+    "MainCharacter": "Yuji Itadori",
+    "synopsis": "Yuji Itadori se envolve com feitiçaria após engolir um objeto amaldiçoado e passa a lutar contra maldições que ameaçam o mundo humano."
+  },
+  {
+    "title": "Demon Slayer Kimetsu no Yaiba",
+    "genre": "Ação",
+    "director": "Haruo Sotozaki",
+    "MainCharacter": "Tanjiro Kamado",
+    "synopsis": "Tanjiro Kamado busca uma cura para sua irmã transformada em demônio e enfrenta criaturas sombrias para proteger a humanidade."
+  },
+  {
+    "title": "Chainsaw Man",
+    "genre": "Ação",
+    "director": "Ryu Nakayama",
+    "MainCharacter": "Denji",
+    "synopsis": "Um jovem caçador de demônios com o poder de se transformar em um homem-serra luta para sobreviver e realizar seus sonhos simples em um mundo brutal."
+  },
+  {
+    "title": "Black Clover",
+    "genre": "Aventura",
+    "director": "Tatsuya Yoshihara",
+    "MainCharacter": "Asta",
+    "synopsis": "Asta nasceu sem poderes mágicos em um mundo onde a magia é tudo, mas sonha em se tornar o Rei Mago, desafiando todos os limites."
+  },
+  {
+    "title": "Re:Zero",
+    "genre": "Drama",
+    "director": "Masaharu Watanabe",
+    "MainCharacter": "Subaru Natsuki",
+    "synopsis": "Subaru é transportado para um mundo de fantasia e descobre que tem o poder de voltar no tempo sempre que morre, revivendo tragédias repetidamente."
+  },
+  {
+    "title": "Hunter x Hunter",
+    "genre": "Aventura",
+    "director": "Hiroshi Kōjina",
+    "MainCharacter": "Gon Freecss",
+    "synopsis": "Gon Freecss embarca em uma jornada para se tornar um caçador profissional e reencontrar seu pai, enfrentando desafios e amizades pelo caminho."
+  },
+  {
+    "title": "Mushoku Tensei",
+    "genre": "Aventura",
+    "director": "Manabu Okamoto",
+    "MainCharacter": "Rudeus Greyrat",
+    "synopsis": "Um homem reencarna em um mundo mágico com a chance de recomeçar sua vida e corrigir os erros do passado."
+  },
+  {
+    "title": "Tokyo Ghoul",
+    "genre": "Drama",
+    "director": "Shuhei Morita",
+    "MainCharacter": "Ken Kaneki",
+    "synopsis": "Ken Kaneki se transforma em um meio-ghoul após um acidente e precisa se adaptar a um mundo violento onde humanos e ghouls lutam pela sobrevivência."
+  },
+  {
+    "title": "Classroom of the Elite",
+    "genre": "Drama",
+    "director": "Seiji Kishi",
+    "MainCharacter": "Kiyotaka Ayanokoji",
+    "synopsis": "Em uma escola de elite que avalia os alunos por mérito e manipulação, Kiyotaka usa sua inteligência para ascender socialmente e revelar segredos obscuros."
+  },
+  {
+    "title": "Konosuba",
+    "genre": "Comédia",
+    "director": "Takaomi Kanasaki",
+    "MainCharacter": "Kazuma Satou",
+    "synopsis": "Após morrer de forma patética, Kazuma renasce em um mundo de fantasia e forma um grupo desajustado de aventureiros para viver absurdas missões."
+  },
+  {
+    "title": "Code Geass",
+    "genre": "Ficção Científica",
+    "director": "Gorō Taniguchi",
+    "MainCharacter": "Lelouch Lamperouge",
+    "synopsis": "Lelouch ganha o poder de comandar qualquer pessoa e usa isso para liderar uma revolta contra o império que domina o Japão."
+  },
+  {
+    "title": "Gundam",
+    "genre": "Ficção Científica",
+    "director": "Yoshiyuki Tomino",
+    "MainCharacter": "Amuro Ray",
+    "synopsis": "Em meio a uma guerra espacial, jovens pilotos controlam robôs gigantes chamados Gundam para lutar pela sobrevivência da humanidade."
+  },
+  {
+    "title": "Digimon Adventure",
+    "genre": "Aventura",
+    "director": "Hiroyuki Kakudō",
+    "MainCharacter": "Tai Kamiya",
+    "synopsis": "Um grupo de crianças é transportado para o Mundo Digital, onde fazem amizade com criaturas chamadas Digimons e lutam para salvar ambos os mundos."
+  },
+  {
+    "title": "Darling in the Franxx",
+    "genre": "Romance",
+    "director": "Atsushi Nishigori",
+    "MainCharacter": "Hiro e Zero Two",
+    "synopsis": "Em um futuro pós-apocalíptico, jovens pilotos controlam robôs gigantes para proteger a humanidade, enquanto exploram amor e identidade."
+  },
+  {
+    "title": "Your Lie in April",
+    "genre": "Romance",
+    "director": "Kyohei Ishiguro",
+    "MainCharacter": "Kosei Arima",
+    "synopsis": "Um pianista prodígio traumatizado pela morte da mãe redescobre a música e o amor através de uma violinista vibrante chamada Kaori."
+  }
 ]
