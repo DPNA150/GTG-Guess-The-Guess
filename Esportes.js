@@ -1,12 +1,12 @@
-// arquivo_comentado.js — versão comentada com efeito de erro
-// Este script gerencia o jogo de adivinhação de arquivo, incluindo:
-// - Carregamento do JSON com os arquivo
+// esportes_comentado.js — versão comentada com efeito de erro
+// Este script gerencia o jogo de adivinhação de esportes, incluindo:
+// - Carregamento do JSON com os esportes
 // - Sistema de tentativas e dicas
 // - Autocomplete para palpites
 // - Novo efeito visual: todas as dicas ficam vermelhas por 0,6s quando o jogador erra um palpite.
 
-// arquivo.js — atualizado: autocomplete robusto e debug
-// Este arquivo JavaScript gerencia a lógica do jogo de adivinhação de arquivo.
+// esportes.js — atualizado: autocomplete robusto e debug
+// Este arquivo JavaScript gerencia a lógica do jogo de adivinhação de esportes.
 // Ele inclui funcionalidades para carregar dados, gerenciar o jogo, dar dicas e usar autocomplete.
 
 // Configurações
@@ -15,32 +15,32 @@ const DEBOUNCE_MS = 120; // Define o tempo de espera em milissegundos para o aut
 
 // Variáveis globais
 let esporte = {}; // Objeto que armazenará o filme a ser adivinhado no jogo atual.
-let arquivoList = []; // Array que armazenará a lista completa de arquivo carregada do arquivo JSON.
+let esportesList = []; // Array que armazenará a lista completa de esportes carregada do arquivo JSON.
 let allHintsRevealed = false; // Flag booleana que indica se todas as dicas já foram reveladas.
 let tentativas = 9; // Variável que armazena o número de tentativas restantes para o jogador.
 
 // ------------ Funções principais ------------
-// Carrega o JSON de arquivo e inicializa tudo
+// Carrega o JSON de esportes e inicializa tudo
 async function loadesporteData() {
-    // Função assíncrona para carregar os dados dos arquivo de um arquivo JSON.
-    console.log('[arquivo.js] Carregando arquivo.json...'); // Exibe uma mensagem no console indicando o início do carregamento.
+    // Função assíncrona para carregar os dados dos esportes de um arquivo JSON.
+    console.log('[esportes.js] Carregando esportes.json...'); // Exibe uma mensagem no console indicando o início do carregamento.
     try {
-        const response = await fetch('arquivo.json'); // Faz uma requisição assíncrona para buscar o arquivo 'arquivo.json'.
+        const response = await fetch('esportes.json'); // Faz uma requisição assíncrona para buscar o arquivo 'esportes.json'.
         if (!response.ok) throw new Error(`HTTP ${response.status} — ${response.statusText}`); // Lança um erro se a resposta da requisição não for bem-sucedida.
 
-        arquivoList = await response.json(); // Converte a resposta da requisição para um objeto JSON e armazena em arquivoList.
-        console.log(`[arquivo.js] arquivo.json carregado — total de itens: ${arquivoList.length}`); // Exibe uma mensagem no console com o número total de itens carregados.
+        esportesList = await response.json(); // Converte a resposta da requisição para um objeto JSON e armazena em esportesList.
+        console.log(`[esportes.js] esportes.json carregado — total de itens: ${esportesList.length}`); // Exibe uma mensagem no console com o número total de itens carregados.
 
         // opcional: extrair apenas objetos que tenham nome
-        arquivoList = arquivoList.filter(f => f && typeof f.nome === 'string'); // Filtra a lista para incluir apenas objetos com uma propriedade 'nome' que seja uma string.
-        console.log(`[arquivo.js] títulos válidos: ${arquivoList.length}`); // Exibe a contagem de arquivo com títulos válidos.
+        esportesList = esportesList.filter(f => f && typeof f.nome === 'string'); // Filtra a lista para incluir apenas objetos com uma propriedade 'nome' que seja uma string.
+        console.log(`[esportes.js] títulos válidos: ${esportesList.length}`); // Exibe a contagem de esportes com títulos válidos.
 
     } catch (err) {
-        console.error('[arquivo.js] Erro ao carregar arquivo.json:', err); // Captura e exibe qualquer erro ocorrido durante o carregamento do JSON.
-        arquivoList = []; // Em caso de erro, a lista de arquivo é esvaziada.
+        console.error('[esportes.js] Erro ao carregar esportes.json:', err); // Captura e exibe qualquer erro ocorrido durante o carregamento do JSON.
+        esportesList = []; // Em caso de erro, a lista de esportes é esvaziada.
     } finally {
         initSuggestions(); // Chama a função para inicializar o sistema de sugestões, independentemente do resultado do carregamento.
-        if (arquivoList.length > 0) esporte = selectRandomesporte(arquivoList); // Se a lista de arquivo não estiver vazia, seleciona um filme aleatório para o jogo.
+        if (esportesList.length > 0) esporte = selectRandomesporte(esportesList); // Se a lista de esportes não estiver vazia, seleciona um filme aleatório para o jogo.
     }
 }
 
@@ -50,7 +50,7 @@ function initSuggestions() {
     const input = document.getElementById('guessInput'); // Obtém a referência para o elemento de input onde o usuário digita o palpite.
     const suggestionsList = document.getElementById('suggestions'); // Obtém a referência para o elemento de lista onde as sugestões serão exibidas.
     if (!input || !suggestionsList) {
-        console.warn('[arquivo.js] initSuggestions: elementos DOM não encontrados'); // Emite um aviso se os elementos DOM necessários não forem encontrados.
+        console.warn('[esportes.js] initSuggestions: elementos DOM não encontrados'); // Emite um aviso se os elementos DOM necessários não forem encontrados.
         return; // Sai da função se os elementos não existirem.
     }
 
@@ -67,15 +67,15 @@ function initSuggestions() {
 
             if (termo.length === 0) return; // Se o termo de busca estiver vazio, sai da função.
 
-            const titulos = arquivoList
-                .map(f => f.nome && f.nome.trim()) // Mapeia a lista de arquivo para uma nova lista contendo apenas os títulos, removendo espaços em branco.
+            const titulos = esportesList
+                .map(f => f.nome && f.nome.trim()) // Mapeia a lista de esportes para uma nova lista contendo apenas os títulos, removendo espaços em branco.
                 .filter(Boolean); // Remove quaisquer valores falsos (null, undefined, etc.).
 
             const filtrados = Array.from(new Set(titulos)) // Cria um array de títulos únicos.
                 .filter(nome => nome.toLowerCase().includes(termo)) // Filtra os títulos que incluem o termo de busca.
                 .slice(0, SUGGESTION_LIMIT); // Limita o número de sugestões ao valor definido em SUGGESTION_LIMIT.
 
-            if (filtrados.length === 0) return; // Se não houver arquivo correspondentes, sai da função.
+            if (filtrados.length === 0) return; // Se não houver esportes correspondentes, sai da função.
 
             filtrados.forEach(nome => {
                 // Itera sobre cada título filtrado para criar os elementos da lista de sugestões.
@@ -122,10 +122,10 @@ function initSuggestions() {
 }
 
 // Seleciona um filme aleatório
-function selectRandomesporte(arquivo) {
+function selectRandomesporte(esportes) {
     // Função para selecionar um filme aleatório da lista.
-    const randomIndex = Math.floor(Math.random() * arquivo.length); // Gera um índice aleatório.
-    return arquivo[randomIndex]; // Retorna o filme no índice aleatório.
+    const randomIndex = Math.floor(Math.random() * esportes.length); // Gera um índice aleatório.
+    return esportes[randomIndex]; // Retorna o filme no índice aleatório.
 }
 
 // ------------ Funções do jogo ------------
@@ -197,7 +197,7 @@ function revealAllHints() {
 function startNewGame() {
     // Função para iniciar um novo jogo.
     // Resetar variáveis globais
-    esporte = selectRandomesporte(arquivoList); // Seleciona um novo filme aleatório.
+    esporte = selectRandomesporte(esportesList); // Seleciona um novo filme aleatório.
     allHintsRevealed = false; // Reseta a flag de dicas reveladas.
     tentativas = 9; // Reseta o número de tentativas.
 
@@ -296,7 +296,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (event.key === 'Enter') {
                 event.preventDefault(); // Previne o comportamento padrão (ex: submeter um formulário).
                 const guess = guessInput.value.trim(); // Pega o valor do input, removendo espaços.
-                const guessedesporte = arquivoList.find(m => m.nome === guess); // Procura o filme correspondente na lista de arquivo.
+                const guessedesporte = esportesList.find(m => m.nome === guess); // Procura o filme correspondente na lista de esportes.
 
                 if (guessedesporte) {
                     // Se o filme for encontrado...
@@ -316,7 +316,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Adiciona um listener de clique para o botão 'Enviar'.
         enviarButton.addEventListener('click', () => {
             const guess = guessInput.value.trim(); // Pega o valor do input, removendo espaços.
-            const guessedesporte = arquivoList.find(m => m.nome === guess); // Procura o filme na lista.
+            const guessedesporte = esportesList.find(m => m.nome === guess); // Procura o filme na lista.
 
             if (guessedesporte) {
                 // Se o filme for encontrado...
@@ -330,5 +330,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     // >>>>>>> FIM DA ADIÇÃO <<<<<<
 
-    loadesporteData(); // Inicia o processo de carregamento dos dados dos arquivo quando o script é executado.
+    loadesporteData(); // Inicia o processo de carregamento dos dados dos esportes quando o script é executado.
 });
