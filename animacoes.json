@@ -1,0 +1,345 @@
+[
+    {
+        "title": "Toy Story" ,
+        "genre": "Aventura" ,
+        "director": "John Lasseter" ,
+        "MainCharacter": "Woody" ,
+        "synopsis": "Em um universo onde os brinquedos ganham vida quando os humanos não estão por perto, Woody, o boneco caubói, enfrenta desafios e descobre o verdadeiro significado de amizade e lealdade quando um novo brinquedo entra na vida de seu dono, ameaçando sua posição e desencadeando uma aventura repleta de surpresas." 
+    },
+    {
+        "title": "A Viagem de Chihiro" ,
+        "genre": "Aventura" ,
+        "director": "Hayao Miyazaki" ,
+        "MainCharacter": "Chihiro Ogino" ,
+        "synopsis": "Ao se mudar para um novo lar, Chihiro se vê perdida em um mundo místico repleto de deuses, espíritos e criaturas inusitadas. Quando seus pais são transformados em porcos por uma bruxa poderosa, a jovem deve trabalhar em uma casa de banhos para espíritos, descobrindo coragem, amadurecendo e lutando para desfazer a maldição e salvar sua família." 
+    },
+    {
+        "title": "Os Incríveis" ,
+        "genre": "Ação" ,
+        "director": "Brad Bird" ,
+        "MainCharacter": "Sr. Incrível (Bob Parr)" ,
+        "synopsis": "Em uma sociedade que esconde seus super-heróis após uma série de problemas públicos, a família Parr, composta por pais e filhos com habilidades extraordinárias, é forçada a sair da aposentadoria quando um novo vilão ameaça a paz mundial. Em meio a lutas intensas e dilemas familiares, eles descobrem que, juntos, são capazes de enfrentar qualquer desafio." 
+    },
+    {
+        "title": "Avatar: A Lenda de Aang" ,
+        "genre": "Ação" ,
+        "director": "Michael Dante DiMartino" ,
+        "MainCharacter": "Aang" ,
+        "synopsis": "Em um mundo dividido em quatro nações elementares, Aang, um jovem monge que descobre ser o Avatar, o único capaz de dominar os quatro elementos, embarca em uma jornada épica para restaurar o equilíbrio e a paz. Ao longo do caminho, ele forma amizades leais, enfrenta inimigos formidáveis e aprende lições valiosas sobre responsabilidade e autoconhecimento." 
+    },
+    {
+        "title": "Castelo Animado" ,
+        "genre": "Romance" ,
+        "director": "Hayao Miyazaki" ,
+        "MainCharacter": "Sophie Hatter" ,
+        "synopsis": "Sophie, uma jovem que leva uma vida simples, vê seu destino mudar quando é amaldiçoada e transformada em uma idosa por uma feiticeira invejosa. Em sua fuga, ela encontra refúgio no extraordinário castelo ambulante de Howl, um misterioso mago. Ao longo de uma jornada repleta de magia, descobertas e romance, Sophie descobre forças interiores e a importância de aceitar as mudanças da vida." 
+    },
+    {
+        "title": "Steven Universe" ,
+        "genre": "Aventura" ,
+        "director": "Rebecca Sugar" ,
+        "MainCharacter": "Steven Universe" ,
+        "synopsis": "Steven, um jovem meio-humano e meio-Gema, embarca em aventuras ao lado das Crystal Gems, protetoras do planeta. Em cada episódio, a série explora temas como identidade, amizade e aceitação, mesclando humor e momentos emocionantes." 
+    },
+    {
+        "title": "Rick and Morty" ,
+        "genre": "Ficção Científica" ,
+        "director": "Justin Roiland" ,
+        "MainCharacter": "Rick Sanchez" ,
+        "synopsis": "Rick, um cientista brilhante e excêntrico, e seu neto Morty embarcam em viagens interdimensionais que desafiam as leis da física e da moralidade. Com humor ácido e enredos imprevisíveis, a série explora conceitos filosóficos e a complexidade das relações familiares." 
+    },
+    {
+        "title": "Gravity Falls" ,
+        "genre": "Comédia" ,
+        "director": "Alex Hirsch" ,
+        "MainCharacter": "Dipper Pines" ,
+        "synopsis": "Durante as férias de verão na enigmática cidade de Gravity Falls, Dipper e sua irmã Mabel se deparam com segredos sobrenaturais e mistérios intrigantes. A cada episódio, os irmãos desvendam enigmas que colocam à prova sua coragem e inteligência, enquanto descobrem a magia escondida em seu entorno." 
+    },
+    {
+        "title": "Samurai Jack" ,
+        "genre": "Ação" ,
+        "director": "Genndy Tartakovsky" ,
+        "MainCharacter": "Samurai Jack" ,
+        "synopsis": "Exilado no futuro por um mal ancestral, o Samurai Jack viaja por um mundo distópico em busca de um caminho de volta ao seu tempo para derrotar o maligno Aku. Com uma narrativa visual impactante e sequências de ação memoráveis, a série explora temas de honra, perseverança e redenção." 
+    },
+    {
+        "title": "Over the Garden Wall" ,
+        "genre": "Drama" ,
+        "director": "Patrick McHale" ,
+        "MainCharacter": "Wirt" ,
+        "synopsis": "Em uma viagem enigmática e encantada pelo desconhecido, os irmãos Wirt e Greg se perdem em uma floresta repleta de personagens excêntricos e situações misteriosas. A minissérie mistura humor, suspense e uma pitada de melancolia, convidando o espectador a refletir sobre a jornada da vida." 
+    },
+    {
+        "title": "Procurando Nemo" ,
+        "genre": "Aventura" ,
+        "director": "Andrew Stanton" ,
+        "MainCharacter": "Nemo" ,
+        "synopsis": "Após ser separado de seu pai, um peixe-palhaço chamado Marlin embarca em uma jornada épica pelos oceanos para encontrar seu filho Nemo, encontrando pelo caminho amizades inusitadas e superando desafios em um mundo repleto de perigos e belezas subaquáticas." 
+    },
+    {
+        "title": "Up: Altas Aventuras" ,
+        "genre": "Comédia" ,
+        "director": "Pete Docter" ,
+        "MainCharacter": "Carl Fredricksen" ,
+        "synopsis": "Determinado a cumprir o sonho de sua falecida esposa, Carl Fredricksen amarra milhares de balões a sua casa para partir rumo à América do Sul. No percurso, ele faz amizade com um jovem explorador, dando início a uma jornada repleta de descobertas, humor e emoção." 
+    },
+    {
+        "title": "Coco" ,
+        "genre": "Aventura" ,
+        "director": "Lee Unkrich" ,
+        "MainCharacter": "Miguel" ,
+        "synopsis": "Apaixonado por música, Miguel desafia a tradição familiar que proíbe os sons em sua casa e embarca numa emocionante aventura no Mundo dos Mortos, onde descobre segredos sobre sua linhagem e a importância das raízes e da memória." 
+    },
+    {
+        "title": "Wall-E" ,
+        "genre": "Ficção Científica" ,
+        "director": "Andrew Stanton" ,
+        "MainCharacter": "Wall-E" ,
+        "synopsis": "Num futuro distante, Wall-E é um simpático robô encarregado de limpar uma Terra abandonada e repleta de lixo. Ao encontrar Eve, uma robô de busca, ele embarca em uma jornada que vai além do espaço, revelando lições sobre amor, esperança e a preservação do meio ambiente." 
+    },
+    {
+        "title": "Kubo e as Cordas Mágicas" ,
+        "genre": "Aventura" ,
+        "director": "Travis Knight" ,
+        "MainCharacter": "Kubo" ,
+        "synopsis": "Kubo, um jovem contador de histórias, embarca em uma jornada para desvendar os mistérios de seu passado e proteger um segredo ancestral. Armado com um instrumento mágico e cercado por criaturas fantásticas, ele enfrenta desafios que misturam lenda e realidade." 
+    },
+    {
+        "title": "O Pequeno Príncipe" ,
+        "genre": "Aventura" ,
+        "director": "Mark Osborne" ,
+        "MainCharacter": "O Pequeno Príncipe" ,
+        "synopsis": "Inspirado no clássico literário, este filme acompanha a história de uma jovem que, ao conhecer um excêntrico aviador, descobre um mundo mágico onde a imaginação, o amor e a essência da vida se revelam através dos ensinamentos do Pequeno Príncipe." 
+    },
+    {
+        "title": "Os Simpsons" ,
+        "genre": "Comédia" ,
+        "director": "Matt Groening" ,
+        "MainCharacter": "Homer Simpson" ,
+        "synopsis": "Nesta série icônica, acompanhamos o cotidiano da família Simpson e os moradores da cidade de Springfield, numa sátira mordaz e divertida dos costumes, política e da sociedade americana, marcada por humor irreverente e personagens inesquecíveis." 
+    },
+    {
+        "title": "Futurama" ,
+        "genre": "Ficção Científica" ,
+        "director": "Matt Groening" ,
+        "MainCharacter": "Fry (Philip J. Fry)" ,
+        "synopsis": "Fry, um entregador de pizza do século XX, é acidentalmente congelado e desperta mil anos no futuro. Junto com uma tripulação excêntrica, ele embarca em aventuras intergalácticas, explorando um universo repleto de tecnologias futuristas e situações absurdas com muito humor." 
+    },
+    {
+        "title": "Avatar: A Lenda de Korra" ,
+        "genre": "Ação" ,
+        "director": "Michael Dante DiMartino" ,
+        "MainCharacter": "Korra" ,
+        "synopsis": "Ambientada décadas após as aventuras de Aang, a série segue Korra, uma jovem e determinada Avatar que deve enfrentar desafios políticos e sobrenaturais para manter o equilíbrio do mundo, enquanto lida com as transformações sociais de sua era." 
+    },
+    {
+        "title": "BoJack Horseman" ,
+        "genre": "Comédia" ,
+        "director": "Raphael Bob-Waksberg" ,
+        "MainCharacter": "BoJack Horseman" ,
+        "synopsis": "Em uma Hollywood alternativa onde humanos e animais antropomórficos coexistem, BoJack Horseman, um ex-astro de uma sitcom dos anos 90, luta contra o vazio existencial, a fama passageira e os fantasmas do passado, num retrato ácido e emocionante da vida contemporânea." 
+    },
+    {
+        "title": "Hora de Aventura" ,
+        "genre": "Aventura" ,
+        "director": "Pendleton Ward" ,
+        "MainCharacter": "Finn the Human" ,
+        "synopsis": "Em um mundo pós-apocalíptico e surreal, Finn e seu melhor amigo, Jake, embarcam em aventuras fantásticas que mesclam humor, emoção e lições de vida, explorando reinos mágicos e encontrando personagens extraordinários pelo caminho." 
+    },
+    {
+        "title": "Castlevania" ,
+        "genre": "Ação" ,
+        "director": "Warren Ellis" ,
+        "MainCharacter": "Trevor Belmont" ,
+        "synopsis": "Inspirada na famosa franquia de jogos, a série segue Trevor Belmont, o último de uma linhagem de caçadores de monstros, em sua batalha contra as forças sombrias lideradas por poderosos vampiros e outras criaturas sobrenaturais, num universo sombrio e repleto de intrigas." 
+    },
+    {
+        "title": "Divertida Mente" ,
+        "genre": "Comédia" ,
+        "director": "Pete Docter" ,
+        "MainCharacter": "Riley" ,
+        "synopsis": "Ao enfrentar uma grande mudança em sua vida, uma jovem tem sua mente transformada num campo de batalha emocional. As emoções personificadas trabalham juntas (e por vezes em conflito) para ajudá-la a lidar com os desafios do crescimento e da adaptação." 
+    },
+    {
+        "title": "Meu Amigo Totoro" ,
+        "genre": "Drama" ,
+        "director": "Hayao Miyazaki" ,
+        "MainCharacter": "Satsuki e Mei" ,
+        "synopsis": "Duas irmãs, recém-chegadas ao campo, descobrem um mundo mágico repleto de criaturas fantásticas. Em meio à inocência e à curiosidade infantil, elas encontram Totoro, um espírito da floresta que traz conforto e encanto para sua nova vida." 
+    },
+    {
+        "title": "Ratatouille" ,
+        "genre": "Comédia" ,
+        "director": "Brad Bird" ,
+        "MainCharacter": "Remy" ,
+        "synopsis": "Remy, um ratinho com um paladar refinado e um sonho improvável, deseja se tornar um grande chef de cozinha. Desafiando todos os preconceitos, ele forma uma parceria inesperada com um jovem cozinheiro, provando que talento pode vir dos lugares mais inusitados." 
+    },
+    {
+        "title": "O Conto da Princesa Kaguya" ,
+        "genre": "Drama" ,
+        "director": "Isao Takahata" ,
+        "MainCharacter": "Princesa Kaguya" ,
+        "synopsis": "Baseado em uma antiga lenda japonesa, este filme narra a curta e comovente vida de uma princesa oriunda da lua. A obra reflete sobre os temas da efemeridade, do arrependimento e da beleza simples da existência, por meio de uma narrativa poética e visualmente marcante." 
+    },
+    {
+        "title": "Ernest & Celestine" ,
+        "genre": "Drama" ,
+        "director": "Stéphane Aubier" ,
+        "MainCharacter": "Ernest e Celestine" ,
+        "synopsis": "Em um mundo onde as convenções naturais separam suas espécies, um urso e uma ratinha formam uma amizade improvável e encantadora. Juntos, eles desafiam estereótipos e descobrem que a empatia e a arte podem unir os corações mais distintos." 
+    },
+    {
+        "title": "Foster’s Home for Imaginary Friends" ,
+        "genre": "Comédia" ,
+        "director": "Craig McCracken" ,
+        "MainCharacter": "Mac" ,
+        "synopsis": "Em um universo onde as crianças deixam para trás seus amigos imaginários ao crescer, um orfanato especial abriga essas criações peculiares. Cada episódio traz situações divertidas e lições sobre amizade, aceitação e o poder da imaginação." 
+    },
+    {
+        "title": "Big Mouth" ,
+        "genre": "Comédia" ,
+        "director": "Nick Kroll" ,
+        "MainCharacter": "Nick Birch" ,
+        "synopsis": "Com um humor irreverente e ácido, a série explora os percalços e confusões da puberdade. Por meio de situações exageradas e muitas vezes surreais, ela aborda temas como sexualidade, autoconhecimento e as mudanças intensas da adolescência." 
+    },
+    {
+        "title": "Daria" ,
+        "genre": "Comédia" ,
+        "director": "Glenn Eichler" ,
+        "MainCharacter": "Daria Morgendorffer" ,
+        "synopsis": "A adolescente sarcástica e perspicaz Daria navega pelo cotidiano do ensino médio com um olhar crítico sobre a superficialidade e os absurdos da vida escolar e social. Sua visão única e humor ácido conquistam fãs que se identificam com suas reflexões sobre a sociedade." 
+    },
+    {
+        "title": "Akira" ,
+        "genre": "Ficção científica" ,
+        "director": "Katsuhiro Otomo" ,
+        "MainCharacter": "Kaneda Shotaro" ,
+        "synopsis": "Em uma Tóquio futurista, Kaneda e seu amigo Tetsuo se envolvem em um projeto militar secreto que ameaça desencadear um desastre apocalíptico." 
+    },
+    {
+        "title": "O Fantástico Sr. Raposo" ,
+        "genre": "Comédia" ,
+        "director": "Wes Anderson" ,
+        "MainCharacter": "Sr. Raposo" ,
+        "synopsis": "Um raposo esperto tenta equilibrar sua vida familiar enquanto planeja roubos ousados contra fazendeiros implacáveis." 
+    },
+    {
+        "title": "Ghost in the Shell" ,
+        "genre": "Ficção científica" ,
+        "director": "Mamoru Oshii" ,
+        "MainCharacter": "Motoko Kusanagi" ,
+        "synopsis": "Uma ciborgue da segurança pública investiga um hacker misterioso que pode alterar a consciência das pessoas." 
+    },
+    {
+        "title": "A Bela e a Fera" ,
+        "genre": "Romance" ,
+        "director": "Gary Trousdale" ,
+        "MainCharacter": "Bela" ,
+        "synopsis": "Uma jovem inteligente se apaixona por uma fera amaldiçoada, descobrindo que a verdadeira beleza vem de dentro." 
+    },
+    {
+        "title": "Persepolis" ,
+        "genre": "Drama" ,
+        "director": "Marjane Satrapi" ,
+        "MainCharacter": "Marjane Satrapi" ,
+        "synopsis": "A história de uma jovem iraniana crescendo durante a Revolução Islâmica e enfrentando desafios culturais no exílio." 
+    },
+    {
+        "title": "Rango" ,
+        "genre": "Comédia" ,
+        "director": "Gore Verbinski" ,
+        "MainCharacter": "Rango" ,
+        "synopsis": "Um camaleão perdido no deserto do Mojave se torna xerife de uma cidade em crise, enfrentando vilões e sua própria identidade." 
+    },
+    {
+        "title": "O Menino e o Mundo" ,
+        "genre": "Drama" ,
+        "director": "Alê Abreu" ,
+        "MainCharacter": "Menino" ,
+        "synopsis": "Um garoto sai de sua vila em busca do pai e descobre um mundo caótico e industrializado." 
+    },
+    {
+        "title": "Homem-Aranha no Aranhaverso" ,
+        "genre": "Ação" ,
+        "director": "Bob Persichetti" ,
+        "MainCharacter": "Miles Morales" ,
+        "synopsis": "Miles descobre suas habilidades como Homem-Aranha enquanto encontra outras versões do herói de universos alternativos." 
+    },
+    {
+        "title": "A Casa Monstro" ,
+        "genre": "Terror" ,
+        "director": "Gil Kenan" ,
+        "MainCharacter": "DJ Walters" ,
+        "synopsis": "Três crianças descobrem que a casa do vizinho é uma criatura viva e tentam impedir que devore pessoas." 
+    },
+    {
+        "title": "O Castelo no Céu" ,
+        "genre": "Aventura" ,
+        "director": "Hayao Miyazaki" ,
+        "MainCharacter": "Pazu e Sheeta" ,
+        "synopsis": "Dois jovens partem em busca da lendária cidade flutuante de Laputa, enfrentando piratas e militares." 
+    },
+    {
+        "title": "O Serviço de Entregas da Kiki" ,
+        "genre": "Slice of life" ,
+        "director": "Hayao Miyazaki" ,
+        "MainCharacter": "Kiki" ,
+        "synopsis": "Uma jovem bruxa em treinamento se muda para uma nova cidade e começa um serviço de entregas aéreas." 
+    },
+    {
+        "title": "Os Mitchell contra as Máquinas" ,
+        "genre": "Comédia" ,
+        "director": "Michael Rianda" ,
+        "MainCharacter": "Katie Mitchell" ,
+        "synopsis": "Uma família desajustada embarca em uma viagem enquanto tenta impedir um apocalipse robótico." 
+    },
+    {
+        "title": "O Rei e o Pássaro" ,
+        "genre": "Drama" ,
+        "director": "Paul Grimault" ,
+        "MainCharacter": "O Pássaro" ,
+        "synopsis": "Um rei tirano enfrenta um pássaro astuto e dois amantes fugitivos em um mundo surreal." 
+    },
+    {
+        "title": "O Gigante de Ferro    " ,
+        "genre": "Ficção científica" ,
+        "director": "Brad Bird" ,
+        "MainCharacter": "Hogarth Hughes" ,
+        "synopsis": "Um garoto descobre um robô gigante e tenta protegê-lo das forças militares que o consideram uma ameaça." 
+    },
+    {
+        "title": "Paprika" ,
+        "genre": "Ficção científica" ,
+        "director": "Satoshi Kon" ,
+        "MainCharacter": "Dra. Atsuko Chiba / Paprika" ,
+        "synopsis": "Uma psicóloga usa uma tecnologia experimental para entrar nos sonhos de seus pacientes, mas a invenção cai em mãos erradas." 
+    },
+    {
+        "title": "Wallace & Gromit: A Batalha dos Vegetais" ,
+        "genre": "Comédia" ,
+        "director": "Nick Park" ,
+        "MainCharacter": "Wallace e Gromit" ,
+        "synopsis": "Um inventor e seu cão precisam deter um coelho monstruoso que ameaça um concurso de vegetais gigantes." 
+    },
+    {
+        "title": "O Túmulo dos Vagalumes" ,
+        "genre": "Drama" ,
+        "director": "Isao Takahata" ,
+        "MainCharacter": "Seita e Setsuko" ,
+        "synopsis": "Dois irmãos lutam para sobreviver no Japão devastado pela Segunda Guerra Mundial." 
+    },
+    {
+        "title": "Loving Vincent" ,
+        "genre": "Slice of life" ,
+        "director": "Dorota Kobiela" ,
+        "MainCharacter": "Armand Roulin" ,
+        "synopsis": "A vida de Vincent van Gogh é recontada através de pinturas animadas no estilo de suas próprias obras." 
+    },
+    {
+        "title": "Kung Fu Panda" ,
+        "genre": "Ação" ,
+        "director": "Mark Osborne" ,
+        "MainCharacter": "Po" ,
+        "synopsis": "Um panda desajeitado é escolhido como o Guerreiro Dragão e precisa aprender kung fu para salvar seu vale." 
+    }
+]
