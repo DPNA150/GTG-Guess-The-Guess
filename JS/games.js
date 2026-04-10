@@ -26,7 +26,7 @@ async function loadgameData() {
     // Função assíncrona para carregar os dados dos games de um arquivo JSON.
     console.log('[games.js] Carregando games.json...'); // Exibe uma mensagem no console indicando o início do carregamento.
     try {
-        const response = await fetch('games.json'); // Faz uma requisição assíncrona para buscar o arquivo 'games.json'.
+        const response = await fetch('/BancoDEDados/games.json'); // Faz uma requisição assíncrona para buscar o arquivo 'games.json'.
         if (!response.ok) throw new Error(`HTTP ${response.status} — ${response.statusText}`); // Lança um erro se a resposta da requisição não for bem-sucedida.
 
         gamesList = await response.json(); // Converte a resposta da requisição para um objeto JSON e armazena em gamesList.
