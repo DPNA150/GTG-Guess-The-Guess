@@ -21,7 +21,7 @@ let tentativas = 13; // Total de tentativas disponíveis no início do jogo.
 async function loadserieData() {
     console.log('[series.js] Carregando series.json...');
     try {
-        const response = await fetch('series.json'); // Faz o fetch do JSON.
+        const response = await fetch('/BancoDEDados/series.json'); // Faz o fetch do JSON.
         if (!response.ok) throw new Error(`HTTP ${response.status} — ${response.statusText}`);
 
         seriesList = await response.json(); // Converte a resposta para objeto JS.
