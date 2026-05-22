@@ -30,7 +30,7 @@ async function loadanimacaoData() {
     console.log('[animacoes.js] Carregando animacoes.json...'); // Exibe log no console
 
     try {
-        const response = await fetch('/BD/animacoes.json'); // Faz a requisição do arquivo JSON
+        const response = await fetch('https://dpna150.github.io/GTG-Guess-The-Guess//BD/animacoes.json'); // Faz a requisição do arquivo JSON
         if (!response.ok) throw new Error(`HTTP ${response.status} — ${response.statusText}`); // Verifica erro HTTP
 
         animacaosList = await response.json(); // Converte resposta para JSON
