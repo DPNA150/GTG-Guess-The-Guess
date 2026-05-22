@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual é a série?</title>
+    <link rel="icon" href="/imagens/logoDPNA.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/Generos.css">
+</head>
+
+<body>
+        <div class="topo">
+            <img src="/imagens/setaEsquerda.png" class="seta" id="voltar">
+            <h1>Qual é a Série?</h1>
+        </div>
+        <h1 id="tentativas">Tentativas restantes: 13/13</h1>
+        <div class="input-container">
+            <div style="position: relative; width: 100%;">
+                <input type="text" id="guessInput" placeholder="Digite o título da obra" autocomplete="off" /><button
+                    id="enviarButton" class="enviarButton">Enviar</button>
+                <ul id="suggestions" class="suggestions"></ul>
+            </div>
+            <div class="botoes">
+                <button id="newGameButton" class="newGameButton">Novo jogo</button>
+                <button id="giveUpButton" class="giveUpButton">Desistir</button>
+            </div>
+        </div>
+
+        <div id="hints">
+            <h2>Resposta:</h2>
+            <div class="hint" id="hint1">- Diretor: ???</div>
+            <div class="hint" id="hint2">- Genero: ???</div>
+            <div class="hint" id="hint3">- Protagonista: ???</div>
+            <div class="hint" id="hint4">- Sinopse: ???</div>
+        </div>
+
+    <footer>
+        <img src="/imagens/logoDPNA.png" width="5%" alt="logo">
+        <p class="copyright">© Copyright DPNA CRIAS</p><br>
+    </footer>
+</body>
+
+<script src="/JS/series.js"></script>
+
+</html>
