@@ -19,6 +19,14 @@ body {
     padding: 50px 80px;
     background: rgb(255, 255, 255);
     box-sizing: border-box;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+video {
+    margin-bottom: 20px;
+    width: 80%;
+    height: 40%;
 }
 
 h1 {
@@ -56,6 +64,10 @@ h1 {
     color: #ffffff;
     font-size: 12px;
     margin-top: 20px;
+}
+
+footer img {
+    width: 5%;
 }
 
 @media (min-width: 768px) {
