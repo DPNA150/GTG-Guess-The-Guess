@@ -156,8 +156,8 @@ function checkGuess(guessedHistoria) {
         const guessedTitle = guessedHistoria && guessedHistoria.title;
         if (guessedTitle) {
             if (historia.periodo === guessedHistoria.periodo) updateHint('hint1', `- Periodo que Vivel: ${historia.periodo}`);
-            if (historia.local === guessedHistoria.local) updateHint('hint2', `- Local que Vivel: ${historia.local}`);
-            if (historia.frase === guessedHistoria.frase) updateHint('hint3', `- Frase Famosa: ${historia.frase}`);
+            if (historia.local === guessedHistoria.local) updateHint('hint2', `- Local que Nasceu: ${historia.local}`);
+            if (historia.categoria === guessedhistoria.categoria) updateHint('hint3', `- Categoria/Função: ${historia.categoria}`);
             if (historia.feito === guessedHistoria.feito) updateHint('hint4', `- Maior Feito: ${historia.feito}`);
         }
     }
@@ -170,8 +170,8 @@ function checkGuess(guessedHistoria) {
 // Revela todas as dicas de uma vez
 function revealAllHints() {
     updateHint('hint1', `- Período que Vivel: ${historia.periodo}`);
-    updateHint('hint2', `- Local que Vivel: ${historia.local}`);
-    updateHint('hint3', `- Frase Famosa: ${historia.frase}`);
+    updateHint('hint2', `- Local que Nasceu: ${historia.local}`);
+    updateHint('hint3', `- Categoria/Função: ${historia.categoria}`);
     updateHint('hint4', `- Maior Feito: ${historia.feito}`);
     allHintsRevealed = true;
     tentativas = 0;
@@ -193,8 +193,8 @@ function startNewGame() {
     }
 
     updateHint('hint1', '- Período que Vivel: ???');
-    updateHint('hint2', '- Local que Vivel: ???');
-    updateHint('hint3', '- Frase Famosa: ???');
+    updateHint('hint2', '- Local que Nasceu: ???');
+    updateHint('hint3', '- Categoria/Função: ???');
     updateHint('hint4', '- Maior Feito: ???');
 
     document.getElementById('giveUpButton').style.display = 'inline-block';
@@ -218,8 +218,8 @@ function giveUp() {
 function revealHint() {
     const hints = [
         { id: 'hint1', text: `- Período que Vivel: ${historia.periodo}` },
-        { id: 'hint2', text: `- Local que Vivel: ${historia.local}` },
-        { id: 'hint3', text: `- Frase Famosa: ${historia.frase}` },
+        { id: 'hint2', text: `- Local que Nasceu: ${historia.local}` },
+        { id: 'hint3', text: `- Categoria/Função: ${historia.categoria}` },
         { id: 'hint4', text: `- Maior Feito: ${historia.feito}` }
     ];
 
