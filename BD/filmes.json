@@ -1,7 +1,7 @@
 [
   {
     "title": "John Wick",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Chad Stahelski",
     "year": 2014,
     "leadActor": "Keanu Reeves",
@@ -9,7 +9,7 @@
   },
   {
     "title": "John Wick 2",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Chad Stahelski",
     "year": 2017,
     "leadActor": "Keanu Reeves",
@@ -17,7 +17,7 @@
   },
   {
     "title": "John Wick 3",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Chad Stahelski",
     "year": 2019,
     "leadActor": "Keanu Reeves",
@@ -25,7 +25,7 @@
   },
   {
     "title": "John Wick 4",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Chad Stahelski",
     "year": 2023,
     "leadActor": "Keanu Reeves",
@@ -33,7 +33,7 @@
   },
   {
     "title": "Batman",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Matt Reeves",
     "year": 2022,
     "leadActor": "Robert Pattinson",
@@ -41,7 +41,7 @@
   },
   {
     "title": "Batman: O Cavaleiro das Trevas",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Christopher Nolan",
     "year": 2008,
     "leadActor": "Christian Bale",
@@ -49,7 +49,7 @@
   },
   {
     "title": "Batman vs Superman: A Origem da Justiça",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Zack Snyder",
     "year": 2016,
     "leadActor": "Ben Affleck",
@@ -57,7 +57,7 @@
   },
   {
     "title": "Missão Impossível - Protocolo Fantasma",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Brad Bird",
     "year": 2011,
     "leadActor": "Tom Cruise",
@@ -65,7 +65,7 @@
   },
   {
     "title": "Missão Impossível - Nação Secreta",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Christopher McQuarrie",
     "year": 2015,
     "leadActor": "Tom Cruise",
@@ -73,7 +73,7 @@
   },
   {
     "title": "Missão Impossível - Efeito Fallout",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Christopher McQuarrie",
     "year": 2018,
     "leadActor": "Tom Cruise",
@@ -81,7 +81,7 @@
   },
   {
     "title": "Missão Impossível – Acerto de Contas",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Christopher McQuarrie",
     "year": 2023,
     "leadActor": "Tom Cruise",
@@ -89,7 +89,7 @@
   },
   {
     "title": "Deadpool vs Wolverine",
-    "genre": "Ação",
+    "genre": "Ação e Comédia",
     "director": "Shawn Levy",
     "year": 2024,
     "leadActor": "Ryan Reynolds",
@@ -97,7 +97,7 @@
   },
   {
     "title": "Velozes e Furiosos",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Rob Cohen",
     "year": 2001,
     "leadActor": "Vin Diesel",
@@ -105,7 +105,7 @@
   },
   {
     "title": "Velozes e Furiosos 2",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "John Singleton",
     "year": 2003,
     "leadActor": "Paul Walker",
@@ -113,7 +113,7 @@
   },
   {
     "title": "Velozes e Furiosos 3: Desafio em Tóquio",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Justin Lin",
     "year": 2006,
     "leadActor": "Lucas Black",
@@ -121,7 +121,7 @@
   },
   {
     "title": "Velozes e Furiosos 4",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Justin Lin",
     "year": 2009,
     "leadActor": "Vin Diesel",
@@ -129,7 +129,7 @@
   },
   {
     "title": "Velozes e Furiosos 5: Operação Rio",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Justin Lin",
     "year": 2011,
     "leadActor": "Vin Diesel",
@@ -137,7 +137,7 @@
   },
   {
     "title": "Velozes e Furiosos 6",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Justin Lin",
     "year": 2013,
     "leadActor": "Vin Diesel",
@@ -145,7 +145,7 @@
   },
   {
     "title": "Velozes e Furiosos 7",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "James Wan",
     "year": 2015,
     "leadActor": "Vin Diesel",
@@ -153,7 +153,7 @@
   },
   {
     "title": "Velozes e Furiosos 8",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "F. Gary Gray",
     "year": 2017,
     "leadActor": "Vin Diesel",
@@ -161,7 +161,7 @@
   },
   {
     "title": "Velozes e Furiosos 9",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Justin Lin",
     "year": 2021,
     "leadActor": "Vin Diesel",
@@ -169,7 +169,7 @@
   },
   {
     "title": "Velozes e Furiosos 10",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Louis Leterrier",
     "year": 2023,
     "leadActor": "Vin Diesel",
@@ -177,7 +177,7 @@
   },
   {
     "title": "Bad Boys",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Michael Bay",
     "year": 1995,
     "leadActor": "Will Smith",
@@ -185,7 +185,7 @@
   },
   {
     "title": "Bad Boys 2",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Michael Bay",
     "year": 2003,
     "leadActor": "Will Smith",
@@ -193,7 +193,7 @@
   },
   {
     "title": "Bad Boys para Sempre",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Adil El Arbi e Bilall Fallah",
     "year": 2020,
     "leadActor": "Will Smith",
@@ -201,7 +201,7 @@
   },
   {
     "title": "Bad Boys até o Fim",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Adil El Arbi e Bilall Fallah",
     "year": 2024,
     "leadActor": "Will Smith",
@@ -209,7 +209,7 @@
   },
   {
     "title": "Homem-Aranha: De Volta ao Lar",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Jon Watts",
     "year": 2017,
     "leadActor": "Tom Holland",
@@ -217,7 +217,7 @@
   },
   {
     "title": "Homem-Aranha: Longe de Casa",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Jon Watts",
     "year": 2019,
     "leadActor": "Tom Holland",
@@ -225,23 +225,15 @@
   },
   {
     "title": "Homem-Aranha: Sem Volta Para Casa",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Jon Watts",
     "year": 2021,
     "leadActor": "Tom Holland",
     "synopsis": "Peter Parker enfrenta as consequências de sua identidade revelada enquanto lida com vilões de universos alternativos."
   },
   {
-    "title": "Homem-Aranha no Aranhaverso",
-    "genre": "Animação",
-    "director": "Bob Persichetti, Peter Ramsey e Rodney Rothman",
-    "year": 2018,
-    "leadActor": "Shameik Moore (voz)",
-    "synopsis": "Miles Morales se torna o Homem-Aranha de seu universo e se junta a outras versões do herói para salvar o multiverso."
-  },
-  {
     "title": "Vingadores",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Joss Whedon",
     "year": 2012,
     "leadActor": "Robert Downey Jr.",
@@ -249,7 +241,7 @@
   },
   {
     "title": "Vingadores: A Era de Ultron",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Joss Whedon",
     "year": 2015,
     "leadActor": "Robert Downey Jr.",
@@ -257,7 +249,7 @@
   },
   {
     "title": "Vingadores: Guerra Infinita",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Anthony e Joe Russo",
     "year": 2018,
     "leadActor": "Robert Downey Jr.",
@@ -265,7 +257,7 @@
   },
   {
     "title": "Vingadores: Ultimato",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Anthony e Joe Russo",
     "year": 2019,
     "leadActor": "Robert Downey Jr.",
@@ -273,7 +265,7 @@
   },
   {
     "title": "Rambo: Programado para Matar",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Ted Kotcheff",
     "year": 1982,
     "leadActor": "Sylvester Stallone",
@@ -281,7 +273,7 @@
   },
   {
     "title": "Rambo: Até o Fim",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Adrian Grunberg",
     "year": 2019,
     "leadActor": "Sylvester Stallone",
@@ -289,7 +281,7 @@
   },
   {
     "title": "O Homem de Aço",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Zack Snyder",
     "year": 2013,
     "leadActor": "Henry Cavill",
@@ -297,7 +289,7 @@
   },
   {
     "title": "007: Cassino Royale",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Martin Campbell",
     "year": 2006,
     "leadActor": "Daniel Craig",
@@ -305,7 +297,7 @@
   },
   {
     "title": "007: Sem Tempo para Morrer",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Cary Joji Fukunaga",
     "year": 2021,
     "leadActor": "Daniel Craig",
@@ -313,7 +305,7 @@
   },
   {
     "title": "MIB: Homens de Preto",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Barry Sonnenfeld",
     "year": 1997,
     "leadActor": "Will Smith",
@@ -321,18 +313,15 @@
   },
   {
     "title": "MIB: Homens de Preto Internacional",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "F. Gary Gray",
     "year": 2019,
     "leadActor": "Chris Hemsworth",
     "synopsis": "Os agentes H e M enfrentam uma traição dentro da MIB enquanto lidam com uma ameaça alienígena global."
   },
   {
-    "comentario": "APARTIR DAQUI É TERROR"
-  },
-  {
     "title": "A Hora do Pesadelo",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Wes Craven",
     "year": 1984,
     "leadActor": "Heather Langenkamp",
@@ -340,7 +329,7 @@
   },
   {
     "title": "Halloween",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "John Carpenter",
     "year": 1978,
     "leadActor": "Jamie Lee Curtis",
@@ -348,7 +337,7 @@
   },
   {
     "title": "Halloween (2018)",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "David Gordon Green",
     "year": 2018,
     "leadActor": "Jamie Lee Curtis",
@@ -356,7 +345,7 @@
   },
   {
     "title": "Halloween Kills",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "David Gordon Green",
     "year": 2021,
     "leadActor": "Jamie Lee Curtis",
@@ -364,7 +353,7 @@
   },
   {
     "title": "Halloween Ends",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "David Gordon Green",
     "year": 2022,
     "leadActor": "Jamie Lee Curtis",
@@ -372,7 +361,7 @@
   },
   {
     "title": "Sexta-Feira 13",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Sean S. Cunningham",
     "year": 1980,
     "leadActor": "Betsy Palmer",
@@ -380,7 +369,7 @@
   },
   {
     "title": "Evil Dead",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Sam Raimi",
     "year": 1981,
     "leadActor": "Bruce Campbell",
@@ -388,7 +377,7 @@
   },
   {
     "title": "A Entidade",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Scott Derrickson",
     "year": 2012,
     "leadActor": "Ethan Hawke",
@@ -396,7 +385,7 @@
   },
   {
     "title": "O Exorcista",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "William Friedkin",
     "year": 1973,
     "leadActor": "Ellen Burstyn",
@@ -404,7 +393,7 @@
   },
   {
     "title": "Corra!",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Jordan Peele",
     "year": 2017,
     "leadActor": "Daniel Kaluuya",
@@ -412,7 +401,7 @@
   },
   {
     "title": "O Iluminado",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Stanley Kubrick",
     "year": 1980,
     "leadActor": "Jack Nicholson",
@@ -420,7 +409,7 @@
   },
   {
     "title": "Invocação do Mal",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "James Wan",
     "year": 2013,
     "leadActor": "Vera Farmiga",
@@ -428,7 +417,7 @@
   },
   {
     "title": "Psicose",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Alfred Hitchcock",
     "year": 1960,
     "leadActor": "Anthony Perkins",
@@ -436,7 +425,7 @@
   },
   {
     "title": "Jogos Mortais",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "James Wan",
     "year": 2004,
     "leadActor": "Cary Elwes",
@@ -444,7 +433,7 @@
   },
   {
     "title": "IT: A Coisa",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Andy Muschietti",
     "year": 2017,
     "leadActor": "Bill Skarsgård",
@@ -452,7 +441,7 @@
   },
   {
     "title": "O Massacre da Serra Elétrica",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Tobe Hooper",
     "year": 1974,
     "leadActor": "Marilyn Burns",
@@ -460,7 +449,7 @@
   },
   {
     "title": "Carrie: A Estranha",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Brian De Palma",
     "year": 1976,
     "leadActor": "Sissy Spacek",
@@ -468,7 +457,7 @@
   },
   {
     "title": "A Bruxa de Blair",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Daniel Myrick e Eduardo Sánchez",
     "year": 1999,
     "leadActor": "Heather Donahue",
@@ -476,7 +465,7 @@
   },
   {
     "title": "Sorria",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Parker Finn",
     "year": 2022,
     "leadActor": "Sosie Bacon",
@@ -484,7 +473,7 @@
   },
   {
     "title": "REC",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Jaume Balagueró e Paco Plaza",
     "year": 2007,
     "leadActor": "Manuela Velasco",
@@ -492,7 +481,7 @@
   },
   {
     "title": "Tubarão",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Steven Spielberg",
     "year": 1975,
     "leadActor": "Roy Scheider",
@@ -500,7 +489,7 @@
   },
   {
     "title": "Terror em Silent Hill",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Christophe Gans",
     "year": 2006,
     "leadActor": "Radha Mitchell",
@@ -508,7 +497,7 @@
   },
   {
     "title": "O Chamado",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Gore Verbinski",
     "year": 2002,
     "leadActor": "Naomi Watts",
@@ -516,7 +505,7 @@
   },
   {
     "title": "A Bruxa",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Robert Eggers",
     "year": 2015,
     "leadActor": "Anya Taylor-Joy",
@@ -524,7 +513,7 @@
   },
   {
     "title": "Annabelle",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "John R. Leonetti",
     "year": 2014,
     "leadActor": "Annabelle Wallis",
@@ -532,7 +521,7 @@
   },
   {
     "title": "X: A Marca da Morte",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Ti West",
     "year": 2022,
     "leadActor": "Mia Goth",
@@ -540,7 +529,7 @@
   },
   {
     "title": "Pearl",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Ti West",
     "year": 2022,
     "leadActor": "Mia Goth",
@@ -548,7 +537,7 @@
   },
   {
     "title": "A Freira",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Corin Hardy",
     "year": 2018,
     "leadActor": "Taissa Farmiga",
@@ -556,7 +545,7 @@
   },
   {
     "title": "Contos do Dia das Bruxas",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Michael Dougherty",
     "year": 2007,
     "leadActor": "Anna Paquin",
@@ -564,7 +553,7 @@
   },
   {
     "title": "O Albergue",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Eli Roth",
     "year": 2005,
     "leadActor": "Jay Hernandez",
@@ -572,7 +561,7 @@
   },
   {
     "title": "CREEP",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Patrick Brice",
     "year": 2014,
     "leadActor": "Mark Duplass",
@@ -580,7 +569,7 @@
   },
   {
     "title": "NÓS",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Jordan Peele",
     "year": 2019,
     "leadActor": "Lupita Nyong'o",
@@ -588,7 +577,7 @@
   },
   {
     "title": "Suspiria",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Luca Guadagnino",
     "year": 2018,
     "leadActor": "Dakota Johnson",
@@ -596,7 +585,7 @@
   },
   {
     "title": "Arraste-me para o Inferno",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Sam Raimi",
     "year": 2009,
     "leadActor": "Alison Lohman",
@@ -604,7 +593,7 @@
   },
   {
     "title": "Hereditário",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Ari Aster",
     "year": 2018,
     "leadActor": "Toni Collette",
@@ -612,7 +601,7 @@
   },
   {
     "title": "Babadook",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Jennifer Kent",
     "year": 2014,
     "leadActor": "Essie Davis",
@@ -620,7 +609,7 @@
   },
   {
     "title": "O Brinquedo Assassino",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Tom Holland",
     "year": 1988,
     "leadActor": "Catherine Hicks",
@@ -628,7 +617,7 @@
   },
   {
     "title": "O Despertar dos Mortos-Vivos",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "George A. Romero",
     "year": 1978,
     "leadActor": "Ken Foree",
@@ -636,7 +625,7 @@
   },
   {
     "title": "O Bebê de Rosemary",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Roman Polanski",
     "year": 1968,
     "leadActor": "Mia Farrow",
@@ -644,7 +633,7 @@
   },
   {
     "title": "A Mosca",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "David Cronenberg",
     "year": 1986,
     "leadActor": "Jeff Goldblum",
@@ -652,7 +641,7 @@
   },
   {
     "title": "Alien: O Oitavo Passageiro",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Ridley Scott",
     "year": 1979,
     "leadActor": "Sigourney Weaver",
@@ -660,18 +649,15 @@
   },
   {
     "title": "Enigma de Outro Mundo",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "John Carpenter",
     "year": 1982,
     "leadActor": "Kurt Russell",
     "synopsis": "Uma equipe de cientistas na Antártida encontra uma criatura alienígena que pode assumir a forma de qualquer ser vivo, colocando todos em risco enquanto tentam descobrir quem é humano e quem é a criatura."
   },
   {
-    "comentario": "APARTIR DAQUI É FICÇÃO CIENTÍFICA"
-  },
-  {
     "title": "Star Wars Episódio I – A Ameaça Fantasma",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "George Lucas",
     "year": 1999,
     "leadActor": "Liam Neeson",
@@ -679,7 +665,7 @@
   },
   {
     "title": "Star Wars Episódio II - Ataque dos Clones",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "George Lucas",
     "year": 2002,
     "leadActor": "Hayden Christensen",
@@ -687,7 +673,7 @@
   },
   {
     "title": "Star Wars Episódio III – A Vingança dos Sith",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "George Lucas",
     "year": 2005,
     "leadActor": "Hayden Christensen",
@@ -695,7 +681,7 @@
   },
   {
     "title": "Star Wars Episódio IV – Uma Nova Esperança",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "George Lucas",
     "year": 1977,
     "leadActor": "Mark Hamill",
@@ -703,7 +689,7 @@
   },
   {
     "title": "Star Wars Episódio V – O Império Contra-Ataca",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Irvin Kershner",
     "year": 1980,
     "leadActor": "Mark Hamill",
@@ -711,7 +697,7 @@
   },
   {
     "title": "Star Wars Episódio VI – O Retorno de Jedi",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Richard Marquand",
     "year": 1983,
     "leadActor": "Mark Hamill",
@@ -719,7 +705,7 @@
   },
   {
     "title": "Star Wars Episódio VII – O Despertar da Força",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "J.J. Abrams",
     "year": 2015,
     "leadActor": "Daisy Ridley",
@@ -727,7 +713,7 @@
   },
   {
     "title": "Star Wars Episódio VIII – Os Últimos Jedi",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Rian Johnson",
     "year": 2017,
     "leadActor": "Daisy Ridley",
@@ -735,7 +721,7 @@
   },
   {
     "title": "A Chegada",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Denis Villeneuve",
     "year": 2016,
     "leadActor": "Amy Adams",
@@ -743,7 +729,7 @@
   },
   {
     "title": "Interestelar",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Christopher Nolan",
     "year": 2014,
     "leadActor": "Matthew McConaughey",
@@ -751,7 +737,7 @@
   },
   {
     "title": "Blade Runner - O Caçador de Andróides",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Ridley Scott",
     "year": 1982,
     "leadActor": "Harrison Ford",
@@ -759,7 +745,7 @@
   },
   {
     "title": "E. T.: O Extraterrestre",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Steven Spielberg",
     "year": 1982,
     "leadActor": "Henry Thomas",
@@ -767,7 +753,7 @@
   },
   {
     "title": "2001: Uma Odisseia no Espaço",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Stanley Kubrick",
     "year": 1968,
     "leadActor": "Keir Dullea",
@@ -775,7 +761,7 @@
   },
   {
     "title": "A.I.: Inteligência Artificial",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Steven Spielberg",
     "year": 2001,
     "leadActor": "Haley Joel Osment",
@@ -783,7 +769,7 @@
   },
   {
     "title": "O Exterminador do Futuro",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "James Cameron",
     "year": 1984,
     "leadActor": "Arnold Schwarzenegger",
@@ -791,7 +777,7 @@
   },
   {
     "title": "O Exterminador do Futuro 2: O Julgamento Final",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "James Cameron",
     "year": 1991,
     "leadActor": "Arnold Schwarzenegger",
@@ -799,7 +785,7 @@
   },
   {
     "title": "Matrix",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Lana e Lilly Wachowski",
     "year": 1999,
     "leadActor": "Keanu Reeves",
@@ -807,7 +793,7 @@
   },
   {
     "title": "Matrix Reloaded",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Lana e Lilly Wachowski",
     "year": 2003,
     "leadActor": "Keanu Reeves",
@@ -815,7 +801,7 @@
   },
   {
     "title": "Matrix Revolutions",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Lana e Lilly Wachowski",
     "year": 2003,
     "leadActor": "Keanu Reeves",
@@ -823,7 +809,7 @@
   },
   {
     "title": "Matrix Resurrections",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Lana Wachowski",
     "year": 2021,
     "leadActor": "Keanu Reeves",
@@ -831,7 +817,7 @@
   },
   {
     "title": "Perdido em Marte",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Ridley Scott",
     "year": 2015,
     "leadActor": "Matt Damon",
@@ -839,7 +825,7 @@
   },
   {
     "title": "De Volta para o Futuro",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Robert Zemeckis",
     "year": 1985,
     "leadActor": "Michael J. Fox",
@@ -847,7 +833,7 @@
   },
   {
     "title": "De Volta para o Futuro 2",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Robert Zemeckis",
     "year": 1989,
     "leadActor": "Michael J. Fox",
@@ -855,7 +841,7 @@
   },
   {
     "title": "De Volta para o Futuro 3",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Robert Zemeckis",
     "year": 1990,
     "leadActor": "Michael J. Fox",
@@ -863,7 +849,7 @@
   },
   {
     "title": "AD Astra: Rumo às Estrelas",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "James Gray",
     "year": 2019,
     "leadActor": "Brad Pitt",
@@ -871,7 +857,7 @@
   },
   {
     "title": "Avatar",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Aventura",
     "director": "James Cameron",
     "year": 2009,
     "leadActor": "Sam Worthington",
@@ -879,7 +865,7 @@
   },
   {
     "title": "Avatar 2",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "James Cameron",
     "year": 2022,
     "leadActor": "Sam Worthington",
@@ -887,7 +873,7 @@
   },
   {
     "title": "Distrito 9",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Neill Blomkamp",
     "year": 2009,
     "leadActor": "Sharlto Copley",
@@ -895,7 +881,7 @@
   },
   {
     "title": "O Dia que a Terra Parou",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Scott Derrickson",
     "year": 2008,
     "leadActor": "Keanu Reeves",
@@ -903,7 +889,7 @@
   },
   {
     "title": "Lucy",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Luc Besson",
     "year": 2014,
     "leadActor": "Scarlett Johansson",
@@ -911,7 +897,7 @@
   },
   {
     "title": "Círculo de Fogo",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Guillermo del Toro",
     "year": 2013,
     "leadActor": "Charlie Hunnam",
@@ -919,7 +905,7 @@
   },
   {
     "title": "Sinais",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "M. Night Shyamalan",
     "year": 2002,
     "leadActor": "Mel Gibson",
@@ -927,7 +913,7 @@
   },
   {
     "title": "Eu Sou a Lenda",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Francis Lawrence",
     "year": 2007,
     "leadActor": "Will Smith",
@@ -935,7 +921,7 @@
   },
   {
     "title": "Robocop",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Paul Verhoeven",
     "year": 1987,
     "leadActor": "Peter Weller",
@@ -943,7 +929,7 @@
   },
   {
     "title": "Independence Day",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Roland Emmerich",
     "year": 1996,
     "leadActor": "Will Smith",
@@ -951,7 +937,7 @@
   },
   {
     "title": "Zathura: Uma Aventura Espacial",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Jon Favreau",
     "year": 2005,
     "leadActor": "Josh Hutcherson",
@@ -959,18 +945,15 @@
   },
   {
     "title": "Seres Rastejantes",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "David Paul Cronenberg",
     "year": 1975,
     "leadActor": "Paul Hampton",
     "synopsis": "Após um experimento científico fracassado, um homem se transforma em uma criatura mutante e começa a se espalhar, criando uma onda de destruição e caos."
   },
   {
-    "comentario": "APARTIR DAQUI É COMÉDIA"
-  },
-  {
     "title": "Todo Mundo Quase Morto",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Edgar Wright",
     "year": 2004,
     "leadActor": "Simon Pegg",
@@ -978,7 +961,7 @@
   },
   {
     "title": "Click",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Frank Coraci",
     "year": 2006,
     "leadActor": "Adam Sandler",
@@ -986,7 +969,7 @@
   },
   {
     "title": "Juntos e Misturados",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Dennis Dugan",
     "year": 2014,
     "leadActor": "Adam Sandler",
@@ -994,7 +977,7 @@
   },
   {
     "title": "É o Fim",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Seth Rogen e Evan Goldberg",
     "year": 2013,
     "leadActor": "Seth Rogen",
@@ -1002,7 +985,7 @@
   },
   {
     "title": "Todo Mundo em Pânico",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Keenen Ivory Wayans",
     "year": 2000,
     "leadActor": "Anna Faris",
@@ -1010,7 +993,7 @@
   },
   {
     "title": "Todo Mundo em Pânico 2",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Keenen Ivory Wayans",
     "year": 2001,
     "leadActor": "Anna Faris",
@@ -1018,7 +1001,7 @@
   },
   {
     "title": "Todo Mundo em Pânico 3",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "David Zucker",
     "year": 2003,
     "leadActor": "Anna Faris",
@@ -1026,7 +1009,7 @@
   },
   {
     "title": "Todo Mundo em Pânico 4",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "David Zucker",
     "year": 2006,
     "leadActor": "Anna Faris",
@@ -1034,7 +1017,7 @@
   },
   {
     "title": "Aperte os Cintos, o Piloto Sumiu",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Jim Abrahams",
     "year": 1980,
     "leadActor": "Robert Hays",
@@ -1042,7 +1025,7 @@
   },
   {
     "title": "Corra, que a Polícia Vem Aí!",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "David Zucker",
     "year": 1988,
     "leadActor": "Leslie Nielsen",
@@ -1050,7 +1033,7 @@
   },
   {
     "title": "Super Herói: O Filme",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Craig Mazin",
     "year": 2008,
     "leadActor": "Drake Bell",
@@ -1058,7 +1041,7 @@
   },
   {
     "title": "Ace Ventura: Um Detetive Diferente",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Tom Shadyac",
     "year": 1994,
     "leadActor": "Jim Carrey",
@@ -1066,7 +1049,7 @@
   },
   {
     "title": "O Máskara",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Chuck Russell",
     "year": 1994,
     "leadActor": "Jim Carrey",
@@ -1074,7 +1057,7 @@
   },
   {
     "title": "O Todo Poderoso",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Tom Shadyac",
     "year": 2003,
     "leadActor": "Jim Carrey",
@@ -1082,7 +1065,7 @@
   },
   {
     "title": "Gente Grande",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Dennis Dugan",
     "year": 2010,
     "leadActor": "Adam Sandler",
@@ -1090,7 +1073,7 @@
   },
   {
     "title": "Um Jantar para Idiotas",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Jay Roach",
     "year": 2010,
     "leadActor": "Steve Carell",
@@ -1098,7 +1081,7 @@
   },
   {
     "title": "Johnny English",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Peter Howitt",
     "year": 2003,
     "leadActor": "Rowan Atkinson",
@@ -1106,7 +1089,7 @@
   },
   {
     "title": "O Paizão",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Dennis Dugan",
     "year": 1999,
     "leadActor": "Adam Sandler",
@@ -1114,7 +1097,7 @@
   },
   {
     "title": "Doze é Demais",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Shawn Levy",
     "year": 2003,
     "leadActor": "Steve Martin",
@@ -1122,7 +1105,7 @@
   },
   {
     "title": "A Pantera Cor-de-Rosa",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Shawn Levy",
     "year": 2006,
     "leadActor": "Steve Martin",
@@ -1130,7 +1113,7 @@
   },
   {
     "title": "Até Que a Sorte Nos Separe",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Roberto Santucci",
     "year": 2012,
     "leadActor": "Leandro Hassum",
@@ -1138,7 +1121,7 @@
   },
   {
     "title": "Meu Cunhado é um Vampiro",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Sam Irvin",
     "year": 2009,
     "leadActor": "Adam Shulman",
@@ -1146,7 +1129,7 @@
   },
   {
     "title": "Se Eu Fosse Você",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Daniel Filho",
     "year": 2006,
     "leadActor": "Tony Ramos",
@@ -1154,7 +1137,7 @@
   },
   {
     "title": "O Auto da Compadecida",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Guel Arraes",
     "year": 2000,
     "leadActor": "Matheus Nachtergaele",
@@ -1162,7 +1145,7 @@
   },
   {
     "title": "Os Vampiros que se Mordam",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Jason Friedberg",
     "year": 2010,
     "leadActor": "Matt Lanter",
@@ -1170,7 +1153,7 @@
   },
   {
     "title": "Entrando numa Fria",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Jay Roach",
     "year": 2000,
     "leadActor": "Ben Stiller",
@@ -1178,7 +1161,7 @@
   },
   {
     "title": "Mr. Bean - O Filme",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Mel Smith",
     "year": 1997,
     "leadActor": "Rowan Atkinson",
@@ -1186,7 +1169,7 @@
   },
   {
     "title": "Superbad - É Hoje",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Greg Mottola",
     "year": 2007,
     "leadActor": "Jonah Hill",
@@ -1194,7 +1177,7 @@
   },
   {
     "title": "Anjos da Lei",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Phil Lord",
     "year": 2012,
     "leadActor": "Jonah Hill",
@@ -1202,7 +1185,7 @@
   },
   {
     "title": "O Mentiroso",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Tom Shadyac",
     "year": 1997,
     "leadActor": "Jim Carrey",
@@ -1210,7 +1193,7 @@
   },
   {
     "title": "A Família Addams",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Barry Sonnenfeld",
     "year": 1991,
     "leadActor": "Anjelica Huston",
@@ -1218,7 +1201,7 @@
   },
   {
     "title": "Zumbilândia",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Ruben Fleischer",
     "year": 2009,
     "leadActor": "Jesse Eisenberg",
@@ -1226,7 +1209,7 @@
   },
   {
     "title": "Uma Noite no Museu",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Shawn Levy",
     "year": 2006,
     "leadActor": "Ben Stiller",
@@ -1234,7 +1217,7 @@
   },
   {
     "title": "O Pequeno",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Malcolm D. Lee",
     "year": 2019,
     "leadActor": "Marsai Martin",
@@ -1242,7 +1225,7 @@
   },
   {
     "title": "As Mil Palavras",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Brian Robbins",
     "year": 2012,
     "leadActor": "Eddie Murphy",
@@ -1250,7 +1233,7 @@
   },
   {
     "title": "Debi e Lóide - Dois Idiotas em Apuros",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Peter Farrelly",
     "year": 1994,
     "leadActor": "Jim Carrey",
@@ -1258,18 +1241,15 @@
   },
   {
     "title": "Os Pinguins do Papai",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Mark Waters",
     "year": 2005,
     "leadActor": "Robin Williams",
     "synopsis": "Um homem que se torna pai de um pinguim de estimação precisa aprender a lidar com as complicações que surgem com a chegada de um animal peculiar, ao mesmo tempo em que tenta manter a vida equilibrada."
   },
   {
-    "comentario": "APARTIR DAQUI É DRAMA"
-  },
-  {
     "title": "O Pianista",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Roman Polanski",
     "year": 2002,
     "leadActor": "Adrien Brody",
@@ -1277,7 +1257,7 @@
   },
   {
     "title": "O Jogo da Imitação",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Morten Tyldum",
     "year": 2014,
     "leadActor": "Benedict Cumberbatch",
@@ -1285,7 +1265,7 @@
   },
   {
     "title": "Ponte para Terabítia",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Gabor Csupo",
     "year": 2007,
     "leadActor": "Josh Hutcherson",
@@ -1293,7 +1273,7 @@
   },
   {
     "title": "Um Sonho de Liberdade",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Frank Darabont",
     "year": 1994,
     "leadActor": "Tim Robbins",
@@ -1301,7 +1281,7 @@
   },
   {
     "title": "O Silêncio dos Inocentes",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Jonathan Demme",
     "year": 1991,
     "leadActor": "Jodie Foster",
@@ -1309,7 +1289,7 @@
   },
   {
     "title": "A Caça",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Craig Zobel",
     "year": 2020,
     "leadActor": "Betty Gilpin",
@@ -1317,7 +1297,7 @@
   },
   {
     "title": "A Rede Social",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "David Fincher",
     "year": 2010,
     "leadActor": "Jesse Eisenberg",
@@ -1325,7 +1305,7 @@
   },
   {
     "title": "Logan",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "James Mangold",
     "year": 2017,
     "leadActor": "Hugh Jackman",
@@ -1333,7 +1313,7 @@
   },
   {
     "title": "Parasita",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Bong Joon-ho",
     "year": 2019,
     "leadActor": "Song Kang-ho",
@@ -1341,7 +1321,7 @@
   },
   {
     "title": "Edward Mãos de Tesoura",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Tim Burton",
     "year": 1990,
     "leadActor": "Johnny Depp",
@@ -1349,7 +1329,7 @@
   },
   {
     "title": "A Culpa é das Estrelas",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Josh Boone",
     "year": 2014,
     "leadActor": "Shailene Woodley",
@@ -1357,7 +1337,7 @@
   },
   {
     "title": "A Espera de um Milagre",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Frank Darabont",
     "year": 1999,
     "leadActor": "Tom Hanks",
@@ -1365,7 +1345,7 @@
   },
   {
     "title": "A Forma da Água",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Guillermo del Toro",
     "year": 2017,
     "leadActor": "Sally Hawkins",
@@ -1373,7 +1353,7 @@
   },
   {
     "title": "Coringa",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Todd Phillips",
     "year": 2019,
     "leadActor": "Joaquin Phoenix",
@@ -1381,7 +1361,7 @@
   },
   {
     "title": "Central do Brasil",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Walter Salles",
     "year": 1998,
     "leadActor": "Fernanda Montenegro",
@@ -1389,7 +1369,7 @@
   },
   {
     "title": "Taxi Driver - Motorista de Táxi",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Martin Scorsese",
     "year": 1976,
     "leadActor": "Robert De Niro",
@@ -1397,7 +1377,7 @@
   },
   {
     "title": "A Lista de Schindler",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Steven Spielberg",
     "year": 1993,
     "leadActor": "Liam Neeson",
@@ -1405,7 +1385,7 @@
   },
   {
     "title": "A Vida é Bela",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Roberto Benigni",
     "year": 1997,
     "leadActor": "Roberto Benigni",
@@ -1413,7 +1393,7 @@
   },
   {
     "title": "Forrest Gump - O Contador de Histórias",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Robert Zemeckis",
     "year": 1994,
     "leadActor": "Tom Hanks",
@@ -1421,18 +1401,15 @@
   },
   {
     "title": "Marley e Eu",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "David Frankel",
     "year": 2008,
     "leadActor": "Owen Wilson",
     "synopsis": "Baseado no livro best-seller, o filme segue a vida de John e Jennifer, que adotam Marley, um cachorro travesso e bagunceiro, e como ele transforma suas vidas com momentos de humor, amor e aprendizado."
   },
   {
-    "comentario": "APARTIR DAQUI É SUSPENSE"
-  },
-  {
     "title": "Ilha do Medo",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Martin Scorsese",
     "year": 2010,
     "leadActor": "Leonardo DiCaprio",
@@ -1440,7 +1417,7 @@
   },
   {
     "title": "Pânico",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Wes Craven",
     "year": 1996,
     "leadActor": "Neve Campbell",
@@ -1448,7 +1425,7 @@
   },
   {
     "title": "A Origem",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Christopher Nolan",
     "year": 2010,
     "leadActor": "Leonardo DiCaprio",
@@ -1456,7 +1433,7 @@
   },
   {
     "title": "O Homem Duplicado",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Denis Villeneuve",
     "year": 2013,
     "leadActor": "Jake Gyllenhaal",
@@ -1464,7 +1441,7 @@
   },
   {
     "title": "Escape Room",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Adam Robitel",
     "year": 2019,
     "leadActor": "Taylor Russell",
@@ -1472,7 +1449,7 @@
   },
   {
     "title": "Garota Exemplar",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "David Fincher",
     "year": 2014,
     "leadActor": "Ben Affleck",
@@ -1480,7 +1457,7 @@
   },
   {
     "title": "O Sexto Sentido",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "M. Night Shyamalan",
     "year": 1999,
     "leadActor": "Bruce Willis",
@@ -1488,7 +1465,7 @@
   },
   {
     "title": "Armadilha",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Adam Green",
     "year": 2007,
     "leadActor": "Kevin Zegers",
@@ -1496,18 +1473,15 @@
   },
   {
     "title": "Efeito Borboleta",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Eric Bress, J. Mackye Gruber",
     "year": 2004,
     "leadActor": "Ashton Kutcher",
     "synopsis": "Evan Treborn possui a habilidade de viajar no tempo e mudar eventos de seu passado. No entanto, ele logo descobre que suas tentativas de corrigir erros têm efeitos inesperados e cada alteração traz consequências perigosas."
   },
   {
-    "comentario": "APARTIR DAQUI É GUERRA"
-  },
-  {
     "title": "Dunkirk",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Christopher Nolan",
     "year": 2017,
     "leadActor": "Fionn Whitehead",
@@ -1515,7 +1489,7 @@
   },
   {
     "title": "Até o Último Homem",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Mel Gibson",
     "year": 2016,
     "leadActor": "Andrew Garfield",
@@ -1523,7 +1497,7 @@
   },
   {
     "title": "Coração de Ferro",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "David Ayer",
     "year": 2014,
     "leadActor": "Brad Pitt",
@@ -1531,7 +1505,7 @@
   },
   {
     "title": "1917",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Sam Mendes",
     "year": 2019,
     "leadActor": "George MacKay",
@@ -1539,7 +1513,7 @@
   },
   {
     "title": "Greyhound",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Aaron Schneider",
     "year": 2020,
     "leadActor": "Tom Hanks",
@@ -1547,7 +1521,7 @@
   },
   {
     "title": "Nascido para Matar",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Stanley Kubrick",
     "year": 1987,
     "leadActor": "Matthew Modine",
@@ -1555,7 +1529,7 @@
   },
   {
     "title": "O Destino de uma Nação",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Joe Wright",
     "year": 2017,
     "leadActor": "Gary Oldman",
@@ -1563,7 +1537,7 @@
   },
   {
     "title": "Bastardos Inglórios",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Quentin Tarantino",
     "year": 2009,
     "leadActor": "Brad Pitt",
@@ -1571,7 +1545,7 @@
   },
   {
     "title": "Jojo Rabbit",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Taika Waititi",
     "year": 2019,
     "leadActor": "Roman Griffin Davis",
@@ -1579,7 +1553,7 @@
   },
   {
     "title": "Além da Linha Vermelha",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Terrence Malick",
     "year": 1998,
     "leadActor": "Sean Penn",
@@ -1587,7 +1561,7 @@
   },
   {
     "title": "Nada de Novo no Front",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Lewis Milestone",
     "year": 1930,
     "leadActor": "Lew Ayres",
@@ -1595,7 +1569,7 @@
   },
   {
     "title": "O Resgate do Soldado Ryan",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Steven Spielberg",
     "year": 1998,
     "leadActor": "Tom Hanks",
@@ -1603,7 +1577,7 @@
   },
   {
     "title": "Troia",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Wolfgang Petersen",
     "year": 2004,
     "leadActor": "Brad Pitt",
@@ -1611,7 +1585,7 @@
   },
   {
     "title": "300",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Zack Snyder",
     "year": 2006,
     "leadActor": "Gerard Butler",
@@ -1619,7 +1593,7 @@
   },
   {
     "title": "O Grande Herói",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Peter Berg",
     "year": 2013,
     "leadActor": "Mark Wahlberg",
@@ -1627,7 +1601,7 @@
   },
   {
     "title": "O Menino de Pijama Listrado",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Mark Herman",
     "year": 2008,
     "leadActor": "Asa Butterfield",
@@ -1635,7 +1609,7 @@
   },
   {
     "title": "Cruzada",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Ridley Scott",
     "year": 2005,
     "leadActor": "Orlando Bloom",
@@ -1643,7 +1617,7 @@
   },
   {
     "title": "Midway - Batalha em Alto Mar",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Roland Emmerich",
     "year": 2019,
     "leadActor": "Ed Skrein",
@@ -1651,7 +1625,7 @@
   },
   {
     "title": "Fantasmas de Guerra",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Simon West",
     "year": 2020,
     "leadActor": "Brenton Thwaites",
@@ -1659,7 +1633,7 @@
   },
   {
     "title": "Caçadores de Obras-Primas",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "George Clooney",
     "year": 2014,
     "leadActor": "George Clooney",
@@ -1667,7 +1641,7 @@
   },
   {
     "title": "Invencível",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Angelina Jolie",
     "year": 2014,
     "leadActor": "Jack O'Connell",
@@ -1675,7 +1649,7 @@
   },
   {
     "title": "Platoon",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Oliver Stone",
     "year": 1986,
     "leadActor": "Charlie Sheen",
@@ -1683,7 +1657,7 @@
   },
   {
     "title": "Oppenheimer",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Christopher Nolan",
     "year": 2023,
     "leadActor": "Cillian Murphy",
@@ -1691,7 +1665,7 @@
   },
   {
     "title": "Sniper Americano",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Clint Eastwood",
     "year": 2014,
     "leadActor": "Bradley Cooper",
@@ -1699,7 +1673,7 @@
   },
   {
     "title": "Sisu - Uma História de Determinação",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Jalmari Helander",
     "year": 2022,
     "leadActor": "Jorma Tommaila",
@@ -1707,7 +1681,7 @@
   },
   {
     "title": "Stalingrad",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Joseph Vilsmaier",
     "year": 1993,
     "leadActor": "Thomas Kretschmann",
@@ -1715,18 +1689,15 @@
   },
   {
     "title": "Coração Valente",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Mel Gibson",
     "year": 1995,
     "leadActor": "Mel Gibson",
     "synopsis": "William Wallace, um camponês escocês, lidera uma revolta contra o domínio inglês após a morte de sua esposa. Ele busca liberdade para seu povo, tornando-se um símbolo de coragem e resistência na luta pela independência da Escócia."
   },
   {
-    "comentario": "APARTIR DAQUI É FAROESTE"
-  },
-  {
     "title": "Por um Punhado de Dólares",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Sergio Leone",
     "year": 1964,
     "leadActor": "Clint Eastwood",
@@ -1734,7 +1705,7 @@
   },
   {
     "title": "Três Homens e um Conflito",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Sergio Leone",
     "year": 1966,
     "leadActor": "Clint Eastwood",
@@ -1742,7 +1713,7 @@
   },
   {
     "title": "Os Imperdoáveis",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Clint Eastwood",
     "year": 1992,
     "leadActor": "Clint Eastwood",
@@ -1750,7 +1721,7 @@
   },
   {
     "title": "Django Livre",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Quentin Tarantino",
     "year": 2012,
     "leadActor": "Jamie Foxx",
@@ -1758,7 +1729,7 @@
   },
   {
     "title": "Sete Homens e um Destino",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Antoine Fuqua",
     "year": 2016,
     "leadActor": "Denzel Washington",
@@ -1766,7 +1737,7 @@
   },
   {
     "title": "Bater ou Correr",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Peter Yates",
     "year": 1969,
     "leadActor": "Steve McQueen",
@@ -1774,7 +1745,7 @@
   },
   {
     "title": "Inferno no Faroeste",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Sam Peckinpah",
     "year": 1971,
     "leadActor": "William Holden",
@@ -1782,7 +1753,7 @@
   },
   {
     "title": "A Balada de Buster Scruggs",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Joel e Ethan Coen",
     "year": 2018,
     "leadActor": "Tim Blake Nelson",
@@ -1790,7 +1761,7 @@
   },
   {
     "title": "Os Oito Odiados",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Quentin Tarantino",
     "year": 2015,
     "leadActor": "Samuel L. Jackson",
@@ -1798,7 +1769,7 @@
   },
   {
     "title": "O Cavaleiro Solitário",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Gore Verbinski",
     "year": 2013,
     "leadActor": "Johnny Depp",
@@ -1806,7 +1777,7 @@
   },
   {
     "title": "Os Seis Ridículos",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Mel Brooks",
     "year": 1974,
     "leadActor": "Cleavon Little",
@@ -1814,7 +1785,7 @@
   },
   {
     "title": "As Loucas Aventuras de James West",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Barry Sonnenfeld",
     "year": 1999,
     "leadActor": "Will Smith",
@@ -1822,7 +1793,7 @@
   },
   {
     "title": "Onde os Fracos Não Têm Vez",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Joel e Ethan Coen",
     "year": 2007,
     "leadActor": "Tommy Lee Jones",
@@ -1830,7 +1801,7 @@
   },
   {
     "title": "Rápido e Mortal",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Sam Raimi",
     "year": 1995,
     "leadActor": "Sharon Stone",
@@ -1838,7 +1809,7 @@
   },
   {
     "title": "Um Milhão de Maneiras de Pegar na Pistola",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Seth MacFarlane",
     "year": 2014,
     "leadActor": "Seth MacFarlane",
@@ -1846,7 +1817,7 @@
   },
   {
     "title": "Cowboys vs Aliens",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Jon Favreau",
     "year": 2011,
     "leadActor": "Daniel Craig",
@@ -1854,7 +1825,7 @@
   },
   {
     "title": "Bacurau",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Kleber Mendonça Filho, Juliano Dornelles",
     "year": 2019,
     "leadActor": "Sônia Braga",
@@ -1862,7 +1833,7 @@
   },
   {
     "title": "Jonah Hex - Caçador de Recompensas",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Jimmy Hayward",
     "year": 2010,
     "leadActor": "Josh Brolin",
@@ -1870,7 +1841,7 @@
   },
   {
     "title": "El Mariachi",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Robert Rodriguez",
     "year": 1992,
     "leadActor": "Carlos Gallardo",
@@ -1878,7 +1849,7 @@
   },
   {
     "title": "O Assassinato de Jesse James",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Andrew Dominik",
     "year": 2007,
     "leadActor": "Brad Pitt",
@@ -1886,7 +1857,7 @@
   },
   {
     "title": "Lendas da Paixão",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Edward Zwick",
     "year": 1994,
     "leadActor": "Brad Pitt",
@@ -1894,18 +1865,15 @@
   },
   {
     "title": "Retorno da Lenda",
-    "genre": "Faroeste",
+    "genre": "Faroeste e Drama",
     "director": "Rod Hardy",
     "year": 1987,
     "leadActor": "James Garner",
     "synopsis": "Um ex-pistoleiro retorna à sua cidade natal para se vingar de um antigo inimigo, enquanto tenta redimir seu passado e lidar com os fantasmas da violência que ele deixou para trás."
   },
   {
-    "comentario": "APARTIR DAQUI É "
-  },
-  {
     "title": "Mad Max: Estrada da Fúria",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "George Miller",
     "year": 2015,
     "leadActor": "Tom Hardy",
@@ -1913,7 +1881,7 @@
   },
   {
     "title": "Duro de Matar",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "John McTiernan",
     "year": 1988,
     "leadActor": "Bruce Willis",
@@ -1921,7 +1889,7 @@
   },
   {
     "title": "Gladiador",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Ridley Scott",
     "year": 2000,
     "leadActor": "Russell Crowe",
@@ -1929,7 +1897,7 @@
   },
   {
     "title": "Missão: Impossível",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Brian De Palma",
     "year": 1996,
     "leadActor": "Tom Cruise",
@@ -1937,7 +1905,7 @@
   },
   {
     "title": "Pantera Negra",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Ryan Coogler",
     "year": 2018,
     "leadActor": "Chadwick Boseman",
@@ -1945,7 +1913,7 @@
   },
   {
     "title": "Capitão América: Guerra Civil",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Anthony e Joe Russo",
     "year": 2016,
     "leadActor": "Chris Evans",
@@ -1953,7 +1921,7 @@
   },
   {
     "title": "Os Vingadores",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Joss Whedon",
     "year": 2012,
     "leadActor": "Robert Downey Jr.",
@@ -1961,7 +1929,7 @@
   },
   {
     "title": "Top Gun: Maverick",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Joseph Kosinski",
     "year": 2022,
     "leadActor": "Tom Cruise",
@@ -1969,7 +1937,7 @@
   },
   {
     "title": "Predador",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "John McTiernan",
     "year": 1987,
     "leadActor": "Arnold Schwarzenegger",
@@ -1977,7 +1945,7 @@
   },
   {
     "title": "Kill Bill: Volume 1",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Quentin Tarantino",
     "year": 2003,
     "leadActor": "Uma Thurman",
@@ -1985,7 +1953,7 @@
   },
   {
     "title": "Kill Bill: Volume 2",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Quentin Tarantino",
     "year": 2004,
     "leadActor": "Uma Thurman",
@@ -1993,7 +1961,7 @@
   },
   {
     "title": "Busca Implacável",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Pierre Morel",
     "year": 2008,
     "leadActor": "Liam Neeson",
@@ -2001,7 +1969,7 @@
   },
   {
     "title": "Skyfall",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Sam Mendes",
     "year": 2012,
     "leadActor": "Daniel Craig",
@@ -2009,7 +1977,7 @@
   },
   {
     "title": "O Protetor",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Antoine Fuqua",
     "year": 2014,
     "leadActor": "Denzel Washington",
@@ -2017,7 +1985,7 @@
   },
   {
     "title": "Fúria em Duas Rodas",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Mark Steven Johnson",
     "year": 2007,
     "leadActor": "Nicolas Cage",
@@ -2025,7 +1993,7 @@
   },
   {
     "title": "Carga Explosiva",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Louis Leterrier",
     "year": 2002,
     "leadActor": "Jason Statham",
@@ -2033,7 +2001,7 @@
   },
   {
     "title": "Troy",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Wolfgang Petersen",
     "year": 2004,
     "leadActor": "Brad Pitt",
@@ -2041,7 +2009,7 @@
   },
   {
     "title": "Sicario",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Denis Villeneuve",
     "year": 2015,
     "leadActor": "Emily Blunt",
@@ -2049,7 +2017,7 @@
   },
   {
     "title": "Infiltrado",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Guy Ritchie",
     "year": 2021,
     "leadActor": "Jason Statham",
@@ -2057,7 +2025,7 @@
   },
   {
     "title": "Os Mercenários",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Sylvester Stallone",
     "year": 2010,
     "leadActor": "Sylvester Stallone",
@@ -2065,7 +2033,7 @@
   },
   {
     "title": "Velocidade Máxima",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Jan de Bont",
     "year": 1994,
     "leadActor": "Keanu Reeves",
@@ -2073,7 +2041,7 @@
   },
   {
     "title": "Chamas da Vingança",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Tony Scott",
     "year": 2004,
     "leadActor": "Denzel Washington",
@@ -2081,7 +2049,7 @@
   },
   {
     "title": "O Livro de Eli",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Albert Hughes e Allen Hughes",
     "year": 2010,
     "leadActor": "Denzel Washington",
@@ -2089,7 +2057,7 @@
   },
   {
     "title": "Kingsman: Serviço Secreto",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Matthew Vaughn",
     "year": 2014,
     "leadActor": "Taron Egerton",
@@ -2097,7 +2065,7 @@
   },
   {
     "title": "Guerra Mundial Z",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Marc Forster",
     "year": 2013,
     "leadActor": "Brad Pitt",
@@ -2105,7 +2073,7 @@
   },
   {
     "title": "O Esquadrão Suicida",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "James Gunn",
     "year": 2021,
     "leadActor": "Margot Robbie",
@@ -2113,7 +2081,7 @@
   },
   {
     "title": "Deadpool",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Tim Miller",
     "year": 2016,
     "leadActor": "Ryan Reynolds",
@@ -2121,7 +2089,7 @@
   },
   {
     "title": "X-Men: Dias de um Futuro Esquecido",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Bryan Singer",
     "year": 2014,
     "leadActor": "Hugh Jackman",
@@ -2129,7 +2097,7 @@
   },
   {
     "title": "Homem de Ferro",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Jon Favreau",
     "year": 2008,
     "leadActor": "Robert Downey Jr.",
@@ -2137,7 +2105,7 @@
   },
   {
     "title": "Thor: Ragnarok",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Taika Waititi",
     "year": 2017,
     "leadActor": "Chris Hemsworth",
@@ -2145,7 +2113,7 @@
   },
   {
     "title": "Doutor Estranho",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Scott Derrickson",
     "year": 2016,
     "leadActor": "Benedict Cumberbatch",
@@ -2153,7 +2121,7 @@
   },
   {
     "title": "Aquaman",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "James Wan",
     "year": 2018,
     "leadActor": "Jason Momoa",
@@ -2161,7 +2129,7 @@
   },
   {
     "title": "Liga da Justiça",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Zack Snyder",
     "year": 2017,
     "leadActor": "Ben Affleck",
@@ -2169,7 +2137,7 @@
   },
   {
     "title": "O Último Samurai",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Edward Zwick",
     "year": 2003,
     "leadActor": "Tom Cruise",
@@ -2177,7 +2145,7 @@
   },
   {
     "title": "Falcão Negro em Perigo",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Ridley Scott",
     "year": 2001,
     "leadActor": "Josh Hartnett",
@@ -2185,7 +2153,7 @@
   },
   {
     "title": "Godzilla vs Kong",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Adam Wingard",
     "year": 2021,
     "leadActor": "Alexander Skarsgård",
@@ -2193,7 +2161,7 @@
   },
   {
     "title": "Transformers",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Michael Bay",
     "year": 2007,
     "leadActor": "Shia LaBeouf",
@@ -2201,7 +2169,7 @@
   },
   {
     "title": "Sem Escalas",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Jaume Collet-Serra",
     "year": 2014,
     "leadActor": "Liam Neeson",
@@ -2209,7 +2177,7 @@
   },
   {
     "title": "Zona Verde",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Paul Greengrass",
     "year": 2010,
     "leadActor": "Matt Damon",
@@ -2217,7 +2185,7 @@
   },
   {
     "title": "Atômica",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "David Leitch",
     "year": 2017,
     "leadActor": "Charlize Theron",
@@ -2225,7 +2193,7 @@
   },
   {
     "title": "Tropa de Elite",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "José Padilha",
     "year": 2007,
     "leadActor": "Wagner Moura",
@@ -2233,7 +2201,7 @@
   },
   {
     "title": "Cidade de Deus",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Fernando Meirelles",
     "year": 2002,
     "leadActor": "Alexandre Rodrigues",
@@ -2241,7 +2209,7 @@
   },
   {
     "title": "Operação Invasão",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Gareth Evans",
     "year": 2011,
     "leadActor": "Iko Uwais",
@@ -2249,7 +2217,7 @@
   },
   {
     "title": "Anônimo",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Ilya Naishuller",
     "year": 2021,
     "leadActor": "Bob Odenkirk",
@@ -2257,7 +2225,7 @@
   },
   {
     "title": "Free Guy",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Shawn Levy",
     "year": 2021,
     "leadActor": "Ryan Reynolds",
@@ -2265,7 +2233,7 @@
   },
   {
     "title": "Tenet",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Christopher Nolan",
     "year": 2020,
     "leadActor": "John David Washington",
@@ -2273,7 +2241,7 @@
   },
   {
     "title": "Indiana Jones e os Caçadores da Arca Perdida",
-    "genre": "Aventura",
+    "genre": "Aventura e Fantasia",
     "director": "Steven Spielberg",
     "year": 1981,
     "leadActor": "Harrison Ford",
@@ -2281,7 +2249,7 @@
   },
   {
     "title": "Indiana Jones e a Última Cruzada",
-    "genre": "Aventura",
+    "genre": "Aventura e Fantasia",
     "director": "Steven Spielberg",
     "year": 1989,
     "leadActor": "Harrison Ford",
@@ -2289,7 +2257,7 @@
   },
   {
     "title": "A Rocha",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Michael Bay",
     "year": 1996,
     "leadActor": "Sean Connery",
@@ -2297,7 +2265,7 @@
   },
   {
     "title": "Con Air",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Simon West",
     "year": 1997,
     "leadActor": "Nicolas Cage",
@@ -2305,7 +2273,7 @@
   },
   {
     "title": "Face/Off",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "John Woo",
     "year": 1997,
     "leadActor": "John Travolta",
@@ -2313,7 +2281,7 @@
   },
   {
     "title": "Blade Runner 2049",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Denis Villeneuve",
     "year": 2017,
     "leadActor": "Ryan Gosling",
@@ -2321,7 +2289,7 @@
   },
   {
     "title": "O Homem do Norte",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Robert Eggers",
     "year": 2022,
     "leadActor": "Alexander Skarsgård",
@@ -2329,7 +2297,7 @@
   },
   {
     "title": "Contra o Tempo",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Duncan Jones",
     "year": 2011,
     "leadActor": "Jake Gyllenhaal",
@@ -2337,7 +2305,7 @@
   },
   {
     "title": "No Limite do Amanhã",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Doug Liman",
     "year": 2014,
     "leadActor": "Tom Cruise",
@@ -2345,7 +2313,7 @@
   },
   {
     "title": "Hellboy",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Guillermo del Toro",
     "year": 2004,
     "leadActor": "Ron Perlman",
@@ -2353,7 +2321,7 @@
   },
   {
     "title": "Hancock",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Peter Berg",
     "year": 2008,
     "leadActor": "Will Smith",
@@ -2361,7 +2329,7 @@
   },
   {
     "title": "Constantine",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Francis Lawrence",
     "year": 2005,
     "leadActor": "Keanu Reeves",
@@ -2369,7 +2337,7 @@
   },
   {
     "title": "Demolidor",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Mark Steven Johnson",
     "year": 2003,
     "leadActor": "Ben Affleck",
@@ -2377,7 +2345,7 @@
   },
   {
     "title": "Justiceiro",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Jonathan Hensleigh",
     "year": 2004,
     "leadActor": "Thomas Jane",
@@ -2385,7 +2353,7 @@
   },
   {
     "title": "Cães de Guerra",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Todd Phillips",
     "year": 2016,
     "leadActor": "Jonah Hill",
@@ -2393,7 +2361,7 @@
   },
   {
     "title": "Argo",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Ben Affleck",
     "year": 2012,
     "leadActor": "Ben Affleck",
@@ -2401,7 +2369,7 @@
   },
   {
     "title": "Zona de Risco",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "William Eubank",
     "year": 2024,
     "leadActor": "Russell Crowe",
@@ -2409,7 +2377,7 @@
   },
   {
     "title": "Midway",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Roland Emmerich",
     "year": 2019,
     "leadActor": "Ed Skrein",
@@ -2417,7 +2385,7 @@
   },
   {
     "title": "Pearl Harbor",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Michael Bay",
     "year": 2001,
     "leadActor": "Ben Affleck",
@@ -2425,7 +2393,7 @@
   },
   {
     "title": "Armageddon",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Michael Bay",
     "year": 1998,
     "leadActor": "Bruce Willis",
@@ -2433,7 +2401,7 @@
   },
   {
     "title": "O Patriota",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Roland Emmerich",
     "year": 2000,
     "leadActor": "Mel Gibson",
@@ -2441,7 +2409,7 @@
   },
   {
     "title": "Os Infiltrados",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Martin Scorsese",
     "year": 2006,
     "leadActor": "Leonardo DiCaprio",
@@ -2449,7 +2417,7 @@
   },
   {
     "title": "Batman Begins",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Christopher Nolan",
     "year": 2005,
     "leadActor": "Christian Bale",
@@ -2457,7 +2425,7 @@
   },
   {
     "title": "Homem-Aranha 2",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Sam Raimi",
     "year": 2004,
     "leadActor": "Tobey Maguire",
@@ -2465,7 +2433,7 @@
   },
   {
     "title": "Guardiões da Galáxia",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "James Gunn",
     "year": 2014,
     "leadActor": "Chris Pratt",
@@ -2473,7 +2441,7 @@
   },
   {
     "title": "Capitã Marvel",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Anna Boden e Ryan Fleck",
     "year": 2019,
     "leadActor": "Brie Larson",
@@ -2481,7 +2449,7 @@
   },
   {
     "title": "Jurassic World",
-    "genre": "Aventura",
+    "genre": "Aventura e Fantasia",
     "director": "Colin Trevorrow",
     "year": 2015,
     "leadActor": "Chris Pratt",
@@ -2489,7 +2457,7 @@
   },
   {
     "title": "Jurassic Park",
-    "genre": "Aventura",
+    "genre": "Aventura e Fantasia",
     "director": "Steven Spielberg",
     "year": 1993,
     "leadActor": "Sam Neill",
@@ -2497,7 +2465,7 @@
   },
   {
     "title": "Godzilla",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Gareth Edwards",
     "year": 2014,
     "leadActor": "Aaron Taylor-Johnson",
@@ -2505,7 +2473,7 @@
   },
   {
     "title": "Kong: A Ilha da Caveira",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Jordan Vogt-Roberts",
     "year": 2017,
     "leadActor": "Tom Hiddleston",
@@ -2513,7 +2481,7 @@
   },
   {
     "title": "O Senhor dos Anéis: A Sociedade do Anel",
-    "genre": "Fantasia",
+    "genre": "Fantasia e Aventura",
     "director": "Peter Jackson",
     "year": 2001,
     "leadActor": "Elijah Wood",
@@ -2521,7 +2489,7 @@
   },
   {
     "title": "O Hobbit: Uma Jornada Inesperada",
-    "genre": "Fantasia",
+    "genre": "Fantasia e Aventura",
     "director": "Peter Jackson",
     "year": 2012,
     "leadActor": "Martin Freeman",
@@ -2529,7 +2497,7 @@
   },
   {
     "title": "Piratas do Caribe: A Maldição do Pérola Negra",
-    "genre": "Aventura",
+    "genre": "Aventura e Fantasia",
     "director": "Gore Verbinski",
     "year": 2003,
     "leadActor": "Johnny Depp",
@@ -2537,7 +2505,7 @@
   },
   {
     "title": "Jumanji",
-    "genre": "Aventura",
+    "genre": "Aventura e Fantasia",
     "director": "Joe Johnston",
     "year": 1995,
     "leadActor": "Robin Williams",
@@ -2545,7 +2513,7 @@
   },
   {
     "title": "King Kong",
-    "genre": "Aventura",
+    "genre": "Aventura e Fantasia",
     "director": "Peter Jackson",
     "year": 2005,
     "leadActor": "Naomi Watts",
@@ -2553,7 +2521,7 @@
   },
   {
     "title": "A Múmia",
-    "genre": "Aventura",
+    "genre": "Aventura e Fantasia",
     "director": "Stephen Sommers",
     "year": 1999,
     "leadActor": "Brendan Fraser",
@@ -2561,7 +2529,7 @@
   },
   {
     "title": "Viagem ao Centro da Terra",
-    "genre": "Aventura",
+    "genre": "Aventura e Fantasia",
     "director": "Eric Brevig",
     "year": 2008,
     "leadActor": "Brendan Fraser",
@@ -2569,7 +2537,7 @@
   },
   {
     "title": "As Crônicas de Nárnia",
-    "genre": "Fantasia",
+    "genre": "Fantasia e Aventura",
     "director": "Andrew Adamson",
     "year": 2005,
     "leadActor": "Georgie Henley",
@@ -2577,7 +2545,7 @@
   },
   {
     "title": "Harry Potter e a Pedra Filosofal",
-    "genre": "Fantasia",
+    "genre": "Fantasia e Aventura",
     "director": "Chris Columbus",
     "year": 2001,
     "leadActor": "Daniel Radcliffe",
@@ -2585,7 +2553,7 @@
   },
   {
     "title": "Stardust",
-    "genre": "Fantasia",
+    "genre": "Fantasia e Aventura",
     "director": "Matthew Vaughn",
     "year": 2007,
     "leadActor": "Charlie Cox",
@@ -2593,7 +2561,7 @@
   },
   {
     "title": "O Regresso",
-    "genre": "Aventura",
+    "genre": "Aventura e Fantasia",
     "director": "Alejandro G. Iñárritu",
     "year": 2015,
     "leadActor": "Leonardo DiCaprio",
@@ -2601,7 +2569,7 @@
   },
   {
     "title": "Náufrago",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Robert Zemeckis",
     "year": 2000,
     "leadActor": "Tom Hanks",
@@ -2609,7 +2577,7 @@
   },
   {
     "title": "Life of Pi",
-    "genre": "Aventura",
+    "genre": "Aventura e Fantasia",
     "director": "Ang Lee",
     "year": 2012,
     "leadActor": "Suraj Sharma",
@@ -2617,7 +2585,7 @@
   },
   {
     "title": "Tomb Raider",
-    "genre": "Aventura",
+    "genre": "Aventura e Fantasia",
     "director": "Simon West",
     "year": 2001,
     "leadActor": "Angelina Jolie",
@@ -2625,7 +2593,7 @@
   },
   {
     "title": "Uncharted",
-    "genre": "Aventura",
+    "genre": "Aventura e Fantasia",
     "director": "Ruben Fleischer",
     "year": 2022,
     "leadActor": "Tom Holland",
@@ -2633,7 +2601,7 @@
   },
   {
     "title": "Oz: Mágico e Poderoso",
-    "genre": "Fantasia",
+    "genre": "Fantasia e Aventura",
     "director": "Sam Raimi",
     "year": 2013,
     "leadActor": "James Franco",
@@ -2641,7 +2609,7 @@
   },
   {
     "title": "Peter Pan",
-    "genre": "Fantasia",
+    "genre": "Fantasia e Aventura",
     "director": "P.J. Hogan",
     "year": 2003,
     "leadActor": "Jeremy Sumpter",
@@ -2649,7 +2617,7 @@
   },
   {
     "title": "Hook",
-    "genre": "Fantasia",
+    "genre": "Fantasia e Aventura",
     "director": "Steven Spielberg",
     "year": 1991,
     "leadActor": "Robin Williams",
@@ -2657,7 +2625,7 @@
   },
   {
     "title": "Warcraft",
-    "genre": "Fantasia",
+    "genre": "Fantasia e Aventura",
     "director": "Duncan Jones",
     "year": 2016,
     "leadActor": "Travis Fimmel",
@@ -2665,7 +2633,7 @@
   },
   {
     "title": "Ready Player One",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Steven Spielberg",
     "year": 2018,
     "leadActor": "Tye Sheridan",
@@ -2673,7 +2641,7 @@
   },
   {
     "title": "Pokémon: Detetive Pikachu",
-    "genre": "Aventura",
+    "genre": "Aventura e Fantasia",
     "director": "Rob Letterman",
     "year": 2019,
     "leadActor": "Ryan Reynolds",
@@ -2681,7 +2649,7 @@
   },
   {
     "title": "Sonic: O Filme",
-    "genre": "Aventura",
+    "genre": "Aventura e Fantasia",
     "director": "Jeff Fowler",
     "year": 2020,
     "leadActor": "Ben Schwartz",
@@ -2689,7 +2657,7 @@
   },
   {
     "title": "Jungle Cruise",
-    "genre": "Aventura",
+    "genre": "Aventura e Fantasia",
     "director": "Jaume Collet-Serra",
     "year": 2021,
     "leadActor": "Dwayne Johnson",
@@ -2697,7 +2665,7 @@
   },
   {
     "title": "A Vida Secreta de Walter Mitty",
-    "genre": "Aventura",
+    "genre": "Aventura e Fantasia",
     "director": "Ben Stiller",
     "year": 2013,
     "leadActor": "Ben Stiller",
@@ -2705,7 +2673,7 @@
   },
   {
     "title": "O Hobbit: A Desolação de Smaug",
-    "genre": "Fantasia",
+    "genre": "Fantasia e Aventura",
     "director": "Peter Jackson",
     "year": 2013,
     "leadActor": "Martin Freeman",
@@ -2713,7 +2681,7 @@
   },
   {
     "title": "O Hobbit: A Batalha dos Cinco Exércitos",
-    "genre": "Fantasia",
+    "genre": "Fantasia e Ação",
     "director": "Peter Jackson",
     "year": 2014,
     "leadActor": "Martin Freeman",
@@ -2721,7 +2689,7 @@
   },
   {
     "title": "Piratas do Caribe: No Fim do Mundo",
-    "genre": "Aventura",
+    "genre": "Aventura e Fantasia",
     "director": "Gore Verbinski",
     "year": 2007,
     "leadActor": "Johnny Depp",
@@ -2729,7 +2697,7 @@
   },
   {
     "title": "Piratas do Caribe: Navegando em Águas Misteriosas",
-    "genre": "Aventura",
+    "genre": "Aventura e Fantasia",
     "director": "Rob Marshall",
     "year": 2011,
     "leadActor": "Johnny Depp",
@@ -2737,7 +2705,7 @@
   },
   {
     "title": "O Senhor dos Anéis: As Duas Torres",
-    "genre": "Fantasia",
+    "genre": "Fantasia e Ação",
     "director": "Peter Jackson",
     "year": 2002,
     "leadActor": "Elijah Wood",
@@ -2745,7 +2713,7 @@
   },
   {
     "title": "O Senhor dos Anéis: O Retorno do Rei",
-    "genre": "Fantasia",
+    "genre": "Fantasia e Aventura",
     "director": "Peter Jackson",
     "year": 2003,
     "leadActor": "Elijah Wood",
@@ -2753,7 +2721,7 @@
   },
   {
     "title": "Apocalypse Now",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Francis Ford Coppola",
     "year": 1979,
     "leadActor": "Martin Sheen",
@@ -2761,7 +2729,7 @@
   },
   {
     "title": "Operação Valquíria",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Bryan Singer",
     "year": 2008,
     "leadActor": "Tom Cruise",
@@ -2769,7 +2737,7 @@
   },
   {
     "title": "Corações de Ferro",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "David Ayer",
     "year": 2014,
     "leadActor": "Brad Pitt",
@@ -2777,7 +2745,7 @@
   },
   {
     "title": "Guerra ao Terror",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Kathryn Bigelow",
     "year": 2008,
     "leadActor": "Jeremy Renner",
@@ -2785,7 +2753,7 @@
   },
   {
     "title": "Lágrimas do Sol",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Antoine Fuqua",
     "year": 2003,
     "leadActor": "Bruce Willis",
@@ -2793,7 +2761,7 @@
   },
   {
     "title": "Cartas de Iwo Jima",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Clint Eastwood",
     "year": 2006,
     "leadActor": "Ken Watanabe",
@@ -2801,7 +2769,7 @@
   },
   {
     "title": "A Conquista da Honra",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Clint Eastwood",
     "year": 2006,
     "leadActor": "Ryan Phillippe",
@@ -2809,7 +2777,7 @@
   },
   {
     "title": "Tora! Tora! Tora!",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Richard Fleischer",
     "year": 1970,
     "leadActor": "Martin Balsam",
@@ -2817,7 +2785,7 @@
   },
   {
     "title": "Fomos Heróis",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Randall Wallace",
     "year": 2002,
     "leadActor": "Mel Gibson",
@@ -2825,7 +2793,7 @@
   },
   {
     "title": "Tempo de Glória",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Edward Zwick",
     "year": 1989,
     "leadActor": "Denzel Washington",
@@ -2833,7 +2801,7 @@
   },
   {
     "title": "O Menino do Pijama Listrado",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Mark Herman",
     "year": 2008,
     "leadActor": "Asa Butterfield",
@@ -2841,7 +2809,7 @@
   },
   {
     "title": "Valkyrie",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -2849,7 +2817,7 @@
   },
   {
     "title": "O Franco-Atirador",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Michael Cimino",
     "year": 1978,
     "leadActor": "Robert De Niro",
@@ -2857,7 +2825,7 @@
   },
   {
     "title": "Mestre dos Mares",
-    "genre": "Aventura",
+    "genre": "Aventura e Fantasia",
     "director": "Peter Weir",
     "year": 2003,
     "leadActor": "Russell Crowe",
@@ -2865,7 +2833,7 @@
   },
   {
     "title": "Alexandre",
-    "genre": "Drama histórico",
+    "genre": "Drama histórico e Drama",
     "director": "Oliver Stone",
     "year": 2004,
     "leadActor": "Colin Farrell",
@@ -2873,7 +2841,7 @@
   },
   {
     "title": "Napoleão",
-    "genre": "Drama histórico",
+    "genre": "Drama histórico e Drama",
     "director": "Ridley Scott",
     "year": 2023,
     "leadActor": "Joaquin Phoenix",
@@ -2881,7 +2849,7 @@
   },
   {
     "title": "O Rei",
-    "genre": "Drama histórico",
+    "genre": "Drama histórico e Drama",
     "director": "David Michôd",
     "year": 2019,
     "leadActor": "Timothée Chalamet",
@@ -2889,7 +2857,7 @@
   },
   {
     "title": "Beasts of No Nation",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -2897,7 +2865,7 @@
   },
   {
     "title": "Sangue e Ouro",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -2905,7 +2873,7 @@
   },
   {
     "title": "Defiance",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -2913,7 +2881,7 @@
   },
   {
     "title": "We Were Soldiers",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -2921,7 +2889,7 @@
   },
   {
     "title": "O Exército das Sombras",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -2929,7 +2897,7 @@
   },
   {
     "title": "A Batalha Esquecida",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -2937,7 +2905,7 @@
   },
   {
     "title": "13 Horas",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -2945,7 +2913,7 @@
   },
   {
     "title": "Jarhead",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -2953,7 +2921,7 @@
   },
   {
     "title": "Resgate em 12 Horas",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -2961,7 +2929,7 @@
   },
   {
     "title": "A Queda do Falcão Negro",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -2969,7 +2937,7 @@
   },
   {
     "title": "Sob o Domínio do Mal",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -2977,7 +2945,7 @@
   },
   {
     "title": "O General",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -2985,7 +2953,7 @@
   },
   {
     "title": "Stalingrado",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -2993,7 +2961,7 @@
   },
   {
     "title": "Enemy at the Gates",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3001,7 +2969,7 @@
   },
   {
     "title": "O Grande Ditador",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3009,7 +2977,7 @@
   },
   {
     "title": "Casablanca",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3017,7 +2985,7 @@
   },
   {
     "title": "A Ponte do Rio Kwai",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3025,7 +2993,7 @@
   },
   {
     "title": "Lawrence da Arábia",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3033,7 +3001,7 @@
   },
   {
     "title": "Patton",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3041,7 +3009,7 @@
   },
   {
     "title": "O Dia Mais Longo",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3049,7 +3017,7 @@
   },
   {
     "title": "Império do Sol",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3057,7 +3025,7 @@
   },
   {
     "title": "Corações de Ferro",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "David Ayer",
     "year": 2014,
     "leadActor": "Brad Pitt",
@@ -3065,7 +3033,7 @@
   },
   {
     "title": "A Caçada ao Outubro Vermelho",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3073,7 +3041,7 @@
   },
   {
     "title": "U-571",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3081,7 +3049,7 @@
   },
   {
     "title": "Top Gun",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3089,7 +3057,7 @@
   },
   {
     "title": "Behind Enemy Lines",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3097,7 +3065,7 @@
   },
   {
     "title": "A Batalha de Hacksaw Ridge",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3105,7 +3073,7 @@
   },
   {
     "title": "Amém",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3113,7 +3081,7 @@
   },
   {
     "title": "O Menino 23",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3121,7 +3089,7 @@
   },
   {
     "title": "Valkyrie",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3129,7 +3097,7 @@
   },
   {
     "title": "Red Tails",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3137,7 +3105,7 @@
   },
   {
     "title": "Guerra Sem Cortes",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3145,7 +3113,7 @@
   },
   {
     "title": "Hotel Ruanda",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3153,7 +3121,7 @@
   },
   {
     "title": "Sangue Negro",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3161,7 +3129,7 @@
   },
   {
     "title": "A Onda",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3169,7 +3137,7 @@
   },
   {
     "title": "Os Miseráveis",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3177,7 +3145,7 @@
   },
   {
     "title": "A Revolução em Paris",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3185,7 +3153,7 @@
   },
   {
     "title": "Gettysburg",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3193,7 +3161,7 @@
   },
   {
     "title": "O Último Castelo",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3201,7 +3169,7 @@
   },
   {
     "title": "The Outpost",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3209,7 +3177,7 @@
   },
   {
     "title": "O Capitão",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3217,7 +3185,7 @@
   },
   {
     "title": "Amargo Pesadelo",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3225,7 +3193,7 @@
   },
   {
     "title": "O Cerco de Jadotville",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3233,7 +3201,7 @@
   },
   {
     "title": "War Horse",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3241,7 +3209,7 @@
   },
   {
     "title": "O Resgate",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3249,7 +3217,7 @@
   },
   {
     "title": "Máquina de Guerra",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3257,7 +3225,7 @@
   },
   {
     "title": "Sand Castle",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3265,7 +3233,7 @@
   },
   {
     "title": "Os 12 Condenados",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3273,7 +3241,7 @@
   },
   {
     "title": "O Túmulo dos Vagalumes",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3281,7 +3249,7 @@
   },
   {
     "title": "A Batalha de Riddick",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3289,7 +3257,7 @@
   },
   {
     "title": "Red Dawn",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3297,7 +3265,7 @@
   },
   {
     "title": "O Resgate de uma Vida",
-    "genre": "Guerra",
+    "genre": "Guerra e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3305,7 +3273,7 @@
   },
   {
     "title": "Titanic",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "James Cameron",
     "year": 1997,
     "leadActor": "Leonardo DiCaprio",
@@ -3313,7 +3281,7 @@
   },
   {
     "title": "Diário de uma Paixão",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Nick Cassavetes",
     "year": 2004,
     "leadActor": "Ryan Gosling",
@@ -3321,7 +3289,7 @@
   },
   {
     "title": "Como Eu Era Antes de Você",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Thea Sharrock",
     "year": 2016,
     "leadActor": "Emilia Clarke",
@@ -3329,7 +3297,7 @@
   },
   {
     "title": "Um Amor para Recordar",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Adam Shankman",
     "year": 2002,
     "leadActor": "Mandy Moore",
@@ -3337,7 +3305,7 @@
   },
   {
     "title": "Orgulho e Preconceito",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Joe Wright",
     "year": 2005,
     "leadActor": "Keira Knightley",
@@ -3345,7 +3313,7 @@
   },
   {
     "title": "La La Land",
-    "genre": "Musical",
+    "genre": "Musical e Drama",
     "director": "Damien Chazelle",
     "year": 2016,
     "leadActor": "Ryan Gosling",
@@ -3353,7 +3321,7 @@
   },
   {
     "title": "Antes do Amanhecer",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3361,7 +3329,7 @@
   },
   {
     "title": "Antes do Pôr do Sol",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3369,7 +3337,7 @@
   },
   {
     "title": "Antes da Meia-Noite",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3377,7 +3345,7 @@
   },
   {
     "title": "Ghost: Do Outro Lado da Vida",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Jerry Zucker",
     "year": 1990,
     "leadActor": "Patrick Swayze",
@@ -3385,7 +3353,7 @@
   },
   {
     "title": "Simplesmente Acontece",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3393,7 +3361,7 @@
   },
   {
     "title": "Querido John",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3401,7 +3369,7 @@
   },
   {
     "title": "PS: Eu Te Amo",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3409,7 +3377,7 @@
   },
   {
     "title": "Como Se Fosse a Primeira Vez",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3417,7 +3385,7 @@
   },
   {
     "title": "Uma Linda Mulher",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3425,7 +3393,7 @@
   },
   {
     "title": "10 Coisas que Eu Odeio em Você",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3433,7 +3401,7 @@
   },
   {
     "title": "O Casamento do Meu Melhor Amigo",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3441,7 +3409,7 @@
   },
   {
     "title": "Noivas em Guerra",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3449,7 +3417,7 @@
   },
   {
     "title": "Amor e Outras Drogas",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3457,7 +3425,7 @@
   },
   {
     "title": "O Lado Bom da Vida",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3465,7 +3433,7 @@
   },
   {
     "title": "Comer, Rezar, Amar",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3473,7 +3441,7 @@
   },
   {
     "title": "Me Chame Pelo Seu Nome",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3481,7 +3449,7 @@
   },
   {
     "title": "Carol",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3489,7 +3457,7 @@
   },
   {
     "title": "Azul é a Cor Mais Quente",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3497,7 +3465,7 @@
   },
   {
     "title": "E o Vento Levou",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3505,7 +3473,7 @@
   },
   {
     "title": "Dirty Dancing",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3513,7 +3481,7 @@
   },
   {
     "title": "Grease",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3521,7 +3489,7 @@
   },
   {
     "title": "Mamma Mia!",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3529,7 +3497,7 @@
   },
   {
     "title": "Moulin Rouge",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3537,7 +3505,7 @@
   },
   {
     "title": "Nasce uma Estrela",
-    "genre": "Drama musical",
+    "genre": "Drama musical e Drama",
     "director": "Bradley Cooper",
     "year": 2018,
     "leadActor": "Lady Gaga",
@@ -3545,7 +3513,7 @@
   },
   {
     "title": "Um Lugar Chamado Notting Hill",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Roger Michell",
     "year": 1999,
     "leadActor": "Julia Roberts",
@@ -3553,7 +3521,7 @@
   },
   {
     "title": "Sintonia de Amor",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3561,7 +3529,7 @@
   },
   {
     "title": "Mensagem para Você",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3569,7 +3537,7 @@
   },
   {
     "title": "Ela",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3577,7 +3545,7 @@
   },
   {
     "title": "Cidade dos Anjos",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3585,7 +3553,7 @@
   },
   {
     "title": "O Guarda-Costas",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3593,7 +3561,7 @@
   },
   {
     "title": "Amor Além da Vida",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3601,7 +3569,7 @@
   },
   {
     "title": "Questão de Tempo",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Richard Curtis",
     "year": 2013,
     "leadActor": "Domhnall Gleeson",
@@ -3609,7 +3577,7 @@
   },
   {
     "title": "O Melhor de Mim",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3617,7 +3585,7 @@
   },
   {
     "title": "Um Porto Seguro",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3625,7 +3593,7 @@
   },
   {
     "title": "Querido Frankie",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3633,7 +3601,7 @@
   },
   {
     "title": "Enquanto Você Dormia",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3641,7 +3609,7 @@
   },
   {
     "title": "Sob o Sol da Toscana",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3649,7 +3617,7 @@
   },
   {
     "title": "O Amor Não Tira Férias",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3657,7 +3625,7 @@
   },
   {
     "title": "Idas e Vindas do Amor",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3665,7 +3633,7 @@
   },
   {
     "title": "Para Todos os Garotos que Já Amei",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3673,7 +3641,7 @@
   },
   {
     "title": "Barraca do Beijo",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3681,7 +3649,7 @@
   },
   {
     "title": "Continência ao Amor",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3689,7 +3657,7 @@
   },
   {
     "title": "Minha Culpa",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3697,7 +3665,7 @@
   },
   {
     "title": "A Cinco Passos de Você",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3705,7 +3673,7 @@
   },
   {
     "title": "Todo Tempo que Temos",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3713,7 +3681,7 @@
   },
   {
     "title": "Se Eu Ficar",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3721,7 +3689,7 @@
   },
   {
     "title": "Endless Love",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3729,7 +3697,7 @@
   },
   {
     "title": "Depois do Universo",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3737,7 +3705,7 @@
   },
   {
     "title": "Esposa de Mentirinha",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3745,7 +3713,7 @@
   },
   {
     "title": "Casa Comigo?",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3753,7 +3721,7 @@
   },
   {
     "title": "Um Homem de Sorte",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3761,7 +3729,7 @@
   },
   {
     "title": "Amor à Segunda Vista",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3769,7 +3737,7 @@
   },
   {
     "title": "Cartas para Julieta",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3777,7 +3745,7 @@
   },
   {
     "title": "Do Jeito que Elas Querem",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3785,7 +3753,7 @@
   },
   {
     "title": "Love, Rosie",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3793,7 +3761,7 @@
   },
   {
     "title": "Alguém Especial",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3801,7 +3769,7 @@
   },
   {
     "title": "O Date Perfeito",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3809,7 +3777,7 @@
   },
   {
     "title": "Emma",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3817,7 +3785,7 @@
   },
   {
     "title": "Razão e Sensibilidade",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3825,7 +3793,7 @@
   },
   {
     "title": "Persuasão",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3833,7 +3801,7 @@
   },
   {
     "title": "Jane Eyre",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3841,7 +3809,7 @@
   },
   {
     "title": "O Amor Mandou Mensagem",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3849,7 +3817,7 @@
   },
   {
     "title": "Para Sempre",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3857,7 +3825,7 @@
   },
   {
     "title": "Um Dia",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3865,7 +3833,7 @@
   },
   {
     "title": "A Escolha",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3873,7 +3841,7 @@
   },
   {
     "title": "Um Senhor Estagiário",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3881,7 +3849,7 @@
   },
   {
     "title": "Antes que Termine o Dia",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3889,7 +3857,7 @@
   },
   {
     "title": "Cinderela em Paris",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3897,7 +3865,7 @@
   },
   {
     "title": "Sabrina",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3905,7 +3873,7 @@
   },
   {
     "title": "Bonequinha de Luxo",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3913,7 +3881,7 @@
   },
   {
     "title": "Encantada",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3921,7 +3889,7 @@
   },
   {
     "title": "Orgulho, Preconceito e Zumbis",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3929,7 +3897,7 @@
   },
   {
     "title": "A Proposta",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3937,7 +3905,7 @@
   },
   {
     "title": "Letra e Música",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3945,7 +3913,7 @@
   },
   {
     "title": "Hitch: Conselheiro Amoroso",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3953,7 +3921,7 @@
   },
   {
     "title": "Sexo sem Compromisso",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3961,7 +3929,7 @@
   },
   {
     "title": "Amizade Colorida",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3969,7 +3937,7 @@
   },
   {
     "title": "De Repente é Amor",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3977,7 +3945,7 @@
   },
   {
     "title": "Encontro Marcado",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3985,7 +3953,7 @@
   },
   {
     "title": "O Amor é Cego",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -3993,7 +3961,7 @@
   },
   {
     "title": "Se Beber, Não Case",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -4001,7 +3969,7 @@
   },
   {
     "title": "Crazy Rich Asians",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -4009,7 +3977,7 @@
   },
   {
     "title": "Minha Mãe é uma Peça",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -4017,7 +3985,7 @@
   },
   {
     "title": "Um Lugar Silencioso: Dia Um",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -4025,7 +3993,7 @@
   },
   {
     "title": "Silver Linings Playbook",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -4033,7 +4001,7 @@
   },
   {
     "title": "A Lagoa Azul",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Randal Kleiser",
     "year": 1980,
     "leadActor": "Brooke Shields",
@@ -4041,7 +4009,7 @@
   },
   {
     "title": "Diário de Bridget Jones",
-    "genre": "Comédia romântica",
+    "genre": "Comédia romântica e Drama",
     "director": "Sharon Maguire",
     "year": 2001,
     "leadActor": "Renée Zellweger",
@@ -4049,7 +4017,7 @@
   },
   {
     "title": "Nunca Fui Beijada",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -4057,7 +4025,7 @@
   },
   {
     "title": "O Amor em Jogo",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -4065,7 +4033,7 @@
   },
   {
     "title": "A Última Música",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -4073,7 +4041,7 @@
   },
   {
     "title": "Romeu + Julieta",
-    "genre": "Romance",
+    "genre": "Romance e Drama",
     "director": "Baz Luhrmann",
     "year": 1996,
     "leadActor": "Leonardo DiCaprio",
@@ -4081,7 +4049,7 @@
   },
   {
     "title": "Midsommar",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Ari Aster",
     "year": 2019,
     "leadActor": "Florence Pugh",
@@ -4089,7 +4057,7 @@
   },
   {
     "title": "Doutor Sono",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Mike Flanagan",
     "year": 2019,
     "leadActor": "Ewan McGregor",
@@ -4097,7 +4065,7 @@
   },
   {
     "title": "O Enigma de Outro Mundo",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -4105,7 +4073,7 @@
   },
   {
     "title": "O Grito",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Takashi Shimizu",
     "year": 2002,
     "leadActor": "Megumi Okina",
@@ -4113,7 +4081,7 @@
   },
   {
     "title": "Atividade Paranormal",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Oren Peli",
     "year": 2007,
     "leadActor": "Katie Featherston",
@@ -4121,7 +4089,7 @@
   },
   {
     "title": "Cloverfield",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Matt Reeves",
     "year": 2008,
     "leadActor": "Lizzy Caplan",
@@ -4129,7 +4097,7 @@
   },
   {
     "title": "Sobrenatural",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "James Wan",
     "year": 2010,
     "leadActor": "Patrick Wilson",
@@ -4137,7 +4105,7 @@
   },
   {
     "title": "Mama",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Andy Muschietti",
     "year": 2013,
     "leadActor": "Jessica Chastain",
@@ -4145,7 +4113,7 @@
   },
   {
     "title": "A Órfã",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Jaume Collet-Serra",
     "year": 2009,
     "leadActor": "Isabelle Fuhrman",
@@ -4153,7 +4121,7 @@
   },
   {
     "title": "O Babadook",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -4161,7 +4129,7 @@
   },
   {
     "title": "Longlegs",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Oz Perkins",
     "year": 2024,
     "leadActor": "Maika Monroe",
@@ -4169,7 +4137,7 @@
   },
   {
     "title": "A Morte do Demônio",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -4177,7 +4145,7 @@
   },
   {
     "title": "Evil Dead Rise",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -4185,7 +4153,7 @@
   },
   {
     "title": "O Ritual",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -4193,7 +4161,7 @@
   },
   {
     "title": "O Homem Invisível",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -4201,7 +4169,7 @@
   },
   {
     "title": "Abigail",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -4209,7 +4177,7 @@
   },
   {
     "title": "Premonição",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "James Wong",
     "year": 2000,
     "leadActor": "Devon Sawa",
@@ -4217,7 +4185,7 @@
   },
   {
     "title": "Rua do Medo",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Leigh Janiak",
     "year": 2021,
     "leadActor": "Kiana Madeira",
@@ -4225,7 +4193,7 @@
   },
   {
     "title": "Hostel",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Eli Roth",
     "year": 2005,
     "leadActor": "Jay Hernandez",
@@ -4233,7 +4201,7 @@
   },
   {
     "title": "Mártires",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Pascal Laugier",
     "year": 2008,
     "leadActor": "Morjana Alaoui",
@@ -4241,7 +4209,7 @@
   },
   {
     "title": "Terrifier",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Damien Leone",
     "year": 2016,
     "leadActor": "David Howard Thornton",
@@ -4249,7 +4217,7 @@
   },
   {
     "title": "Bird Box",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Susanne Bier",
     "year": 2018,
     "leadActor": "Sandra Bullock",
@@ -4257,7 +4225,7 @@
   },
   {
     "title": "Um Lugar Silencioso",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "John Krasinski",
     "year": 2018,
     "leadActor": "Emily Blunt",
@@ -4265,7 +4233,7 @@
   },
   {
     "title": "Um Lugar Silencioso: Parte II",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "John Krasinski",
     "year": 2021,
     "leadActor": "Emily Blunt",
@@ -4273,7 +4241,7 @@
   },
   {
     "title": "A Possessão",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Ole Bornedal",
     "year": 2012,
     "leadActor": "Jeffrey Dean Morgan",
@@ -4281,7 +4249,7 @@
   },
   {
     "title": "Janela Secreta",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "David Koepp",
     "year": 2004,
     "leadActor": "Johnny Depp",
@@ -4289,7 +4257,7 @@
   },
   {
     "title": "O Nevoeiro",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Frank Darabont",
     "year": 2007,
     "leadActor": "Thomas Jane",
@@ -4297,7 +4265,7 @@
   },
   {
     "title": "Carrie",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -4305,7 +4273,7 @@
   },
   {
     "title": "Christine",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "John Carpenter",
     "year": 1983,
     "leadActor": "Keith Gordon",
@@ -4313,7 +4281,7 @@
   },
   {
     "title": "Cemitério Maldito",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Mary Lambert",
     "year": 1989,
     "leadActor": "Dale Midkiff",
@@ -4321,7 +4289,7 @@
   },
   {
     "title": "Cujo",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Lewis Teague",
     "year": 1983,
     "leadActor": "Dee Wallace",
@@ -4329,7 +4297,7 @@
   },
   {
     "title": "Misery",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Rob Reiner",
     "year": 1990,
     "leadActor": "Kathy Bates",
@@ -4337,7 +4305,7 @@
   },
   {
     "title": "Hannibal",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -4345,7 +4313,7 @@
   },
   {
     "title": "Seven",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "David Fincher",
     "year": 1995,
     "leadActor": "Brad Pitt",
@@ -4353,7 +4321,7 @@
   },
   {
     "title": "A Vila",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "M. Night Shyamalan",
     "year": 2004,
     "leadActor": "Bryce Dallas Howard",
@@ -4361,7 +4329,7 @@
   },
   {
     "title": "Fragmentado",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "M. Night Shyamalan",
     "year": 2016,
     "leadActor": "James McAvoy",
@@ -4369,7 +4337,7 @@
   },
   {
     "title": "Vidro",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "M. Night Shyamalan",
     "year": 2019,
     "leadActor": "James McAvoy",
@@ -4377,7 +4345,7 @@
   },
   {
     "title": "A Chave Mestra",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Iain Softley",
     "year": 2005,
     "leadActor": "Kate Hudson",
@@ -4385,7 +4353,7 @@
   },
   {
     "title": "O Orfanato",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "J. A. Bayona",
     "year": 2007,
     "leadActor": "Belén Rueda",
@@ -4393,7 +4361,7 @@
   },
   {
     "title": "Espíritos: A Morte Está ao Seu Lado",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -4401,7 +4369,7 @@
   },
   {
     "title": "O Telefone Preto",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Scott Derrickson",
     "year": 2021,
     "leadActor": "Ethan Hawke",
@@ -4409,7 +4377,7 @@
   },
   {
     "title": "Barbarian",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Zach Cregger",
     "year": 2022,
     "leadActor": "Georgina Campbell",
@@ -4417,7 +4385,7 @@
   },
   {
     "title": "Não! Não Olhe!",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Jordan Peele",
     "year": 2022,
     "leadActor": "Daniel Kaluuya",
@@ -4425,7 +4393,7 @@
   },
   {
     "title": "Corrente do Mal",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "David Robert Mitchell",
     "year": 2014,
     "leadActor": "Maika Monroe",
@@ -4433,7 +4401,7 @@
   },
   {
     "title": "Poltergeist",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Tobe Hooper",
     "year": 1982,
     "leadActor": "JoBeth Williams",
@@ -4441,7 +4409,7 @@
   },
   {
     "title": "Insidious",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "James Wan",
     "year": 2010,
     "leadActor": "Patrick Wilson",
@@ -4449,7 +4417,7 @@
   },
   {
     "title": "Sinister",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Scott Derrickson",
     "year": 2012,
     "leadActor": "Ethan Hawke",
@@ -4457,7 +4425,7 @@
   },
   {
     "title": "O Exorcismo de Emily Rose",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Scott Derrickson",
     "year": 2005,
     "leadActor": "Jennifer Carpenter",
@@ -4465,7 +4433,7 @@
   },
   {
     "title": "Drag Me to Hell",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Sam Raimi",
     "year": 2009,
     "leadActor": "Alison Lohman",
@@ -4473,7 +4441,7 @@
   },
   {
     "title": "O Predador",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "John McTiernan",
     "year": 1987,
     "leadActor": "Arnold Schwarzenegger",
@@ -4481,7 +4449,7 @@
   },
   {
     "title": "Alien vs Predador",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Paul W. S. Anderson",
     "year": 2004,
     "leadActor": "Sanaa Lathan",
@@ -4489,7 +4457,7 @@
   },
   {
     "title": "Predadores Assassinos",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Alexandre Aja",
     "year": 2019,
     "leadActor": "Kaya Scodelario",
@@ -4497,7 +4465,7 @@
   },
   {
     "title": "A Casa de Cera",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Jaume Collet-Serra",
     "year": 2005,
     "leadActor": "Elisha Cuthbert",
@@ -4505,7 +4473,7 @@
   },
   {
     "title": "Pânico na Floresta",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Rob Schmidt",
     "year": 2003,
     "leadActor": "Eliza Dushku",
@@ -4513,7 +4481,7 @@
   },
   {
     "title": "Jeepers Creepers",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Victor Salva",
     "year": 2001,
     "leadActor": "Justin Long",
@@ -4521,7 +4489,7 @@
   },
   {
     "title": "O Hospedeiro",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Bong Joon-ho",
     "year": 2006,
     "leadActor": "Song Kang-ho",
@@ -4529,7 +4497,7 @@
   },
   {
     "title": "Extermínio",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Danny Boyle",
     "year": 2002,
     "leadActor": "Cillian Murphy",
@@ -4537,7 +4505,7 @@
   },
   {
     "title": "Resident Evil",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Paul W. S. Anderson",
     "year": 2002,
     "leadActor": "Milla Jovovich",
@@ -4545,7 +4513,7 @@
   },
   {
     "title": "Silent Hill",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Desconhecido",
     "year": 0,
     "leadActor": "Desconhecido",
@@ -4553,7 +4521,7 @@
   },
   {
     "title": "Van Helsing",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Stephen Sommers",
     "year": 2004,
     "leadActor": "Hugh Jackman",
@@ -4561,7 +4529,7 @@
   },
   {
     "title": "Dracula Untold",
-    "genre": "Fantasia",
+    "genre": "Fantasia e Aventura",
     "director": "Gary Shore",
     "year": 2014,
     "leadActor": "Luke Evans",
@@ -4569,7 +4537,7 @@
   },
   {
     "title": "Entrevista com o Vampiro",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Neil Jordan",
     "year": 1994,
     "leadActor": "Tom Cruise",
@@ -4577,7 +4545,7 @@
   },
   {
     "title": "A Hora do Vampiro",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Tobe Hooper",
     "year": 1979,
     "leadActor": "David Soul",
@@ -4585,7 +4553,7 @@
   },
   {
     "title": "O Lobisomem",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Joe Johnston",
     "year": 2010,
     "leadActor": "Benicio del Toro",
@@ -4593,7 +4561,7 @@
   },
   {
     "title": "Frankenstein",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Kenneth Branagh",
     "year": 1994,
     "leadActor": "Robert De Niro",
@@ -4601,7 +4569,7 @@
   },
   {
     "title": "Nosferatu",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "F. W. Murnau",
     "year": 1922,
     "leadActor": "Max Schreck",
@@ -4609,7 +4577,7 @@
   },
   {
     "title": "As Branquelas",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Keenen Ivory Wayans",
     "year": 2004,
     "leadActor": "Marlon Wayans",
@@ -4617,7 +4585,7 @@
   },
   {
     "title": "American Pie",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Paul Weitz",
     "year": 1999,
     "leadActor": "Jason Biggs",
@@ -4625,7 +4593,7 @@
   },
   {
     "title": "Meninas Malvadas",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Mark Waters",
     "year": 2004,
     "leadActor": "Lindsay Lohan",
@@ -4633,7 +4601,7 @@
   },
   {
     "title": "Shrek",
-    "genre": "Animação",
+    "genre": "Fantasia e Comédia",
     "director": "Andrew Adamson",
     "year": 2001,
     "leadActor": "Mike Myers",
@@ -4641,7 +4609,7 @@
   },
   {
     "title": "Madagascar",
-    "genre": "Animação",
+    "genre": "Animação e Fantasia",
     "director": "Eric Darnell",
     "year": 2005,
     "leadActor": "Ben Stiller",
@@ -4649,7 +4617,7 @@
   },
   {
     "title": "Zootopia",
-    "genre": "Animação",
+    "genre": "Animação e Fantasia",
     "director": "Byron Howard",
     "year": 2016,
     "leadActor": "Ginnifer Goodwin",
@@ -4657,7 +4625,7 @@
   },
   {
     "title": "Toy Story",
-    "genre": "Animação",
+    "genre": "Animação e Fantasia",
     "director": "John Lasseter",
     "year": 1995,
     "leadActor": "Tom Hanks",
@@ -4665,7 +4633,7 @@
   },
   {
     "title": "Procurando Nemo",
-    "genre": "Animação",
+    "genre": "Animação e Fantasia",
     "director": "Andrew Stanton",
     "year": 2003,
     "leadActor": "Albert Brooks",
@@ -4673,7 +4641,7 @@
   },
   {
     "title": "Monstros S.A.",
-    "genre": "Animação",
+    "genre": "Animação e Comédia",
     "director": "Pete Docter",
     "year": 2001,
     "leadActor": "John Goodman",
@@ -4681,7 +4649,7 @@
   },
   {
     "title": "Divertida Mente",
-    "genre": "Animação",
+    "genre": "Animação e Fantasia",
     "director": "Pete Docter",
     "year": 2015,
     "leadActor": "Amy Poehler",
@@ -4689,7 +4657,7 @@
   },
   {
     "title": "Deadpool 2",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "David Leitch",
     "year": 2018,
     "leadActor": "Ryan Reynolds",
@@ -4697,7 +4665,7 @@
   },
   {
     "title": "Agente 86",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Peter Segal",
     "year": 2008,
     "leadActor": "Steve Carell",
@@ -4705,7 +4673,7 @@
   },
   {
     "title": "Borat",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Larry Charles",
     "year": 2006,
     "leadActor": "Sacha Baron Cohen",
@@ -4713,7 +4681,7 @@
   },
   {
     "title": "Eurotrip",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Jeff Schaffer",
     "year": 2004,
     "leadActor": "Scott Mechlowicz",
@@ -4721,7 +4689,7 @@
   },
   {
     "title": "Projeto X",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Nima Nourizadeh",
     "year": 2012,
     "leadActor": "Thomas Mann",
@@ -4729,7 +4697,7 @@
   },
   {
     "title": "Kung Fu Panda",
-    "genre": "Animação",
+    "genre": "Animação e Fantasia",
     "director": "Mark Osborne",
     "year": 2008,
     "leadActor": "Jack Black",
@@ -4737,7 +4705,7 @@
   },
   {
     "title": "Megamente",
-    "genre": "Animação",
+    "genre": "Animação e Fantasia",
     "director": "Tom McGrath",
     "year": 2010,
     "leadActor": "Will Ferrell",
@@ -4745,7 +4713,7 @@
   },
   {
     "title": "Os Croods",
-    "genre": "Animação",
+    "genre": "Animação e Fantasia",
     "director": "Kirk DeMicco",
     "year": 2013,
     "leadActor": "Nicolas Cage",
@@ -4753,7 +4721,7 @@
   },
   {
     "title": "Hotel Transilvânia",
-    "genre": "Animação",
+    "genre": "Animação e Comédia",
     "director": "Genndy Tartakovsky",
     "year": 2012,
     "leadActor": "Adam Sandler",
@@ -4761,7 +4729,7 @@
   },
   {
     "title": "Pixels",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Chris Columbus",
     "year": 2015,
     "leadActor": "Adam Sandler",
@@ -4769,7 +4737,7 @@
   },
   {
     "title": "Tá Chovendo Hambúrguer",
-    "genre": "Animação",
+    "genre": "Animação e Fantasia",
     "director": "Phil Lord",
     "year": 2009,
     "leadActor": "Bill Hader",
@@ -4777,7 +4745,7 @@
   },
   {
     "title": "Bee Movie",
-    "genre": "Animação",
+    "genre": "Animação e Fantasia",
     "director": "Simon J. Smith",
     "year": 2007,
     "leadActor": "Jerry Seinfeld",
@@ -4785,7 +4753,7 @@
   },
   {
     "title": "A Era do Gelo",
-    "genre": "Animação",
+    "genre": "Animação e Fantasia",
     "director": "Chris Wedge",
     "year": 2002,
     "leadActor": "Ray Romano",
@@ -4793,7 +4761,7 @@
   },
   {
     "title": "Ted",
-    "genre": "Comédia",
+    "genre": "Comédia e Fantasia",
     "director": "Seth MacFarlane",
     "year": 2012,
     "leadActor": "Mark Wahlberg",
@@ -4801,7 +4769,7 @@
   },
   {
     "title": "Ted 2",
-    "genre": "Comédia",
+    "genre": "Comédia e Fantasia",
     "director": "Seth MacFarlane",
     "year": 2015,
     "leadActor": "Mark Wahlberg",
@@ -4809,7 +4777,7 @@
   },
   {
     "title": "Vizinhos",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Nicholas Stoller",
     "year": 2014,
     "leadActor": "Seth Rogen",
@@ -4817,7 +4785,7 @@
   },
   {
     "title": "Anjos da Lei 2",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Phil Lord",
     "year": 2014,
     "leadActor": "Jonah Hill",
@@ -4825,7 +4793,7 @@
   },
   {
     "title": "O Ditador",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Larry Charles",
     "year": 2012,
     "leadActor": "Sacha Baron Cohen",
@@ -4833,7 +4801,7 @@
   },
   {
     "title": "Zoolander",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Ben Stiller",
     "year": 2001,
     "leadActor": "Ben Stiller",
@@ -4841,7 +4809,7 @@
   },
   {
     "title": "Matilda",
-    "genre": "Fantasia",
+    "genre": "Fantasia e Aventura",
     "director": "Danny DeVito",
     "year": 1996,
     "leadActor": "Mara Wilson",
@@ -4849,7 +4817,7 @@
   },
   {
     "title": "Legalmente Loira",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Robert Luketic",
     "year": 2001,
     "leadActor": "Reese Witherspoon",
@@ -4857,7 +4825,7 @@
   },
   {
     "title": "Pitch Perfect",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Jason Moore",
     "year": 2012,
     "leadActor": "Anna Kendrick",
@@ -4865,7 +4833,7 @@
   },
   {
     "title": "Space Jam",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Joe Pytka",
     "year": 1996,
     "leadActor": "Michael Jordan",
@@ -4873,7 +4841,7 @@
   },
   {
     "title": "O Virgem de 40 Anos",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Judd Apatow",
     "year": 2005,
     "leadActor": "Steve Carell",
@@ -4881,7 +4849,7 @@
   },
   {
     "title": "O Grande Lebowski",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Joel Coen",
     "year": 1998,
     "leadActor": "Jeff Bridges",
@@ -4889,7 +4857,7 @@
   },
   {
     "title": "Duna",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Denis Villeneuve",
     "year": 2021,
     "leadActor": "Timothée Chalamet",
@@ -4897,7 +4865,7 @@
   },
   {
     "title": "Duna: Parte Dois",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Denis Villeneuve",
     "year": 2024,
     "leadActor": "Timothée Chalamet",
@@ -4905,7 +4873,7 @@
   },
   {
     "title": "Aliens: O Resgate",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "James Cameron",
     "year": 1986,
     "leadActor": "Sigourney Weaver",
@@ -4913,7 +4881,7 @@
   },
   {
     "title": "Gravidade",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Alfonso Cuarón",
     "year": 2013,
     "leadActor": "Sandra Bullock",
@@ -4921,7 +4889,7 @@
   },
   {
     "title": "Tron",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Steven Lisberger",
     "year": 1982,
     "leadActor": "Jeff Bridges",
@@ -4929,7 +4897,7 @@
   },
   {
     "title": "Tron: O Legado",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Joseph Kosinski",
     "year": 2010,
     "leadActor": "Garrett Hedlund",
@@ -4937,7 +4905,7 @@
   },
   {
     "title": "Eu, Robô",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Alex Proyas",
     "year": 2004,
     "leadActor": "Will Smith",
@@ -4945,7 +4913,7 @@
   },
   {
     "title": "Minority Report",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Steven Spielberg",
     "year": 2002,
     "leadActor": "Tom Cruise",
@@ -4953,7 +4921,7 @@
   },
   {
     "title": "O Vingador do Futuro",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Paul Verhoeven",
     "year": 1990,
     "leadActor": "Arnold Schwarzenegger",
@@ -4961,7 +4929,7 @@
   },
   {
     "title": "Elysium",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Neill Blomkamp",
     "year": 2013,
     "leadActor": "Matt Damon",
@@ -4969,7 +4937,7 @@
   },
   {
     "title": "Chappie",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Neill Blomkamp",
     "year": 2015,
     "leadActor": "Sharlto Copley",
@@ -4977,7 +4945,7 @@
   },
   {
     "title": "Upgrade",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Leigh Whannell",
     "year": 2018,
     "leadActor": "Logan Marshall-Green",
@@ -4985,7 +4953,7 @@
   },
   {
     "title": "Ex Machina",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Alex Garland",
     "year": 2014,
     "leadActor": "Domhnall Gleeson",
@@ -4993,7 +4961,7 @@
   },
   {
     "title": "Her",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Spike Jonze",
     "year": 2013,
     "leadActor": "Joaquin Phoenix",
@@ -5001,7 +4969,7 @@
   },
   {
     "title": "Ghost in the Shell",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Rupert Sanders",
     "year": 2017,
     "leadActor": "Scarlett Johansson",
@@ -5009,7 +4977,7 @@
   },
   {
     "title": "Akira",
-    "genre": "Animação",
+    "genre": "Animação e Fantasia",
     "director": "Katsuhiro Otomo",
     "year": 1988,
     "leadActor": "Mitsuo Iwata",
@@ -5017,7 +4985,7 @@
   },
   {
     "title": "Wall-E",
-    "genre": "Animação",
+    "genre": "Animação e Ficção científica",
     "director": "Andrew Stanton",
     "year": 2008,
     "leadActor": "Ben Burtt",
@@ -5025,7 +4993,7 @@
   },
   {
     "title": "Planeta dos Macacos",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Rupert Wyatt",
     "year": 2011,
     "leadActor": "James Franco",
@@ -5033,7 +5001,7 @@
   },
   {
     "title": "Planeta dos Macacos: O Confronto",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Matt Reeves",
     "year": 2014,
     "leadActor": "Andy Serkis",
@@ -5041,7 +5009,7 @@
   },
   {
     "title": "Planeta dos Macacos: A Guerra",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Matt Reeves",
     "year": 2017,
     "leadActor": "Andy Serkis",
@@ -5049,7 +5017,7 @@
   },
   {
     "title": "Sunshine",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Danny Boyle",
     "year": 2007,
     "leadActor": "Cillian Murphy",
@@ -5057,7 +5025,7 @@
   },
   {
     "title": "Moon",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Duncan Jones",
     "year": 2009,
     "leadActor": "Sam Rockwell",
@@ -5065,7 +5033,7 @@
   },
   {
     "title": "Solaris",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Steven Soderbergh",
     "year": 2002,
     "leadActor": "George Clooney",
@@ -5073,7 +5041,7 @@
   },
   {
     "title": "Contato",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Robert Zemeckis",
     "year": 1997,
     "leadActor": "Jodie Foster",
@@ -5081,7 +5049,7 @@
   },
   {
     "title": "Prometheus",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Ridley Scott",
     "year": 2012,
     "leadActor": "Noomi Rapace",
@@ -5089,7 +5057,7 @@
   },
   {
     "title": "Alien: Covenant",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Ridley Scott",
     "year": 2017,
     "leadActor": "Michael Fassbender",
@@ -5097,7 +5065,7 @@
   },
   {
     "title": "Pacific Rim",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Guillermo del Toro",
     "year": 2013,
     "leadActor": "Charlie Hunnam",
@@ -5105,7 +5073,7 @@
   },
   {
     "title": "O Quinto Elemento",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Luc Besson",
     "year": 1997,
     "leadActor": "Bruce Willis",
@@ -5113,7 +5081,7 @@
   },
   {
     "title": "Valerian",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Luc Besson",
     "year": 2017,
     "leadActor": "Dane DeHaan",
@@ -5121,7 +5089,7 @@
   },
   {
     "title": "Star Trek",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "J.J. Abrams",
     "year": 2009,
     "leadActor": "Chris Pine",
@@ -5129,7 +5097,7 @@
   },
   {
     "title": "Star Trek Além da Escuridão",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "J.J. Abrams",
     "year": 2013,
     "leadActor": "Chris Pine",
@@ -5137,7 +5105,7 @@
   },
   {
     "title": "Star Trek Sem Fronteiras",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Justin Lin",
     "year": 2016,
     "leadActor": "Chris Pine",
@@ -5145,7 +5113,7 @@
   },
   {
     "title": "Homem-Formiga",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Peyton Reed",
     "year": 2015,
     "leadActor": "Paul Rudd",
@@ -5153,7 +5121,7 @@
   },
   {
     "title": "Quarteto Fantástico",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Tim Story",
     "year": 2005,
     "leadActor": "Ioan Gruffudd",
@@ -5161,7 +5129,7 @@
   },
   {
     "title": "Watchmen",
-    "genre": "Ação",
+    "genre": "Ação e Aventura",
     "director": "Zack Snyder",
     "year": 2009,
     "leadActor": "Malin Åkerman",
@@ -5169,7 +5137,7 @@
   },
   {
     "title": "Looper",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Rian Johnson",
     "year": 2012,
     "leadActor": "Joseph Gordon-Levitt",
@@ -5177,7 +5145,7 @@
   },
   {
     "title": "Source Code",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Duncan Jones",
     "year": 2011,
     "leadActor": "Jake Gyllenhaal",
@@ -5185,7 +5153,7 @@
   },
   {
     "title": "Oblivion",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Joseph Kosinski",
     "year": 2013,
     "leadActor": "Tom Cruise",
@@ -5193,7 +5161,7 @@
   },
   {
     "title": "Passageiros",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Morten Tyldum",
     "year": 2016,
     "leadActor": "Chris Pratt",
@@ -5201,7 +5169,7 @@
   },
   {
     "title": "Gattaca",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Andrew Niccol",
     "year": 1997,
     "leadActor": "Ethan Hawke",
@@ -5209,7 +5177,7 @@
   },
   {
     "title": "O Homem Bicentenário",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Chris Columbus",
     "year": 1999,
     "leadActor": "Robin Williams",
@@ -5217,7 +5185,7 @@
   },
   {
     "title": "Donnie Darko",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Richard Kelly",
     "year": 2001,
     "leadActor": "Jake Gyllenhaal",
@@ -5225,7 +5193,7 @@
   },
   {
     "title": "Filhos da Esperança",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Alfonso Cuarón",
     "year": 2006,
     "leadActor": "Clive Owen",
@@ -5233,7 +5201,7 @@
   },
   {
     "title": "Guerra dos Mundos",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Steven Spielberg",
     "year": 2005,
     "leadActor": "Tom Cruise",
@@ -5241,7 +5209,7 @@
   },
   {
     "title": "O Dia Depois de Amanhã",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Roland Emmerich",
     "year": 2004,
     "leadActor": "Dennis Quaid",
@@ -5249,7 +5217,7 @@
   },
   {
     "title": "Contágio",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Steven Soderbergh",
     "year": 2011,
     "leadActor": "Matt Damon",
@@ -5257,7 +5225,7 @@
   },
   {
     "title": "Maze Runner",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Wes Ball",
     "year": 2014,
     "leadActor": "Dylan O'Brien",
@@ -5265,7 +5233,7 @@
   },
   {
     "title": "Jogos Vorazes",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Gary Ross",
     "year": 2012,
     "leadActor": "Jennifer Lawrence",
@@ -5273,7 +5241,7 @@
   },
   {
     "title": "Divergente",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Neil Burger",
     "year": 2014,
     "leadActor": "Shailene Woodley",
@@ -5281,7 +5249,7 @@
   },
   {
     "title": "Alita: Anjo de Combate",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Robert Rodriguez",
     "year": 2019,
     "leadActor": "Rosa Salazar",
@@ -5289,7 +5257,7 @@
   },
   {
     "title": "Aniquilação",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Alex Garland",
     "year": 2018,
     "leadActor": "Natalie Portman",
@@ -5297,7 +5265,7 @@
   },
   {
     "title": "Cronos",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Guillermo del Toro",
     "year": 1993,
     "leadActor": "Federico Luppi",
@@ -5305,7 +5273,7 @@
   },
   {
     "title": "Timecop",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Peter Hyams",
     "year": 1994,
     "leadActor": "Jean-Claude Van Damme",
@@ -5313,7 +5281,7 @@
   },
   {
     "title": "Metrópolis",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "Fritz Lang",
     "year": 1927,
     "leadActor": "Brigitte Helm",
@@ -5321,7 +5289,7 @@
   },
   {
     "title": "Fahrenheit 451",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "François Truffaut",
     "year": 1966,
     "leadActor": "Oskar Werner",
@@ -5329,7 +5297,7 @@
   },
   {
     "title": "Clube da Luta",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "David Fincher",
     "year": 1999,
     "leadActor": "Brad Pitt",
@@ -5337,7 +5305,7 @@
   },
   {
     "title": "Os Suspeitos",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Bryan Singer",
     "year": 1995,
     "leadActor": "Kevin Spacey",
@@ -5345,7 +5313,7 @@
   },
   {
     "title": "O Grande Truque",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Christopher Nolan",
     "year": 2006,
     "leadActor": "Hugh Jackman",
@@ -5353,7 +5321,7 @@
   },
   {
     "title": "O Jogo",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "David Fincher",
     "year": 1997,
     "leadActor": "Michael Douglas",
@@ -5361,7 +5329,7 @@
   },
   {
     "title": "Zodíaco",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "David Fincher",
     "year": 2007,
     "leadActor": "Jake Gyllenhaal",
@@ -5369,7 +5337,7 @@
   },
   {
     "title": "Cisne Negro",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Darren Aronofsky",
     "year": 2010,
     "leadActor": "Natalie Portman",
@@ -5377,7 +5345,7 @@
   },
   {
     "title": "Oldboy",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Park Chan-wook",
     "year": 2003,
     "leadActor": "Choi Min-sik",
@@ -5385,7 +5353,7 @@
   },
   {
     "title": "Memórias de um Assassino",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Bong Joon-ho",
     "year": 2003,
     "leadActor": "Song Kang-ho",
@@ -5393,7 +5361,7 @@
   },
   {
     "title": "O Maquinista",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Brad Anderson",
     "year": 2004,
     "leadActor": "Christian Bale",
@@ -5401,7 +5369,7 @@
   },
   {
     "title": "Prisioneiros",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Denis Villeneuve",
     "year": 2013,
     "leadActor": "Hugh Jackman",
@@ -5409,7 +5377,7 @@
   },
   {
     "title": "Identidade",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "James Mangold",
     "year": 2003,
     "leadActor": "John Cusack",
@@ -5417,7 +5385,7 @@
   },
   {
     "title": "Spotlight",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Tom McCarthy",
     "year": 2015,
     "leadActor": "Mark Ruffalo",
@@ -5425,7 +5393,7 @@
   },
   {
     "title": "Inimigo do Estado",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Tony Scott",
     "year": 1998,
     "leadActor": "Will Smith",
@@ -5433,7 +5401,7 @@
   },
   {
     "title": "Número 23",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Joel Schumacher",
     "year": 2007,
     "leadActor": "Jim Carrey",
@@ -5441,7 +5409,7 @@
   },
   {
     "title": "O Segredo dos Seus Olhos",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Juan José Campanella",
     "year": 2009,
     "leadActor": "Ricardo Darín",
@@ -5449,7 +5417,7 @@
   },
   {
     "title": "Contratiempo",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Oriol Paulo",
     "year": 2016,
     "leadActor": "Mario Casas",
@@ -5457,7 +5425,7 @@
   },
   {
     "title": "A Pele que Habito",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Pedro Almodóvar",
     "year": 2011,
     "leadActor": "Antonio Banderas",
@@ -5465,7 +5433,7 @@
   },
   {
     "title": "O Abutre",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Dan Gilroy",
     "year": 2014,
     "leadActor": "Jake Gyllenhaal",
@@ -5473,7 +5441,7 @@
   },
   {
     "title": "O Homem nas Trevas",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Fede Álvarez",
     "year": 2016,
     "leadActor": "Stephen Lang",
@@ -5481,7 +5449,7 @@
   },
   {
     "title": "Corpo Fechado",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "M. Night Shyamalan",
     "year": 2000,
     "leadActor": "Bruce Willis",
@@ -5489,7 +5457,7 @@
   },
   {
     "title": "Os Outros",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Alejandro Amenábar",
     "year": 2001,
     "leadActor": "Nicole Kidman",
@@ -5497,7 +5465,7 @@
   },
   {
     "title": "Gone Baby Gone",
-    "genre": "Crime",
+    "genre": "Crime e Suspense",
     "director": "Ben Affleck",
     "year": 2007,
     "leadActor": "Casey Affleck",
@@ -5505,7 +5473,7 @@
   },
   {
     "title": "Trama Fantasma",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Paul Thomas Anderson",
     "year": 2017,
     "leadActor": "Daniel Day-Lewis",
@@ -5513,7 +5481,7 @@
   },
   {
     "title": "Enemy",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Denis Villeneuve",
     "year": 2013,
     "leadActor": "Jake Gyllenhaal",
@@ -5521,7 +5489,7 @@
   },
   {
     "title": "Coerência",
-    "genre": "Ficção científica",
+    "genre": "Ficção científica e Ação",
     "director": "James Ward Byrkit",
     "year": 2013,
     "leadActor": "Emily Baldoni",
@@ -5529,7 +5497,7 @@
   },
   {
     "title": "Animais Noturnos",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Tom Ford",
     "year": 2016,
     "leadActor": "Amy Adams",
@@ -5537,7 +5505,7 @@
   },
   {
     "title": "Nightcrawler",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Dan Gilroy",
     "year": 2014,
     "leadActor": "Jake Gyllenhaal",
@@ -5545,7 +5513,7 @@
   },
   {
     "title": "O Segredo da Cabana",
-    "genre": "Terror",
+    "genre": "Terror e Suspense",
     "director": "Drew Goddard",
     "year": 2011,
     "leadActor": "Kristen Connolly",
@@ -5553,7 +5521,7 @@
   },
   {
     "title": "Memento",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Christopher Nolan",
     "year": 2000,
     "leadActor": "Guy Pearce",
@@ -5561,7 +5529,7 @@
   },
   {
     "title": "Atração Fatal",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Adrian Lyne",
     "year": 1987,
     "leadActor": "Michael Douglas",
@@ -5569,7 +5537,7 @@
   },
   {
     "title": "Instinto Selvagem",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Paul Verhoeven",
     "year": 1992,
     "leadActor": "Sharon Stone",
@@ -5577,7 +5545,7 @@
   },
   {
     "title": "O Talentoso Ripley",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Anthony Minghella",
     "year": 1999,
     "leadActor": "Matt Damon",
@@ -5585,7 +5553,7 @@
   },
   {
     "title": "Três Anúncios para um Crime",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Martin McDonagh",
     "year": 2017,
     "leadActor": "Frances McDormand",
@@ -5593,7 +5561,7 @@
   },
   {
     "title": "O Sacrifício do Cervo Sagrado",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Yorgos Lanthimos",
     "year": 2017,
     "leadActor": "Colin Farrell",
@@ -5601,7 +5569,7 @@
   },
   {
     "title": "Relatos Selvagens",
-    "genre": "Comédia",
+    "genre": "Comédia e Romance",
     "director": "Damián Szifron",
     "year": 2014,
     "leadActor": "Ricardo Darín",
@@ -5609,7 +5577,7 @@
   },
   {
     "title": "O Poço",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Galder Gaztelu-Urrutia",
     "year": 2019,
     "leadActor": "Iván Massagué",
@@ -5617,7 +5585,7 @@
   },
   {
     "title": "Fratura",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Brad Anderson",
     "year": 2019,
     "leadActor": "Sam Worthington",
@@ -5625,7 +5593,7 @@
   },
   {
     "title": "O Menu",
-    "genre": "Suspense",
+    "genre": "Suspense e Drama",
     "director": "Mark Mylod",
     "year": 2022,
     "leadActor": "Anya Taylor-Joy",
@@ -5633,10 +5601,210 @@
   },
   {
     "title": "Saltburn",
-    "genre": "Drama",
+    "genre": "Drama e Suspense",
     "director": "Emerald Fennell",
     "year": 2023,
     "leadActor": "Barry Keoghan",
     "synopsis": "Um estudante universitário se envolve com uma família aristocrática excêntrica."
+  },
+  {
+    "title": "Eragon",
+    "genre": "Fantasia e Aventura",
+    "director": "Stefen Fangmeier",
+    "year": 2006,
+    "leadActor": "Ed Speleers",
+    "synopsis": "Um jovem fazendeiro encontra um ovo de dragão e descobre ser parte de uma antiga linhagem de cavaleiros destinada a enfrentar um rei tirano."
+  },
+  {
+    "title": "Alice no País das Maravilhas",
+    "genre": "Fantasia e Aventura",
+    "director": "Tim Burton",
+    "year": 2010,
+    "leadActor": "Mia Wasikowska",
+    "synopsis": "Alice retorna ao mágico País das Maravilhas e precisa enfrentar a Rainha Vermelha para restaurar a paz do reino."
+  },
+  {
+    "title": "Malévola",
+    "genre": "Fantasia e Aventura",
+    "director": "Robert Stromberg",
+    "year": 2014,
+    "leadActor": "Angelina Jolie",
+    "synopsis": "A clássica história da Bela Adormecida é recontada sob a perspectiva da poderosa fada Malévola."
+  },
+  {
+    "title": "Frozen",
+    "genre": "Fantasia e Musical",
+    "director": "Chris Buck e Jennifer Lee",
+    "year": 2013,
+    "leadActor": "Kristen Bell",
+    "synopsis": "A princesa Anna parte em uma jornada para encontrar sua irmã Elsa, cujos poderes congelantes colocaram o reino em eterno inverno."
+  },
+  {
+    "title": "Frozen 2",
+    "genre": "Fantasia e Aventura",
+    "director": "Chris Buck e Jennifer Lee",
+    "year": 2019,
+    "leadActor": "Kristen Bell",
+    "synopsis": "Elsa e Anna viajam para uma floresta encantada em busca da verdade sobre os poderes mágicos de Elsa."
+  },
+  {
+    "title": "Raya e o Último Dragão",
+    "genre": "Fantasia e Aventura",
+    "director": "Don Hall",
+    "year": 2021,
+    "leadActor": "Kelly Marie Tran",
+    "synopsis": "Uma guerreira parte em busca do último dragão para salvar seu reino de uma força sombria."
+  },
+  {
+    "title": "Moana",
+    "genre": "Fantasia e Aventura",
+    "director": "Ron Clements e John Musker",
+    "year": 2016,
+    "leadActor": "Auliʻi Cravalho",
+    "synopsis": "Uma jovem navegadora atravessa o oceano para restaurar o coração de uma deusa e salvar seu povo."
+  },
+  {
+    "title": "Enrolados",
+    "genre": "Fantasia e Aventura",
+    "director": "Nathan Greno e Byron Howard",
+    "year": 2010,
+    "leadActor": "Mandy Moore",
+    "synopsis": "Rapunzel deixa sua torre pela primeira vez e embarca em uma aventura ao lado de um ladrão procurado."
+  },
+  {
+    "title": "Valente",
+    "genre": "Fantasia e Aventura",
+    "director": "Mark Andrews",
+    "year": 2012,
+    "leadActor": "Kelly Macdonald",
+    "synopsis": "A princesa Merida desafia tradições antigas e desencadeia uma maldição em seu reino."
+  },
+  {
+    "title": "A Bela e a Fera",
+    "genre": "Fantasia e Aventura",
+    "director": "Bill Condon",
+    "year": 2017,
+    "leadActor": "Emma Watson",
+    "synopsis": "Uma jovem inteligente se aproxima de uma criatura amaldiçoada e descobre a bondade escondida dentro dela."
+  },
+  {
+    "title": "Aladdin",
+    "genre": "Fantasia e Aventura",
+    "director": "Guy Ritchie",
+    "year": 2019,
+    "leadActor": "Mena Massoud",
+    "synopsis": "Um jovem encontra uma lâmpada mágica contendo um gênio capaz de realizar desejos."
+  },
+  {
+    "title": "Mulan",
+    "genre": "Fantasia e Aventura",
+    "director": "Niki Caro",
+    "year": 2020,
+    "leadActor": "Liu Yifei",
+    "synopsis": "Uma jovem chinesa se disfarça de homem para lutar no lugar de seu pai no exército imperial."
+  },
+  {
+    "title": "Como Treinar o Seu Dragão",
+    "genre": "Fantasia e Aventura",
+    "director": "Dean DeBlois e Chris Sanders",
+    "year": 2010,
+    "leadActor": "Jay Baruchel",
+    "synopsis": "Um jovem viking faz amizade com um dragão e muda a relação entre humanos e criaturas mágicas."
+  },
+  {
+    "title": "Coraline",
+    "genre": "Fantasia e Terror",
+    "director": "Henry Selick",
+    "year": 2009,
+    "leadActor": "Dakota Fanning",
+    "synopsis": "Uma garota descobre um mundo paralelo aparentemente perfeito, mas repleto de perigos sombrios."
+  },
+  {
+    "title": "O Estranho Mundo de Jack",
+    "genre": "Fantasia e Musical",
+    "director": "Henry Selick",
+    "year": 1993,
+    "leadActor": "Chris Sarandon",
+    "synopsis": "Jack Skellington decide assumir o Natal após se cansar das celebrações de Halloween."
+  },
+  {
+    "title": "A Viagem de Chihiro",
+    "genre": "Fantasia e Aventura",
+    "director": "Hayao Miyazaki",
+    "year": 2001,
+    "leadActor": "Rumi Hiiragi",
+    "synopsis": "Uma garota entra em um mundo espiritual mágico e precisa salvar seus pais transformados em porcos."
+  },
+  {
+    "title": "Castelo Animado",
+    "genre": "Fantasia e Aventura",
+    "director": "Hayao Miyazaki",
+    "year": 2004,
+    "leadActor": "Chieko Baisho",
+    "synopsis": "Uma jovem amaldiçoada procura ajuda em um castelo mágico controlado por um feiticeiro misterioso."
+  },
+  {
+    "title": "Princesa Mononoke",
+    "genre": "Fantasia e Aventura",
+    "director": "Hayao Miyazaki",
+    "year": 1997,
+    "leadActor": "Yoji Matsuda",
+    "synopsis": "Um príncipe amaldiçoado se envolve em um conflito entre humanos e espíritos da floresta."
+  },
+  {
+    "title": "Meu Amigo Totoro",
+    "genre": "Fantasia e Aventura",
+    "director": "Hayao Miyazaki",
+    "year": 1988,
+    "leadActor": "Noriko Hidaka",
+    "synopsis": "Duas irmãs descobrem criaturas mágicas da floresta enquanto vivem no interior do Japão."
+  },
+  {
+    "title": "Ponyo",
+    "genre": "Fantasia e Aventura",
+    "director": "Hayao Miyazaki",
+    "year": 2008,
+    "leadActor": "Yuria Nara",
+    "synopsis": "Uma peixinha mágica deseja se tornar humana após conhecer um garoto chamado Sosuke."
+  },
+  {
+    "title": "O Serviço de Entregas da Kiki",
+    "genre": "Fantasia e Aventura",
+    "director": "Hayao Miyazaki",
+    "year": 1989,
+    "leadActor": "Minami Takayama",
+    "synopsis": "Uma jovem bruxa inicia sua independência trabalhando como entregadora em uma cidade costeira."
+  },
+  {
+    "title": "Labirinto",
+    "genre": "Fantasia e Aventura",
+    "director": "Jim Henson",
+    "year": 1986,
+    "leadActor": "Jennifer Connelly",
+    "synopsis": "Uma adolescente precisa atravessar um labirinto mágico para salvar seu irmão do Rei dos Duendes."
+  },
+  {
+    "title": "A História Sem Fim",
+    "genre": "Fantasia e Aventura",
+    "director": "Wolfgang Petersen",
+    "year": 1984,
+    "leadActor": "Barret Oliver",
+    "synopsis": "Um garoto mergulha em um livro mágico e descobre um reino ameaçado por uma força destrutiva chamada Nada."
+  },
+  {
+    "title": "Willow",
+    "genre": "Fantasia e Aventura",
+    "director": "Ron Howard",
+    "year": 1988,
+    "leadActor": "Warwick Davis",
+    "synopsis": "Um fazendeiro precisa proteger uma criança destinada a derrotar uma rainha maligna."
+  },
+  {
+    "title": "Conan, o Bárbaro",
+    "genre": "Fantasia e Aventura",
+    "director": "John Milius",
+    "year": 1982,
+    "leadActor": "Arnold Schwarzenegger",
+    "synopsis": "Conan busca vingança contra o líder de um culto que destruiu sua vila e matou sua família."
   }
 ]
