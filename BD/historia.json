@@ -1,527 +1,1786 @@
 [
   {
-    "title": "Simone de Beauvoir",
-    "periodo": "1908-1986",
-    "local": "França",
-    "frase": "Não se nasce mulher: torna-se.",
-    "feito": "Filósofa e escritora feminista, autora de 'O Segundo Sexo', influenciou o movimento pelos direitos das mulheres."
+    "title": "Abraham Lincoln",
+    "periodo": "1809 - 1865",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Presidente dos eua, liderou o país durante a guerra civil",
+      "Aboliu a escravidão."
+    ]
   },
   {
-    "title": "Albert Einstein",
-    "periodo": "1879-1955",
-    "local": "Alemanha/Suíça/EUA",
-    "frase": "A imaginação é mais importante que o conhecimento.",
-    "feito": "Físico teórico, desenvolveu a teoria da relatividade e contribuiu para a física moderna."
-  },
-  {
-    "title": "Maquiavel",
-    "periodo": "1469-1527",
-    "local": "Itália",
-    "frase": "Os fins justificam os meios.",
-    "feito": "Filósofo e escritor político, autor de 'O Príncipe', influenciou a ciência política moderna."
-  },
-  {
-    "title": "Rosalind Franklin",
-    "periodo": "1920-1958",
+    "title": "Ada Lovelace",
+    "periodo": "1815 - 1852",
     "local": "Reino Unido",
-    "frase": "A ciência e a vida cotidiana não podem e não devem ser separadas.",
-    "feito": "Biofísica e cristalógrafa, suas imagens de difração de raios X ajudaram a descobrir a estrutura do DNA."
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Matemática",
+      "Escritora, considerada a primeira programadora de computadores."
+    ]
   },
   {
-    "title": "Bertolt Brecht",
-    "periodo": "1898-1956",
-    "local": "Alemanha",
-    "frase": "O teatro é um espelho que se levanta diante da sociedade.",
-    "feito": "Dramaturgo e poeta, criou o teatro épico e influenciou a dramaturgia moderna."
+    "title": "Adele",
+    "periodo": "1988 - vivo",
+    "local": "Reino Unido",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
   },
   {
-    "title": "Che Guevara",
-    "periodo": "1928-1967",
-    "local": "Argentina/Cuba",
-    "frase": "Se você treina duro, você luta duro.",
-    "feito": "Revolucionário e guerrilheiro, participou da Revolução Cubana e se tornou ícone de resistência política."
+    "title": "Adolf Hitler",
+    "periodo": "1889 - 1945",
+    "local": "Áustria",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Líder do partido nazista",
+      "Chanceler da alemanha, responsável por iniciar a segunda guerra mundial",
+      "Pelo holocausto."
+    ]
   },
   {
-    "title": "Carl Sagan",
-    "periodo": "1934-1996",
-    "local": "EUA",
-    "frase": "Somos feitos de poeira das estrelas.",
-    "feito": "Astrônomo, astrofísico e divulgador científico, popularizou a ciência com o programa 'Cosmos'."
-  },
-  {
-    "title": "Platão",
-    "periodo": "427-347 a.C.",
-    "local": "Grécia",
-    "frase": "O conhecimento é a lembrança.",
-    "feito": "Filósofo clássico, fundou a Academia e influenciou toda a filosofia ocidental."
-  },
-  {
-    "title": "Eleanor Roosevelt",
-    "periodo": "1884-1962",
-    "local": "EUA",
-    "frase": "Ninguém pode fazer você se sentir inferior sem seu consentimento.",
-    "feito": "Primeira-dama e ativista, foi defensora dos direitos humanos e ajudou a criar a Declaração Universal dos Direitos Humanos."
+    "title": "Akira Toriyama",
+    "periodo": "1955 - 2024",
+    "local": "Japão",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
   },
   {
     "title": "Alan Turing",
-    "periodo": "1912-1954",
+    "periodo": "1912 - 1954",
     "local": "Reino Unido",
-    "frase": "Às vezes é necessário mudar as regras para entender o jogo.",
-    "feito": "Matemático e criptógrafo, pioneiro da computação moderna e decifrador da máquina Enigma."
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Matemático",
+      "Criptógrafo, pioneiro da computação moderna",
+      "Decifrador da máquina enigma."
+    ]
   },
   {
-    "title": "Gabriel García Márquez",
-    "periodo": "1927-2014",
-    "local": "Colômbia",
-    "frase": "A vida não é o que se viveu, mas o que se lembra e como se lembra para contar.",
-    "feito": "Escritor e jornalista, pioneiro do realismo mágico e autor de 'Cem Anos de Solidão'."
-  },
-  {
-    "title": "John Locke",
-    "periodo": "1632-1704",
-    "local": "Inglaterra",
-    "frase": "Todo homem tem direito à vida, à liberdade e à propriedade.",
-    "feito": "Filósofo, considerado o pai do liberalismo e influenciou a teoria política moderna."
-  },
-  {
-    "title": "Golda Meir",
-    "periodo": "1898-1978",
-    "local": "Israel",
-    "frase": "Não há nada tão seguro quanto uma promessa feita com sinceridade.",
-    "feito": "Primeira-ministra de Israel, conhecida por sua liderança em tempos de conflito e por fortalecer o Estado de Israel."
-  },
-  {
-    "title": "Jane Goodall",
-    "periodo": "1934-",
-    "local": "Reino Unido/Tanzânia",
-    "frase": "O que você faz faz a diferença, e você tem que decidir que tipo de diferença quer fazer.",
-    "feito": "Primatóloga e conservacionista, revolucionou o estudo do comportamento dos chimpanzés e a proteção ambiental."
-  },
-  {
-    "title": "T.S. Eliot",
-    "periodo": "1888-1965",
-    "local": "EUA/Reino Unido",
-    "frase": "Não haverá resposta, mas a pergunta é eterna.",
-    "feito": "Poeta e crítico literário, autor de 'A Terra Desolada' e influente na literatura moderna."
-  },
-  {
-    "title": "David Hume",
-    "periodo": "1711-1776",
-    "local": "Escócia",
-    "frase": "A razão é, e deve apenas ser, escrava das paixões.",
-    "feito": "Filósofo e historiador, contribuiu para a filosofia empirista e o estudo da natureza humana."
-  },
-  {
-    "title": "Indira Gandhi",
-    "periodo": "1917-1984",
-    "local": "Índia",
-    "frase": "Você não pode erradicar a pobreza sem erradicar a ignorância.",
-    "feito": "Primeira-ministra da Índia, conhecida por seu papel em políticas econômicas e sociais e liderança durante períodos críticos."
-  },
-  {
-    "title": "Stephen Jay Gould",
-    "periodo": "1941-2002",
-    "local": "EUA",
-    "frase": "A ciência é mais do que um corpo de conhecimento; é uma maneira de pensar.",
-    "feito": "Paleontólogo e biólogo evolucionista, conhecido por seus estudos sobre evolução e popularização da ciência."
-  },
-  {
-    "title": "Virginia Woolf",
-    "periodo": "1882-1941",
-    "local": "Reino Unido",
-    "frase": "Não se pode encontrar paz evitando a vida.",
-    "feito": "Escritora modernista, autora de 'Mrs. Dalloway' e 'Orlando', influenciou o movimento literário e feminista."
-  },
-  {
-    "title": "Georg Wilhelm Friedrich Hegel",
-    "periodo": "1770-1831",
+    "title": "Albert Einstein",
+    "periodo": "1879 - 1955",
     "local": "Alemanha",
-    "frase": "A realidade é racional.",
-    "feito": "Filósofo, desenvolveu o sistema idealista alemão e a dialética hegeliana, influenciando filosofia e política."
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Físico teórico, desenvolveu a teoria da relatividade",
+      "Contribuiu para a física moderna."
+    ]
   },
   {
-    "title": "Ho Chi Minh",
-    "periodo": "1890-1969",
-    "local": "Vietnã",
-    "frase": "Não importa quão pequeno seja, faça o que puder.",
-    "feito": "Líder revolucionário vietnamita, unificou o Vietnã e fundou a República Democrática do Vietnã."
+    "title": "Alberto Santos Dumont",
+    "periodo": "Desconhecido",
+    "local": "Não informado",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
   },
   {
-    "title": "Rachel Carson",
-    "periodo": "1907-1964",
-    "local": "EUA",
-    "frase": "Na natureza nada existe sozinho.",
-    "feito": "Bióloga e escritora ambientalista, autora de 'Primavera Silenciosa', alertando sobre os pesticidas e iniciando o movimento ambiental moderno."
+    "title": "Alexander Graham Bell",
+    "periodo": "1847 - 1922",
+    "local": "Escócia/EUA",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Inventor, conhecido por criar o telefone",
+      "Desenvolver avanços em comunicação",
+      "Educação de surdos."
+    ]
   },
   {
-    "title": "Jorge Luis Borges",
-    "periodo": "1899-1986",
-    "local": "Argentina",
-    "frase": "Sempre imaginei que o paraíso fosse uma espécie de biblioteca.",
-    "feito": "Escritor e poeta, mestre do conto literário e da literatura fantástica."
+    "title": "Alexandre, o Grande",
+    "periodo": "Desconhecido",
+    "local": "Não informado",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
   },
   {
-    "title": "Baruch Espinosa",
-    "periodo": "1632-1677",
-    "local": "Países Baixos",
-    "frase": "A liberdade é o reconhecimento da necessidade.",
-    "feito": "Filósofo racionalista, contribuiu para a ética, política e filosofia moderna."
+    "title": "Anne Frank",
+    "periodo": "1929 - 1945",
+    "local": "Alemanha",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Aristóteles",
+    "periodo": "384 a.C. - 322 a.C.",
+    "local": "Grécia",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Filósofo",
+      "Cientista, aluno de platão",
+      "Tutor de alexandre, o grande"
+    ]
+  },
+  {
+    "title": "Arnold Schwarzenegger",
+    "periodo": "1947 - vivo",
+    "local": "Áustria",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Arquimedes",
+    "periodo": "287 a.C. - 212 a.C.",
+    "local": "Siracusa, Sicília (Grécia Antiga)",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Físico",
+      "Matemático que formulou princípios fundamentais da mecânica",
+      "Da hidrostática."
+    ]
   },
   {
     "title": "Aung San Suu Kyi",
-    "periodo": "1945-",
+    "periodo": "1945 - vivo",
     "local": "Birmânia (Myanmar)",
-    "frase": "Se você vai perder, que seja por lutar por algo justo.",
-    "feito": "Líder política e ativista pelos direitos humanos, defensora da democracia em Myanmar e ganhadora do Prêmio Nobel da Paz."
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Líder política",
+      "Ativista pelos direitos humanos, defensora da democracia em myanmar",
+      "Ganhadora do prêmio nobel da paz."
+    ]
   },
   {
-    "title": "Chien-Shiung Wu",
-    "periodo": "1912-1997",
-    "local": "China/EUA",
-    "frase": "O impossível não existe se você trabalha com paixão.",
-    "feito": "Física experimental, realizou experimentos cruciais para a teoria da não-conservação da paridade na física nuclear."
+    "title": "Ayrton Senna",
+    "periodo": "1960 - 1994",
+    "local": "Brasil",
+    "categoria": [
+      "Piloto",
+      "Esportista"
+    ],
+    "feito": [
+      "Foi tricampeão mundial de Fórmula 1",
+      "Tornou-se ícone do automobilismo",
+      "Inspirou gerações de pilotos"
+    ]
   },
   {
-    "title": "Italo Calvino",
-    "periodo": "1923-1985",
-    "local": "Itália",
-    "frase": "Um livro deve ser o machado para o mar congelado dentro de nós.",
-    "feito": "Escritor modernista, conhecido por suas obras de literatura fantástica e experimental."
+    "title": "Barack Obama",
+    "periodo": "1961 - vivo",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
   },
   {
-    "title": "Martin Heidegger",
-    "periodo": "1889-1976",
-    "local": "Alemanha",
-    "frase": "A linguagem é a casa do ser.",
-    "feito": "Filósofo existencialista e fenomenólogo, influenciou filosofia, literatura e teoria crítica."
+    "title": "Baruch Espinosa",
+    "periodo": "1632 - 1677",
+    "local": "Países Baixos",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Filósofo racionalista, contribuiu para a ética, política",
+      "Filosofia moderna."
+    ]
   },
   {
     "title": "Benazir Bhutto",
-    "periodo": "1953-2007",
+    "periodo": "1953 - 2007",
     "local": "Paquistão",
-    "frase": "A democracia é uma luta contínua, não um estado de perfeição.",
-    "feito": "Primeira-ministra do Paquistão, primeira mulher a liderar um país muçulmano moderno e defensora dos direitos civis."
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Primeira-ministra do paquistão, primeira mulher a liderar um país muçulmano moderno",
+      "Defensora dos direitos civis."
+    ]
   },
   {
-    "title": "Lise Meitner",
-    "periodo": "1878-1968",
-    "local": "Áustria/Suécia",
-    "frase": "A ciência não tem pátria, mas o cientista sim.",
-    "feito": "Física nuclear, co-descobridora da fissão nuclear, embora não tenha recebido o Prêmio Nobel."
+    "title": "Bertolt Brecht",
+    "periodo": "1898 - 1956",
+    "local": "Alemanha",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Dramaturgo",
+      "Poeta, criou o teatro épico",
+      "Influenciou a dramaturgia moderna."
+    ]
   },
   {
-    "title": "Mussolini",
-    "periodo": "1883-1945",
-    "local": "Itália",
-    "frase": "Tudo dentro do Estado, nada fora do Estado, nada contra o Estado.",
-    "feito": "Ditador e líder do fascismo italiano, governou a Itália de 1922 a 1943."
+    "title": "Beyoncé",
+    "periodo": "1981 - vivo",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
   },
   {
-    "title": "Santos Dumont",
-    "periodo": "1873-1932",
-    "local": "Brasil",
-    "frase": "Porque o impossível de hoje será a verdade de amanhã.",
-    "feito": "Aviador e inventor, pioneiro da aviação, conhecido pelo 14-Bis e contribuições à aerodinâmica."
+    "title": "Bill Gates",
+    "periodo": "1955 - vivo",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Empresário",
+      "Programador"
+    ],
+    "feito": [
+      "Fundou a Microsoft",
+      "Popularizou sistemas operacionais domésticos",
+      "Criou uma das maiores fundações filantrópicas do mundo"
+    ]
   },
   {
-    "title": "Napoleão Bonaparte",
-    "periodo": "1769-1821",
-    "local": "França",
-    "frase": "A vitória pertence ao mais perseverante.",
-    "feito": "Militar e imperador francês, reformou a Europa com o Código Napoleônico e conquistas militares."
+    "title": "Bob Marley",
+    "periodo": "1945 - 1981",
+    "local": "Jamaica",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
   },
   {
-    "title": "Marie Curie",
-    "periodo": "1867-1934",
-    "local": "Polônia/França",
-    "frase": "Nada na vida deve ser temido, apenas compreendido.",
-    "feito": "Cientista pioneira em radioatividade, primeira mulher a ganhar o Nobel e única a ganhar em duas áreas científicas distintas."
+    "title": "Bruce Lee",
+    "periodo": "1940 - 1973",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
   },
   {
-    "title": "Voltaire",
-    "periodo": "1694-1778",
-    "local": "França",
-    "frase": "Posso não concordar com o que você diz, mas defenderei até a morte o seu direito de dizê-lo.",
-    "feito": "Filósofo e escritor, defensor da liberdade de expressão e crítico da intolerância e dogmatismo religioso."
+    "title": "Carl Sagan",
+    "periodo": "1934 - 1996",
+    "local": "EUA",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Astrônomo, astrofísico",
+      "Divulgador científico, popularizou a ciência com o programa 'cosmos'."
+    ]
   },
   {
-    "title": "Mahatma Gandhi",
-    "periodo": "1869-1948",
-    "local": "Índia",
-    "frase": "Seja a mudança que você quer ver no mundo.",
-    "feito": "Líder espiritual e político, promoveu a resistência pacífica e a independência da Índia."
+    "title": "Carmen Miranda",
+    "periodo": "1909 - 1955",
+    "local": "Portugal",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
   },
   {
-    "title": "Isaac Newton",
-    "periodo": "1643-1727",
+    "title": "Charles Darwin",
+    "periodo": "1809 - 1882",
     "local": "Inglaterra",
-    "frase": "Se vi mais longe, foi por estar sobre ombros de gigantes.",
-    "feito": "Físico e matemático, formulou as leis do movimento e da gravitação universal."
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Naturalista, formulou a teoria da evolução por seleção natural",
+      "Revolucionou a biologia."
+    ]
   },
   {
-    "title": "Leonardo da Vinci",
-    "periodo": "1452-1519",
-    "local": "Itália",
-    "frase": "A simplicidade é a sofisticação máxima.",
-    "feito": "Polímata renascentista, pintor, inventor, anatomista e engenheiro, autor de obras como 'Mona Lisa' e 'A Última Ceia'."
+    "title": "Che Guevara",
+    "periodo": "1928 - 1967",
+    "local": "Argentina",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Revolucionário",
+      "Guerrilheiro, participou da revolução cubana",
+      "Se tornou ícone de resistência política."
+    ]
   },
   {
-    "title": "Winston Churchill",
-    "periodo": "1874-1965",
+    "title": "Chico Buarque",
+    "periodo": "1944 - vivo",
+    "local": "Brasil",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Chien-Shiung Wu",
+    "periodo": "1912 - 1997",
+    "local": "China/EUA",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Física experimental, realizou experimentos cruciais para a teoria da não-conservação da paridade na física nuclear."
+    ]
+  },
+  {
+    "title": "Christopher Nolan",
+    "periodo": "1970 - vivo",
     "local": "Reino Unido",
-    "frase": "O sucesso não é definitivo, o fracasso não é fatal: é a coragem para continuar que conta.",
-    "feito": "Primeiro-ministro britânico, líder durante a Segunda Guerra Mundial e vencedor do Prêmio Nobel de Literatura."
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
   },
   {
-    "title": "Galileu Galilei",
-    "periodo": "1564-1642",
-    "local": "Itália",
-    "frase": "E pur si muove.",
-    "feito": "Astrônomo, físico e matemático, pioneiro do método científico e defensor do heliocentrismo."
+    "title": "Clarice Lispector",
+    "periodo": "1920 - 1977",
+    "local": "Ucrânia",
+    "categoria": [
+      "Escritora",
+      "Jornalista"
+    ],
+    "feito": [
+      "Escreveu A Hora da Estrela",
+      "Renovou a literatura brasileira",
+      "Tornou-se referência do modernismo"
+    ]
   },
   {
     "title": "Cleópatra",
     "periodo": "69-30 a.C.",
     "local": "Egito",
-    "frase": "Minha honra está em meus atos.",
-    "feito": "Última faraó do Egito, conhecida por sua inteligência, diplomacia e alianças políticas com Roma."
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Última faraó do egito, conhecida por sua inteligência, diplomacia",
+      "Alianças políticas com roma."
+    ]
   },
   {
-    "title": "Charles Darwin",
-    "periodo": "1809-1882",
-    "local": "Inglaterra",
-    "frase": "Não é a mais forte das espécies que sobrevive, nem a mais inteligente, mas a que melhor se adapta.",
-    "feito": "Naturalista, formulou a teoria da evolução por seleção natural e revolucionou a biologia."
-  },
-  {
-    "title": "Sócrates",
-    "periodo": "470-399 a.C.",
-    "local": "Grécia",
-    "frase": "Só sei que nada sei.",
-    "feito": "Filósofo clássico, fundador da filosofia ocidental, desenvolveu o método socrático de questionamento."
-  },
-  {
-    "title": "Abraham Lincoln",
-    "periodo": "1809-1865",
-    "local": "EUA",
-    "frase": "Aqueles que negam liberdade aos outros não a merecem para si mesmos.",
-    "feito": "Presidente dos EUA, liderou o país durante a Guerra Civil e aboliu a escravidão."
-  },
-  {
-    "title": "Stephen Hawking",
-    "periodo": "1942-2018",
-    "local": "Reino Unido",
-    "frase": "Olhe para as estrelas e não para os seus pés.",
-    "feito": "Físico teórico e cosmólogo, pesquisou buracos negros e a origem do universo, autor de 'Uma Breve História do Tempo'."
-  },
-  {
-    "title": "Immanuel Kant",
-    "periodo": "1724-1804",
-    "local": "Alemanha",
-    "frase": "Age apenas segundo uma máxima que possas querer que se torne lei universal.",
-    "feito": "Filósofo iluminista, desenvolveu a filosofia crítica e a ética do dever (imperativo categórico)."
-  },
-  {
-    "title": "Nelson Mandela",
-    "periodo": "1918-2013",
-    "local": "África do Sul",
-    "frase": "A educação é a arma mais poderosa para mudar o mundo.",
-    "feito": "Líder anti-apartheid, primeiro presidente negro da África do Sul e símbolo global da luta pela justiça e igualdade."
-  },
-  {
-    "title": "Nikola Tesla",
-    "periodo": "1856-1943",
-    "local": "Sérvia/EUA",
-    "frase": "O presente é deles; o futuro, pelo qual realmente trabalhei, é meu.",
-    "feito": "Inventor e engenheiro elétrico, pioneiro da corrente alternada e de diversas tecnologias modernas."
-  },
-  {
-    "title": "Jean-Jacques Rousseau",
-    "periodo": "1712-1778",
-    "local": "Suíça/França",
-    "frase": "O homem nasce livre, e em todos os lugares encontra-se acorrentado.",
-    "feito": "Filósofo e escritor, influenciou a Revolução Francesa e a teoria política moderna."
-  },
-  {
-    "title": "Alexander Graham Bell",
-    "periodo": "1847-1922",
-    "local": "Escócia/EUA",
-    "frase": "Antes de qualquer coisa, a preparação é a chave do sucesso.",
-    "feito": "Inventor, conhecido por criar o telefone e desenvolver avanços em comunicação e educação de surdos."
-  },
-  {
-    "title": "Simón Bolívar",
-    "periodo": "1783-1830",
-    "local": "Venezuela",
-    "frase": "Um povo que não sabe lutar pela sua liberdade não merece ser livre.",
-    "feito": "Líder militar e político, libertou grande parte da América do Sul do domínio espanhol."
-  },
-  {
-    "title": "Marie Antoinette",
-    "periodo": "1755-1793",
-    "local": "Áustria/França",
-    "frase": "Que comam brioches.",
-    "feito": "Rainha da França, símbolo da monarquia antes da Revolução Francesa."
-  },
-  {
-    "title": "Aristóteles",
-    "periodo": "384-322 a.C.",
-    "local": "Grécia",
-    "frase": "O homem é, por natureza, um animal político.",
-    "feito": "Filósofo e cientista, aluno de Platão e tutor de Alexandre, o Grande; influenciou filosofia, ciência e política."
-  },
-  {
-    "title": "Thomas Edison",
-    "periodo": "1847-1931",
-    "local": "EUA",
-    "frase": "Gênio é 1% inspiração e 99% transpiração.",
-    "feito": "Inventor e empresário, desenvolveu a lâmpada elétrica e diversas tecnologias modernas."
-  },
-  {
-    "title": "Hannah Arendt",
-    "periodo": "1906-1975",
-    "local": "Alemanha/EUA",
-    "frase": "O poder corresponde à capacidade de agir em conjunto.",
-    "feito": "Filósofa e teórica política, estudou totalitarismo e ética, autora de 'Origens do Totalitarismo'."
-  },
-  {
-    "title": "Ada Lovelace",
-    "periodo": "1815-1852",
-    "local": "Reino Unido",
-    "frase": "A imaginação é a força criativa da ciência.",
-    "feito": "Matemática e escritora, considerada a primeira programadora de computadores."
-  },
-  {
-    "title": "Max Weber",
-    "periodo": "1864-1920",
-    "local": "Alemanha",
-    "frase": "A política é um meio para um fim.",
-    "feito": "Sociólogo, economista e filósofo, fundador da sociologia moderna e estudioso da burocracia e religião."
-  },
-  {
-    "title": "Sigmund Freud",
-    "periodo": "1856-1939",
-    "local": "Áustria",
-    "frase": "O homem é dono do que cala, escravo do que fala.",
-    "feito": "Neurologista e fundador da psicanálise, revolucionou a compreensão da mente humana."
-  },
-  {
-    "title": "Jorge Amado",
-    "periodo": "1912-2001",
-    "local": "Brasil",
-    "frase": "A alegria é a prova dos que resistem.",
-    "feito": "Escritor brasileiro, autor de romances que retratam a cultura e a vida do povo baiano."
-  },
-  {
-    "title": "René Descartes",
-    "periodo": "1596-1650",
-    "local": "França",
-    "frase": "Penso, logo existo.",
-    "feito": "Filósofo, matemático e cientista, fundador do racionalismo moderno e da geometria analítica."
-  },
-  {
-    "title": "Adolf Hitler",
-    "periodo": "1889 - 1945",
-    "local": "Alemanha",
-    "frase": "A vitória pertence ao mais perseverante.",
-    "feito": "Líder do Partido Nazista e chanceler da Alemanha, responsável por iniciar a Segunda Guerra Mundial e pelo Holocausto."
-  },
-  {
-    "title": "Maomé",
-    "periodo": "570 - 632",
-    "local": "Arábia Saudita (Meca e Medina)",
-    "frase": "Nenhum de vós é um verdadeiro crente até que deseje para seu irmão o que deseja para si mesmo.",
-    "feito": "Fundador do islamismo e considerado o último profeta por seus seguidores."
-  },
-  {
-    "title": "Euclides de Alexandria",
-    "periodo": "c. 300 a.C.",
-    "local": "Egito (Alexandria)",
-    "frase": "Não há caminho real para a geometria.",
-    "feito": "Matemático grego considerado o 'pai da geometria', autor da obra 'Os Elementos', base da matemática por séculos."
-  },
-  {
-    "title": "Nicolau Copérnico",
-    "periodo": "1473 - 1543",
-    "local": "Polônia",
-    "frase": "Saber que sabemos o que sabemos, e saber que não sabemos o que não sabemos, essa é a verdadeira sabedoria.",
-    "feito": "Formulou a teoria heliocêntrica, que colocou o Sol no centro do sistema solar, revolucionando a astronomia."
-  },
-  {
-    "title": "Martinho Lutero",
-    "periodo": "1483 - 1546",
-    "local": "Alemanha",
-    "frase": "Aqui estou, não posso agir de outra forma.",
-    "feito": "Iniciou a Reforma Protestante ao desafiar a autoridade da Igreja Católica e pregar as 95 teses."
-  },
-  {
-    "title": "Karl Marx",
-    "periodo": "1818 - 1883",
-    "local": "Alemanha",
-    "frase": "Os filósofos têm apenas interpretado o mundo de diferentes maneiras; o que importa é transformá-lo.",
-    "feito": "Filósofo e economista criador do socialismo científico e coautor do 'Manifesto Comunista'."
-  },
-  {
-    "title": "George Washington",
-    "periodo": "1732 - 1799",
-    "local": "Estados Unidos",
-    "frase": "A liberdade, quando começa a criar raízes, é uma planta de rápido crescimento.",
-    "feito": "Líder da independência dos Estados Unidos e primeiro presidente do país."
-  },
-  {
-    "title": "Gêngis Cã",
-    "periodo": "c. 1162 - 1227",
-    "local": "Mongólia e Ásia Central",
-    "frase": "A maior felicidade é dispersar o inimigo e ver diante de si os que ama chorando.",
-    "feito": "Fundador do Império Mongol, o maior império contíguo da história, unificando diversas tribos nômades."
-  },
-  {
-    "title": "Ludwig van Beethoven",
-    "periodo": "1770 - 1827",
-    "local": "Alemanha (Bonn e Viena)",
-    "frase": "A música é a revelação mais elevada do que toda a sabedoria e filosofia.",
-    "feito": "Compositor e pianista que revolucionou a música clássica, mesmo após perder a audição."
-  },
-  {
-    "title": "Vladimir Lenin",
-    "periodo": "1870 - 1924",
-    "local": "Rússia",
-    "frase": "O caminho do socialismo passa pela ditadura do proletariado.",
-    "feito": "Líder da Revolução Russa de 1917 e fundador do Estado Soviético."
-  },
-  {
-    "title": "Mao Tsé-tung",
-    "periodo": "1893 - 1976",
-    "local": "China",
-    "frase": "O poder político nasce do cano de uma arma.",
-    "feito": "Líder da Revolução Chinesa e fundador da República Popular da China em 1949."
-  },
-  {
-    "title": "Arquimedes",
-    "periodo": "c. 287 a.C. - 212 a.C.",
-    "local": "Siracusa, Sicília (Grécia Antiga)",
-    "frase": "Dê-me uma alavanca e um ponto de apoio e moverei o mundo.",
-    "feito": "Físico e matemático que formulou princípios fundamentais da mecânica e da hidrostática."
-  },
-  {
-    "title": "Dom Pedro I",
-    "periodo": "1798 - 1834",
-    "local": "Brasil e Portugal",
-    "frase": "Independência ou morte!",
-    "feito": "Proclamou a Independência do Brasil em 1822 e se tornou o primeiro imperador do país."
-  },
-  {
-    "title": "William Shakespeare",
-    "periodo": "1564 - 1616",
-    "local": "Inglaterra",
-    "frase": "Ser ou não ser, eis a questão.",
-    "feito": "Dramaturgo e poeta inglês considerado o maior escritor da língua inglesa e autor de obras como 'Hamlet' e 'Romeu e Julieta'."
+    "title": "Cristiano Ronaldo",
+    "periodo": "1985 - vivo",
+    "local": "Portugal",
+    "categoria": [
+      "Jogador de Futebol",
+      "Atleta"
+    ],
+    "feito": [
+      "Venceu múltiplas Bolas de Ouro",
+      "É um dos maiores artilheiros da história",
+      "Conquistou títulos em vários países"
+    ]
   },
   {
     "title": "Cristóvão Colombo",
     "periodo": "1451 - 1506",
     "local": "Itália e Espanha",
-    "frase": "Você nunca atravessará o oceano se não tiver coragem de perder de vista a costa.",
-    "feito": "Navegador que realizou a primeira viagem documentada da Europa à América em 1492, abrindo o caminho para a colonização europeia."
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Navegador que realizou a primeira viagem documentada da europa à américa em 1492, abrindo o caminho para a colonização europeia."
+    ]
+  },
+  {
+    "title": "David Hume",
+    "periodo": "1711 - 1776",
+    "local": "Escócia",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Filósofo",
+      "Historiador, contribuiu para a filosofia empirista",
+      "O estudo da natureza humana."
+    ]
+  },
+  {
+    "title": "Dilma Rousseff",
+    "periodo": "1947 - vivo",
+    "local": "Brasil",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Dom Pedro I",
+    "periodo": "1798 - 1834",
+    "local": "Brasil e Portugal",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Proclamou a independência do brasil em 1822",
+      "Se tornou o primeiro imperador do país."
+    ]
+  },
+  {
+    "title": "Eleanor Roosevelt",
+    "periodo": "1884 - 1962",
+    "local": "EUA",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Primeira-dama",
+      "Ativista, foi defensora dos direitos humanos",
+      "Ajudou a criar a declaração universal dos direitos humanos."
+    ]
+  },
+  {
+    "title": "Elon Musk",
+    "periodo": "1971 - vivo",
+    "local": "África do Sul",
+    "categoria": [
+      "Empresário",
+      "Engenheiro"
+    ],
+    "feito": [
+      "Fundou a SpaceX",
+      "Liderou o crescimento da Tesla",
+      "Popularizou foguetes reutilizáveis"
+    ]
+  },
+  {
+    "title": "Elvis Presley",
+    "periodo": "1935 - 1977",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Emmanuel Macron",
+    "periodo": "1977 - vivo",
+    "local": "França",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Euclides de Alexandria",
+    "periodo": "300 a.C. - vivo",
+    "local": "Egito (Alexandria)",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Matemático grego considerado o 'pai da geometria', autor da obra 'os elementos', base da matemática por séculos."
+    ]
+  },
+  {
+    "title": "Fidel Castro",
+    "periodo": "Desconhecido",
+    "local": "Não informado",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Franklin D. Roosevelt",
+    "periodo": "Desconhecido",
+    "local": "Não informado",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Freddie Mercury",
+    "periodo": "1946 - 1991",
+    "local": "Tanzânia",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Friedrich Nietzsche",
+    "periodo": "1844 - 1900",
+    "local": "Alemanha",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Gabriel García Márquez",
+    "periodo": "1927 - 2014",
+    "local": "Colômbia",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Escritor",
+      "Jornalista, pioneiro do realismo mágico",
+      "Autor de 'cem anos de solidão'."
+    ]
+  },
+  {
+    "title": "Galileu Galilei",
+    "periodo": "1564 - 1642",
+    "local": "Itália",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Astrônomo, físico",
+      "Matemático, pioneiro do método científico",
+      "Defensor do heliocentrismo."
+    ]
+  },
+  {
+    "title": "Georg Wilhelm Friedrich Hegel",
+    "periodo": "1770 - 1831",
+    "local": "Alemanha",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Filósofo, desenvolveu o sistema idealista alemão",
+      "A dialética hegeliana, influenciando filosofia",
+      "Política."
+    ]
+  },
+  {
+    "title": "George Lucas",
+    "periodo": "1944 - vivo",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "George Orwell",
+    "periodo": "1903 - 1950",
+    "local": "Índia Britânica",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "George Washington",
+    "periodo": "1732 - 1799",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Líder da independência dos estados unidos",
+      "Primeiro presidente do país."
+    ]
+  },
+  {
+    "title": "Golda Meir",
+    "periodo": "1898 - 1978",
+    "local": "Israel",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Primeira-ministra de israel, conhecida por sua liderança em tempos de conflito",
+      "Por fortalecer o estado de israel."
+    ]
+  },
+  {
+    "title": "Gêngis Cã",
+    "periodo": "1162 - 1227",
+    "local": "Mongólia e Ásia Central",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Fundador do império mongol, o maior império contíguo da história, unificando diversas tribos nômades."
+    ]
+  },
+  {
+    "title": "Hannah Arendt",
+    "periodo": "1906 - 1975",
+    "local": "Alemanha/EUA",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Filósofa",
+      "Teórica política, estudou totalitarismo",
+      "Ética, autora de 'origens do totalitarismo'."
+    ]
+  },
+  {
+    "title": "Hideo Kojima",
+    "periodo": "1963 - vivo",
+    "local": "Japão",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Ho Chi Minh",
+    "periodo": "1890 - 1969",
+    "local": "Vietnã",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Líder revolucionário vietnamita, unificou o vietnã",
+      "Fundou a república democrática do vietnã."
+    ]
+  },
+  {
+    "title": "Immanuel Kant",
+    "periodo": "1724 - 1804",
+    "local": "Alemanha",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Filósofo iluminista, desenvolveu a filosofia crítica",
+      "A ética do dever (imperativo categórico)."
+    ]
+  },
+  {
+    "title": "Indira Gandhi",
+    "periodo": "1917 - 1984",
+    "local": "Índia",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Primeira-ministra da índia, conhecida por seu papel em políticas econômicas",
+      "Sociais",
+      "Liderança durante períodos críticos."
+    ]
+  },
+  {
+    "title": "Isaac Newton",
+    "periodo": "1643 - 1727",
+    "local": "Inglaterra",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Físico",
+      "Matemático, formulou as leis do movimento",
+      "Da gravitação universal."
+    ]
+  },
+  {
+    "title": "Italo Calvino",
+    "periodo": "1923 - 1985",
+    "local": "Itália",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Escritor modernista, conhecido por suas obras de literatura fantástica",
+      "Experimental."
+    ]
+  },
+  {
+    "title": "J.K. Rowling",
+    "periodo": "1965 - vivo",
+    "local": "Reino Unido",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "J.R.R. Tolkien",
+    "periodo": "1892 - 1973",
+    "local": "África do Sul",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Jair Bolsonaro",
+    "periodo": "1955 - vivo",
+    "local": "Brasil",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Jane Goodall",
+    "periodo": "1934 - vivo",
+    "local": "Reino Unido/Tanzânia",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Primatóloga",
+      "Conservacionista, revolucionou o estudo do comportamento dos chimpanzés",
+      "A proteção ambiental."
+    ]
+  },
+  {
+    "title": "Jean-Jacques Rousseau",
+    "periodo": "1712 - 1778",
+    "local": "Suíça/França",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Filósofo",
+      "Escritor, influenciou a revolução francesa",
+      "A teoria política moderna."
+    ]
+  },
+  {
+    "title": "Jeff Bezos",
+    "periodo": "1964 - vivo",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "John F. Kennedy",
+    "periodo": "1917 - 1963",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "John Locke",
+    "periodo": "1632 - 1704",
+    "local": "Inglaterra",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Filósofo, considerado o pai do liberalismo",
+      "Influenciou a teoria política moderna."
+    ]
+  },
+  {
+    "title": "Jorge Amado",
+    "periodo": "1912 - 2001",
+    "local": "Brasil",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Escritor brasileiro, autor de romances que retratam a cultura",
+      "A vida do povo baiano."
+    ]
+  },
+  {
+    "title": "Jorge Luis Borges",
+    "periodo": "1899 - 1986",
+    "local": "Argentina",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Escritor",
+      "Poeta, mestre do conto literário",
+      "Da literatura fantástica."
+    ]
+  },
+  {
+    "title": "Joseph Stalin",
+    "periodo": "Desconhecido",
+    "local": "Não informado",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Júlio César",
+    "periodo": "Desconhecido",
+    "local": "Não informado",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Karl Marx",
+    "periodo": "1818 - 1883",
+    "local": "Alemanha",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Filósofo",
+      "Economista criador do socialismo científico",
+      "Coautor do 'manifesto comunista'."
+    ]
+  },
+  {
+    "title": "LeBron James",
+    "periodo": "1984 - vivo",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Leonardo da Vinci",
+    "periodo": "1452 - 1519",
+    "local": "Itália",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Polímata renascentista, pintor, inventor, anatomista",
+      "Engenheiro, autor de obras como 'mona lisa'",
+      "'a última ceia'."
+    ]
+  },
+  {
+    "title": "Linus Torvalds",
+    "periodo": "1969 - vivo",
+    "local": "Finlândia",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Lionel Messi",
+    "periodo": "1987 - vivo",
+    "local": "Argentina",
+    "categoria": [
+      "Jogador de Futebol",
+      "Atleta"
+    ],
+    "feito": [
+      "Conquistou a Copa do Mundo de 2022",
+      "Venceu diversas Bolas de Ouro",
+      "É considerado um dos maiores jogadores da história"
+    ]
+  },
+  {
+    "title": "Lise Meitner",
+    "periodo": "1878 - 1968",
+    "local": "Áustria/Suécia",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Física nuclear, co-descobridora da fissão nuclear, embora não tenha recebido o prêmio nobel."
+    ]
+  },
+  {
+    "title": "Ludwig van Beethoven",
+    "periodo": "1770 - 1827",
+    "local": "Alemanha (Bonn e Viena)",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Compositor",
+      "Pianista que revolucionou a música clássica, mesmo após perder a audição."
+    ]
+  },
+  {
+    "title": "Luiz Inácio Lula da Silva",
+    "periodo": "1945 - vivo",
+    "local": "Brasil",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Machado de Assis",
+    "periodo": "1839 - 1908",
+    "local": "Brasil",
+    "categoria": [
+      "Escritor",
+      "Poeta"
+    ],
+    "feito": [
+      "Fundou a Academia Brasileira de Letras",
+      "Escreveu Dom Casmurro",
+      "É considerado um dos maiores escritores brasileiros"
+    ]
+  },
+  {
+    "title": "Madonna",
+    "periodo": "1958 - vivo",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Mahatma Gandhi",
+    "periodo": "1869 - 1948",
+    "local": "Índia",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Líder espiritual",
+      "Político, promoveu a resistência pacífica",
+      "A independência da índia."
+    ]
+  },
+  {
+    "title": "Mao Tsé-tung",
+    "periodo": "1893 - 1976",
+    "local": "China",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Líder da revolução chinesa",
+      "Fundador da república popular da china em 1949."
+    ]
+  },
+  {
+    "title": "Mao Zedong",
+    "periodo": "Desconhecido",
+    "local": "Não informado",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Maomé",
+    "periodo": "570 - 632",
+    "local": "Arábia Saudita (Meca e Medina)",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Fundador do islamismo",
+      "Considerado o último profeta por seus seguidores."
+    ]
+  },
+  {
+    "title": "Maquiavel",
+    "periodo": "1469 - 1527",
+    "local": "Itália",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Filósofo",
+      "Escritor político, autor de 'o príncipe', influenciou a ciência política moderna."
+    ]
+  },
+  {
+    "title": "Marie Antoinette",
+    "periodo": "1755 - 1793",
+    "local": "Áustria/França",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Rainha da frança, símbolo da monarquia antes da revolução francesa."
+    ]
+  },
+  {
+    "title": "Marie Curie",
+    "periodo": "1867 - 1934",
+    "local": "Polônia",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Cientista pioneira em radioatividade, primeira mulher a ganhar o nobel",
+      "Única a ganhar em duas áreas científicas distintas."
+    ]
+  },
+  {
+    "title": "Mark Zuckerberg",
+    "periodo": "1984 - vivo",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Martin Heidegger",
+    "periodo": "1889 - 1976",
+    "local": "Alemanha",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Filósofo existencialista",
+      "Fenomenólogo, influenciou filosofia, literatura",
+      "Teoria crítica."
+    ]
+  },
+  {
+    "title": "Martin Luther King Jr.",
+    "periodo": "1929 - 1968",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Ativista",
+      "Líder religioso"
+    ],
+    "feito": [
+      "Liderou o movimento pelos direitos civis",
+      "Recebeu o Nobel da Paz",
+      "Combateu a segregação racial"
+    ]
+  },
+  {
+    "title": "Martinho Lutero",
+    "periodo": "1483 - 1546",
+    "local": "Alemanha",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Iniciou a reforma protestante ao desafiar a autoridade da igreja católica",
+      "Pregar as 95 teses."
+    ]
+  },
+  {
+    "title": "Max Weber",
+    "periodo": "1864 - 1920",
+    "local": "Alemanha",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Sociólogo, economista",
+      "Filósofo, fundador da sociologia moderna",
+      "Estudioso da burocracia"
+    ]
+  },
+  {
+    "title": "Michael Jackson",
+    "periodo": "1958 - 2009",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Cantor",
+      "Dançarino"
+    ],
+    "feito": [
+      "Popularizou videoclipes musicais",
+      "Lançou o álbum Thriller",
+      "Transformou a música pop mundial"
+    ]
+  },
+  {
+    "title": "Mussolini",
+    "periodo": "1883 - 1945",
+    "local": "Itália",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Ditador",
+      "Líder do fascismo italiano, governou a itália de 1922 a 1943."
+    ]
+  },
+  {
+    "title": "Napoleão Bonaparte",
+    "periodo": "1769 - 1821",
+    "local": "França",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Militar",
+      "Imperador francês, reformou a europa com o código napoleônico",
+      "Conquistas militares."
+    ]
+  },
+  {
+    "title": "Neil Armstrong",
+    "periodo": "1930 - 2012",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Nelson Mandela",
+    "periodo": "1918 - 2013",
+    "local": "África do Sul",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Líder anti-apartheid, primeiro presidente negro da áfrica do sul",
+      "Símbolo global da luta pela justiça",
+      "Igualdade."
+    ]
+  },
+  {
+    "title": "Neymar",
+    "periodo": "1992 - vivo",
+    "local": "Brasil",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Nicolau Copérnico",
+    "periodo": "1473 - 1543",
+    "local": "Polônia",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Formulou a teoria heliocêntrica, que colocou o sol no centro do sistema solar, revolucionando a astronomia."
+    ]
+  },
+  {
+    "title": "Nikola Tesla",
+    "periodo": "1856 - 1943",
+    "local": "Croácia",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Inventor",
+      "Engenheiro elétrico, pioneiro da corrente alternada",
+      "De diversas tecnologias modernas."
+    ]
+  },
+  {
+    "title": "Oscar Niemeyer",
+    "periodo": "1907 - 2012",
+    "local": "Brasil",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Pablo Picasso",
+    "periodo": "1881 - 1973",
+    "local": "Espanha",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Pedro Sánchez",
+    "periodo": "1972 - vivo",
+    "local": "Espanha",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Pelé",
+    "periodo": "1940 - 2022",
+    "local": "Brasil",
+    "categoria": [
+      "Jogador de Futebol",
+      "Atleta"
+    ],
+    "feito": [
+      "Conquistou 3 Copas do Mundo",
+      "Marcou mais de 1000 gols",
+      "Popularizou o futebol mundialmente"
+    ]
+  },
+  {
+    "title": "Platão",
+    "periodo": "427 a.C. - 347 a.C.",
+    "local": "Grécia",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Filósofo clássico, fundou a academia",
+      "Influenciou toda a filosofia ocidental."
+    ]
+  },
+  {
+    "title": "Quentin Tarantino",
+    "periodo": "1963 - vivo",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Rachel Carson",
+    "periodo": "1907 - 1964",
+    "local": "EUA",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Bióloga",
+      "Escritora ambientalista, autora de 'primavera silenciosa', alertando sobre os pesticidas",
+      "Iniciando o movimento ambiental moderno."
+    ]
+  },
+  {
+    "title": "René Descartes",
+    "periodo": "1596 - 1650",
+    "local": "França",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Filósofo, matemático",
+      "Cientista, fundador do racionalismo moderno",
+      "Da geometria analítica."
+    ]
+  },
+  {
+    "title": "Ronaldinho Gaúcho",
+    "periodo": "1980 - vivo",
+    "local": "Brasil",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Rosalind Franklin",
+    "periodo": "1920 - 1958",
+    "local": "Reino Unido",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Biofísica",
+      "Cristalógrafa, suas imagens de difração de raios x ajudaram a descobrir a estrutura do dna."
+    ]
+  },
+  {
+    "title": "Santos Dumont",
+    "periodo": "1873 - 1932",
+    "local": "Brasil",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Aviador",
+      "Inventor, pioneiro da aviação, conhecido pelo 14-bis",
+      "Contribuições à aerodinâmica."
+    ]
+  },
+  {
+    "title": "Shigeru Miyamoto",
+    "periodo": "1952 - vivo",
+    "local": "Japão",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Sigmund Freud",
+    "periodo": "1856 - 1939",
+    "local": "Áustria",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Neurologista",
+      "Fundador da psicanálise, revolucionou a compreensão da mente humana."
+    ]
+  },
+  {
+    "title": "Simone de Beauvoir",
+    "periodo": "1908 - 1986",
+    "local": "França",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Filósofa",
+      "Escritora feminista, autora de 'o segundo sexo', influenciou o movimento pelos direitos das mulheres."
+    ]
+  },
+  {
+    "title": "Simón Bolívar",
+    "periodo": "1783 - 1830",
+    "local": "Venezuela",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Líder militar",
+      "Político, libertou grande parte da américa do sul do domínio espanhol."
+    ]
+  },
+  {
+    "title": "Stan Lee",
+    "periodo": "1922 - 2018",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Stephen Hawking",
+    "periodo": "1942 - 2018",
+    "local": "Reino Unido",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Físico teórico",
+      "Cosmólogo, pesquisou buracos negros",
+      "A origem do universo, autor de 'uma breve história do tempo'."
+    ]
+  },
+  {
+    "title": "Stephen Jay Gould",
+    "periodo": "1941 - 2002",
+    "local": "EUA",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Paleontólogo",
+      "Biólogo evolucionista, conhecido por seus estudos sobre evolução",
+      "Popularização da ciência."
+    ]
+  },
+  {
+    "title": "Steve Jobs",
+    "periodo": "1955 - 2011",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Empresário",
+      "Inventor"
+    ],
+    "feito": [
+      "Co-fundou a Apple",
+      "Popularizou o smartphone moderno",
+      "Revolucionou a computação pessoal"
+    ]
+  },
+  {
+    "title": "Steven Spielberg",
+    "periodo": "1946 - vivo",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Sócrates",
+    "periodo": "470 a.C. - 399 a.C.",
+    "local": "Grécia",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Filósofo clássico, fundador da filosofia ocidental, desenvolveu o método socrático de questionamento."
+    ]
+  },
+  {
+    "title": "T.S. Eliot",
+    "periodo": "1888 - 1965",
+    "local": "EUA/Reino Unido",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Poeta",
+      "Crítico literário, autor de 'a terra desolada'",
+      "Influente na literatura moderna."
+    ]
+  },
+  {
+    "title": "Taylor Swift",
+    "periodo": "1989 - vivo",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Thomas Edison",
+    "periodo": "1847 - 1931",
+    "local": "EUA",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Inventor",
+      "Empresário, desenvolveu a lâmpada elétrica",
+      "Diversas tecnologias modernas."
+    ]
+  },
+  {
+    "title": "Tim Berners-Lee",
+    "periodo": "1955 - vivo",
+    "local": "Reino Unido",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Tom Cruise",
+    "periodo": "1962 - vivo",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Tom Jobim",
+    "periodo": "1927 - 1994",
+    "local": "Brasil",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Vincent van Gogh",
+    "periodo": "1853 - 1890",
+    "local": "Países Baixos",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Virginia Woolf",
+    "periodo": "1882 - 1941",
+    "local": "Reino Unido",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Escritora modernista, autora de 'mrs. dalloway'",
+      "'orlando', influenciou o movimento literário",
+      "Feminista."
+    ]
+  },
+  {
+    "title": "Vladimir Lenin",
+    "periodo": "1870 - 1924",
+    "local": "Rússia",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Líder da revolução russa de 1917",
+      "Fundador do estado soviético."
+    ]
+  },
+  {
+    "title": "Volodymyr Zelenskyy",
+    "periodo": "1978 - vivo",
+    "local": "Ucrânia",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "Voltaire",
+    "periodo": "1694 - 1778",
+    "local": "França",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Filósofo",
+      "Escritor, defensor da liberdade de expressão",
+      "Crítico da intolerância"
+    ]
+  },
+  {
+    "title": "Walt Disney",
+    "periodo": "1901 - 1966",
+    "local": "Estados Unidos",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente",
+      "Influenciou sua área de atuação"
+    ]
+  },
+  {
+    "title": "William Shakespeare",
+    "periodo": "1564 - 1616",
+    "local": "Inglaterra",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Dramaturgo",
+      "Poeta inglês considerado o maior escritor da língua inglesa",
+      "Autor de obras como 'hamlet'"
+    ]
+  },
+  {
+    "title": "Winston Churchill",
+    "periodo": "1874 - 1965",
+    "local": "Reino Unido",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Primeiro-ministro britânico, líder durante a segunda guerra mundial",
+      "Vencedor do prêmio nobel de literatura."
+    ]
+  },
+  {
+    "title": "Yuri Gagarin",
+    "periodo": "1934 - 1968",
+    "local": "Rússia",
+    "categoria": [
+      "Personalidade Histórica"
+    ],
+    "feito": [
+      "Figura relevante da história",
+      "Reconhecido internacionalmente como primeiro homem a viajar ao espaço, influenciando a exploração espacial."
+    ]
   }
 ]
