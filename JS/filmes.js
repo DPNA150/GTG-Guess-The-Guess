@@ -161,7 +161,6 @@ function checkGuess(guessedMovie) {
             if (movie.genre === guessedMovie.genre) updateHint('hint1', `- Gênero: ${movie.genre}`);
             if (movie.director === guessedMovie.director) updateHint('hint2', `- Diretor: ${movie.director}`);
             if (movie.year === guessedMovie.year) updateHint('hint3', `- Ano de lançamento: ${movie.year}`);
-            if (movie.leadActor === guessedMovie.leadActor) updateHint('hint4', `- Ator principal: ${movie.leadActor}`);
         }
     }
 
@@ -179,8 +178,7 @@ function revealAllHints() {
     updateHint('hint1', `- Gênero: ${movie.genre}`);
     updateHint('hint2', `- Diretor: ${movie.director}`);
     updateHint('hint3', `- Ano de lançamento: ${movie.year}`);
-    updateHint('hint4', `- Ator principal: ${movie.leadActor}`);
-    updateHint('hint5', `- Sinopse: ${movie.synopsis}`);
+    updateHint('hint4', `- Sinopse: ${movie.synopsis}`);
     allHintsRevealed = true;
     tentativas = 0;
     document.getElementById('tentativas').innerHTML = 'tentativas restantes: ' + tentativas + '/12';
@@ -205,8 +203,7 @@ function startNewGame() {
     updateHint('hint1', '- Gênero: ???');
     updateHint('hint2', '- Diretor: ???');
     updateHint('hint3', '- Ano de lançamento: ???');
-    updateHint('hint4', '- Ator principal: ???');
-    updateHint('hint5', '- Sinopse: ???');
+    updateHint('hint4', '- Sinopse: ???');
 
     // Reexibe botões
     document.getElementById('giveUpButton').style.display = 'inline-block';
@@ -233,7 +230,7 @@ function revealHint() {
         { id: 'hint1', text: `- Gênero: ${movie.genre}` },
         { id: 'hint2', text: `- Diretor: ${movie.director}` },
         { id: 'hint3', text: `- Ano de lançamento: ${movie.year}` },
-        { id: 'hint4', text: `- Ator principal: ${movie.leadActor}` }
+        { id: 'hint4', text: `- Sinopse: ${movie.synopsis}` }
     ];
 
     const unrevealedHints = hints.filter(hint => {
@@ -245,7 +242,7 @@ function revealHint() {
         const randomHint = unrevealedHints[Math.floor(Math.random() * unrevealedHints.length)];
         updateHint(randomHint.id, randomHint.text);
     } else {
-        updateHint('hint5', `- Sinopse: ${movie.synopsis}`);
+        updateHint('hint4', `- Sinopse: ${movie.synopsis}`);
         allHintsRevealed = true;
     }
 
