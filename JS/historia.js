@@ -169,6 +169,7 @@ function checkGuess(guessedHistoria) {
 
 // Revela todas as dicas de uma vez
 function revealAllHints() {
+    updateHint('nomeFilmeCerto', `- Filme: ${movie.title}`);
     updateHint('hint1', `- Período que Vivel: ${historia.periodo}`);
     updateHint('hint2', `- Local que Nasceu: ${historia.local}`);
     updateHint('hint3', `- Categoria/Função: ${historia.categoria}`);
@@ -192,6 +193,7 @@ function startNewGame() {
         guessInput.style.backgroundColor = '';
     }
 
+    updateHint('nomeFilmeCerto', '- Filme: ???');
     updateHint('hint1', '- Período que Vivel: ???');
     updateHint('hint2', '- Local que Nasceu: ???');
     updateHint('hint3', '- Categoria/Função: ???');
@@ -204,7 +206,6 @@ function startNewGame() {
 
 // Jogador desiste
 function giveUp() {
-    alert(`Você desistiu! A resposta era: ${historia.title}`);
     revealAllHints();
     document.getElementById('enviarButton').style.display = 'none';
     document.getElementById('giveUpButton').style.display = 'none';

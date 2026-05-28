@@ -10,31 +10,32 @@
 </head>
 
 <body>
-        <div class="topo">
-            <img src="https://dpna150.github.io/GTG-Guess-The-Guess//imagens/setaEsquerda.png" class="seta" alt="Voltar" id="voltar">
-            <h1>Qual é o Filme?</h1>
+    <div class="topo">
+        <img src="https://dpna150.github.io/GTG-Guess-The-Guess//imagens/setaEsquerda.png" class="seta" alt="Voltar"
+            id="voltar">
+        <h1>Qual é o Filme?</h1>
+    </div>
+    <h1 id="tentativas">Tentativas restantes: 12/12</h1>
+    <div class="input-container">
+        <div style="position: relative; width: 100%;">
+            <input type="text" id="guessInput" placeholder="Digite o seu palpite..." autocomplete="on" /><button
+                id="enviarButton" class="enviarButton">Enviar</button>
+            <ul id="suggestions" class="suggestions"></ul>
         </div>
-        <h1 id="tentativas">Tentativas restantes: 12/12</h1>
-        <div class="input-container">
-            <div style="position: relative; width: 100%;">
-                <input type="text" id="guessInput" placeholder="Digite o seu palpite..." autocomplete="on" /><button
-                    id="enviarButton" class="enviarButton">Enviar</button>
-                <ul id="suggestions" class="suggestions"></ul>
-            </div>
-            <div class="botoes">
-                <button id="newGameButton" class="newGameButton">Novo jogo</button>
-                <button id="giveUpButton" class="giveUpButton">Desistir</button>
-            </div>
+        <div class="botoes">
+            <button id="newGameButton" class="newGameButton">Novo jogo</button>
+            <button id="giveUpButton" class="giveUpButton">Desistir</button>
         </div>
+    </div>
 
-        <div id="hints">
-            <h2>Filme certo:</h2>
-            <div class="hint" id="hint1">- Gênero: ???</div>
-            <div class="hint" id="hint2">- Diretor: ???</div>
-            <div class="hint" id="hint3">- Ano de lançamento: ???</div>
-            <div class="hint" id="hint4">- Ator principal: ???</div>
-            <div class="hint" id="hint5">- Sinopse: ???</div>
-        </div>
+    <div id="hints">
+        <h2 id="nomeFilmeCerto">Filme: ???</h2>
+        <div class="hint" id="hint1">- Gênero: ???</div>
+        <div class="hint" id="hint2">- Diretor: ???</div>
+        <div class="hint" id="hint3">- Ano de lançamento: ???</div>
+        <div class="hint" id="hint4">- Ator principal: ???</div>
+        <div class="hint" id="hint5">- Sinopse: ???</div>
+    </div>
 
     <footer>
         <img src="https://dpna150.github.io/GTG-Guess-The-Guess//imagens/logoDPNA.png" width="5%" alt="logo">
