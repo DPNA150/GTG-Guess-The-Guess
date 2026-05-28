@@ -218,7 +218,6 @@ function startNewGame() {
 
 // Desistir do jogo
 function giveUp() {
-    alert(`Você desistiu! A resposta era: ${movie.title}`); // Exibe alerta com resposta
     revealAllHints(); // Mostra todas as dicas
     document.getElementById('enviarButton').style.display = 'none';
     document.getElementById('giveUpButton').style.display = 'none';
