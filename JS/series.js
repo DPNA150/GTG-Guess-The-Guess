@@ -165,7 +165,8 @@ function checkGuess(guessedserie) {
 
 // Revela todas as dicas de uma vez
 function revealAllHints() {
-    updateHint('hint1', `- Diretor: ${serie.diretor}`);
+        updateHint('nomeFCerto', `- Série: ${serie.title}`);
+updateHint('hint1', `- Diretor: ${serie.diretor}`);
     updateHint('hint2', `- Gênero: ${serie.genero}`);
     updateHint('hint3', `- Protagonista: ${serie.protagonista}`);
     updateHint('hint4', `- Sinopse: ${serie.sinopse}`);
@@ -188,6 +189,7 @@ function startNewGame() {
         guessInput.style.backgroundColor = '';
     }
 
+    updateHint('nomeFCerto', `- Série: ???`);
     updateHint('hint1', '- Diretor: ???');
     updateHint('hint2', '- Gênero: ???');
     updateHint('hint3', '- Protagonista: ???');
@@ -200,7 +202,6 @@ function startNewGame() {
 
 // Jogador desiste
 function giveUp() {
-    alert(`Você desistiu! A resposta era: ${serie.title}`);
     revealAllHints();
     document.getElementById('enviarButton').style.display = 'none';
     document.getElementById('giveUpButton').style.display = 'none';

@@ -186,6 +186,7 @@ function checkGuess(guessedanimacao) {
 
 // Revela todas as dicas de uma vez
 function revealAllHints() {
+    updateHint('nomeFCerto', `- Animação: ${animacao.title}`);
     updateHint('hint1', `- Gênero: ${animacao.genre}`);
     updateHint('hint2', `- Diretor: ${animacao.director}`);
     updateHint('hint3', `- Ator principal: ${animacao.MainCharacter}`);
@@ -209,6 +210,7 @@ function startNewGame() {
         guessInput.style.backgroundColor = '';
     }
 
+    updateHint('nomeFCerto', '- Animação: ???');
     updateHint('hint1', '- Gênero: ???');
     updateHint('hint2', '- Diretor: ???');
     updateHint('hint3', '- Ator principal: ???');
@@ -221,7 +223,6 @@ function startNewGame() {
 
 // Desistir e revelar resposta
 function giveUp() {
-    alert(`Você desistiu! A resposta era: ${animacao.title}`);
     revealAllHints();
     document.getElementById('enviarButton').style.display = 'none';
     document.getElementById('giveUpButton').style.display = 'none';

@@ -189,7 +189,8 @@ function checkGuess(guessedgame) {
 
 function revealAllHints() {
     // Função para revelar todas as dicas do jogo.
-    updateHint('hint1', `- Gênero: ${game.genero}`); // Revela a dica de gênero.
+        updateHint('nomeFCerto', `- Game: ${game.title}`);
+updateHint('hint1', `- Gênero: ${game.genero}`); // Revela a dica de gênero.
     updateHint('hint2', `- Estúdio: ${game.estudio}`); // Revela a dica de Estúdio.
     updateHint('hint3', `- Ano de lançamento: ${game.year}`); // Revela a dica de ano.
     updateHint('hint4', `- Protagonista: ${game.protagonista}`); // Revela a dica de Protagonista.
@@ -215,6 +216,7 @@ function startNewGame() {
     }
 
     // Resetar dicas
+        updateHint('nomeFCerto', `- Game: ???`); // Reseta a dica do nome do jogo.
     updateHint('hint1', '- Gênero: ???'); // Reseta a dica de gênero.
     updateHint('hint2', '- Estúdio: ???'); // Reseta a dica de Estúdio.
     updateHint('hint3', '- Ano de lançamento: ???'); // Reseta a dica de ano.
@@ -231,7 +233,6 @@ function startNewGame() {
 
 function giveUp() {
     // Função para o jogador desistir do jogo.
-    alert(`Você desistiu! A resposta era: ${game.title}`); // Mostra um alerta com a resposta correta.
     revealAllHints(); // Revela todas as dicas.
     document.getElementById('enviarButton').style.display = 'none'; // Esconde o botão de enviar.
     document.getElementById('giveUpButton').style.display = 'none'; // Esconde o botão de desistir.

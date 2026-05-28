@@ -169,6 +169,7 @@ function checkGuess(guessedHistoria) {
 
 // Revela todas as dicas de uma vez
 function revealAllHints() {
+    updateHint('nomeFCerto', `- Personalidade Histórica: ${historia.title}`);
     updateHint('hint1', `- Período que Vivel: ${historia.periodo}`);
     updateHint('hint2', `- Local que Nasceu: ${historia.local}`);
     updateHint('hint3', `- Categoria/Função: ${historia.categoria}`);
@@ -192,6 +193,7 @@ function startNewGame() {
         guessInput.style.backgroundColor = '';
     }
 
+    updateHint('nomeFCerto', `- Personalidade Histórica: ???`);
     updateHint('hint1', '- Período que Vivel: ???');
     updateHint('hint2', '- Local que Nasceu: ???');
     updateHint('hint3', '- Categoria/Função: ???');
@@ -231,6 +233,7 @@ function revealHint() {
         const randomHint = unrevealedHints[Math.floor(Math.random() * unrevealedHints.length)];
         updateHint(randomHint.id, randomHint.text);
     } else {
+        updateHint('nomeFCerto', `- Personalidade Histórica: ${historia.title}`);
         allHintsRevealed = true;
     }
 
