@@ -175,7 +175,7 @@ function checkGuess(guessedMovie) {
 
 // Revela todas as dicas
 function revealAllHints() {
-    updateHint('nomeFilmeCerto', `- Filme: ${movie.title}`);
+    updateHint('nomeFCerto', `- Filme: ${movie.title}`);
     updateHint('hint1', `- Gênero: ${movie.genre}`);
     updateHint('hint2', `- Diretor: ${movie.director}`);
     updateHint('hint3', `- Ano de lançamento: ${movie.year}`);
@@ -201,7 +201,7 @@ function startNewGame() {
     }
 
     // Reseta dicas
-    updateHint('nomeFilmeCerto', '- Filme: ???');
+    updateHint('nomeFCerto', '- Filme: ???');
     updateHint('hint1', '- Gênero: ???');
     updateHint('hint2', '- Diretor: ???');
     updateHint('hint3', '- Ano de lançamento: ???');
