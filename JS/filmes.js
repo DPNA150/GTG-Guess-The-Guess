@@ -230,7 +230,6 @@ function revealHint() {
         { id: 'hint1', text: `- Gênero: ${movie.genre}` },
         { id: 'hint2', text: `- Diretor: ${movie.director}` },
         { id: 'hint3', text: `- Ano de lançamento: ${movie.year}` },
-        { id: 'hint4', text: `- Sinopse: ${movie.synopsis}` }
     ];
 
     const unrevealedHints = hints.filter(hint => {
