@@ -10,7 +10,7 @@ async function loadHistoryData() {
     console.log('[historia.js] Carregando historia.json...');
 
     try {
-        const response = await fetch('https://dpna150.github.io/GTG-Guess-The-Guess//BD/historia.json'); // Faz o fetch do arquivo JSON.
+        const response = await fetch('/BD/historia.json'); // Faz o fetch do arquivo JSON.
 
         if (!response.ok) {
             throw new Error(`HTTP ${response.status} — ${response.statusText}`);

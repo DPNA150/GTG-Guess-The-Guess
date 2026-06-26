@@ -10,7 +10,7 @@ async function loadGameData() {
     console.log('[games.js] Carregando games.json...');
 
     try {
-        const response = await fetch('https://dpna150.github.io/GTG-Guess-The-Guess//BD/games.json'); // Faz uma requisição assíncrona para buscar o arquivo 'games.json'.
+        const response = await fetch('/BD/games.json'); // Faz uma requisição assíncrona para buscar o arquivo 'games.json'.
         if (!response.ok) throw new Error(`HTTP ${response.status} — ${response.statusText}`);
 
         gamesList = await response.json();
